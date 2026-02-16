@@ -1,0 +1,69 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Type checkers / linters
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------
+# Jupyter / notebooks
+# ------------------------------
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ------------------------------
+# Conda
+# ------------------------------
+conda-bld/
+
+# ------------------------------
+# Environment
+# ------------------------------
+.env
+.env.*
+
+# ------------------------------
+# IDEs / editors
+# ------------------------------
+# PyCharm / IntelliJ
+.idea/
+
+# VS Code
+.vscode/
+
+# ------------------------------
+# OS files
+# ------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ------------------------------
+# Misc
+# ------------------------------
+*.log
