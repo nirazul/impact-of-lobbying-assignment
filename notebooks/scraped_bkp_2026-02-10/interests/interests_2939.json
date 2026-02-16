@@ -1,0 +1,4149 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 44,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=2939&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=2939&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=2939&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406414"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3278,
+      "lastname": "Behr",
+      "firstname": "Jean-Marc",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 137911
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 628,
+            "begin_date": null,
+            "id": 8939
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8938
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3278?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301118"
+      },
+      "function_latest": {
+        "de": "Baureferentin"
+      },
+      "id": 3237,
+      "lastname": "Bernath",
+      "firstname": "Katrin",
+      "body_key": "2939",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Verein Agglomeration Schaffhausen VAS, Vorstand"
+            },
+            "id": 2456,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Agglomeration Steuerungsgruppe"
+            },
+            "id": 2455,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Kant. Submissionskommission"
+            },
+            "id": 2454,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Verwaltungsrat Parkhaus Herrenacker AG"
+            },
+            "id": 2453,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Vorstandsmitglied FRAUmachtPOLITIK"
+            },
+            "id": 2452,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Mitglied der Verwaltung von RandenSaft – Energiegenossenschaft Schaffhausen"
+            },
+            "id": 2451,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Mitglied Beurteilungsgremium Klimafonds Stadt Winterthur"
+            },
+            "id": 2450,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Präsidentin des Trägervereins Energiestadt"
+            },
+            "id": 2449,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3237,
+            "name": {
+              "de": "Städtekonferenz Mobilität"
+            },
+            "id": 2448,
+            "body_key": "2939"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3237?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3237?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3237?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 646,
+            "begin_date": null,
+            "id": 8798
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 638,
+            "begin_date": null,
+            "id": 8797
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 637,
+            "begin_date": null,
+            "id": 8796
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 627,
+            "begin_date": null,
+            "id": 8795
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 625,
+            "begin_date": null,
+            "id": 8794
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 622,
+            "begin_date": "2019-06-01",
+            "id": 8793
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 618,
+            "begin_date": null,
+            "id": 8792
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 616,
+            "begin_date": null,
+            "id": 8791
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 8790
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8789
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3237?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301130"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3239,
+      "lastname": "Bruderer",
+      "firstname": "Stefan",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8807
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-11-02",
+            "id": 8806
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3239?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3239?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3239?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/436663"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22432,
+      "lastname": "Colluto",
+      "firstname": "Sabrina",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 148288
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-08-01",
+            "id": 117077
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22432?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22432?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22432?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301151"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3243,
+      "lastname": "Fioretti",
+      "firstname": "Mariano",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137875
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117051
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8825
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 635,
+            "begin_date": null,
+            "id": 8824
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 635,
+            "begin_date": null,
+            "id": 8823
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8822
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8821
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 628,
+            "begin_date": null,
+            "id": 8820
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2013-01-01",
+            "id": 8819
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3243?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3243?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3243?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301154"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3244,
+      "lastname": "Frick",
+      "firstname": "Matthias",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137876
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8833
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8832
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8831
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8830
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8829
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8828
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 621,
+            "begin_date": null,
+            "id": 8827
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2019-09-17",
+            "id": 8826
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3244?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301160"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3245,
+      "lastname": "Furter",
+      "firstname": "Daniela",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137887
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 117056
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8838
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8837
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8836
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 622,
+            "begin_date": null,
+            "id": 8835
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8834
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3245?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3245?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3245?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406423"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3281,
+      "lastname": "Furter",
+      "firstname": "Simon",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137914
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8947
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8946
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3281?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301166"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22430,
+      "lastname": "Grüninger",
+      "firstname": "Jeanette",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 148184
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-09-01",
+            "id": 117055
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 117054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117053
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 117052
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22430?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22430?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22430?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301169"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3247,
+      "lastname": "Hak",
+      "firstname": "Christoph",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137889
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8842
+          },
+          {
+            "active": null,
+            "end_date": "2024-02-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8841
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 619,
+            "begin_date": null,
+            "id": 8840
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8839
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3247?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301172"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3248,
+      "lastname": "Hardmeier",
+      "firstname": "Till",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 137890
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8846
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8845
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 629,
+            "begin_date": null,
+            "id": 8844
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2009-01-01",
+            "id": 8843
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3248?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406396"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3272,
+      "lastname": "Hauser",
+      "firstname": "Andreas",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137906
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8926
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8925
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3272?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406420"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 3280,
+      "lastname": "Hauser",
+      "firstname": "Roland",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 137908
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8945
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8944
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3280?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301178"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3249,
+      "lastname": "Herren",
+      "firstname": "Nicole",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 137888
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8849
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 629,
+            "begin_date": null,
+            "id": 8848
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2013-01-01",
+            "id": 8847
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3249?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3249?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3249?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406408"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3275,
+      "lastname": "Hinder",
+      "firstname": "Nicole",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137910
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8933
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8932
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8931
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3275?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/359284"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3271,
+      "lastname": "Hunger",
+      "firstname": "Christian",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 117068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8924
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8923
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8922
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 619,
+            "begin_date": null,
+            "id": 8921
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2023-11-01",
+            "id": 8920
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3271?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/421453"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22433,
+      "lastname": "Job",
+      "firstname": "Annalisa",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137915
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117081
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117080
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-05-06",
+            "id": 117079
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117078
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22433?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22433?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22433?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301190"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3251,
+      "lastname": "Leu",
+      "firstname": "Markus",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137892
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8854
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8853
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8852
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8851
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2014-08-01",
+            "id": 8850
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3251?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406402"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3273,
+      "lastname": "Loliva",
+      "firstname": "Romina",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117070
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117069
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8928
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8927
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406426"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3282,
+      "lastname": "Marti",
+      "firstname": "Julian",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137916
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8949
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8948
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3282?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/436669"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22431,
+      "lastname": "Mundt",
+      "firstname": "Christian",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 184754
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 153661
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 148289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-08-05",
+            "id": 117076
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22431?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22431?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22431?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301205"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3254,
+      "lastname": "Munz",
+      "firstname": "Livia",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137893
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8859
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8858
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3254?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/298549"
+      },
+      "function_latest": {
+        "de": "Stadtpräsident"
+      },
+      "id": 3235,
+      "lastname": "Neukomm",
+      "firstname": "Peter",
+      "body_key": "2939",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Mitglied Vorstand SP Stadt Schaffhausen"
+            },
+            "id": 32182,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Mitglied Vorstand Gönnerverein AZ"
+            },
+            "id": 32181,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Vorstandsmitglied Internationale Bachgesellschaft"
+            },
+            "id": 32180,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Präsident (2026) Lenkungsgruppe Internationaler Städtebund Bodensee"
+            },
+            "id": 32179,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Mitglied Verwaltungsrat Swisspower AG"
+            },
+            "id": 32178,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Verband Gemeindepräsidentinnen/-präsidenten"
+            },
+            "id": 2437,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Städteverband Energiepolitische Kommission"
+            },
+            "id": 2436,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Internationaler Städtebund Bodensee (ISB) Steuerungsgruppe"
+            },
+            "id": 2435,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Mitglied Verwaltungsrat Sasag AG"
+            },
+            "id": 2434,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Verwaltungsrat Parkhaus Herrenacker AG"
+            },
+            "id": 2433,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Stiftung Georg Fischer Preis"
+            },
+            "id": 2432,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Metropolitankonferenz Zürich / Metrorat"
+            },
+            "id": 2431,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Tourismuskommission Schaffhauserland Tourismus"
+            },
+            "id": 2430,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3235,
+            "name": {
+              "de": "Mitglied Verwaltungsrat Etawatt AG"
+            },
+            "id": 2429,
+            "body_key": "2939"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3235?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3235?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3235?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 645,
+            "begin_date": null,
+            "id": 8779
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 637,
+            "begin_date": null,
+            "id": 8778
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 628,
+            "begin_date": null,
+            "id": 8777
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 627,
+            "begin_date": null,
+            "id": 8776
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 625,
+            "begin_date": null,
+            "id": 8775
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 614,
+            "begin_date": null,
+            "id": 8774
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8773
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 1252
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3235?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301208"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3255,
+      "lastname": "Oetterli",
+      "firstname": "Stefan",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137895
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8863
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8862
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8861
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2017-01-01",
+            "id": 8860
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3255?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301211"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3257,
+      "lastname": "Ottiger",
+      "firstname": "Lukas",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137891
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 117057
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8868
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8867
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8866
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 628,
+            "begin_date": null,
+            "id": 8865
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2020-06-02",
+            "id": 8864
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3257?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301217"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3258,
+      "lastname": "Penkov",
+      "firstname": "Angela",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137896
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117064
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2017-01-01",
+            "id": 8869
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3258?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/446572"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22553,
+      "lastname": "Perovic",
+      "firstname": "Jeronim",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 153662
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 148291
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-10-21",
+            "id": 140118
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22553?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22553?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22553?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301220"
+      },
+      "function_latest": {
+        "de": "Bildungsreferent"
+      },
+      "id": 3259,
+      "lastname": "Planas",
+      "firstname": "Marco",
+      "body_key": "2939",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Kantiverein"
+            },
+            "id": 32427,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Presseverein"
+            },
+            "id": 32426,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Mieterverband SH"
+            },
+            "id": 32425,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Club 83 (Gönnerverein Radio Munot)"
+            },
+            "id": 32424,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Club 50 (Gönnerverein FCS)"
+            },
+            "id": 32423,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Gönnerverein Spielvi"
+            },
+            "id": 32422,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied VCS"
+            },
+            "id": 32421,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Ambassador Schaffhausen"
+            },
+            "id": 32420,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Kiwanis Schaffhausen"
+            },
+            "id": 32419,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Quartiervereine Breite und Altstadt"
+            },
+            "id": 32418,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Vorstand Penya FC Barcelona"
+            },
+            "id": 32417,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Vorstand Gönnerverein SHAZ"
+            },
+            "id": 32416,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Vorstand Munotverein"
+            },
+            "id": 32415,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Städteinitiative Bildung"
+            },
+            "id": 32414,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Präsident Im'Thurnische Stiftung (MKS)"
+            },
+            "id": 32404,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Präsident Stiftung Gotthard und Friedel Jedlicka"
+            },
+            "id": 32403,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Vorsitz Fachausschuss Kultur und Freizeit (Verein Agglomeration Schaffhausen VAS)"
+            },
+            "id": 32402,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3259,
+            "name": {
+              "de": "Mitglied Bachgesellschaft"
+            },
+            "id": 32401,
+            "body_key": "2939"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 18,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3259?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3259?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3259?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 647,
+            "begin_date": null,
+            "id": 8890
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 638,
+            "begin_date": null,
+            "id": 8889
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 638,
+            "begin_date": null,
+            "id": 8888
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 635,
+            "begin_date": null,
+            "id": 8887
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 635,
+            "begin_date": null,
+            "id": 8886
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 634,
+            "begin_date": null,
+            "id": 8885
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 634,
+            "begin_date": null,
+            "id": 8884
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8883
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8882
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 624,
+            "begin_date": null,
+            "id": 8881
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 624,
+            "begin_date": null,
+            "id": 8880
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 620,
+            "begin_date": null,
+            "id": 8879
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 620,
+            "begin_date": null,
+            "id": 8878
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 614,
+            "begin_date": null,
+            "id": 8877
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 614,
+            "begin_date": null,
+            "id": 8876
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 8875
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 8874
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2015-08-18",
+            "id": 8873
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2015-08-18",
+            "id": 8872
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8871
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8870
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 21,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3259?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301106"
+      },
+      "function_latest": {
+        "de": "Finanzreferent"
+      },
+      "id": 3236,
+      "lastname": "Preisig",
+      "firstname": "Daniel",
+      "body_key": "2939",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Mitglied Rhysaunaverein"
+            },
+            "id": 32177,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Mitglied Verwaltungsrat Schifffahrtsgesellschaft Untersee und Rhein (URh)"
+            },
+            "id": 2447,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Präsident Verein Eleven-Fifty 1150"
+            },
+            "id": 2446,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Vizepräsident IT-Kommission der Informatik Schaffhausen"
+            },
+            "id": 2445,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Mitglied Gewerbeverband Schaffhausen"
+            },
+            "id": 2444,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Mitglied Hauseigentümerverband Schaffhausen"
+            },
+            "id": 2443,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Präsident Verein Saunamarathon Schaffhausen"
+            },
+            "id": 2442,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Städteverband Finanzdirektorenkonferenz"
+            },
+            "id": 2441,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Städte-Allianz Öffentlicher Verkehr Ost- und Zentralschweiz"
+            },
+            "id": 2440,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3236,
+            "name": {
+              "de": "Interessengemeinschaft Gäu-Neckar-Bodenseebahn"
+            },
+            "id": 2438,
+            "body_key": "2939"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3236?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3236?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3236?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 644,
+            "begin_date": null,
+            "id": 8788
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 640,
+            "begin_date": null,
+            "id": 8787
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 638,
+            "begin_date": null,
+            "id": 8786
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 637,
+            "begin_date": null,
+            "id": 8785
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 629,
+            "begin_date": null,
+            "id": 8784
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 627,
+            "begin_date": null,
+            "id": 8783
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 614,
+            "begin_date": null,
+            "id": 8782
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 8781
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8780
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3236?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3236?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3236?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/436672"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 22434,
+      "lastname": "Raschle",
+      "firstname": "Daniel",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 172726
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 153660
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 148287
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-07-05",
+            "id": 117084
+          },
+          {
+            "active": null,
+            "end_date": "2025-08-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 117083
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117082
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22434?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22434?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22434?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/448609"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 23816,
+      "lastname": "Sadiku",
+      "firstname": "Shendrit",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 194038
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 184760
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 636,
+            "begin_date": null,
+            "id": 184759
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-11-04",
+            "id": 148290
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23816?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23816?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23816?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301235"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3260,
+      "lastname": "Scheck",
+      "firstname": "Hansueli",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137898
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8892
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-08-24",
+            "id": 8891
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3260?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301247"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3261,
+      "lastname": "Schlatter",
+      "firstname": "Hermann",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137900
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117063
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117062
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117061
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8898
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8897
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 641,
+            "begin_date": null,
+            "id": 8896
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8895
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 628,
+            "begin_date": null,
+            "id": 8894
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2009-01-01",
+            "id": 8893
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3261?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301253"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3262,
+      "lastname": "Schlatter",
+      "firstname": "Stephan",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 137897
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117059
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117058
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8901
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 624,
+            "begin_date": null,
+            "id": 8900
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2016-03-08",
+            "id": 8899
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3262?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301262"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3263,
+      "lastname": "Schöpfer",
+      "firstname": "Sandra",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137901
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 633,
+            "begin_date": null,
+            "id": 8905
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8904
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3263?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406405"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3274,
+      "lastname": "Senn",
+      "firstname": "Mirjam",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137904
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117072
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 636,
+            "begin_date": null,
+            "id": 8930
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8929
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3274?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/406411"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3277,
+      "lastname": "Silvestri",
+      "firstname": "Nicole",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137912
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5615,
+            "begin_date": null,
+            "id": 117073
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 8937
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 642,
+            "begin_date": null,
+            "id": 8936
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 629,
+            "begin_date": null,
+            "id": 8935
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2025-01-01",
+            "id": 8934
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3277?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301268"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3264,
+      "lastname": "Spitz",
+      "firstname": "Daniel",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8906
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3264?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301274"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3265,
+      "lastname": "Stamm",
+      "firstname": "Thomas",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5801,
+            "begin_date": null,
+            "id": 137903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5614,
+            "begin_date": null,
+            "id": 117067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5613,
+            "begin_date": null,
+            "id": 117066
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 639,
+            "begin_date": null,
+            "id": 8911
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 636,
+            "begin_date": null,
+            "id": 8910
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2021-01-01",
+            "id": 8908
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3265?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/456119"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 24680,
+      "lastname": "Stamm",
+      "firstname": "Christian",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2026-01-06",
+            "id": 184758
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 643,
+            "begin_date": null,
+            "id": 184757
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 184756
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5804,
+            "begin_date": null,
+            "id": 184755
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24680?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/323297"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3269,
+      "lastname": "Surber",
+      "firstname": "Gaétan",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5803,
+            "begin_date": null,
+            "id": 137899
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 635,
+            "begin_date": null,
+            "id": 8917
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 632,
+            "begin_date": null,
+            "id": 8916
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 622,
+            "begin_date": null,
+            "id": 8915
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2023-01-01",
+            "id": 8914
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3269?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/301124"
+      },
+      "function_latest": {
+        "de": "Sozial- und Sicherheitsreferentin"
+      },
+      "id": 3238,
+      "lastname": "Thommen",
+      "firstname": "Christine",
+      "body_key": "2939",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Verband des Personals öffentlicher Dienste VPOD"
+            },
+            "id": 2474,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Stiftung Walter Lippuner"
+            },
+            "id": 2473,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "La Résidence"
+            },
+            "id": 2472,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Städteinitiative Sozialpolitik"
+            },
+            "id": 2471,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Pro Velo Schaffhausen"
+            },
+            "id": 2470,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Präsidentin Kirchgemeinde Schaffhausen-Buchthalen"
+            },
+            "id": 2469,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Künzle-Stiftung"
+            },
+            "id": 2468,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Munotverein"
+            },
+            "id": 2467,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Quartierverein Buchthalen"
+            },
+            "id": 2466,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Rotary-Club Schaffhausen-Munot"
+            },
+            "id": 2465,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Rebverein Rosenberg"
+            },
+            "id": 2464,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Juristenverein Schaffhausen"
+            },
+            "id": 2463,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Historischer Verein Schaffhausen"
+            },
+            "id": 2462,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Stiftung Altra"
+            },
+            "id": 2461,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Vorstandsmitglied Kantiverein Schaffhausen"
+            },
+            "id": 2460,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Pro Natura Schweiz"
+            },
+            "id": 2459,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Verkehrs-Club der Schweiz VCS"
+            },
+            "id": 2458,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Mitglied Schweizer Paraplegiker Stiftung"
+            },
+            "id": 2457,
+            "body_key": "2939"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3238,
+            "name": {
+              "de": "Intergres"
+            },
+            "id": 841,
+            "body_key": "2939"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 19,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3238?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3238?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3238?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 648,
+            "begin_date": null,
+            "id": 8805
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 630,
+            "begin_date": null,
+            "id": 8804
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 626,
+            "begin_date": null,
+            "id": 8803
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 619,
+            "begin_date": null,
+            "id": 8802
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 617,
+            "begin_date": null,
+            "id": 8801
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 613,
+            "begin_date": null,
+            "id": 8800
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8799
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 614,
+            "begin_date": null,
+            "id": 8706
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3238?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3238?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3238?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/298267"
+      },
+      "function_latest": {
+        "de": "Stadtschreiberin"
+      },
+      "id": 3234,
+      "lastname": "Waldvogel",
+      "firstname": "Yvonne",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 626,
+            "begin_date": null,
+            "id": 8772
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 623,
+            "begin_date": null,
+            "id": 8771
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 620,
+            "begin_date": null,
+            "id": 8770
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 615,
+            "begin_date": null,
+            "id": 8769
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 611,
+            "begin_date": null,
+            "id": 8768
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3234?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadt-schaffhausen.ch/_rte/person/330451"
+      },
+      "function_latest": {
+        "de": "Mitglied Grosser Stadtrat"
+      },
+      "id": 3270,
+      "lastname": "Weber",
+      "firstname": "Thomas",
+      "body_key": "2939",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5802,
+            "begin_date": null,
+            "id": 137905
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 631,
+            "begin_date": null,
+            "id": 8919
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 612,
+            "begin_date": "2023-01-01",
+            "id": 8918
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3270?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

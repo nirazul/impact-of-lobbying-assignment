@@ -1,0 +1,3321 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 42,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=66&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=66&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=66&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/283625"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6274,
+      "lastname": "Balimann",
+      "firstname": "Kathrin",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6274,
+            "name": {},
+            "id": 3485,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6274?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6274?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6274?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15367
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15366
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15365
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6274?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/173656"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6265,
+      "lastname": "Baumgartner",
+      "firstname": "Andreas",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6265,
+            "name": {},
+            "id": 8,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6265?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6265?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6265?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15349
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15348
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6265?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/59122"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6293,
+      "lastname": "Baumgartner",
+      "firstname": "Benjamin",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6293,
+            "name": {},
+            "id": 3691,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6293?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6293?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6293?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15408
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15407
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15405
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6293?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/299962"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6277,
+      "lastname": "Bingöl",
+      "firstname": "Ceren",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6277,
+            "name": {},
+            "id": 2930,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6277?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6277?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6277?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15371
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6277?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/21571"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6269,
+      "lastname": "Blaser",
+      "firstname": "Björn",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6269,
+            "name": {},
+            "id": 3674,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6269?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6269?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6269?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15354
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15353
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15352
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6269?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/347119"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6289,
+      "lastname": "Boss",
+      "firstname": "Allan",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6289,
+            "name": {},
+            "id": 3687,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6289?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6289?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6289?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15398
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15397
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15396
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6289?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/299968"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6278,
+      "lastname": "Brasi",
+      "firstname": "Milena",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6278,
+            "name": {},
+            "id": 2980,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6278?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6278?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6278?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15374
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15373
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15372
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6278?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150233"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6261,
+      "lastname": "Brunner",
+      "firstname": "Werner",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6261,
+            "name": {},
+            "id": 3669,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6261?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6261?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6261?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 105184
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15339
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6261?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Gemeindeverein",
+        "fr": "Gemeindeverein",
+        "it": "Gemeindeverein",
+        "en": "Gemeindeverein"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/313195"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 23940,
+      "lastname": "Buzzelli",
+      "firstname": "Alexandra",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 23940,
+            "name": {},
+            "id": 31188,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23940?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23940?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23940?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 152183
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 152182
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23940?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23940?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23940?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150215"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6257,
+      "lastname": "Bührer",
+      "firstname": "Manuela",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6257,
+            "name": {},
+            "id": 3665,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6257?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6257?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6257?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15333
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15332
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6257?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/299959"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6276,
+      "lastname": "Bührer",
+      "firstname": "Gregor",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6276,
+            "name": {},
+            "id": 3641,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6276?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6276?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6276?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15370
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6276?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6276?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6276?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/382516"
+      },
+      "function_latest": {
+        "de": "Sekretär-Stellvertreter"
+      },
+      "id": 6291,
+      "lastname": "Demin",
+      "firstname": "Daniel",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6291,
+            "name": {},
+            "id": 3689,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6291?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6291?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6291?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15402
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15401
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6291?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/178835"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6266,
+      "lastname": "Edel",
+      "firstname": "Thomas",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6266,
+            "name": {},
+            "id": 3673,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6266?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6266?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6266?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15351
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15350
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6266?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6266?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6266?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/347116"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6288,
+      "lastname": "Fierz",
+      "firstname": "Yuri",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6288,
+            "name": {},
+            "id": 3686,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6288?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6288?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6288?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15395
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15394
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6288?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/347122"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6290,
+      "lastname": "Gavran",
+      "firstname": "Slavko",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6290,
+            "name": {},
+            "id": 3688,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6290?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6290?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6290?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15400
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15399
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6290?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150230"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsidentin"
+      },
+      "id": 6260,
+      "lastname": "Glanzmann",
+      "firstname": "Tanja",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6260,
+            "name": {},
+            "id": 3668,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6260?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6260?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6260?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15338
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15337
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6260?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/92400"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6296,
+      "lastname": "Graf",
+      "firstname": "Jeremi",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6296,
+            "name": {},
+            "id": 3694,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6296?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6296?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6296?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15444
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15443
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15442
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6296?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6296?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6296?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/309325"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 6284,
+      "lastname": "Husi",
+      "firstname": "Urban",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6284,
+            "name": {},
+            "id": 3682,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6284?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6284?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6284?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15386
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15385
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15384
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6284?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6284?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6284?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/164045"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6264,
+      "lastname": "Husi-Fiechter",
+      "firstname": "Kevin",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6264,
+            "name": {},
+            "id": 3672,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6264?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6264?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6264?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15347
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15346
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15345
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15344
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6264?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150209"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6253,
+      "lastname": "Hürlimann",
+      "firstname": "Regula",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6253,
+            "name": {},
+            "id": 3663,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6253?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6253?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6253?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15330
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6253?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150236"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6262,
+      "lastname": "Laux",
+      "firstname": "Stefan",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6262,
+            "name": {},
+            "id": 3670,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6262?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6262?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6262?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15342
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15341
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15340
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6262?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/457823"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 24809,
+      "lastname": "Leu",
+      "firstname": "Martina",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 24809,
+            "name": {},
+            "id": 32239,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24809?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24809?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24809?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 191431
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24809?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Gemeindeverein",
+        "fr": "Gemeindeverein",
+        "it": "Gemeindeverein",
+        "en": "Gemeindeverein"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/311384"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsidentin"
+      },
+      "id": 6285,
+      "lastname": "Meier",
+      "firstname": "Rebeca",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6285,
+            "name": {},
+            "id": 3683,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6285?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6285?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6285?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15389
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15388
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15387
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6285?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/301259"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6281,
+      "lastname": "Muffler",
+      "firstname": "Leonie",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6281,
+            "name": {},
+            "id": 3680,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6281?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6281?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6281?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15381
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6281?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/328415"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6286,
+      "lastname": "Müller",
+      "firstname": "Lukas",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6286,
+            "name": {},
+            "id": 3684,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6286?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6286?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6286?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15392
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15391
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15390
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6286?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/299977"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 6280,
+      "lastname": "Oertli",
+      "firstname": "Helen",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6280,
+            "name": {},
+            "id": 3679,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6280?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6280?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6280?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15380
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15379
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15378
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15377
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6280?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/164030"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6263,
+      "lastname": "Pante",
+      "firstname": "Heidi",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6263,
+            "name": {},
+            "id": 3671,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6263?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6263?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6263?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15343
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 1211
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6263?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/288302"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 6275,
+      "lastname": "Petrovic",
+      "firstname": "Dario",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6275,
+            "name": {},
+            "id": 3513,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6275?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6275?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6275?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15369
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15368
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6275?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/21574"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6270,
+      "lastname": "Rouiller",
+      "firstname": "Patrick",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6270,
+            "name": {},
+            "id": 3675,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6270?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6270?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6270?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15357
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1075,
+            "begin_date": null,
+            "id": 15356
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15355
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6270?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150224"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6258,
+      "lastname": "Sari",
+      "firstname": "Haci",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6258,
+            "name": {},
+            "id": 3666,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6258?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6258?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6258?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15334
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6258?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/94022"
+      },
+      "function_latest": {
+        "de": "Sekretärin"
+      },
+      "id": 6297,
+      "lastname": "Schöni",
+      "firstname": "Sara",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6297,
+            "name": {},
+            "id": 3695,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6297?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6297?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6297?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15446
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15445
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6297?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6297?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6297?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/299974"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6279,
+      "lastname": "Sichau",
+      "firstname": "David-Matthias",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6279,
+            "name": {},
+            "id": 3427,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6279?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6279?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6279?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15376
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15375
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6279?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/412390"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 6292,
+      "lastname": "Sierro Luc",
+      "firstname": "Jérôme",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6292,
+            "name": {},
+            "id": 3690,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6292?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6292?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6292?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 15404
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15403
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6292?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/248800"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6272,
+      "lastname": "Signer",
+      "firstname": "Seline",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6272,
+            "name": {},
+            "id": 3677,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6272?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6272?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6272?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15361
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15360
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6272?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150212"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6254,
+      "lastname": "Steffen",
+      "firstname": "Reto",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6254,
+            "name": {},
+            "id": 3664,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6254?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6254?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6254?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15331
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6254?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/263761"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6273,
+      "lastname": "Sydler",
+      "firstname": "Evelyne",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6273,
+            "name": {},
+            "id": 3678,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6273?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6273?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6273?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15364
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15363
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15362
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/21962"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6271,
+      "lastname": "Wehrli",
+      "firstname": "Rolf",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6271,
+            "name": {},
+            "id": 3676,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6271?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6271?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6271?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15359
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15358
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6271?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Gemeindeverein",
+        "fr": "Gemeindeverein",
+        "it": "Gemeindeverein",
+        "en": "Gemeindeverein"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/59123"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6294,
+      "lastname": "Weidmann",
+      "firstname": "Ulrich",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6294,
+            "name": {},
+            "id": 3692,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6294?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6294?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6294?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1078,
+            "begin_date": null,
+            "id": 15410
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15409
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6294?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6294?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6294?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/150227"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6259,
+      "lastname": "Wepf",
+      "firstname": "Thomas",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6259,
+            "name": {},
+            "id": 3667,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6259?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6259?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6259?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1077,
+            "begin_date": null,
+            "id": 15336
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15335
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6259?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Gemeindeverein",
+        "fr": "Gemeindeverein",
+        "it": "Gemeindeverein",
+        "en": "Gemeindeverein"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/309232"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6283,
+      "lastname": "Zahiri",
+      "firstname": "Fatmir",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6283,
+            "name": {},
+            "id": 3681,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6283?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6283?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6283?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 167529
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1079,
+            "begin_date": null,
+            "id": 15383
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15382
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6283?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Gemeindeverein",
+        "fr": "Gemeindeverein",
+        "it": "Gemeindeverein",
+        "en": "Gemeindeverein"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/90907"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsident"
+      },
+      "id": 6295,
+      "lastname": "Zahiri",
+      "firstname": "Ibrahim",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6295,
+            "name": {},
+            "id": 3693,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6295?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6295?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6295?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1080,
+            "begin_date": null,
+            "id": 167528
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1076,
+            "begin_date": null,
+            "id": 15441
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15440
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6295?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.opfikon.ch/_rte/person/345158"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6287,
+      "lastname": "Zekar",
+      "firstname": "Dominik",
+      "body_key": "66",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.opfikon.ch/publikationen/361499",
+            "person_id": 6287,
+            "name": {},
+            "id": 3685,
+            "body_key": "66"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6287?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6287?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6287?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1074,
+            "begin_date": null,
+            "id": 15393
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6287?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

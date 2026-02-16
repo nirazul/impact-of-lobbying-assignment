@@ -1,0 +1,3172 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 47,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=198&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=198&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=198&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/372310"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1477,
+      "lastname": "Adam",
+      "firstname": "Lukas",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 85,
+            "begin_date": null,
+            "id": 2569
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2567
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1477?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/93477"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1493,
+      "lastname": "Bernet",
+      "firstname": "Patricia",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 325,
+            "begin_date": null,
+            "id": 2608
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2607
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 279,
+            "begin_date": null,
+            "id": 1072
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 279,
+            "begin_date": null,
+            "id": 1071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 325,
+            "begin_date": null,
+            "id": 1070
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1493?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1493?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1493?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/76683"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1487,
+      "lastname": "Bickel",
+      "firstname": "Matthias",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2594
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2593
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2592
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1487?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/163033"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1446,
+      "lastname": "Bättig",
+      "firstname": "Petra",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 298,
+            "begin_date": null,
+            "id": 2479
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 298,
+            "begin_date": null,
+            "id": 2478
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2477
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1446?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/149812"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1440,
+      "lastname": "Caviezel",
+      "firstname": "Beatrice",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 1056
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1440?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1440?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1440?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/108363"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 812,
+      "lastname": "Denzler",
+      "firstname": "Hans",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2412
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 1041
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 1039
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 1013
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/812?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/812?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/812?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297194"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1463,
+      "lastname": "Di Modica",
+      "firstname": "Gianluca",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2520
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2519
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2518
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2517
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1463?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1463?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1463?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/200392"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1450,
+      "lastname": "Dürst",
+      "firstname": "Silvan",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 117162
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2495
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2494
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2493
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1450?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1450?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1450?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/90293"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1490,
+      "lastname": "Ehrensperger",
+      "firstname": "Markus",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2603
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2602
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2601
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2600
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1490?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1490?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1490?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297197"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1464,
+      "lastname": "Eigenmann",
+      "firstname": "Isabel",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2523
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2522
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2521
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1464?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1464?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1464?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/91978"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 1492,
+      "lastname": "Famos",
+      "firstname": "Cla",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2606
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1492?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1492?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1492?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/163036"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1447,
+      "lastname": "Fehr",
+      "firstname": "Karin",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 300,
+            "begin_date": null,
+            "id": 2484
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 300,
+            "begin_date": null,
+            "id": 2483
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2482
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 321,
+            "begin_date": null,
+            "id": 2481
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 321,
+            "begin_date": null,
+            "id": 2480
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1447?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1447?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1447?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/163030"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1444,
+      "lastname": "Feldmann",
+      "firstname": "Stefan",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 297,
+            "begin_date": null,
+            "id": 2476
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 297,
+            "begin_date": null,
+            "id": 2475
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2474
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1444?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1444?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1444?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/108366"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 1439,
+      "lastname": "Foiera-Jenzer",
+      "firstname": "Silvio",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2416
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2415
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2414
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2413
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1439?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1439?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1439?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297203"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 889,
+      "lastname": "Frei",
+      "firstname": "Claudia",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2530
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2529
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2528
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/889?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/889?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/889?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/77308"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 1488,
+      "lastname": "Frei",
+      "firstname": "Patricio",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 85,
+            "begin_date": null,
+            "id": 2599
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2598
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2597
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2596
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2595
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1488?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1488?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1488?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/66863"
+      },
+      "function_latest": {
+        "de": "Sekretär-Stellvertreterin"
+      },
+      "id": 1485,
+      "lastname": "Füllemann",
+      "firstname": "Monika",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2591
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2590
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2589
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1485?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1485?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1485?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297206"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1075,
+      "lastname": "Graf",
+      "firstname": "Josua",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2534
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2533
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2532
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2531
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1075?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1075?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1075?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297200"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1465,
+      "lastname": "Göldi",
+      "firstname": "Tanja",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2527
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2526
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2525
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2524
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1465?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1465?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1465?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/346960"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1474,
+      "lastname": "Hohmann",
+      "firstname": "Dieter",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2561
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2560
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2559
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1474?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/384646"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1479,
+      "lastname": "Keller",
+      "firstname": "Martin",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 117166
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2573
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2210
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 1953
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1479?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/317186"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsident"
+      },
+      "id": 1471,
+      "lastname": "Kranner",
+      "firstname": "Marco",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2552
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2551
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2550
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2549
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1471?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/108361"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 794,
+      "lastname": "Krauer",
+      "firstname": "Jürg",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2411
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2410
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2409
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2408
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/794?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/794?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/794?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/377059"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1478,
+      "lastname": "Kronenberg",
+      "firstname": "Andres",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2572
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2571
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2570
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1478?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/257308"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1460,
+      "lastname": "Lüscher",
+      "firstname": "Urs",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 274,
+            "begin_date": null,
+            "id": 2509
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2508
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2507
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1460?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/356194"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1475,
+      "lastname": "Mathis-Jäggi",
+      "firstname": "Peter",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2563
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2562
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 1066
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1475?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/15847"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1442,
+      "lastname": "Meier",
+      "firstname": "Walter",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2466
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2465
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 1060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 1057
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1442?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297209"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1467,
+      "lastname": "Nussbaumer",
+      "firstname": "Nina",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2537
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2536
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2535
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1467?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1467?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1467?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/384649"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1480,
+      "lastname": "Ott",
+      "firstname": "Andres",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2577
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2576
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2575
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2574
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1480?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/214763"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1453,
+      "lastname": "Pauling",
+      "firstname": "Andreas",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2500
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2499
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1453?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1453?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1453?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/384652"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1481,
+      "lastname": "Ramspeck",
+      "firstname": "Dominic",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 85,
+            "begin_date": null,
+            "id": 2580
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2579
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2578
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1481?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1481?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1481?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/34167"
+      },
+      "function_latest": {
+        "de": "Ratsschreiber"
+      },
+      "id": 1472,
+      "lastname": "Reuter",
+      "firstname": "Daniel",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2558
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2557
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2556
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2555
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2554
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2553
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1472?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/58410"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1484,
+      "lastname": "Räuftlin",
+      "firstname": "Ursula",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 275,
+            "begin_date": null,
+            "id": 2588
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2587
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2586
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2585
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1484?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1484?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1484?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/211580"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1452,
+      "lastname": "Schmid",
+      "firstname": "Ulrich",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2498
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2497
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2496
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 1332
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1452?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1452?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1452?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297212"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1468,
+      "lastname": "Schnyder",
+      "firstname": "Daniel",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2541
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2540
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2539
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2538
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1468?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/228599"
+      },
+      "function_latest": {
+        "de": "Schreiber"
+      },
+      "id": 1458,
+      "lastname": "Sidler",
+      "firstname": "Pascal",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 282,
+            "begin_date": null,
+            "id": 2506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 281,
+            "begin_date": null,
+            "id": 2505
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 280,
+            "begin_date": null,
+            "id": 2504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2503
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1458?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1458?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1458?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Bürgernahe Politik Uster",
+        "fr": "Bürgernahe Politik Uster",
+        "it": "Bürgernahe Politik Uster",
+        "en": "Bürgernahe Politik Uster"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/90296"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1491,
+      "lastname": "Stopper",
+      "firstname": "Paul",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2605
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2604
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1491?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1491?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1491?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297215"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1469,
+      "lastname": "Streit",
+      "firstname": "Benjamin",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 2544
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2543
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2542
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1469?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/186701"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1449,
+      "lastname": "Thalmann",
+      "firstname": "Marc",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2492
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2491
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2489
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2488
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1449?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1449?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1449?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/25799"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1462,
+      "lastname": "Thalmann",
+      "firstname": "Balthasar",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2516
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 295,
+            "begin_date": null,
+            "id": 2515
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2514
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 1063
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1462?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1462?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1462?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/15859"
+      },
+      "function_latest": {
+        "de": "Präsidentin"
+      },
+      "id": 1443,
+      "lastname": "Thalmann Stammbach",
+      "firstname": "Barbara",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 274,
+            "begin_date": null,
+            "id": 2473
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 274,
+            "begin_date": null,
+            "id": 2472
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 326,
+            "begin_date": null,
+            "id": 2471
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 326,
+            "begin_date": null,
+            "id": 2470
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2469
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 324,
+            "begin_date": null,
+            "id": 2468
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 323,
+            "begin_date": null,
+            "id": 2467
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1443?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/367414"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1476,
+      "lastname": "Vlk",
+      "firstname": "Simon",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 299,
+            "begin_date": null,
+            "id": 2566
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2565
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2564
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1476?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/47011"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1483,
+      "lastname": "Weder",
+      "firstname": "Marius",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2584
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2583
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 328,
+            "begin_date": null,
+            "id": 2582
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2581
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1483?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/297218"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1470,
+      "lastname": "Zahn",
+      "firstname": "Debora",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 85,
+            "begin_date": null,
+            "id": 2548
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 296,
+            "begin_date": null,
+            "id": 2547
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2546
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 322,
+            "begin_date": null,
+            "id": 2545
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1470?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/180682"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1448,
+      "lastname": "Zarotti",
+      "firstname": "Angelika",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 2487
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 293,
+            "begin_date": null,
+            "id": 2486
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2485
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1448?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1448?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1448?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/424717"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 22446,
+      "lastname": "Zoller",
+      "firstname": "Markus",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 117165
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 117164
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 277,
+            "begin_date": null,
+            "id": 117163
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22446?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.uster.ch/_rte/person/25798"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 1461,
+      "lastname": "Özcan",
+      "firstname": "Ali",
+      "body_key": "198",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 294,
+            "begin_date": null,
+            "id": 2513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 327,
+            "begin_date": null,
+            "id": 2512
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 105,
+            "begin_date": null,
+            "id": 2511
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 278,
+            "begin_date": null,
+            "id": 1062
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1461?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1461?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1461?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,4384 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 42,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=2829&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=2829&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=2829&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/265180"
+      },
+      "function_latest": {},
+      "id": 23853,
+      "lastname": "Abt",
+      "firstname": "Florian",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23853,
+            "name": {
+              "de": "IGF Flohmarkt Liestal, Vereinsleitung"
+            },
+            "id": 31170,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23853,
+            "name": {
+              "de": "Sozialpädagoge HF; Zentrum auf der Leiern, Gelterkinden"
+            },
+            "id": 31169,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23853?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23853?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23853?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151083
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151082
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151002
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150968
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23853?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23853?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23853?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/302867"
+      },
+      "function_latest": {},
+      "id": 23840,
+      "lastname": "Ballmer",
+      "firstname": "Roger",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23840,
+            "name": {
+              "de": "Delegierter der EBL"
+            },
+            "id": 31087,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23840,
+            "name": {
+              "de": "Aare Versorgungs AG, Olten: Mitglied Verwaltungsrat"
+            },
+            "id": 31086,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23840,
+            "name": {
+              "de": "Leiter Netzbetrieb - Primeo Netz AG, Münchenstein"
+            },
+            "id": 31085,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23840,
+            "name": {
+              "de": "Schulrat Gymnasium Liestal"
+            },
+            "id": 31076,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23840?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23840?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23840?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151094
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 150971
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23840?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23840?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23840?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/381925"
+      },
+      "function_latest": {},
+      "id": 23828,
+      "lastname": "Ballmer",
+      "firstname": "Yvonne",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23828,
+            "name": {
+              "de": "Verwalterin Röm. kath. Kirchgemeinde Liestal"
+            },
+            "id": 31077,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23828?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23828?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23828?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151084
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151027
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151026
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 151015
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23828?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/302840"
+      },
+      "function_latest": {},
+      "id": 23849,
+      "lastname": "Baumgartner",
+      "firstname": "Anita",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23849,
+            "name": {
+              "de": "Vorstandsmitglied Grüne Liestal und Umgebung"
+            },
+            "id": 31070,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23849,
+            "name": {
+              "de": "Co-Sektionsleiterin Finanzhaushalt & Controlling, Kanton AG"
+            },
+            "id": 31069,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23849?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23849?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23849?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151077
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151076
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151075
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150966
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23849?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23849?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23849?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/141142"
+      },
+      "function_latest": {
+        "de": "Vizepräsidentin"
+      },
+      "id": 23859,
+      "lastname": "Beeler",
+      "firstname": "Marie-Theres",
+      "body_key": "2829",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6021,
+            "begin_date": null,
+            "id": 151110
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23859?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23859?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23859?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/381931"
+      },
+      "function_latest": {},
+      "id": 23833,
+      "lastname": "Bischofberger",
+      "firstname": "Jonas",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23833,
+            "name": {
+              "de": "Mitglied Verwaltungsrat BischSicherAG, Lupsingen"
+            },
+            "id": 31095,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23833,
+            "name": {
+              "de": "Vorstand SP Liestal und Umgebung"
+            },
+            "id": 31094,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23833,
+            "name": {
+              "de": "Vizepräsident Jungsozialist*innen Baselland"
+            },
+            "id": 31093,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23833,
+            "name": {
+              "de": "Student Universtität Bern"
+            },
+            "id": 31092,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23833?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23833?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23833?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151096
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151036
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151035
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150979
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150974
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23833?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/99729"
+      },
+      "function_latest": {},
+      "id": 23839,
+      "lastname": "Bonjour",
+      "firstname": "Bernhard",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23839,
+            "name": {
+              "de": "Vorstand Verein DarsiLaMano Basel"
+            },
+            "id": 31146,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23839,
+            "name": {
+              "de": "Mitglied Stiftungsrat ptz (Pädagogisch-therapeutisches Zentrum)"
+            },
+            "id": 31145,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23839,
+            "name": {
+              "de": "Präsident Stiftungsrat Offenes Lernen Liestal"
+            },
+            "id": 31067,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23839,
+            "name": {
+              "de": "Delegierter SP Baselland"
+            },
+            "id": 31058,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23839?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23839?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23839?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 151040
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150939
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 150937
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150936
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23839?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/447079"
+      },
+      "function_latest": {},
+      "id": 23827,
+      "lastname": "Brönnimann",
+      "firstname": "Natascha",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23827,
+            "name": {
+              "de": "Familiengartenverein Gräubern, Präsidentin"
+            },
+            "id": 31065,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23827,
+            "name": {
+              "de": "Sozialarbeiterin / Beiständin, Stadt Liestal"
+            },
+            "id": 31064,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23827?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23827?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23827?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150980
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 150957
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150956
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23827?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/124032"
+      },
+      "function_latest": {},
+      "id": 23841,
+      "lastname": "Bürgin",
+      "firstname": "Peter",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23841,
+            "name": {
+              "de": "Stiftungsrat Regionale Musikschule Liestal"
+            },
+            "id": 31135,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23841,
+            "name": {
+              "de": "VRP ControlTech Engineering AG, Liestal"
+            },
+            "id": 31134,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23841,
+            "name": {
+              "de": "Fachdozent, sfb Bildungszentrum Emmenbrücke"
+            },
+            "id": 31133,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23841?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23841?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23841?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151058
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 151010
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 150935
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23841?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23841?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23841?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/447082"
+      },
+      "function_latest": {},
+      "id": 23855,
+      "lastname": "Dogan",
+      "firstname": "Zeynep",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23855,
+            "name": {
+              "de": "Übersetzerin, Kripo und Zoll BS"
+            },
+            "id": 31097,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23855,
+            "name": {
+              "de": "Pflegeassistentin, Kantonsspital BL"
+            },
+            "id": 31096,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23855?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23855?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23855?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151009
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6016,
+            "begin_date": null,
+            "id": 150976
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23855?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23855?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23855?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/103216"
+      },
+      "function_latest": {},
+      "id": 23842,
+      "lastname": "Durrer",
+      "firstname": "Michael",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Vorstandsmitglied VCS beider Basel"
+            },
+            "id": 31140,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Vorstandsmitglied Grüne Schweiz"
+            },
+            "id": 31139,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "stellv. Institutionsleiter Kinder- u. Jugendheim Laufen"
+            },
+            "id": 31138,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Leiter Therapiestation für Adoleszente"
+            },
+            "id": 31137,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Dipl. Sozialpädagoge FH"
+            },
+            "id": 31136,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Mitglied Geschäfts- und Rechnungsprüfungskommission der KESB Kreis Liestal"
+            },
+            "id": 31111,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Präsident, Mitglied der Geschäftsleitung und Vorstandsmitglied Grüne Baselland"
+            },
+            "id": 31110,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23842,
+            "name": {
+              "de": "Vorstandsmitglied Grüne Liestal und Umgebung"
+            },
+            "id": 31109,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23842?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23842?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23842?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151061
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151059
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150947
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23842?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/264634"
+      },
+      "function_latest": {},
+      "id": 23852,
+      "lastname": "Erni",
+      "firstname": "Benjamin",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23852,
+            "name": {
+              "de": "Co-Leiter CFS (Cystische Fibroese Schweiz; Regionalgruppe Basel)"
+            },
+            "id": 31074,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23852,
+            "name": {
+              "de": "Heilpädagogisches Zentrum BL, Leitung Sozialpädagogik Integrative Schulung"
+            },
+            "id": 31073,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23852?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23852?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23852?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151081
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6016,
+            "begin_date": null,
+            "id": 151014
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151001
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151000
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23852?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23852?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23852?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/115993"
+      },
+      "function_latest": {},
+      "id": 23843,
+      "lastname": "Eugster",
+      "firstname": "Eva",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23843,
+            "name": {
+              "de": "Primarschulrat Liestal, Präsidium"
+            },
+            "id": 31142,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23843,
+            "name": {
+              "de": "Sekundarschullehrerin, Sekundarschule Frenke"
+            },
+            "id": 31141,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23843?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23843?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23843?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151064
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151063
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151062
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 150948
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23843?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23843?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23843?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/57200"
+      },
+      "function_latest": {},
+      "id": 23820,
+      "lastname": "Eugster",
+      "firstname": "Thomas",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Vizepräsident HEV Liestal"
+            },
+            "id": 31119,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Präsident der landrätlichen Bau- und Planungskommission"
+            },
+            "id": 31118,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Mitglied zur Sicherung der Unparteilichkeit der QS Zürich AG"
+            },
+            "id": 31117,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Delegierter der EBL"
+            },
+            "id": 31116,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Verwaltungsrat Sport- und Freizeitbad Gitterli AG, Liestal"
+            },
+            "id": 31115,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Leitende Funktion im Engineering der Standortorganisation Basel; F. Hoffmann-La Roche, Basel"
+            },
+            "id": 31114,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23820,
+            "name": {
+              "de": "Landrat"
+            },
+            "id": 31075,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23820?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23820?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23820?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150992
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 150984
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 150938
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23820?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23820?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23820?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/188752"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23858,
+      "lastname": "Felix",
+      "firstname": "Lukas",
+      "body_key": "2829",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6021,
+            "begin_date": null,
+            "id": 151111
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6020,
+            "begin_date": null,
+            "id": 151103
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23858?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23858?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23858?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/80949"
+      },
+      "function_latest": {},
+      "id": 23838,
+      "lastname": "Fischer",
+      "firstname": "Werner",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23838,
+            "name": {
+              "de": "Präsident IG Chienbäse"
+            },
+            "id": 31132,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23838,
+            "name": {
+              "de": "Florian Gartenbau, 5275 Etzgen"
+            },
+            "id": 31131,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23838,
+            "name": {
+              "de": "Gärtnermeister, Garten- und Landschaftsgestalter"
+            },
+            "id": 31130,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23838,
+            "name": {
+              "de": "Rottenchef 4. Rotte"
+            },
+            "id": 31066,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23838?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23838?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23838?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151057
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151053
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151052
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 151033
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23838?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23838?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23838?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/350266"
+      },
+      "function_latest": {},
+      "id": 23823,
+      "lastname": "Fluri",
+      "firstname": "Simon",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23823,
+            "name": {
+              "de": "Vorstand des CC Sunstar Arlesheim"
+            },
+            "id": 31084,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23823,
+            "name": {
+              "de": "Mitglied VR Swiss Olitrade AG Liestal"
+            },
+            "id": 31083,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23823,
+            "name": {
+              "de": "Mitglied Geschäftsleitung, Florin AG Muttenz"
+            },
+            "id": 31082,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23823,
+            "name": {
+              "de": "Leiter Finanzen, HR + IT, Florin AG Muttenz"
+            },
+            "id": 31081,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23823?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23823?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23823?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151089
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151088
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 151016
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 150978
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23823?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23823?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23823?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/350272"
+      },
+      "function_latest": {},
+      "id": 23830,
+      "lastname": "Flüeler",
+      "firstname": "Lukas",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23830,
+            "name": {
+              "de": "BPK Kindergartenneubau Ormalingen"
+            },
+            "id": 31080,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23830,
+            "name": {
+              "de": "Vorstand Grüne Liestal"
+            },
+            "id": 31079,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23830,
+            "name": {
+              "de": "Primarlehrer und Schulleiter, Primarschule Ormalingen"
+            },
+            "id": 31078,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23830?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23830?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23830?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151004
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151003
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150969
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23830?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/79664"
+      },
+      "function_latest": {},
+      "id": 23818,
+      "lastname": "Fraefel",
+      "firstname": "Stefan",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23818,
+            "name": {
+              "de": "Wahlbüro Liestal"
+            },
+            "id": 31124,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23818,
+            "name": {
+              "de": "Staatsanwalt, Sicherheitsdirektion Kanton BL"
+            },
+            "id": 31123,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23818?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23818?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23818?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151056
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6018,
+            "begin_date": null,
+            "id": 151049
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151048
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 150946
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23818?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23818?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23818?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/80649"
+      },
+      "function_latest": {},
+      "id": 23821,
+      "lastname": "Franke",
+      "firstname": "Philipp",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23821,
+            "name": {
+              "de": "Geoinformatiker"
+            },
+            "id": 31120,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23821?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23821?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23821?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151055
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151025
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151024
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151023
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150944
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23821?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23821?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23821?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/207703"
+      },
+      "function_latest": {},
+      "id": 23846,
+      "lastname": "Gafner",
+      "firstname": "Richard",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23846,
+            "name": {
+              "de": "Einwohnerrat"
+            },
+            "id": 31161,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23846,
+            "name": {
+              "de": "Arbeitgeber: Zühlke Engineering (Schweiz) AG"
+            },
+            "id": 31160,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23846?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23846?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23846?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151074
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 151044
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 150964
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 150963
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150962
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23846?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/224920"
+      },
+      "function_latest": {},
+      "id": 23847,
+      "lastname": "Heinzelmann",
+      "firstname": "Lukas",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23847,
+            "name": {
+              "de": "Bürgerrat"
+            },
+            "id": 31163,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23847,
+            "name": {
+              "de": "OP-Koordinator Kantonsspital Baselland"
+            },
+            "id": 31162,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23847?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23847?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23847?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 151012
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 150999
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150998
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150997
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23847?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23847?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23847?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/114561"
+      },
+      "function_latest": {},
+      "id": 23844,
+      "lastname": "Holinger",
+      "firstname": "Lorenz",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23844,
+            "name": {
+              "de": "VR-Präsident der Willy Holinger AG Haustechnik"
+            },
+            "id": 31144,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23844,
+            "name": {
+              "de": "Mitglied der Geschäftsleitung SanIng AG Liestal"
+            },
+            "id": 31143,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23844?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23844?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23844?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151066
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 151011
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23844?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/393058"
+      },
+      "function_latest": {},
+      "id": 23854,
+      "lastname": "Holinger",
+      "firstname": "Matthias",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23854,
+            "name": {
+              "de": "Ergotherapeut, Kantonsspital Baselland"
+            },
+            "id": 31060,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23854?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23854?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23854?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151098
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151097
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151008
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150975
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23854?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23854?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23854?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/329459"
+      },
+      "function_latest": {},
+      "id": 23831,
+      "lastname": "Hügin",
+      "firstname": "Markus",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23831,
+            "name": {
+              "de": "Informatiker Thommen Group, Kaiseraugst"
+            },
+            "id": 31171,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23831?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23831?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23831?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6019,
+            "begin_date": null,
+            "id": 151087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151086
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151085
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 150970
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23831?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/434077"
+      },
+      "function_latest": {},
+      "id": 23826,
+      "lastname": "Jenni",
+      "firstname": "Yves",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23826,
+            "name": {
+              "de": "Einwohnerrat Liestal"
+            },
+            "id": 31063,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23826,
+            "name": {
+              "de": "Delegierter GLP Schweiz"
+            },
+            "id": 31062,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23826,
+            "name": {
+              "de": "Wissenschaftlicher Mitarbeiter, BIIE"
+            },
+            "id": 31061,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23826?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23826?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23826?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151039
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151038
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6016,
+            "begin_date": null,
+            "id": 150955
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23826?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23826?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23826?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/6014"
+      },
+      "function_latest": {},
+      "id": 23836,
+      "lastname": "Jermann",
+      "firstname": "Marcel",
+      "body_key": "2829",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150990
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 150986
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150985
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23836?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23836?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23836?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/264646"
+      },
+      "function_latest": {},
+      "id": 23850,
+      "lastname": "Jurt",
+      "firstname": "Daniel",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Präsident VEEW (Vereinigung der Eigentümerinnen und Eigentümer Weid)"
+            },
+            "id": 31168,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Betriebsleiter Schiesssportanlage Sichtern"
+            },
+            "id": 31167,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Vorstand Schützengesellschaft Liestal"
+            },
+            "id": 31166,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Manager Fachstab/Krisenstab BAG RUAG MRO AG"
+            },
+            "id": 31165,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Eigentümer/Geschäftsführer ConEduSec GmbH"
+            },
+            "id": 31164,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23850,
+            "name": {
+              "de": "Präsident SVRB (Schiesssportverband Region Basel)"
+            },
+            "id": 31068,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23850?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23850?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23850?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151078
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 151045
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150952
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23850?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23850?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23850?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/40594"
+      },
+      "function_latest": {},
+      "id": 23837,
+      "lastname": "Küng",
+      "firstname": "Peter",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23837,
+            "name": {
+              "de": "Beisitzer Jugendrat BL"
+            },
+            "id": 31113,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23837,
+            "name": {
+              "de": "Einwohnerrat Liestal"
+            },
+            "id": 31112,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23837,
+            "name": {
+              "de": "Mitbesitzer der Wollare Gmbh"
+            },
+            "id": 31108,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23837,
+            "name": {
+              "de": "Verkäufer Abfüllerei Liestal"
+            },
+            "id": 31107,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23837?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23837?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23837?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151021
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151020
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150943
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23837?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/124035"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23856,
+      "lastname": "Meschberger",
+      "firstname": "Pascale",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23856,
+            "name": {
+              "de": "Landrätin SP"
+            },
+            "id": 31175,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23856,
+            "name": {
+              "de": "Co-Präsidentin SP Liestal und Umgebung"
+            },
+            "id": 31174,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23856,
+            "name": {
+              "de": "Oberärztin im Kantonsspital Baselland, Liestal"
+            },
+            "id": 31173,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23856?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23856?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23856?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6021,
+            "begin_date": null,
+            "id": 151108
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6023,
+            "begin_date": null,
+            "id": 151102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6028,
+            "begin_date": null,
+            "id": 151101
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6022,
+            "begin_date": null,
+            "id": 151100
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23856?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23856?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23856?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/79632"
+      },
+      "function_latest": {},
+      "id": 23822,
+      "lastname": "Meyer",
+      "firstname": "Denise",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23822,
+            "name": {
+              "de": "Einwohnerrat, Schulrat, Wahlbüro"
+            },
+            "id": 31122,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23822,
+            "name": {
+              "de": "Hausfrau"
+            },
+            "id": 31121,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23822?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23822?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23822?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6020,
+            "begin_date": null,
+            "id": 151047
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150994
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 150965
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6018,
+            "begin_date": null,
+            "id": 150961
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 150960
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150959
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23822?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23822?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23822?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/101398"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23857,
+      "lastname": "Muri",
+      "firstname": "Daniel",
+      "body_key": "2829",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6021,
+            "begin_date": null,
+            "id": 151112
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6026,
+            "begin_date": null,
+            "id": 151107
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6025,
+            "begin_date": null,
+            "id": 151106
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6027,
+            "begin_date": null,
+            "id": 151105
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6024,
+            "begin_date": null,
+            "id": 151104
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23857?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23857?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23857?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/64084"
+      },
+      "function_latest": {},
+      "id": 23835,
+      "lastname": "Mägli",
+      "firstname": "Patrick",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23835,
+            "name": {
+              "de": "Einwohnerrat Liestal"
+            },
+            "id": 31101,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23835,
+            "name": {
+              "de": "Stv. Leiter Rechtsdienst Bundeskanzlei"
+            },
+            "id": 31100,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23835?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23835?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23835?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151019
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151018
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150993
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150941
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23835?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/79634"
+      },
+      "function_latest": {},
+      "id": 23819,
+      "lastname": "Rudin",
+      "firstname": "Markus",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23819,
+            "name": {
+              "de": "Präsident Oldtimerverein der Feuerwehr Liestal"
+            },
+            "id": 31129,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23819,
+            "name": {
+              "de": "Einwohnerrat Liestal"
+            },
+            "id": 31128,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23819,
+            "name": {
+              "de": "Vizepräsident SVP Liestasl und Umgebung"
+            },
+            "id": 31127,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23819,
+            "name": {
+              "de": "Delegierter EBL Liestal"
+            },
+            "id": 31126,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23819,
+            "name": {
+              "de": "Inhaber OFM GmbH Inhaber"
+            },
+            "id": 31125,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23819?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23819?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23819?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151051
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 151050
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151022
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150995
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 150945
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23819?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/297755"
+      },
+      "function_latest": {},
+      "id": 23851,
+      "lastname": "Salathe",
+      "firstname": "Séverine",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23851,
+            "name": {
+              "de": "Vorstand Verein Spielweltenfabrik Liestal"
+            },
+            "id": 31072,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23851,
+            "name": {
+              "de": "Sozialarbeitende FH, Künstlerin in Teilselbständigkeit <a href=\"http://www.dasmussso.ch\" class=\"icms-link-ext\">www.dasmussso.ch</a>"
+            },
+            "id": 31071,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23851?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23851?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23851?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 151080
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151079
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 150967
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23851?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23851?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23851?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/152245"
+      },
+      "function_latest": {},
+      "id": 23845,
+      "lastname": "Schneider",
+      "firstname": "Domenic",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "OK Cherus Liestal"
+            },
+            "id": 31154,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Bürgerrat Liestal"
+            },
+            "id": 31153,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Einwohnerrat Liestal"
+            },
+            "id": 31152,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Präsident glp Liestal & Umgebung"
+            },
+            "id": 31151,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "glp Basellandschaft, Vize-Präsidnet"
+            },
+            "id": 31150,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Stiftungsrat Tierpark Weihermätteli"
+            },
+            "id": 31149,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Stiftungsrat Dichter- und Stadtmuseum"
+            },
+            "id": 31148,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23845,
+            "name": {
+              "de": "Head of Distribution Value Added Services, GS1 Switzerland"
+            },
+            "id": 31147,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23845?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23845?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23845?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151072
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6016,
+            "begin_date": null,
+            "id": 150949
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6008,
+            "begin_date": null,
+            "id": 150940
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23845?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23845?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23845?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/442786"
+      },
+      "function_latest": {},
+      "id": 23834,
+      "lastname": "Schwörer",
+      "firstname": "Daniel",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23834,
+            "name": {
+              "de": "Verein \"liestal.orientiert\", Vorstandsmitglied"
+            },
+            "id": 31172,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23834,
+            "name": {
+              "de": "Bürgerkommission Liestal, Mitglied"
+            },
+            "id": 31099,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23834,
+            "name": {
+              "de": "Stiftung Schulheim Röserental, Stiftungsratspräsident"
+            },
+            "id": 31098,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23834,
+            "name": {
+              "de": "FDP-int. Bildungskommission, Präsident"
+            },
+            "id": 31059,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23834?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23834?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23834?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151037
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6014,
+            "begin_date": null,
+            "id": 150977
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 150954
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23834?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23834?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23834?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/404131"
+      },
+      "function_latest": {},
+      "id": 23832,
+      "lastname": "Sutter",
+      "firstname": "Andreas",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23832,
+            "name": {
+              "de": "Unternehmer/Inhaber - Sutter Garten, Lausen"
+            },
+            "id": 31088,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23832?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23832?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23832?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151007
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151006
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151005
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6017,
+            "begin_date": null,
+            "id": 150972
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23832?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23832?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23832?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/152212"
+      },
+      "function_latest": {},
+      "id": 23848,
+      "lastname": "Tanner",
+      "firstname": "Tobias",
+      "body_key": "2829",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 151013
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6006,
+            "begin_date": null,
+            "id": 150951
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150950
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23848?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23848?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23848?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/247874"
+      },
+      "function_latest": {},
+      "id": 23829,
+      "lastname": "Weyeneth",
+      "firstname": "Anja",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23829,
+            "name": {
+              "de": "Initiative Neunutzung"
+            },
+            "id": 31159,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23829,
+            "name": {
+              "de": "OK Lichternacht / Liestal tanzt"
+            },
+            "id": 31158,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23829,
+            "name": {
+              "de": "Art Liestal, Vorstand"
+            },
+            "id": 31157,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23829,
+            "name": {
+              "de": "Bürgerkommission"
+            },
+            "id": 31156,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23829,
+            "name": {
+              "de": "Eingliederungsstätte Baselland Liestal, Stabsstelle Öffentlichkeitsarbeit"
+            },
+            "id": 31155,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23829?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23829?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23829?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6015,
+            "begin_date": null,
+            "id": 151099
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6010,
+            "begin_date": null,
+            "id": 151073
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150996
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23829?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23829?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23829?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/393934"
+      },
+      "function_latest": {},
+      "id": 23824,
+      "lastname": "Wiesner",
+      "firstname": "Simon",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23824,
+            "name": {
+              "de": "Vizepräsident, Wagenclique Burgstroosknaller Liestal"
+            },
+            "id": 31090,
+            "body_key": "2829"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 23824,
+            "name": {
+              "de": "Wirtschaftsingenieur, F. Hoffmann-La Roche AG, Kaiseraugst"
+            },
+            "id": 31089,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23824?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23824?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23824?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151030
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 151028
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 150973
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23824?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.liestal.ch/_rte/person/382024"
+      },
+      "function_latest": {},
+      "id": 23825,
+      "lastname": "Ziegler",
+      "firstname": "Marius",
+      "body_key": "2829",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 23825,
+            "name": {
+              "de": "Geschäftsführer/Geschäftsinhaber Ziegler Brot AG"
+            },
+            "id": 31091,
+            "body_key": "2829"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23825?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23825?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23825?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6011,
+            "begin_date": null,
+            "id": 151095
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6013,
+            "begin_date": null,
+            "id": 151032
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6009,
+            "begin_date": null,
+            "id": 151031
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6007,
+            "begin_date": null,
+            "id": 151017
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6012,
+            "begin_date": null,
+            "id": 150953
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23825?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23825?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23825?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

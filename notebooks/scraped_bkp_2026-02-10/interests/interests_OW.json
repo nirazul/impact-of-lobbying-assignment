@@ -1,0 +1,4733 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 58,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=OW&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=OW&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=OW&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/21289"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16176,
+      "lastname": "Abächerli",
+      "firstname": "Peter",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2018-06-29",
+            "id": 76386
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2018-07-06",
+            "id": 76292
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76291
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2021-09-09",
+            "id": 76290
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2018-07-06",
+            "id": 76289
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3838,
+            "begin_date": "2018-06-29",
+            "id": 76288
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2020-06-26",
+            "id": 76287
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16176?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/24451"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16225,
+      "lastname": "Abächerli",
+      "firstname": "Trudi",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2020-06-26",
+            "id": 76392
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3866,
+            "begin_date": null,
+            "id": 76315
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2022-07-04",
+            "id": 76314
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2024-06-28",
+            "id": 76313
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2020-06-29",
+            "id": 76312
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16225?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16225?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16225?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/5953"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16204,
+      "lastname": "Albert",
+      "firstname": "Ambros",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173862
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2012-07-01",
+            "id": 76540
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76539
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2012-07-01",
+            "id": 76538
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2019-09-12",
+            "id": 76537
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 76536
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3863,
+            "begin_date": null,
+            "id": 76535
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2018-07-06",
+            "id": 76534
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2018-07-06",
+            "id": 76533
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16204?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/22708"
+      },
+      "function_latest": {},
+      "id": 16228,
+      "lastname": "Allenbach",
+      "firstname": "Josef",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2019-06-28",
+            "id": 76389
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2019-07-02",
+            "id": 76303
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16228?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/19820"
+      },
+      "function_latest": {
+        "de": "Regierungsrat"
+      },
+      "id": 16285,
+      "lastname": "Amstad",
+      "firstname": "Christoph",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2016-07-01",
+            "id": 77338
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4074,
+            "begin_date": null,
+            "id": 77333
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16285?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28007"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16178,
+      "lastname": "Baumgartner",
+      "firstname": "Thomas",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173851
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 76400
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2022-07-04",
+            "id": 76344
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76343
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2024-10-31",
+            "id": 76342
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76341
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16178?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16178?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16178?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/24466"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16186,
+      "lastname": "Blättler",
+      "firstname": "Daniel",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 76396
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2024-06-28",
+            "id": 76330
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2020-06-26",
+            "id": 76329
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16186?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16186?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16186?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28010"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16210,
+      "lastname": "Brunner",
+      "firstname": "Robert",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76398
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2022-07-01",
+            "id": 76336
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2022-07-04",
+            "id": 76335
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16210?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/34630"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 22316,
+      "lastname": "Bucher",
+      "firstname": "Manuel",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2025-06-27",
+            "id": 104332
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2025-06-27",
+            "id": 104331
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2025-06-27",
+            "id": 104330
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 104329
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22316?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22316?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22316?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28013"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16187,
+      "lastname": "Castelanelli",
+      "firstname": "Franco",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173852
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76401
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2022-07-04",
+            "id": 76346
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2022-07-04",
+            "id": 76345
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16187?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16187?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16187?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/19815"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16199,
+      "lastname": "Dillier",
+      "firstname": "Benno",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2019-09-12",
+            "id": 104559
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2016-07-01",
+            "id": 76379
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2022-07-04",
+            "id": 76261
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2025-01-23",
+            "id": 76260
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76259
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3837,
+            "begin_date": "2016-07-05",
+            "id": 76258
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2020-06-29",
+            "id": 76257
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2018-06-29",
+            "id": 76256
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2016-07-05",
+            "id": 76255
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16199?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16199?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16199?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/34639"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 22319,
+      "lastname": "Ettlin",
+      "firstname": "Werner",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173860
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 104583
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2025-06-27",
+            "id": 104582
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2025-06-27",
+            "id": 104581
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22319?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22319?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22319?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/20192"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16175,
+      "lastname": "Fanger",
+      "firstname": "Remo",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173847
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2017-06-30",
+            "id": 76383
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2017-06-30",
+            "id": 76275
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2018-06-29",
+            "id": 76274
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2017-06-30",
+            "id": 76273
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3837,
+            "begin_date": "2017-07-01",
+            "id": 76272
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16175?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16175?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16175?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/21304"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16185,
+      "lastname": "Feierabend",
+      "firstname": "Karl",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2020-09-10",
+            "id": 104561
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2018-06-29",
+            "id": 76388
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2018-07-06",
+            "id": 76302
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76301
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2019-07-01",
+            "id": 76300
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2020-06-29",
+            "id": 76299
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16185?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16185?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16185?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28016"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16194,
+      "lastname": "Flück",
+      "firstname": "Stefan",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173853
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2025-06-27",
+            "id": 104563
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76399
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76340
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2023-11-30",
+            "id": 76339
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2022-07-01",
+            "id": 76338
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3839,
+            "begin_date": "2022-07-07",
+            "id": 76337
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2023-09-14",
+            "id": 47128
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16194?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16194?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16194?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/4496"
+      },
+      "function_latest": {
+        "de": "Landschreiber"
+      },
+      "id": 16289,
+      "lastname": "Frunz Wallimann",
+      "firstname": "Nicole",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2018-01-01",
+            "id": 77342
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1698,
+            "begin_date": null,
+            "id": 77336
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4077,
+            "begin_date": null,
+            "id": 77330
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4076,
+            "begin_date": null,
+            "id": 77329
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16289?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/13829"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16174,
+      "lastname": "Gasser",
+      "firstname": "Andreas",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-06-26",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76377
+          },
+          {
+            "active": true,
+            "end_date": "2025-06-27",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2020-06-29",
+            "id": 76249
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2014-06-27",
+            "id": 76248
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2019-09-12",
+            "id": 76247
+          },
+          {
+            "active": true,
+            "end_date": "2025-06-27",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2020-06-29",
+            "id": 76246
+          },
+          {
+            "active": true,
+            "end_date": "2025-06-27",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2014-06-27",
+            "id": 76245
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16174?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16174?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16174?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/34477"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 22320,
+      "lastname": "Gasser",
+      "firstname": "Sebastian",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 104569
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2025-06-27",
+            "id": 104568
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2025-05-22",
+            "id": 104567
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2025-06-27",
+            "id": 104566
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22320?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/19811"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16183,
+      "lastname": "Haueter",
+      "firstname": "Adrian",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2019-09-12",
+            "id": 104558
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2016-07-01",
+            "id": 76378
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2016-07-05",
+            "id": 76254
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3865,
+            "begin_date": null,
+            "id": 76253
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76252
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2022-07-04",
+            "id": 76251
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2022-07-01",
+            "id": 76250
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16183?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16183?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16183?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/4586"
+      },
+      "function_latest": {
+        "de": "Regierungsrat"
+      },
+      "id": 16286,
+      "lastname": "Hess",
+      "firstname": "Josef",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2017-07-01",
+            "id": 77339
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1148,
+            "begin_date": null,
+            "id": 77332
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1653,
+            "begin_date": null,
+            "id": 52327
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16286?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/24448"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16192,
+      "lastname": "Hug",
+      "firstname": "Martin",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2020-06-26",
+            "id": 76390
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76306
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76305
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2022-07-01",
+            "id": 76304
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16192?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16192?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16192?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/21298"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16208,
+      "lastname": "Höchli",
+      "firstname": "Alex",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173849
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173848
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2019-09-12",
+            "id": 104562
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2018-06-29",
+            "id": 76385
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76286
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76285
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76284
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2020-06-29",
+            "id": 76283
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1914,
+            "begin_date": "2024-06-28",
+            "id": 76282
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2023-11-30",
+            "id": 76281
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16208?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28019"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16202,
+      "lastname": "Hüppi",
+      "firstname": "Damian",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76404
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2022-07-04",
+            "id": 76359
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76358
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2022-07-04",
+            "id": 76357
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2024-06-28",
+            "id": 76356
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16202?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16202?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16202?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/22702"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16200,
+      "lastname": "Imfeld",
+      "firstname": "Dominik",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2019-06-28",
+            "id": 76387
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2022-07-04",
+            "id": 76298
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76297
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2019-07-02",
+            "id": 76296
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2020-06-26",
+            "id": 76295
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3841,
+            "begin_date": "2019-07-02",
+            "id": 76294
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2024-06-28",
+            "id": 76293
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16200?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16200?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16200?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/24457"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16209,
+      "lastname": "Jaggi",
+      "firstname": "Gregor",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2020-06-26",
+            "id": 76394
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2022-07-04",
+            "id": 76323
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2022-09-15",
+            "id": 76322
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16209?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16209?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16209?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/13828"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16198,
+      "lastname": "Jöri",
+      "firstname": "Marcel",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2014-06-27",
+            "id": 76373
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76224
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2023-07-04",
+            "id": 76223
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2022-09-15",
+            "id": 76222
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76221
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2014-06-27",
+            "id": 76220
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2015-09-03",
+            "id": 76219
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3863,
+            "begin_date": null,
+            "id": 76218
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2022-07-04",
+            "id": 76217
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3838,
+            "begin_date": "2016-07-05",
+            "id": 76216
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2016-07-01",
+            "id": 76215
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2020-06-29",
+            "id": 76214
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16198?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16198?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16198?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/32131"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16226,
+      "lastname": "Kathriner",
+      "firstname": "Franziska",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2024-06-28",
+            "id": 76435
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2024-06-28",
+            "id": 76434
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76433
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16226?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/27947"
+      },
+      "function_latest": {
+        "de": "Landstatthalter"
+      },
+      "id": 16287,
+      "lastname": "Kaufmann-Hurschler",
+      "firstname": "Cornelia",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2022-07-01",
+            "id": 77340
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4073,
+            "begin_date": null,
+            "id": 77334
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3866,
+            "begin_date": null,
+            "id": 77327
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4077,
+            "begin_date": null,
+            "id": 77326
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4076,
+            "begin_date": null,
+            "id": 52693
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16287?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/19812"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16220,
+      "lastname": "Kiser",
+      "firstname": "Vreni",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173846
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2016-07-01",
+            "id": 76376
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2018-07-06",
+            "id": 76244
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76243
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76242
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3862,
+            "begin_date": null,
+            "id": 76241
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76240
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2016-07-05",
+            "id": 76239
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2021-09-09",
+            "id": 76238
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2019-07-02",
+            "id": 76237
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16220?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16220?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16220?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28022"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16179,
+      "lastname": "Kohler",
+      "firstname": "Peter",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76406
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2022-07-04",
+            "id": 76366
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2022-07-04",
+            "id": 76365
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2022-07-04",
+            "id": 76364
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16179?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16179?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16179?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28025"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16211,
+      "lastname": "Krummenacher",
+      "firstname": "Peter",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173854
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2025-05-22",
+            "id": 104564
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76402
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2022-07-04",
+            "id": 76350
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2022-07-01",
+            "id": 76349
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3836,
+            "begin_date": "2022-07-07",
+            "id": 76348
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2022-07-04",
+            "id": 76347
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16211?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16211?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16211?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28028"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16188,
+      "lastname": "Kurer",
+      "firstname": "Frank",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173855
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76405
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76363
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2022-07-01",
+            "id": 76362
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2022-07-04",
+            "id": 76361
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2022-07-04",
+            "id": 76360
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16188?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16188?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16188?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/22693"
+      },
+      "function_latest": {},
+      "id": 16222,
+      "lastname": "Kurz",
+      "firstname": "Roland",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2019-09-12",
+            "id": 104560
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2019-06-28",
+            "id": 76384
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2020-06-29",
+            "id": 76280
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2025-06-27",
+            "id": 76279
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2019-06-28",
+            "id": 76278
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2022-07-01",
+            "id": 76277
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2019-07-02",
+            "id": 76276
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16222?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16222?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16222?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/32137"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16213,
+      "lastname": "Küchler",
+      "firstname": "Marius",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2025-06-27",
+            "id": 104570
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76431
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76426
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76425
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2025-01-23",
+            "id": 76424
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3840,
+            "begin_date": "2024-07-04",
+            "id": 76423
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16213?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/21265"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16207,
+      "lastname": "Lötscher",
+      "firstname": "Peter",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2018-06-28",
+            "id": 76380
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2019-01-24",
+            "id": 76263
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2019-06-28",
+            "id": 76262
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2018-07-06",
+            "id": 47088
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16207?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16207?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16207?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28004"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16201,
+      "lastname": "Mahler",
+      "firstname": "Martin",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173850
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76397
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2022-07-04",
+            "id": 76334
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2025-06-27",
+            "id": 76333
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2022-07-04",
+            "id": 76332
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2022-07-01",
+            "id": 76331
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16201?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28031"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16195,
+      "lastname": "Matter",
+      "firstname": "Patrick",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76403
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2022-07-04",
+            "id": 76355
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76354
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2022-07-04",
+            "id": 76353
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2022-07-01",
+            "id": 76352
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2022-07-04",
+            "id": 76351
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16195?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16195?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16195?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/22705"
+      },
+      "function_latest": {},
+      "id": 16214,
+      "lastname": "Michel",
+      "firstname": "Thomas",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2019-06-28",
+            "id": 76391
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76311
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76310
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76309
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2024-06-28",
+            "id": 76308
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3840,
+            "begin_date": "2022-07-07",
+            "id": 76307
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16214?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/5950"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16229,
+      "lastname": "Morger",
+      "firstname": "Eva",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76452
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2021-05-27",
+            "id": 76451
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2012-07-01",
+            "id": 76450
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2018-06-29",
+            "id": 76449
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2012-07-01",
+            "id": 76448
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16229?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/13824"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16205,
+      "lastname": "Rohrer",
+      "firstname": "Dominik",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2014-06-27",
+            "id": 76371
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2014-06-27",
+            "id": 76209
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2016-07-05",
+            "id": 76208
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2024-06-28",
+            "id": 76207
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16205?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16205?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16205?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/21283"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16224,
+      "lastname": "Rohrer-Stimming",
+      "firstname": "Petra",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 76382
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2019-01-24",
+            "id": 76271
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2018-07-06",
+            "id": 76270
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1843,
+            "begin_date": null,
+            "id": 76269
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2019-07-02",
+            "id": 76268
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2022-07-04",
+            "id": 76267
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16224?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16224?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16224?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/32140"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16218,
+      "lastname": "Rötheli",
+      "firstname": "Kristina",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76432
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76430
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2024-06-28",
+            "id": 76429
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2024-06-28",
+            "id": 76428
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2024-06-28",
+            "id": 76427
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16218?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16218?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16218?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/34633"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 22321,
+      "lastname": "Schelbert",
+      "firstname": "Marcel",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173859
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173858
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 104579
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2025-06-27",
+            "id": 104578
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2025-06-27",
+            "id": 104577
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2025-06-27",
+            "id": 104576
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1914,
+            "begin_date": "2025-06-27",
+            "id": 104575
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2025-06-27",
+            "id": 104574
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22321?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22321?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22321?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/26068"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16193,
+      "lastname": "Schrackmann",
+      "firstname": "Thomas",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2021-06-25",
+            "id": 76393
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2022-07-04",
+            "id": 76321
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3856,
+            "begin_date": "2023-10-26",
+            "id": 76320
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2023-11-30",
+            "id": 76319
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76318
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2023-07-04",
+            "id": 76317
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2021-05-27",
+            "id": 76316
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16193?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16193?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16193?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/5951"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16190,
+      "lastname": "Schumacher",
+      "firstname": "Hubert",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2019-09-12",
+            "id": 104580
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2024-06-28",
+            "id": 76532
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2024-06-28",
+            "id": 76531
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 76530
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3864,
+            "begin_date": null,
+            "id": 76529
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3836,
+            "begin_date": "2015-02-03",
+            "id": 76528
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2012-07-01",
+            "id": 76527
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16190?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/21331"
+      },
+      "function_latest": {
+        "de": "Regierungsrat"
+      },
+      "id": 16288,
+      "lastname": "Schäli",
+      "firstname": "Christian",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2018-01-01",
+            "id": 77341
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4071,
+            "begin_date": null,
+            "id": 77335
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4085,
+            "begin_date": null,
+            "id": 77328
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16288?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28034"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16203,
+      "lastname": "Sigg",
+      "firstname": "Martin",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1914,
+            "begin_date": "2025-06-27",
+            "id": 104245
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76415
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2022-07-04",
+            "id": 76414
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2022-09-15",
+            "id": 76413
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16203?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16203?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16203?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/34474"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 22318,
+      "lastname": "Stuppan",
+      "firstname": "Sebastian",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173857
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2025-06-27",
+            "id": 104573
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5447,
+            "begin_date": "2025-06-27",
+            "id": 104572
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3841,
+            "begin_date": "2025-06-27",
+            "id": 104571
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22318?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22318?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22318?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28037"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16180,
+      "lastname": "Vogel",
+      "firstname": "Beat",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76422
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76421
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2022-07-04",
+            "id": 76420
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2022-07-01",
+            "id": 76419
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16180?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16180?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16180?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/19464"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16206,
+      "lastname": "Vogler",
+      "firstname": "Niklaus",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173845
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2013-04-25",
+            "id": 76375
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2018-07-06",
+            "id": 76236
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3860,
+            "begin_date": "2025-01-23",
+            "id": 76235
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2018-07-06",
+            "id": 76234
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2018-07-06",
+            "id": 76233
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2021-06-25",
+            "id": 76232
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2019-09-12",
+            "id": 76231
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2013-04-25",
+            "id": 76230
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3839,
+            "begin_date": "2022-07-07",
+            "id": 76229
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16206?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28040"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16212,
+      "lastname": "Vogler",
+      "firstname": "Tim",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76407
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2022-07-04",
+            "id": 76370
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2022-09-15",
+            "id": 76369
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76368
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2022-07-04",
+            "id": 76367
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16212?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16212?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16212?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/4672"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16227,
+      "lastname": "Wagner",
+      "firstname": "Veronika",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2010-07-01",
+            "id": 76520
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2019-01-24",
+            "id": 76519
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3851,
+            "begin_date": "2012-07-01",
+            "id": 76455
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1883,
+            "begin_date": "2022-07-01",
+            "id": 76454
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2010-07-01",
+            "id": 76453
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16227?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/32143"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16196,
+      "lastname": "Wallimann",
+      "firstname": "Severin",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76442
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3859,
+            "begin_date": "2024-12-06",
+            "id": 76441
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3375,
+            "begin_date": "2024-06-28",
+            "id": 76440
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3852,
+            "begin_date": "2024-06-28",
+            "id": 76439
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2024-06-28",
+            "id": 76438
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3609,
+            "begin_date": "2024-06-28",
+            "id": 76437
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1855,
+            "begin_date": "2024-06-28",
+            "id": 76436
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16196?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16196?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16196?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/5952"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16197,
+      "lastname": "Wallimann",
+      "firstname": "Reto",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6177,
+            "begin_date": "2025-12-04",
+            "id": 173861
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3713,
+            "begin_date": "2014-06-27",
+            "id": 76526
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3844,
+            "begin_date": "2020-06-29",
+            "id": 76525
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3865,
+            "begin_date": null,
+            "id": 76524
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2012-07-01",
+            "id": 76523
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2022-09-15",
+            "id": 76522
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1419,
+            "begin_date": "2019-07-02",
+            "id": 76521
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16197?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/28043"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16189,
+      "lastname": "Wild",
+      "firstname": "Peter",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3858,
+            "begin_date": "2024-12-06",
+            "id": 76412
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2024-06-28",
+            "id": 76411
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2022-07-01",
+            "id": 76410
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3854,
+            "begin_date": "2024-06-28",
+            "id": 76409
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2022-07-04",
+            "id": 76408
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16189?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16189?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16189?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/30109"
+      },
+      "function_latest": {
+        "de": "Kantonsrätin"
+      },
+      "id": 16223,
+      "lastname": "Windlin-Wettstein",
+      "firstname": "Yvette",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6178,
+            "begin_date": "2025-12-04",
+            "id": 173856
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2023-07-01",
+            "id": 76418
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3853,
+            "begin_date": "2023-07-04",
+            "id": 76417
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2023-07-04",
+            "id": 76416
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16223?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16223?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16223?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/_rte/person/4713"
+      },
+      "function_latest": {
+        "de": "Landammann"
+      },
+      "id": 16290,
+      "lastname": "Wyler",
+      "firstname": "Daniel",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4075,
+            "begin_date": "2018-01-01",
+            "id": 77343
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4072,
+            "begin_date": null,
+            "id": 77337
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4070,
+            "begin_date": null,
+            "id": 77331
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16290?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ow.ch/behoerdenmitglieder/32134"
+      },
+      "function_latest": {
+        "de": "Kantonsrat"
+      },
+      "id": 16181,
+      "lastname": "von",
+      "firstname": "Ah",
+      "body_key": "OW",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3857,
+            "begin_date": "2024-06-28",
+            "id": 76447
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3842,
+            "begin_date": "2024-06-28",
+            "id": 76446
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1526,
+            "begin_date": "2024-06-28",
+            "id": 76445
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3843,
+            "begin_date": "2024-06-28",
+            "id": 76444
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3855,
+            "begin_date": "2024-06-28",
+            "id": 76443
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16181?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16181?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16181?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

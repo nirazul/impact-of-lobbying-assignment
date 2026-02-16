@@ -1,0 +1,4934 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 53,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=131&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=131&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=131&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94738"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 732,
+      "lastname": "Acar",
+      "firstname": "Sait",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 732,
+            "name": {
+              "de": "Stiftung Emilienheim, 8802 Kilchberg"
+            },
+            "id": 1328,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/732?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/732?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/732?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2022-04-01",
+            "id": 2105
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2014-06-05",
+            "id": 2104
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2022-11-02",
+            "id": 2103
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2022-04-01",
+            "id": 2102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2101
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/732?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/732?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/732?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/380056"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 503,
+      "lastname": "Bachmann",
+      "firstname": "Julian",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 503,
+            "name": {
+              "de": "Forstwart, Küsnacht"
+            },
+            "id": 1280,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/503?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/503?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/503?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2024-03-06",
+            "id": 167982
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2024-03-06",
+            "id": 1296
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2024-03-01",
+            "id": 1295
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1293
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/503?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/503?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/503?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/419398"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 22442,
+      "lastname": "Bachofen",
+      "firstname": "Stefanie",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22442,
+            "name": {
+              "de": "UBS"
+            },
+            "id": 28302,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22442?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22442?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22442?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 117151
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 243,
+            "begin_date": "2025-05-01",
+            "id": 117150
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22442?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94732"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 524,
+      "lastname": "Baldegger",
+      "firstname": "Harry",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 524,
+            "name": {
+              "de": "Geberit Vertriebs AG, 8645 Jona"
+            },
+            "id": 1323,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/524?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/524?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/524?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2010-05-12",
+            "id": 167984
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2025-05-01",
+            "id": 117149
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 243,
+            "begin_date": "2010-05-12",
+            "id": 2084
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2010-05-12",
+            "id": 2083
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2082
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/524?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/524?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/524?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/149539"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1261,
+      "lastname": "Broggini",
+      "firstname": "Angela",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1261,
+            "name": {
+              "de": "Universitätsspital Zürich, 8091 Zürich"
+            },
+            "id": 1266,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1261?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1261?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1261?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2018-05-09",
+            "id": 1141
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2022-05-04",
+            "id": 1139
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 233,
+            "begin_date": "2018-05-09",
+            "id": 1135
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1134
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1261?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/389095"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1274,
+      "lastname": "Buchmann",
+      "firstname": "Reto",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1274,
+            "name": {
+              "de": "Techgroup Schweiz AG"
+            },
+            "id": 1282,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1274?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1274?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1274?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 1316
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2018-05-09",
+            "id": 1314
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2018-05-09",
+            "id": 1308
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1307
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1274?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/416440"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1289,
+      "lastname": "Buchmann",
+      "firstname": "Reto",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1289,
+            "name": {
+              "de": "Techgroup Schweiz AG"
+            },
+            "id": 1308,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1289?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1289?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1289?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 2065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2018-05-09",
+            "id": 2064
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2018-05-09",
+            "id": 2063
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2062
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1289?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/107664"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1253,
+      "lastname": "Buchmann-Bach",
+      "firstname": "Vera",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1253,
+            "name": {
+              "de": "Publics Communications Schweiz AG, Zürich"
+            },
+            "id": 1260,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1253?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1253?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1253?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2017-01-01",
+            "id": 167980
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2017-01-01",
+            "id": 2028
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2015-11-16",
+            "id": 2027
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2026
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1253?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/417448"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Bildung"
+      },
+      "id": 1290,
+      "lastname": "Bürgi",
+      "firstname": "Markus",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1290,
+            "name": {
+              "de": "Verein Adventskrippe Adliswil"
+            },
+            "id": 1311,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1290,
+            "name": {
+              "de": "HEV Adliswil-Langnau"
+            },
+            "id": 1310,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1290,
+            "name": {
+              "de": "Swiss Finance Institute Stiftung"
+            },
+            "id": 1309,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1290?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1290?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1290?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 2068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 2067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 226,
+            "begin_date": "2018-07-01",
+            "id": 2066
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1290?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94726"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Bildung"
+      },
+      "id": 1299,
+      "lastname": "Bürgi",
+      "firstname": "Markus",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1299,
+            "name": {
+              "de": "Verein Adventskrippe Adliswil"
+            },
+            "id": 1316,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1299,
+            "name": {
+              "de": "Swiss Finance Institute Stiftung"
+            },
+            "id": 1315,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1299,
+            "name": {
+              "de": "HEV Adliswil-Langnau"
+            },
+            "id": 1313,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1299?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1299?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1299?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 2075
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 2074
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 226,
+            "begin_date": null,
+            "id": 2073
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 226,
+            "begin_date": "2018-07-01",
+            "id": 2072
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1299?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1299?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1299?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/380065"
+      },
+      "function_latest": {
+        "de": "Weibel"
+      },
+      "id": 515,
+      "lastname": "Charaabi-Krenz",
+      "firstname": "Denise",
+      "body_key": "131",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1300
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/515?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/515?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/515?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94733"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1302,
+      "lastname": "Corrodi",
+      "firstname": "Bernhard",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1302,
+            "name": {
+              "de": "Mitglied Kultur Adliswil"
+            },
+            "id": 1324,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1302?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1302?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1302?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 243,
+            "begin_date": "2014-06-05",
+            "id": 2088
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 2087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2018-05-09",
+            "id": 2086
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2085
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1302?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/276283"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 611,
+      "lastname": "Eggenberger",
+      "firstname": "Daniela",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 611,
+            "name": {
+              "de": "Eggenberger Hauswartungen GmbH"
+            },
+            "id": 1269,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/611?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/611?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/611?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2022-05-04",
+            "id": 1152
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2021-10-01",
+            "id": 1151
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1150
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/611?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/611?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/611?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/106565"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1252,
+      "lastname": "Engel",
+      "firstname": "Pascal",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1252,
+            "name": {
+              "de": "Verwaltungsrat, Man (Europe) AG, Vaduz LI"
+            },
+            "id": 1259,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1252,
+            "name": {
+              "de": "Chief Risk Officer, Asteria Investment Managers, Genf"
+            },
+            "id": 1258,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1252,
+            "name": {
+              "de": "Man Investments (CH) AG, Pfäffikon SZ"
+            },
+            "id": 1257,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1252?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1252?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1252?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2018-05-09",
+            "id": 2025
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2014-10-01",
+            "id": 2024
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2022
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1252?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/118724"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1255,
+      "lastname": "Etemi",
+      "firstname": "Xhelajdin",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1255,
+            "name": {
+              "de": "Vorstand, Humanitärer Verein Corrotica"
+            },
+            "id": 1262,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1255,
+            "name": {
+              "de": "Projektleiter, Guyer Wärme und Wasser AG"
+            },
+            "id": 1261,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1255?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1255?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1255?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2016-12-07",
+            "id": 2031
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2016-11-04",
+            "id": 2030
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2029
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1255?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/382069"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1273,
+      "lastname": "Falbriard",
+      "firstname": "Yannick",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1273,
+            "name": {
+              "de": "entrée Architekten & Ingenieure AG, Adliswil - Berufliche Tätigkeit"
+            },
+            "id": 882,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1273?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1273?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1273?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2024-07-01",
+            "id": 1303
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1302
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/395143"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Finanzen"
+      },
+      "id": 1283,
+      "lastname": "Fein",
+      "firstname": "Karin",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1283,
+            "name": {
+              "de": "Leiterin Finanzkontrolle Kanton Luzern"
+            },
+            "id": 1292,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1283?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1283?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1283?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 2051
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 2050
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1283?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94734"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 1303,
+      "lastname": "Frei",
+      "firstname": "Daniel",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1303,
+            "name": {
+              "de": "Tareno AG, Calridenstr. 34, 8002 Zürich  - Berufliche Tätigkeit"
+            },
+            "id": 1325,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1303?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1303?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1303?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 243,
+            "begin_date": "2009-07-03",
+            "id": 2093
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2009-07-03",
+            "id": 2092
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2024-09-01",
+            "id": 2091
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2018-01-01",
+            "id": 2090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2089
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1303?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/320869"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1095,
+      "lastname": "Geissler",
+      "firstname": "Heinz",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1095,
+            "name": {
+              "de": "Hallenstadion Gastronomie"
+            },
+            "id": 1274,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1095?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1095?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1095?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2022-11-15",
+            "id": 1277
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2023-01-01",
+            "id": 1275
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2022-11-15",
+            "id": 1274
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1273
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1095?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1095?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1095?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/149557"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1262,
+      "lastname": "Helbling",
+      "firstname": "Silvia",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1262,
+            "name": {
+              "de": "Swiss Finance Institute, Zürich"
+            },
+            "id": 1267,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1262?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1262?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1262?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2018-05-09",
+            "id": 799
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2023-11-15",
+            "id": 422
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2018-05-09",
+            "id": 388
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 354
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1262?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/131588"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsident"
+      },
+      "id": 1260,
+      "lastname": "Huber",
+      "firstname": "Sebastian",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1260,
+            "name": {
+              "de": "Angst + Pfister AG Schweiz"
+            },
+            "id": 1265,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1260?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1260?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1260?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2023-02-01",
+            "id": 167979
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 1075
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 1069
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2023-02-01",
+            "id": 1068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2018-05-09",
+            "id": 1067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2017-10-01",
+            "id": 1065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1064
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1260?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/413509"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1285,
+      "lastname": "Huber",
+      "firstname": "Urs",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1285,
+            "name": {
+              "de": "selbständig, Onkozentrum Zürich"
+            },
+            "id": 1296,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1285,
+            "name": {
+              "de": "Präsident des Stiftungsrates PALLIAVIVA"
+            },
+            "id": 1295,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1285,
+            "name": {
+              "de": "Stiftungsrat, Swiss Tumor Institut"
+            },
+            "id": 1294,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1285,
+            "name": {
+              "de": "ärztlicher Beirat, Laborkommission Zetlab"
+            },
+            "id": 1293,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1285?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1285?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1285?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2023-01-01",
+            "id": 2053
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2052
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1285?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94728"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1300,
+      "lastname": "Iseli",
+      "firstname": "Thomas",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1300,
+            "name": {
+              "de": "Präsident RPK der Kirche Sihltal"
+            },
+            "id": 1319,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1300,
+            "name": {
+              "de": "Tancho Holding AG, 6300 Zug"
+            },
+            "id": 1318,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1300,
+            "name": {
+              "de": "Vorstandsmitglied des Vereins Kulturschachtle Adliswil, Finanzen"
+            },
+            "id": 1317,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1300?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1300?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1300?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2022-05-04",
+            "id": 167983
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2022-05-04",
+            "id": 2078
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "1990-03-18",
+            "id": 2077
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2076
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1300?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/390046"
+      },
+      "function_latest": {
+        "de": "Präsident, Mitglied"
+      },
+      "id": 1278,
+      "lastname": "Jacoma",
+      "firstname": "Martial",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1278,
+            "name": {
+              "de": "Universitätsspital Zürich"
+            },
+            "id": 1284,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1278?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1278?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1278?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 117148
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2022-05-04",
+            "id": 117147
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 2040
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2022-05-04",
+            "id": 2039
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2025-05-07",
+            "id": 2038
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2022-05-04",
+            "id": 2037
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2036
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1278?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/393544"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1279,
+      "lastname": "Jacomet",
+      "firstname": "Renato",
+      "body_key": "131",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2014-12-12",
+            "id": 2044
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 239,
+            "begin_date": "2018-05-09",
+            "id": 2043
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2014-12-12",
+            "id": 2042
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2041
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1279?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/395134"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Bau und Planung"
+      },
+      "id": 1282,
+      "lastname": "Keller",
+      "firstname": "Felix",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1282,
+            "name": {
+              "de": "Felix Keller Blitzschutzkontrollen und Beratung Gebäudehülle, Rüschlikon"
+            },
+            "id": 1291,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1282,
+            "name": {
+              "de": "Verein Kulturschachtle Adliswil"
+            },
+            "id": 1290,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1282,
+            "name": {
+              "de": "Spenglerei Zimmerberg AG, Rüschlikon"
+            },
+            "id": 1289,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1282,
+            "name": {
+              "de": "GVZ Gebäudeversicherung, Zürich"
+            },
+            "id": 1288,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1282?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1282?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1282?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2014-03-30",
+            "id": 2049
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2014-05-06",
+            "id": 2048
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1282?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/416086"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Bau und Planung"
+      },
+      "id": 1286,
+      "lastname": "Keller",
+      "firstname": "Felix",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1286,
+            "name": {
+              "de": "Spenglerei Zimmerberg AG, Rüschlikon"
+            },
+            "id": 1300,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1286,
+            "name": {
+              "de": "GVZ Gebäudeversicherung, Zürich"
+            },
+            "id": 1299,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1286,
+            "name": {
+              "de": "Felix Keller Blitzschutzkontrollen und Beratung Gebäudehülle, Rüschlikon"
+            },
+            "id": 1298,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1286,
+            "name": {
+              "de": "Felix Keller Blitzschutzkontrollen und Beratung Gebäudehülle, Rüschlikon"
+            },
+            "id": 1297,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1286?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1286?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1286?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2015-03-31",
+            "id": 2055
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2014-03-30",
+            "id": 2054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2014-05-06",
+            "id": 1011
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1286?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94747"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1309,
+      "lastname": "Künzler",
+      "firstname": "Urs",
+      "body_key": "131",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2014-06-05",
+            "id": 2118
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2020-12-09",
+            "id": 2117
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2020-12-09",
+            "id": 2116
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2019-01-01",
+            "id": 2115
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2014-06-05",
+            "id": 2114
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2113
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1309?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1309?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1309?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94742"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1307,
+      "lastname": "Liedtke",
+      "firstname": "Wolfgang",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1307,
+            "name": {
+              "de": "Vorstandsvorsitzender Deutsche Afghanistan Frauen- und Kinderhilfe e.V."
+            },
+            "id": 1330,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1307,
+            "name": {
+              "de": "AWK Group AG, 8050 Zürich"
+            },
+            "id": 1329,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1307?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1307?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1307?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 2109
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2020-03-04",
+            "id": 2108
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2014-06-05",
+            "id": 2107
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2106
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1307?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1307?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1307?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/416089"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Werkbetriebe"
+      },
+      "id": 1287,
+      "lastname": "Marty Fässler",
+      "firstname": "Carmen",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1287,
+            "name": {
+              "de": "Stiftung Züriwerk"
+            },
+            "id": 1303,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1287,
+            "name": {
+              "de": "ZAV Logistik AG"
+            },
+            "id": 1302,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1287,
+            "name": {
+              "de": "Kantonsrat Zürich"
+            },
+            "id": 1301,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1287?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1287?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1287?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 2058
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 2057
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2018-07-01",
+            "id": 2056
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1287?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/423979"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Werkbetriebe"
+      },
+      "id": 22443,
+      "lastname": "Marty Fässler",
+      "firstname": "Carmen",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22443,
+            "name": {
+              "de": "Stiftung Züriwerk"
+            },
+            "id": 28304,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22443,
+            "name": {
+              "de": "Kantonsrat Zürich"
+            },
+            "id": 28303,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22443?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22443?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22443?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 117154
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 117153
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2018-07-01",
+            "id": 117152
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22443?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94744"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Werkbetriebe"
+      },
+      "id": 1308,
+      "lastname": "Marty Fässler",
+      "firstname": "Carmen",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1308,
+            "name": {
+              "de": "ZAV Logistik AG"
+            },
+            "id": 1333,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1308,
+            "name": {
+              "de": "Stiftung Züriwerk"
+            },
+            "id": 1332,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1308,
+            "name": {
+              "de": "Kantonsrat Zürich"
+            },
+            "id": 1331,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1308?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1308?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1308?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2018-07-01",
+            "id": 2112
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2018-07-01",
+            "id": 2111
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2018-07-01",
+            "id": 2110
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1308?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1308?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1308?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94735"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1305,
+      "lastname": "Melliger",
+      "firstname": "Heinz",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1305,
+            "name": {
+              "de": "Hitachi Energy Ltd., 8050 Zürich"
+            },
+            "id": 1326,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1305?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1305?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1305?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 243,
+            "begin_date": "2011-11-30",
+            "id": 2096
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2022-05-04",
+            "id": 2095
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2094
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1305?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1305?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1305?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/367021"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 491,
+      "lastname": "Muri",
+      "firstname": "Dominic",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 491,
+            "name": {
+              "de": "Swiss Life Asset Managers - Berufliche Tätigkeit"
+            },
+            "id": 1279,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/491?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/491?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/491?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2024-02-01",
+            "id": 1291
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1290
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/491?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/491?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/491?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/99810"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1313,
+      "lastname": "Muthuthamby",
+      "firstname": "Kannathasan",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1313,
+            "name": {
+              "de": "Heinz Eyer Elektronische Apparate, 8134 Adliswil"
+            },
+            "id": 1340,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1313,
+            "name": {
+              "de": "Pot Bellys, 8134 Adliswil"
+            },
+            "id": 1339,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1313?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1313?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1313?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2015-01-23",
+            "id": 2127
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2126
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1313?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1313?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1313?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/149563"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1263,
+      "lastname": "Mäder",
+      "firstname": "Gabriel",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1263,
+            "name": {
+              "de": "AA-Partners"
+            },
+            "id": 1268,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1263?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1263?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1263?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2023-01-01",
+            "id": 167978
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2023-01-01",
+            "id": 1149
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2018-05-09",
+            "id": 1148
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1142
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1263?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/418594"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Soziales"
+      },
+      "id": 1291,
+      "lastname": "Oswald Kauf",
+      "firstname": "Marianne",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1291,
+            "name": {
+              "de": "Praxis für Tierakupunktur, Adliswil"
+            },
+            "id": 1312,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1291?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1291?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1291?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 244,
+            "begin_date": "2022-05-04",
+            "id": 2071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2022-05-17",
+            "id": 2070
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2022-05-17",
+            "id": 2069
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1291?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94737"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteherin Soziales"
+      },
+      "id": 1306,
+      "lastname": "Oswald Kauf",
+      "firstname": "Marianne",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1306,
+            "name": {
+              "de": "Praxis für Tierakupunktur, Adliswil"
+            },
+            "id": 1327,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1306?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1306?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1306?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 244,
+            "begin_date": "2022-06-01",
+            "id": 2100
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2022-05-17",
+            "id": 2099
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2022-05-17",
+            "id": 2098
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 228,
+            "begin_date": "2022-06-01",
+            "id": 2097
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1306?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1306?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1306?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/389299"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1277,
+      "lastname": "Schanz",
+      "firstname": "Simon",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1277,
+            "name": {
+              "de": "ITHusband GmbH"
+            },
+            "id": 1283,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1277?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1277?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1277?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 242,
+            "begin_date": "2018-05-09",
+            "id": 1898
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2018-05-09",
+            "id": 1341
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2018-05-09",
+            "id": 1339
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1333
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1277?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/120771"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1257,
+      "lastname": "Schneider",
+      "firstname": "Daniel",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1257,
+            "name": {
+              "de": "R. Haene, 8002 Zürich"
+            },
+            "id": 1264,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1257,
+            "name": {
+              "de": "Mitglied schweizerische Energiestiftung"
+            },
+            "id": 1263,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1257?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1257?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1257?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2017-03-08",
+            "id": 2035
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 233,
+            "begin_date": "2017-02-01",
+            "id": 2034
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2033
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2032
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2024-05-08",
+            "id": 1965
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 1061
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1257?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/296872"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 613,
+      "lastname": "Schoch",
+      "firstname": "Jacqueline",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 613,
+            "name": {
+              "de": "Tierarztpraxis Enge, 8002 Zürich"
+            },
+            "id": 1270,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/613?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/613?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/613?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2022-05-04",
+            "id": 167981
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2022-05-04",
+            "id": 1158
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 233,
+            "begin_date": "2022-04-04",
+            "id": 1157
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1156
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/613?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/613?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/613?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/333647"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1210,
+      "lastname": "Schweizer",
+      "firstname": "Rolf",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1210,
+            "name": {
+              "de": "Verwaltungsrat von Tochtergesellschaften der Accelleron Industries AG, Baden, CH"
+            },
+            "id": 1277,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1210,
+            "name": {
+              "de": "Consenec AG, 5405 Baden"
+            },
+            "id": 1276,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1210,
+            "name": {
+              "de": "Verwaltungsrat von Tochtergesellschaften der ABB AG, Zürich, CH"
+            },
+            "id": 1275,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1210?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1210?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1210?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 240,
+            "begin_date": "2023-03-01",
+            "id": 1285
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 234,
+            "begin_date": "2023-03-01",
+            "id": 1279
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1278
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1210?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/416092"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Sicherheit, Gesundheit und Sport"
+      },
+      "id": 1288,
+      "lastname": "Senn",
+      "firstname": "Mario",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1288,
+            "name": {
+              "de": "Swiss Life AG"
+            },
+            "id": 1307,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1288,
+            "name": {
+              "de": "Kantonsrat Zürich"
+            },
+            "id": 1306,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1288,
+            "name": {
+              "de": "Arbeitgeber Zürich VZH"
+            },
+            "id": 1304,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1288?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1288?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1288?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2022-05-17",
+            "id": 2061
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2022-05-17",
+            "id": 2060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2022-05-17",
+            "id": 2059
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1288?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94729"
+      },
+      "function_latest": {
+        "de": "Ressortvorsteher Sicherheit, Gesundheit und Sport"
+      },
+      "id": 1301,
+      "lastname": "Senn",
+      "firstname": "Mario",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1301,
+            "name": {
+              "de": "Kantonsrat Zürich"
+            },
+            "id": 1322,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1301,
+            "name": {
+              "de": "Arbeitgeber Zürich VZH"
+            },
+            "id": 1321,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1301,
+            "name": {
+              "de": "Swiss Life AG"
+            },
+            "id": 1320,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1301?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1301?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1301?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2022-05-17",
+            "id": 2081
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2022-05-17",
+            "id": 2080
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 227,
+            "begin_date": "2022-05-17",
+            "id": 2079
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1301?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/296893"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 618,
+      "lastname": "Sütterlin",
+      "firstname": "Christoph",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 618,
+            "name": {
+              "de": "Two Spice AG, Dietlikon"
+            },
+            "id": 1273,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/618?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/618?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/618?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2023-01-01",
+            "id": 1265
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2022-05-04",
+            "id": 1212
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1210
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/618?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/618?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/618?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/354961"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 487,
+      "lastname": "Tosun",
+      "firstname": "Sarah",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 487,
+            "name": {
+              "de": "Kantonale Verwaltung Zürich"
+            },
+            "id": 1278,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/487?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/487?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/487?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2023-11-15",
+            "id": 1289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 236,
+            "begin_date": "2023-10-01",
+            "id": 1287
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1286
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/487?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94768"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1312,
+      "lastname": "Vasella Billeter",
+      "firstname": "Renata",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1312,
+            "name": {
+              "de": "Schulleitung, Herrliberg"
+            },
+            "id": 1338,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1312?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1312?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1312?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2022-05-04",
+            "id": 167986
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2022-05-04",
+            "id": 167985
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2022-05-04",
+            "id": 2125
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2022-05-04",
+            "id": 2124
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2022-05-04",
+            "id": 2123
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2122
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1312?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1312?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1312?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/296878"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 617,
+      "lastname": "Weber",
+      "firstname": "Martin",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 617,
+            "name": {
+              "de": "Sport Helmi, Adliswil"
+            },
+            "id": 1272,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/617?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/617?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/617?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2022-05-04",
+            "id": 1163
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1162
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/617?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/617?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/617?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/296875"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 616,
+      "lastname": "Welti",
+      "firstname": "Pascal",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 616,
+            "name": {
+              "de": "Zeix AG, 8004 Zürich"
+            },
+            "id": 1271,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/616?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/616?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/616?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2022-05-04",
+            "id": 1161
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 233,
+            "begin_date": "2022-05-04",
+            "id": 1160
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1159
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/616?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/616?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/616?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/94754"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1310,
+      "lastname": "Weyermann",
+      "firstname": "Urs",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1310,
+            "name": {
+              "de": "Beisitzer Hürlimann Club Schweiz"
+            },
+            "id": 1337,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1310,
+            "name": {
+              "de": "Dreieck-Transfer Transport und Logistik AG, Adliswil"
+            },
+            "id": 1336,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1310,
+            "name": {
+              "de": "Verwaltungsrat Dreieck-Transfer AG"
+            },
+            "id": 1335,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1310?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1310?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1310?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6157,
+            "begin_date": "2013-03-07",
+            "id": 167987
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 84,
+            "begin_date": "2013-03-07",
+            "id": 2121
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 235,
+            "begin_date": "2006-05-03",
+            "id": 2120
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2119
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1310?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1310?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1310?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/393550"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 1280,
+      "lastname": "Yilmaz",
+      "firstname": "Esen",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1280,
+            "name": {
+              "de": "Vorstand Elternverein Kantonsschule Enge, Zürich"
+            },
+            "id": 1287,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1280,
+            "name": {
+              "de": "Selbständiger Account Manager Finance, Zürich (Einzelunternehmung)"
+            },
+            "id": 1286,
+            "body_key": "131"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1280,
+            "name": {
+              "de": "Präsident Elternrat HKS Schule Wollishofen, Zürich"
+            },
+            "id": 1285,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1280?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1280?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1280?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 238,
+            "begin_date": "2018-05-09",
+            "id": 2047
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 232,
+            "begin_date": "2018-05-09",
+            "id": 2046
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 2045
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1280?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/381682"
+      },
+      "function_latest": {
+        "de": "Stadtpräsident und Ressortvorsteher Einwohnerkontakte"
+      },
+      "id": 1272,
+      "lastname": "Zeroual",
+      "firstname": "Farid",
+      "body_key": "131",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1272,
+            "name": {
+              "de": "prioritynet ag, Schafisheim"
+            },
+            "id": 1281,
+            "body_key": "131"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1272?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1272?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1272?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 230,
+            "begin_date": "2014-03-30",
+            "id": 1330
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 231,
+            "begin_date": "2015-03-31",
+            "id": 1329
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1272?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.adliswil.ch/_rte/person/380062"
+      },
+      "function_latest": {
+        "de": "Ratsschreiberin"
+      },
+      "id": 509,
+      "lastname": "Ziegler",
+      "firstname": "Vanessa",
+      "body_key": "131",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 241,
+            "begin_date": "2024-09-18",
+            "id": 1299
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 237,
+            "begin_date": "2016-04-01",
+            "id": 1298
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 229,
+            "begin_date": null,
+            "id": 1297
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/509?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/509?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/509?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

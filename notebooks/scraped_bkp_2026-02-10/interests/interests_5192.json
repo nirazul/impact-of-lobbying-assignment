@@ -1,0 +1,3210 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 63,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=5192&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=5192&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=5192&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~CC482A5D2A06A1DFC12586CA00276CFF~.html"
+      },
+      "function_latest": {},
+      "id": 5466,
+      "lastname": "Aeschlimann",
+      "firstname": "Jean-Jacques",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14349
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14348
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5466?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5466?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5466?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~FF61DE2AED458A26C1257F9400350DE9~.html"
+      },
+      "function_latest": {},
+      "id": 5483,
+      "lastname": "Albertini",
+      "firstname": "Giovanni",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14381
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14380
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5483?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~2C2205E0CD7BA135C1257F940047F918~.html"
+      },
+      "function_latest": {},
+      "id": 5255,
+      "lastname": "Aliprandi",
+      "firstname": "Luisa",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14256
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14253
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5255?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~AA1F716249E37DA2C1258B0700491117~.html"
+      },
+      "function_latest": {},
+      "id": 5300,
+      "lastname": "Altin",
+      "firstname": "Jasmine",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14324
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14323
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5300?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~5D3FDB50E4222B55C1258A3E00354947~.html"
+      },
+      "function_latest": {},
+      "id": 5271,
+      "lastname": "Andreetti",
+      "firstname": "Paolo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 181286
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5271?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5271?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~884D828AFD969DE5C12586CA0028899D~.html"
+      },
+      "function_latest": {},
+      "id": 5283,
+      "lastname": "Antonini",
+      "firstname": "Céline",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14301
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14300
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5283?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D887664580DD7FE7C12582330034F479~.html"
+      },
+      "function_latest": {},
+      "id": 5471,
+      "lastname": "Baratti",
+      "firstname": "Danilo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14360
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14359
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5471?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~A3CD297494C93BCDC1258B070049A2F0~.html"
+      },
+      "function_latest": {},
+      "id": 5295,
+      "lastname": "Barchi",
+      "firstname": "Carola",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14319
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14318
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5295?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~CF61A67C2A111350C1258B070049CD58~.html"
+      },
+      "function_latest": {},
+      "id": 5468,
+      "lastname": "Barzaghi",
+      "firstname": "Silvia",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14353
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14352
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5468?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~EEA3E4348602D6CCC1257B580032F879~.html"
+      },
+      "function_latest": {},
+      "id": 5477,
+      "lastname": "Bassi",
+      "firstname": "Raide",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 115577
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14372
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14371
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5477?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~0FAD6702211AADD6C12586CA00333076~.html"
+      },
+      "function_latest": {},
+      "id": 5252,
+      "lastname": "Beltraminelli",
+      "firstname": "Paolo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14250
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14249
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14248
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5252?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~8BADFBE47D0939B4C12586CA0028BDDD~.html"
+      },
+      "function_latest": {},
+      "id": 5286,
+      "lastname": "Benicchio",
+      "firstname": "Valentino",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14305
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14304
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5286?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~62A3A65BA328BBD9C1257B58003268D0~.html"
+      },
+      "function_latest": {},
+      "id": 5274,
+      "lastname": "Beretta-Piccoli",
+      "firstname": "Sara",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14285
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14284
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5274?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~ADBF23A346C408FCC1257D8E003731E4~.html"
+      },
+      "function_latest": {},
+      "id": 5303,
+      "lastname": "Beretta-Piccoli",
+      "firstname": "Lorenzo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14332
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14331
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14330
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5303?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~9B6E9E5F24C7250DC1257B58003249A5~.html"
+      },
+      "function_latest": {},
+      "id": 5293,
+      "lastname": "Bernasconi",
+      "firstname": "Lukas",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14317
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14316
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5293?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D937DBBB2DC44BF8C12586CA0029C493~.html"
+      },
+      "function_latest": {},
+      "id": 5472,
+      "lastname": "Bernasconi",
+      "firstname": "Angelo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14362
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14361
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5472?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~36B6C94FAD7D84FEC1258B070049F1A9~.html"
+      },
+      "function_latest": {},
+      "id": 5258,
+      "lastname": "Bertogliati",
+      "firstname": "Rubens",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14260
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14259
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5258?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5258?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~44A55D4C51D243BFC1257F940040C01E~.html"
+      },
+      "function_latest": {},
+      "id": 5265,
+      "lastname": "Bianchetti",
+      "firstname": "Benedetta",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 115579
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14275
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14274
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5265?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~CB22802E199AB8A241256E9B002654FC~.html"
+      },
+      "function_latest": {},
+      "id": 5465,
+      "lastname": "Bianchetti Gian",
+      "firstname": "Maria",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14347
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14346
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5465?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5465?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5465?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~B5C05FF03318D0B2C1257F940043B394~.html"
+      },
+      "function_latest": {},
+      "id": 5457,
+      "lastname": "Bühler",
+      "firstname": "Alain",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14335
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5457?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5457?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5457?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~3D1CCCDBDF20946CC12586CA0029A041~.html"
+      },
+      "function_latest": {},
+      "id": 5261,
+      "lastname": "Campana",
+      "firstname": "Luca",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 115576
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14265
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5261?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5261?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~89238D5CDB55E23DC1258BB00035C915~.html"
+      },
+      "function_latest": {},
+      "id": 5285,
+      "lastname": "Canuti",
+      "firstname": "Cristiano",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14303
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14302
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5285?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~4D019B2DFEA1AD4DC1257B580032898C~.html"
+      },
+      "function_latest": {},
+      "id": 5267,
+      "lastname": "Cappelletti",
+      "firstname": "Edoardo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14278
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14277
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14276
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5267?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5267?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5267?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~F61671E11D6D8368C1257F940042C38B~.html"
+      },
+      "function_latest": {},
+      "id": 5479,
+      "lastname": "Censi",
+      "firstname": "Andrea",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14377
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14376
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5479?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~CDD64D608C46F312C1258B07004A1741~.html"
+      },
+      "function_latest": {},
+      "id": 5467,
+      "lastname": "Codella",
+      "firstname": "Michele",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14351
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14350
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5467?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5467?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5467?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D9960349AD7F5055C125848D003714CB~.html"
+      },
+      "function_latest": {},
+      "id": 5474,
+      "lastname": "Colombo Mattei",
+      "firstname": "Federica",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 115578
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14365
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14364
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5474?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~839B881C3D5A9AF8C1258B07004A3885~.html"
+      },
+      "function_latest": {},
+      "id": 5281,
+      "lastname": "Ferrara",
+      "firstname": "Natalia",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14299
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14298
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14297
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5281?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~39003CA998711E0FC1257B580032BCC0~.html"
+      },
+      "function_latest": {},
+      "id": 5260,
+      "lastname": "Fumasoli",
+      "firstname": "Demis",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14264
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14263
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5260?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~9314F50EA0239DDCC1258B07004B31C9~.html"
+      },
+      "function_latest": {},
+      "id": 5289,
+      "lastname": "Fumasoli",
+      "firstname": "Romina",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14311
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14310
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5289?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~42A2F50A1EECB32BC1258B07004A73EA~.html"
+      },
+      "function_latest": {},
+      "id": 5264,
+      "lastname": "Fumasoli Petrini",
+      "firstname": "Luisella",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14273
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14272
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5264?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5264?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~7F8A63DD0B4FE6EEC1258909005AEEC4~.html"
+      },
+      "function_latest": {},
+      "id": 5280,
+      "lastname": "Gaggini",
+      "firstname": "Mauro",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14296
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14295
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14294
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5280?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~388C1AD8CA26BD63C1257B5800330690~.html"
+      },
+      "function_latest": {},
+      "id": 5259,
+      "lastname": "Galeazzi",
+      "firstname": "Tiziano",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14262
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14261
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5259?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5259?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~61DAD6168606E403C1258B07004B57B4~.html"
+      },
+      "function_latest": {},
+      "id": 5273,
+      "lastname": "Gambazzi",
+      "firstname": "Stefano",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14283
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~91F64983BBDBB9B0C1258B07004B7C74~.html"
+      },
+      "function_latest": {},
+      "id": 5288,
+      "lastname": "Gianella",
+      "firstname": "Tommaso",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14309
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14308
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5288?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D15CAF511625DEDCC125744B0031C190~.html"
+      },
+      "function_latest": {},
+      "id": 5469,
+      "lastname": "Luraschi",
+      "firstname": "Norman",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14355
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14354
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5469?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~4273C7FE2089D3CCC1257B5800327CAB~.html"
+      },
+      "function_latest": {},
+      "id": 5263,
+      "lastname": "Malfanti",
+      "firstname": "Michele",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14271
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14270
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5263?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~99968A73A9FA8D6CC12587660024C60F~.html"
+      },
+      "function_latest": {},
+      "id": 5292,
+      "lastname": "Mazzuchelli",
+      "firstname": "Siro",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14315
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14314
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5292?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~00BA6111B135646AC125744B0031F0FA~.html"
+      },
+      "function_latest": {},
+      "id": 5248,
+      "lastname": "Medolago",
+      "firstname": "Ero",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~C0A343418CEAB91DC12586CA002ABB47~.html"
+      },
+      "function_latest": {},
+      "id": 5461,
+      "lastname": "Mengotti",
+      "firstname": "Marisa",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14343
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14342
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5461?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5461?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5461?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Più Donne",
+        "fr": "Più Donne",
+        "it": "Più Donne",
+        "en": "Più Donne"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~6E6FE4777ACBC935C12586CA002AD075~.html"
+      },
+      "function_latest": {},
+      "id": 5278,
+      "lastname": "Merlo",
+      "firstname": "Tamara",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14293
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14291
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5278?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~B65ED5CD0E75E46AC12583BD006A6304~.html"
+      },
+      "function_latest": {},
+      "id": 5458,
+      "lastname": "Minotti",
+      "firstname": "Lucia",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14339
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14338
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14336
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5458?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5458?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5458?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~C407A558C4184347C125848D00378161~.html"
+      },
+      "function_latest": {},
+      "id": 5463,
+      "lastname": "Méar",
+      "firstname": "Laura",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14345
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14344
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5463?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5463?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5463?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D6E346CD783FD8ADC1257F02004F80BE~.html"
+      },
+      "function_latest": {},
+      "id": 5470,
+      "lastname": "Nyffeler",
+      "firstname": "Michael",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14358
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14357
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5470?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~6E621546BF9B4346C12586CA0028EE2D~.html"
+      },
+      "function_latest": {},
+      "id": 5277,
+      "lastname": "Olgiati",
+      "firstname": "Lara",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14290
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14288
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5277?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~A84E463E54735934C1258B07004BE76E~.html"
+      },
+      "function_latest": {},
+      "id": 5298,
+      "lastname": "Orelli",
+      "firstname": "Luisa",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14321
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14320
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5298?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5298?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5298?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~F26511B72E340047C125744B00322601~.html"
+      },
+      "function_latest": {},
+      "id": 5478,
+      "lastname": "Ortelli",
+      "firstname": "Maruska",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14375
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14374
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14373
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5478?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~1390D2A5B21BB9FEC1257E4A0025428D~.html"
+      },
+      "function_latest": {},
+      "id": 5254,
+      "lastname": "Petralli",
+      "firstname": "Angelo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14252
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1011,
+            "begin_date": null,
+            "id": 14251
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5254?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~3D80F257B77E5647C12586CA002A107A~.html"
+      },
+      "function_latest": {},
+      "id": 5262,
+      "lastname": "Petrini",
+      "firstname": "Dario",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14268
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14267
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14266
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5262?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~BD393B74421234AFC12586CA0029D427~.html"
+      },
+      "function_latest": {},
+      "id": 5460,
+      "lastname": "Pianezzi",
+      "firstname": "Lorenzo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14341
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14340
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5460?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~EE780B9654B66814C1258BB00034A3F2~.html"
+      },
+      "function_latest": {},
+      "id": 5476,
+      "lastname": "Pult",
+      "firstname": "Nicola",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14370
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14369
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5476?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~F9809743D9DDB6ABC1257F9400438C33~.html"
+      },
+      "function_latest": {},
+      "id": 5480,
+      "lastname": "Pusterla",
+      "firstname": "Nina",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14379
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14378
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5480?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~D953AE58C393E4AFC1258C5F002D40FF~.html"
+      },
+      "function_latest": {},
+      "id": 5473,
+      "lastname": "Quadri",
+      "firstname": "Stefano",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14363
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5473?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5473?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5473?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~515C2B9CF5EAED16C1258B07004C0F79~.html"
+      },
+      "function_latest": {},
+      "id": 5268,
+      "lastname": "Reuille",
+      "firstname": "Sébastien",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14280
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14279
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5268?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5268?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5268?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~0E5CBBE6DD981A4FC125867800599960~.html"
+      },
+      "function_latest": {},
+      "id": 5250,
+      "lastname": "Rezzonico",
+      "firstname": "Elena",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14247
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5250?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5250?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5250?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~60CDFF4F83050BDBC12587B2007EDFA0~.html"
+      },
+      "function_latest": {},
+      "id": 5272,
+      "lastname": "Rusconi",
+      "firstname": "Zahra",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14282
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14281
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5272?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~6E282A325CE17AFEC1257B580031D4C9~.html"
+      },
+      "function_latest": {},
+      "id": 5275,
+      "lastname": "Sanvido",
+      "firstname": "Andrea",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14287
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14286
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5275?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~2FB96B81973B8DF5C1257F9400417DCE~.html"
+      },
+      "function_latest": {},
+      "id": 5256,
+      "lastname": "Schnellmann",
+      "firstname": "Petra",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14258
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1009,
+            "begin_date": null,
+            "id": 14257
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5256?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5256?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5256?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~AA9BC2564A03A7F7C1257B5800322E9F~.html"
+      },
+      "function_latest": {},
+      "id": 5302,
+      "lastname": "Seitz",
+      "firstname": "Marco",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14328
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14327
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5302?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~9146914DE389785BC1258B07004C370B~.html"
+      },
+      "function_latest": {},
+      "id": 5287,
+      "lastname": "Togni",
+      "firstname": "Andrea",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14307
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14306
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5287?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~AA67B2BAFE4C0F51C1257B580030CE26~.html"
+      },
+      "function_latest": {},
+      "id": 5301,
+      "lastname": "Toscanelli",
+      "firstname": "Paolo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14326
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14325
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5301?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~976AE154B569647AC1258909005B1A87~.html"
+      },
+      "function_latest": {},
+      "id": 5290,
+      "lastname": "Tresoldi",
+      "firstname": "Christian",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14313
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1010,
+            "begin_date": null,
+            "id": 14312
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5290?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League "
+      },
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~B0A5FF338EE625F2C1257F940047EDB6~.html"
+      },
+      "function_latest": {},
+      "id": 5455,
+      "lastname": "Wicht",
+      "firstname": "Omar",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14334
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14333
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5455?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5455?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5455?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.lugano.ch/consiglio-comunale/Consiglieri-comunali/top/0~DF631242AD7F1640C1257F9A0041C9C6~.html"
+      },
+      "function_latest": {},
+      "id": 5475,
+      "lastname": "Zoppi",
+      "firstname": "Carlo",
+      "body_key": "5192",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1014,
+            "begin_date": null,
+            "id": 14368
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1013,
+            "begin_date": null,
+            "id": 14367
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1012,
+            "begin_date": null,
+            "id": 14366
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5475?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

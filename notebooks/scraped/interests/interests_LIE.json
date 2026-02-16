@@ -1,0 +1,2411 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 34,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=LIE&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=LIE&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=LIE&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2664"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 10216,
+      "lastname": "Bühler-Nigsch",
+      "firstname": "Dagmar",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2021-01-01",
+            "id": 184167
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 121477
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 121476
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2025-01-01",
+            "id": 121475
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 121474
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121473
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121472
+          },
+          {
+            "active": true,
+            "end_date": "2026-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6169,
+            "begin_date": "2025-01-01",
+            "id": 121471
+          },
+          {
+            "active": false,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": null,
+            "begin_date": null,
+            "id": 45868
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10216?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10216?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10216?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2853"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 22477,
+      "lastname": "Cissé",
+      "firstname": "Tanja",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121497
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2025-01-01",
+            "id": 121496
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22477?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22477?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2858"
+      },
+      "function_latest": {
+        "de": "Stellvertretende Abgeordnete"
+      },
+      "id": 22479,
+      "lastname": "Elkuch",
+      "firstname": "Brigit",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121501
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2025-01-01",
+            "id": 121500
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22479?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22479?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2675"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 18539,
+      "lastname": "Fausch",
+      "firstname": "Sandra",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2023-01-01",
+            "id": 111998
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2023-01-01",
+            "id": 111997
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 93172
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93171
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 93170
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 93169
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18539?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18539?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18539?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2672"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18529,
+      "lastname": "Gassner",
+      "firstname": "Sebastian",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93066
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2021-01-01",
+            "id": 93065
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2025-01-01",
+            "id": 93064
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2025-01-01",
+            "id": 93063
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5023,
+            "begin_date": "2025-01-01",
+            "id": 93062
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5023,
+            "begin_date": "2021-01-01",
+            "id": 45870
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18529?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18529?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18529?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2676"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 18545,
+      "lastname": "Gstöhl",
+      "firstname": "Markus",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2023-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2021-01-01",
+            "id": 93188
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2023-01-01",
+            "id": 93187
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2021-01-01",
+            "id": 93186
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2025-01-01",
+            "id": 93185
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93184
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18545?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18545?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18545?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2666"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 18534,
+      "lastname": "Haldner-Schierscher",
+      "firstname": "Manuela",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2021-01-01",
+            "id": 169483
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2021-01-01",
+            "id": 111994
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93158
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 93157
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2025-01-01",
+            "id": 93156
+          },
+          {
+            "active": true,
+            "end_date": "2026-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6169,
+            "begin_date": "2025-01-01",
+            "id": 93155
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18534?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18534?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18534?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/111"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18674,
+      "lastname": "Hasler",
+      "firstname": "Erich",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2016-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2015-01-01",
+            "id": 94430
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92380
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18674?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2846"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 22474,
+      "lastname": "Hasler",
+      "firstname": "Helmut",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2025-01-01",
+            "id": 121491
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121490
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22474?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22474?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2851"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22470,
+      "lastname": "Hasler",
+      "firstname": "Dietmar",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2025-01-01",
+            "id": 121470
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121469
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22470?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22470?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2848"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 22473,
+      "lastname": "Heeb-Kindle",
+      "firstname": "Carmen",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 189291
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2025-01-01",
+            "id": 121489
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5023,
+            "begin_date": "2025-01-01",
+            "id": 121488
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121487
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6606,
+            "begin_date": "2026-01-01",
+            "id": 121486
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22473?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22473?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22473?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2668"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 18537,
+      "lastname": "Hoop",
+      "firstname": "Franziska",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2021-01-01",
+            "id": 169482
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 111996
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 111995
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 93168
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 93167
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2025-01-01",
+            "id": 93165
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2025-01-01",
+            "id": 93164
+          },
+          {
+            "active": true,
+            "end_date": "2026-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6169,
+            "begin_date": "2025-01-01",
+            "id": 93163
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 93162
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18537?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18537?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18537?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2856"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 22481,
+      "lastname": "Indra",
+      "firstname": "Oliver",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5023,
+            "begin_date": "2025-01-01",
+            "id": 121506
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121505
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22481?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22481?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22481?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/167"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18660,
+      "lastname": "Kaiser",
+      "firstname": "Johannes",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2017-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2013-01-01",
+            "id": 169481
+          },
+          {
+            "active": true,
+            "end_date": "2017-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2013-01-01",
+            "id": 111993
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2021-01-01",
+            "id": 111992
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 92961
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2001-01-01",
+            "id": 92960
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 92959
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5023,
+            "begin_date": "2025-01-01",
+            "id": 92958
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 92957
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92956
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18660?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/130"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18623,
+      "lastname": "Kaufmann",
+      "firstname": "Manfred",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2023-01-01",
+            "id": 189286
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2021-01-01",
+            "id": 169480
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2017-01-01",
+            "id": 111991
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 111990
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2025-01-01",
+            "id": 92864
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92863
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6606,
+            "begin_date": "2026-01-01",
+            "id": 92862
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 92192
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 92191
+          },
+          {
+            "active": true,
+            "end_date": "2026-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6169,
+            "begin_date": "2025-01-01",
+            "id": 92190
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18623?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18623?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18623?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/194"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 18526,
+      "lastname": "Kindle",
+      "firstname": "Marion",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 189288
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2025-01-01",
+            "id": 93058
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2026-01-01",
+            "id": 93057
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18526?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18526?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18526?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2845"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22472,
+      "lastname": "Nägele",
+      "firstname": "Lino",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121485
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121484
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 121483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22472?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22472?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2670"
+      },
+      "function_latest": {
+        "de": "Abgeordnete"
+      },
+      "id": 18533,
+      "lastname": "Petzold-Mähr",
+      "firstname": "Bettina",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2021-01-01",
+            "id": 189289
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2021-01-01",
+            "id": 93154
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93153
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2025-01-01",
+            "id": 93152
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2025-01-01",
+            "id": 93151
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6606,
+            "begin_date": "2026-01-01",
+            "id": 93074
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2025-01-01",
+            "id": 93073
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18533?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/133"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18628,
+      "lastname": "Rehak",
+      "firstname": "Thomas",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2017-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2013-01-01",
+            "id": 189287
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2017-01-01",
+            "id": 111989
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2021-01-01",
+            "id": 111988
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2021-01-01",
+            "id": 111987
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2025-01-01",
+            "id": 92874
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6606,
+            "begin_date": "2026-01-01",
+            "id": 92873
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2017-01-01",
+            "id": 92210
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5503,
+            "begin_date": "2025-01-01",
+            "id": 92209
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5504,
+            "begin_date": "2025-01-01",
+            "id": 92208
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92207
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92206
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18628?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18628?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18628?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/134"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 18629,
+      "lastname": "Risch",
+      "firstname": "Patrick",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 92876
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92875
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2017-01-01",
+            "id": 92215
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2017-01-01",
+            "id": 92214
+          },
+          {
+            "active": true,
+            "end_date": "2023-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2021-01-01",
+            "id": 92213
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2021-01-01",
+            "id": 92212
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2025-01-01",
+            "id": 92211
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18629?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18629?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18629?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2843"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 22471,
+      "lastname": "Risch",
+      "firstname": "Benjamin",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 189290
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2025-01-01",
+            "id": 121479
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6606,
+            "begin_date": "2026-01-01",
+            "id": 121478
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22471?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22471?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2849"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 22475,
+      "lastname": "Risch",
+      "firstname": "Marc",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2025-01-01",
+            "id": 121493
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121492
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22475?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22475?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2844"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22468,
+      "lastname": "Salzgeber",
+      "firstname": "Daniel",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121482
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2025-01-01",
+            "id": 121481
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2025-01-01",
+            "id": 121480
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22468?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22468?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2857"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22483,
+      "lastname": "Schächle",
+      "firstname": "Simon",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 169484
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5021,
+            "begin_date": "2025-01-01",
+            "id": 121511
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2025-01-01",
+            "id": 121510
+          },
+          {
+            "active": true,
+            "end_date": "2026-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6169,
+            "begin_date": "2025-01-01",
+            "id": 121509
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22483?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22483?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2847"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22480,
+      "lastname": "Schädler",
+      "firstname": "Roger",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121504
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2025-01-01",
+            "id": 121503
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2025-01-01",
+            "id": 121502
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22480?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22480?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/1442"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18627,
+      "lastname": "Seger",
+      "firstname": "Daniel",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2023-01-01",
+            "id": 92872
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2017-01-01",
+            "id": 92871
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2017-01-01",
+            "id": 92205
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2020-01-01",
+            "id": 92204
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2018-01-01",
+            "id": 92203
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2021-01-01",
+            "id": 92202
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2021-01-01",
+            "id": 92201
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2025-01-01",
+            "id": 92200
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18627?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18627?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18627?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2855"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22478,
+      "lastname": "Seger",
+      "firstname": "Martin",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 121499
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121498
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22478?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22478?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2682"
+      },
+      "function_latest": {
+        "de": "Stellvertretende Abgeordnete"
+      },
+      "id": 18540,
+      "lastname": "Vogelsang",
+      "firstname": "Nadine",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2021-01-01",
+            "id": 93175
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2025-01-01",
+            "id": 93174
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2021-01-01",
+            "id": 93173
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18540?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18540?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18540?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/124"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18620,
+      "lastname": "Vogt",
+      "firstname": "Thomas",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2009-01-01",
+            "id": 92859
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2017-01-01",
+            "id": 92182
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2021-01-01",
+            "id": 92181
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2013-01-01",
+            "id": 92180
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5019,
+            "begin_date": "2025-01-01",
+            "id": 92179
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1701,
+            "begin_date": "2025-01-01",
+            "id": 92178
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18620?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18620?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18620?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2854"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22469,
+      "lastname": "Vogt",
+      "firstname": "Achim",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121468
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2025-01-01",
+            "id": 121467
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5025,
+            "begin_date": "2025-01-01",
+            "id": 121466
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22469?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22469?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/125"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 18626,
+      "lastname": "Wenaweser",
+      "firstname": "Christoph",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2017-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2013-01-01",
+            "id": 92870
+          },
+          {
+            "active": true,
+            "end_date": "2017-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2013-01-01",
+            "id": 92869
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92868
+          },
+          {
+            "active": true,
+            "end_date": "2019-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2017-01-01",
+            "id": 92199
+          },
+          {
+            "active": true,
+            "end_date": "2021-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2017-01-01",
+            "id": 92198
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5020,
+            "begin_date": "2025-01-01",
+            "id": 92197
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 92196
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18626?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18626?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18626?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/1448"
+      },
+      "function_latest": {
+        "de": "Stellvertretender Abgeordneter"
+      },
+      "id": 18630,
+      "lastname": "Wohlwend",
+      "firstname": "Mario",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 92877
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5022,
+            "begin_date": "2021-01-01",
+            "id": 92341
+          },
+          {
+            "active": true,
+            "end_date": "2025-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5027,
+            "begin_date": "2021-01-01",
+            "id": 92216
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/18630?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/18630?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/18630?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2852"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22482,
+      "lastname": "Zimmermann",
+      "firstname": "Johannes",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121508
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1733,
+            "begin_date": "2025-01-01",
+            "id": 121507
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22482?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22482?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22482?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.landtag.li/person/2850"
+      },
+      "function_latest": {
+        "de": "Abgeordneter"
+      },
+      "id": 22476,
+      "lastname": "Öhri",
+      "firstname": "Stefan",
+      "body_key": "LIE",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5026,
+            "begin_date": "2025-01-01",
+            "id": 121495
+          },
+          {
+            "active": true,
+            "end_date": "2029-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5028,
+            "begin_date": "2025-01-01",
+            "id": 121494
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22476?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22476?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

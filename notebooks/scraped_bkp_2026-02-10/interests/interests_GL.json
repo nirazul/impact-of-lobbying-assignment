@@ -1,0 +1,1337 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 66,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=GL&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=GL&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=GL&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10441,
+      "lastname": "Baumgartner",
+      "firstname": "Martin",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10442,
+      "lastname": "Birkeland",
+      "firstname": "Nils",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10443,
+      "lastname": "Blumer",
+      "firstname": "Rolf",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10444,
+      "lastname": "Bösch-Widmer",
+      "firstname": "Daniela",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10445,
+      "lastname": "Carrara",
+      "firstname": "Yvonne",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 23814,
+      "lastname": "Elmer",
+      "firstname": "Euphemia",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10446,
+      "lastname": "Forrer",
+      "firstname": "Hans Rudolf",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10448,
+      "lastname": "Freuler",
+      "firstname": "Franz",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 22330,
+      "lastname": "Gallati",
+      "firstname": "Bruno",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10449,
+      "lastname": "Gisler",
+      "firstname": "Toni",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10450,
+      "lastname": "Glarner",
+      "firstname": "Reto",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9176,
+      "lastname": "Goethe",
+      "firstname": "Remo",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9177,
+      "lastname": "Goethe",
+      "firstname": "Roland",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9178,
+      "lastname": "Grossenbacher",
+      "firstname": "Marius",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9179,
+      "lastname": "Grünenfelder",
+      "firstname": "Priska",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9180,
+      "lastname": "Hager",
+      "firstname": "Adrian",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 22304,
+      "lastname": "Haller",
+      "firstname": "Philippe",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9181,
+      "lastname": "Heer",
+      "firstname": "Albert",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10463,
+      "lastname": "Hefti",
+      "firstname": "Frederick",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9182,
+      "lastname": "Hug",
+      "firstname": "Rafaela",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9184,
+      "lastname": "Jenny",
+      "firstname": "Hans",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10464,
+      "lastname": "Jenny",
+      "firstname": "Jacqueline",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9185,
+      "lastname": "Keller",
+      "firstname": "Regula Nelly",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 22305,
+      "lastname": "Keller",
+      "firstname": "Sven",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9186,
+      "lastname": "Kistler",
+      "firstname": "Benjamin",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9187,
+      "lastname": "Koller",
+      "firstname": "Edwin",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9188,
+      "lastname": "Krieg",
+      "firstname": "Kaspar",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9189,
+      "lastname": "Kälin",
+      "firstname": "Werner",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9190,
+      "lastname": "Küng",
+      "firstname": "Emil",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9191,
+      "lastname": "Küng",
+      "firstname": "Sarah",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9192,
+      "lastname": "Laager",
+      "firstname": "Michael",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9193,
+      "lastname": "Landolt",
+      "firstname": "Franz",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9195,
+      "lastname": "Landolt Rüegg",
+      "firstname": "Nadine",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9197,
+      "lastname": "Leuzinger",
+      "firstname": "Pedro",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9198,
+      "lastname": "Luchsinger",
+      "firstname": "Andreas",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 10468,
+      "lastname": "Marti",
+      "firstname": "Christian",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9199,
+      "lastname": "Meier Jud",
+      "firstname": "Gabriela",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9200,
+      "lastname": "Muggli",
+      "firstname": "Stephan",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9201,
+      "lastname": "Müller Wahl",
+      "firstname": "Priska",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9183,
+      "lastname": "Nassim Isenegger",
+      "firstname": "Rahel",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9202,
+      "lastname": "Noser",
+      "firstname": "Beat",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9203,
+      "lastname": "Rhyner",
+      "firstname": "Barbara",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9204,
+      "lastname": "Rimini",
+      "firstname": "Luca",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9205,
+      "lastname": "Rothlin",
+      "firstname": "Peter",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9206,
+      "lastname": "Schnyder",
+      "firstname": "Markus",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9207,
+      "lastname": "Schnyder",
+      "firstname": "Matthias",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9208,
+      "lastname": "Schnyder",
+      "firstname": "Stefan",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9209,
+      "lastname": "Schrepfer-Landolt",
+      "firstname": "Liliane",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9210,
+      "lastname": "Schriber",
+      "firstname": "Cinia",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9211,
+      "lastname": "Schubiger",
+      "firstname": "Hans",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9212,
+      "lastname": "Schwitter",
+      "firstname": "Cyrill",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9213,
+      "lastname": "Schwitter",
+      "firstname": "Ruedi",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9215,
+      "lastname": "Sigrist",
+      "firstname": "Urs",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9216,
+      "lastname": "Staub-Tremp",
+      "firstname": "Fridolin",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9217,
+      "lastname": "Steinmann",
+      "firstname": "Sabine",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9218,
+      "lastname": "Stüssi",
+      "firstname": "Dominique",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9219,
+      "lastname": "Trummer",
+      "firstname": "Andrea",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9220,
+      "lastname": "Vögeli",
+      "firstname": "Andreas",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 24812,
+      "lastname": "Vögeli",
+      "firstname": "Barbara",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9221,
+      "lastname": "Weibel",
+      "firstname": "Kaj",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9222,
+      "lastname": "Wichser",
+      "firstname": "Hans-Heinrich",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9796,
+      "lastname": "Wolf",
+      "firstname": "Edgar",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9223,
+      "lastname": "Zehnder",
+      "firstname": "Roman",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9224,
+      "lastname": "Zingg",
+      "firstname": "Samuel",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9225,
+      "lastname": "Zopfi",
+      "firstname": "Martin",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.gl.ch/parlament/landrat/mitglieder-des-landrates-20222026.html/234"
+      },
+      "function_latest": {},
+      "id": 9226,
+      "lastname": "Zopfi",
+      "firstname": "Mathias",
+      "body_key": "GL",
+      "interests": null,
+      "memberships": null
+    }
+  ]
+}

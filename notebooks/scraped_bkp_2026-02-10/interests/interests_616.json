@@ -1,0 +1,3179 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 53,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=616&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=616&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=616&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=49845d96fa8f42feb57f7beb7dbe65b3&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=ffc4180242d24337b0713d1340b07149"
+      },
+      "function_latest": {
+        "de": "Präsidium"
+      },
+      "id": 13913,
+      "lastname": "Balliana",
+      "firstname": "Stephanie",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 44890
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44889
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 44888
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 44887
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13913?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13913?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13913?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=791f3ae4b2da4a0ca56cdccb453f5741&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=303634b2db534b188fdf0bac49f88f32"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13892,
+      "lastname": "Baumann",
+      "firstname": "Urs",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 194507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182391
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4276,
+            "begin_date": null,
+            "id": 44865
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44864
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44863
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13892?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13892?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13892?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=e1ddc9d7207d4fca8e2267d0fb800eb0&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=f54fcab95ba94c1fbb48478a10b79640"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24650,
+      "lastname": "Berger",
+      "firstname": "Ivera",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182415
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24650?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24650?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24650?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=4224ac086bc94ccfb522677bac34fe7c&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=8edc6338915d4fe68dcba83edca62f60"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13836,
+      "lastname": "Bernhard",
+      "firstname": "Henri",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4285,
+            "begin_date": null,
+            "id": 182403
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 182402
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 44737
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44734
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44730
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 44720
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13836?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13836?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13836?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=165d0145f211456690a7263f56f38dcb&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=0b7b23ff0bce40988da8d5db49564bea"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13834,
+      "lastname": "Blatt",
+      "firstname": "Dietrich",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4306,
+            "begin_date": null,
+            "id": 44631
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 44619
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44609
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4294,
+            "begin_date": null,
+            "id": 44608
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13834?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13834?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13834?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=665892e1a7a044e49b4f9ae1aa6d113e&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=00fee7283b914bc8b2298f728bb499b2"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24636,
+      "lastname": "Blum",
+      "firstname": "Kern Susanne",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182385
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24636?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24636?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24636?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=8f97dde932c74491af741d8f6eb6da41&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=0bd4541e2a6544d7aefc67ad678e4002"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24637,
+      "lastname": "Bähler",
+      "firstname": "Susanne",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 182388
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4282,
+            "begin_date": null,
+            "id": 182387
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4280,
+            "begin_date": null,
+            "id": 182386
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24637?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24637?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24637?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=4f5aa0a144cc48d380e4dc74c0ba9cf8&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=0bd4541e2a6544d7aefc67ad678e4002"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13866,
+      "lastname": "Bähler-Burkhart",
+      "firstname": "Susanne",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 195409
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4282,
+            "begin_date": null,
+            "id": 195408
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4280,
+            "begin_date": null,
+            "id": 195407
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 43147
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 43034
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 43022
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 42952
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13866?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13866?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13866?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=3e380c7d06874a1da3b14ab303a0b8b5&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=963a0cc516244c6a9b7803ecc256f50d"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13948,
+      "lastname": "Dubs",
+      "firstname": "Dominic",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 182407
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4274,
+            "begin_date": null,
+            "id": 182406
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44904
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 44903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 44902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 44901
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13948?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13948?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13948?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=6258d9275aef404bbb5aaee1f96f44ad&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=78ff3a350c36417ebca361ccf248a876"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13878,
+      "lastname": "Déverin",
+      "firstname": "Guy",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 43907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 43872
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 43852
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13878?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13878?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13878?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=4ddd86d264584eeaa48b0344752e617f&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=a070203eba4a48b996bfcf7464cd646c"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13891,
+      "lastname": "Fahrni",
+      "firstname": "Michael",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44862
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 44861
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4305,
+            "begin_date": null,
+            "id": 44860
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4297,
+            "begin_date": null,
+            "id": 44859
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13891?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13891?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13891?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=893c4877c8e341fc8d395ef7e122871a&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=03cbf82a6eac4a7d87289bde2a30c0ff"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13830,
+      "lastname": "Fankhauser",
+      "firstname": "David",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 44529
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44515
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 44513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44511
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13830?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=dc578057d8ef44ce827920ec06a34ca1&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=afd2b5f168034708855dc2769dfce7d4"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13893,
+      "lastname": "Fankhauser",
+      "firstname": "Luca",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44868
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44867
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4298,
+            "begin_date": null,
+            "id": 44866
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13893?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13893?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13893?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=88cb61cb3fc344328c953bb67b20cd61&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=9dcecff1e4b647e4b6ad34372f8b7a30"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13889,
+      "lastname": "Fankhauser-Ryf",
+      "firstname": "Daniela",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 44858
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44857
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44856
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4298,
+            "begin_date": null,
+            "id": 40395
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13889?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13889?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13889?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=b1f3402b17b1488ba423fbe548d273f1&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=55f9bba7c1c94f11a271c5cb86a6579a"
+      },
+      "function_latest": {
+        "de": "Präsidium"
+      },
+      "id": 13875,
+      "lastname": "Feller",
+      "firstname": "Stefanie",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 194510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4278,
+            "begin_date": null,
+            "id": 182397
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4283,
+            "begin_date": null,
+            "id": 182396
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4277,
+            "begin_date": null,
+            "id": 43501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 43446
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 43371
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13875?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13875?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13875?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=5066217abee94f12bac9bb09dfb9ea7f&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=e52cd2d34cf04e949cad92eeccdfb099"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13881,
+      "lastname": "Fischer",
+      "firstname": "Matthias",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4295,
+            "begin_date": null,
+            "id": 182413
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4275,
+            "begin_date": null,
+            "id": 182412
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 182411
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44210
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4294,
+            "begin_date": null,
+            "id": 44191
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4306,
+            "begin_date": null,
+            "id": 44190
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13881?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13881?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13881?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=a839a9dbe38647b6b70c54369dce100f&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=79f47a8e0f65401a98d3a15a336046ed"
+      },
+      "function_latest": {
+        "de": "Vize-Präsidium"
+      },
+      "id": 13879,
+      "lastname": "Fuchser",
+      "firstname": "Werner",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44007
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4285,
+            "begin_date": null,
+            "id": 43990
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4306,
+            "begin_date": null,
+            "id": 43942
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13879?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13879?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13879?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=169812ad7f0c4bb0ac3ebc3d26aa6192&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=cbf3b0ed73ae47fda622a62d4b2dda43"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13928,
+      "lastname": "Gerber-Gasser",
+      "firstname": "Michael",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 194512
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44893
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44892
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 44891
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13928?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13928?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13928?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=f0d9065d6e884a15be3ca826232cedc0&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=de724999d5884b82a0b4f6ca7f592405"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24648,
+      "lastname": "Girod",
+      "firstname": "Camille",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182410
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24648?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24648?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24648?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=6cef7a905a41463fbef39491ab1309c0&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=b886004cb1b1418f811212df359f32e8"
+      },
+      "function_latest": {
+        "de": "Vize-Präsidium"
+      },
+      "id": 13809,
+      "lastname": "Huber",
+      "firstname": "Thekla",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4276,
+            "begin_date": null,
+            "id": 182408
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44497
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 44494
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4282,
+            "begin_date": null,
+            "id": 44485
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4280,
+            "begin_date": null,
+            "id": 44483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13809?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=704bbb8ce77b415cbf9c8514f12ff231&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=2512403e7cdf4bffa710caf6e4711be2"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13837,
+      "lastname": "Hänni",
+      "firstname": "Markus",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 194505
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44781
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44759
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 44745
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13837?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=ca9e12a70bc44aee873512764feb3979&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=346d1bccedb742479d6b74735077fa5b"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13841,
+      "lastname": "Jutzi",
+      "firstname": "Cornelia",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 42368
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 42244
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4298,
+            "begin_date": null,
+            "id": 42112
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13841?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13841?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13841?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=dde538c12aa64b47902293ea8e45f51f&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=c878fddfd16b422e9c4941cebd0eab68"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13908,
+      "lastname": "Kern",
+      "firstname": "Markus",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44883
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4273,
+            "begin_date": null,
+            "id": 44882
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4294,
+            "begin_date": null,
+            "id": 44881
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4300,
+            "begin_date": null,
+            "id": 44880
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13908?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13908?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13908?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=5142e2df58dd46afa697cbc92f985500&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=24f6663a2b55486987d218e1bb4ead7d"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24638,
+      "lastname": "Kipfer",
+      "firstname": "Sebastian",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182389
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24638?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=262afbb02e87443db8f390645e1c9b27&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=c909d3fe50dd4a0c85fb83164c9f22f6"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13909,
+      "lastname": "Krebs",
+      "firstname": "Gabriela",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4274,
+            "begin_date": null,
+            "id": 44886
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44885
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 44884
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13909?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13909?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13909?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=8515cae205ac447b9296f2422cd1f956&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=117c6dd6ab8f4b1697d6e53fc63c2b33"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13835,
+      "lastname": "Kägi",
+      "firstname": "Fabio",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44677
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4305,
+            "begin_date": null,
+            "id": 44657
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4297,
+            "begin_date": null,
+            "id": 44638
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13835?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=45e2306c758c4a0c88be314c3378e459&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=d29c2009ef8e4cac8dd56397a60786f7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13929,
+      "lastname": "Küng",
+      "firstname": "Jürg",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 194513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44900
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4302,
+            "begin_date": null,
+            "id": 44895
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4307,
+            "begin_date": null,
+            "id": 44894
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13929?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13929?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13929?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=e5e01f890b8846a98e4caa53ada333cf&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=2a48fb5978e5498ba547727646689d0a"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13838,
+      "lastname": "Malli",
+      "firstname": "Heinrich",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 41218
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 41134
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 40774
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13838?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13838?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13838?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=898ddb82cedc40d2ad5101387f05a576&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=454b227b8afe4e31ae0502a485f7d091"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13867,
+      "lastname": "Merky Müller",
+      "firstname": "Andrea",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 194508
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 43319
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 43296
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 43207
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13867?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13867?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13867?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=aca20af1baa34bf196e73352367b9ecd&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=7e66e88daedb4aabaeada5603f271178"
+      },
+      "function_latest": {
+        "de": "Präsidium"
+      },
+      "id": 13880,
+      "lastname": "Moser",
+      "firstname": "Beat",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4283,
+            "begin_date": null,
+            "id": 44152
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4278,
+            "begin_date": null,
+            "id": 44133
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44097
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 44043
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44023
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13880?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13880?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13880?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=f3b52257adbc4db4a2616d22d4a40020&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=008042abaf764912923e6c2dc3e370cc"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24635,
+      "lastname": "Niggli",
+      "firstname": "Matthias",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 194503
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182384
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24635?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24635?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24635?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=70859ffb23544278a9e78ccd9cd96730&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=73049e3ace184a489e5730202ce3e111"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13877,
+      "lastname": "Oestreicher",
+      "firstname": "Andreas",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 43758
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 43668
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 43633
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 43632
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13877?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13877?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13877?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=7a269f5e442445c6b992b49532ef002c&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=983fcec316d84d55a4871e5eeae06d82"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13887,
+      "lastname": "Oestreicher",
+      "firstname": "Yves",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44473
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 44377
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 44359
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13887?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13887?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13887?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=99bde739196940dcbf9e7e26ac89d8aa&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=9cc7a5f8daa44512b69c8004c352a13b"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13888,
+      "lastname": "Rast",
+      "firstname": "Antoinette",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 44590
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 40314
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 40208
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 40175
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13888?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13888?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13888?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=1606ebce853945a69b36595bc83256d9&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=5060a9307a5d48858e0bfbff0af658a7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24641,
+      "lastname": "Rubi",
+      "firstname": "Beer Brigitte",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 194509
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182395
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24641?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24641?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24641?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=29c82de8d2264424bcd494df79c61290&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=865bcf3b1ee849b481837b008499fd1c"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24643,
+      "lastname": "Rychen-Marmet",
+      "firstname": "Priska",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182399
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24643?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24643?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24643?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=42fb89f96db24e86a578c86351055fc1&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=8f8f2009beab4dd0ab673cb36f3e4fca"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24646,
+      "lastname": "Schaller",
+      "firstname": "Nicole",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182405
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4273,
+            "begin_date": null,
+            "id": 182404
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24646?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24646?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24646?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=e09c01d805894be9b0339528216488ca&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=53c22203815b4283ba018ead07897dec"
+      },
+      "function_latest": {
+        "de": "Vize-Präsidium"
+      },
+      "id": 13844,
+      "lastname": "Schranz-Lüthi",
+      "firstname": "Gabriela",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 42643
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4306,
+            "begin_date": null,
+            "id": 42620
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 42552
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4294,
+            "begin_date": null,
+            "id": 42383
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13844?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=c4f85dd708674ed0a3ced07cec239ea7&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=eab64023c7414c0ba771bcdbd3913ee7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24649,
+      "lastname": "Schweizer-Mast",
+      "firstname": "Martin",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182414
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24649?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=fd9221719dee40b7a32b681b478035c3&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=bcb31e7ac67a432982816d9d9a18eef4"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13894,
+      "lastname": "Schärer",
+      "firstname": "Linus",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 194511
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4279,
+            "begin_date": null,
+            "id": 44872
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44871
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 44870
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 44869
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13894?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13894?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13894?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=9869345b6789410ca04ba39b5a846797&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=888a38fe7af04ebfa073f979e4841362"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24645,
+      "lastname": "Schüpbach",
+      "firstname": "Martin",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182401
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24645?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24645?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24645?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=6e05de1f7ba04135b3ea509692766e09&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=bfa0ade666bf488b9a99cdeeaf18a708"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13904,
+      "lastname": "Schütz",
+      "firstname": "Martin",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44879
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4303,
+            "begin_date": null,
+            "id": 44878
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4308,
+            "begin_date": null,
+            "id": 44877
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13904?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13904?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13904?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=dbe56d0117504659aaf15b9d754ad389&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=2913af6bc6784e9c9b5492782d28f9fd"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24639,
+      "lastname": "Seemann",
+      "firstname": "Pascal",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182390
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24639?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24639?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24639?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=cd3efa923bbe4b74b47276f607f22014&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=87caf6a11fa04527aa849379ee7f43c7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24644,
+      "lastname": "Semadeni",
+      "firstname": "Fabio",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182400
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24644?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24644?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24644?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=6c304204d6d34a6f8859d0e15f1c5711&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=349db7161a7241118fda346cd796a6c3"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24640,
+      "lastname": "Stähli",
+      "firstname": "Paul",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182392
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24640?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24640?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24640?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=bba182fb55974214ba32c52bb36dc985&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=099f0425013f4f829a63a04b09a37118"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13833,
+      "lastname": "Tobler Rüetschi",
+      "firstname": "Lilian",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4281,
+            "begin_date": null,
+            "id": 194504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 44533
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44528
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 44514
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13833?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=f1db0acaf8544f87979a4eef23d4d2c8&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=6f6c4afe1f0f468fb35ee7a1907bbcb7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13876,
+      "lastname": "Tschanz",
+      "firstname": "Cornelia",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4273,
+            "begin_date": null,
+            "id": 43614
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 43578
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4297,
+            "begin_date": null,
+            "id": 43540
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4305,
+            "begin_date": null,
+            "id": 43502
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13876?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13876?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13876?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=7b14e69e7a9d4292b6703ffb01836dfc&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=c2f26455b5e14d4ba0770722291b9cac"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24647,
+      "lastname": "Tschanz-Brönnimann",
+      "firstname": "Nadine",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182409
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24647?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24647?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24647?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=6dafb1cf9db346de9c8fffcaab011094&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=ff35e783a9df42dfbc10ad6236c90047"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13949,
+      "lastname": "Wenger-Storz",
+      "firstname": "Vera",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4275,
+            "begin_date": null,
+            "id": 44908
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4295,
+            "begin_date": null,
+            "id": 44907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 44906
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44905
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13949?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13949?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13949?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=7a094a6fe7094f9ca9512aff088fd9b8&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=956f4d0376bf45bf9b122ed10978631d"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13883,
+      "lastname": "Werren",
+      "firstname": "Silvana",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44286
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44267
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4298,
+            "begin_date": null,
+            "id": 44230
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13883?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13883?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13883?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=26aae6df5b7f4f9d83fea70f9e3cdf30&ggid=e65c07f26c2d4a9d98fb0b4846082a88&bgid=3b7ead7d21054469863499b8290ec096"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13895,
+      "lastname": "Wiesmann",
+      "firstname": "Andreas",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4277,
+            "begin_date": null,
+            "id": 182394
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 4286,
+            "begin_date": null,
+            "id": 182393
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 44876
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 44875
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4301,
+            "begin_date": null,
+            "id": 44874
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4298,
+            "begin_date": null,
+            "id": 44873
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13895?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13895?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13895?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=b5c5332a4b01434ca4d085fbd7ce7948&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=2ea0fdcd1bd740a1860c1c946bc5eed5"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 13839,
+      "lastname": "Zaugg",
+      "firstname": "Samuel",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4296,
+            "begin_date": null,
+            "id": 194506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 4304,
+            "begin_date": null,
+            "id": 42089
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 42070
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 4299,
+            "begin_date": null,
+            "id": 41936
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/13839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/13839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/13839?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.muensingen.ch/de/politik/cdws/person.php?gid=81a91d7478b9445d92fb795b999740ae&ggid=cb52d3fe3d4d4871baf1f2562c4d5499&bgid=5a53cd0988264bd2b0360c56e7cd1248"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24642,
+      "lastname": "Zoss",
+      "firstname": "Anna",
+      "body_key": "616",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 4284,
+            "begin_date": null,
+            "id": 182398
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24642?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24642?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24642?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

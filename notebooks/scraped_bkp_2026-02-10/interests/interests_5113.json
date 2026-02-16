@@ -1,0 +1,2032 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 34,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=5113&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=5113&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=5113&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5130,
+      "lastname": "Abbatiello",
+      "firstname": "Giuseppe",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14158
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14157
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5130?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5130?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5130?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5133,
+      "lastname": "Albi",
+      "firstname": "Francesco",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 115545
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14160
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14159
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5133?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5133?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5133?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5134,
+      "lastname": "Angelini Piva",
+      "firstname": "Barbara",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14163
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14162
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14161
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5134?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5136,
+      "lastname": "Antognini",
+      "firstname": "Franca",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14165
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14164
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5136?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5136?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5136?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5137,
+      "lastname": "Antunovic",
+      "firstname": "Marko",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1003,
+            "begin_date": null,
+            "id": 14168
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14167
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14166
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5137?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5139,
+      "lastname": "Baeriswyl",
+      "firstname": "Bruno",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14172
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1004,
+            "begin_date": null,
+            "id": 14171
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14170
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14169
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5139?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 22412,
+      "lastname": "Ballestra Cotti",
+      "firstname": "Yvonne",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 115554
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 115543
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 115521
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22412?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5142,
+      "lastname": "Bardelli",
+      "firstname": "Lorenza",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14175
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14174
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14173
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5142?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5142?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5142?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5144,
+      "lastname": "Belgeri",
+      "firstname": "Mauro",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 115549
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14178
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14177
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5144?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5144?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5144?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5145,
+      "lastname": "Beltrame",
+      "firstname": "Simone",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14181
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14180
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14179
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5145?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5145?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5145?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5146,
+      "lastname": "Beltrametti",
+      "firstname": "Filippo",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5543,
+            "begin_date": null,
+            "id": 115485
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14183
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 269,
+            "begin_date": null,
+            "id": 14182
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5146?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5146?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5146?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5149,
+      "lastname": "Bianchetti",
+      "firstname": "Orlando",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14187
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14185
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14184
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5149?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5149?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5149?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5156,
+      "lastname": "Caldara",
+      "firstname": "Omar",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1004,
+            "begin_date": null,
+            "id": 14189
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14188
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5156?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5156?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5156?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5157,
+      "lastname": "Campanella",
+      "firstname": "Mario",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 137055
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 137054
+          },
+          {
+            "active": false,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14116
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5157?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5157?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5157?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5158,
+      "lastname": "Camponovo",
+      "firstname": "Rosanna",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14193
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 14191
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14190
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5158?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5158?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5158?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5159,
+      "lastname": "Camponovo",
+      "firstname": "Valérie",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14196
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1004,
+            "begin_date": null,
+            "id": 14195
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14194
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5159?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5159?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5159?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Partei der Arbeit der Schweiz",
+        "fr": "Parti suisse du Travail",
+        "it": "Partito Operaio e Popolare",
+        "en": "Swiss Party of Labour"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5162,
+      "lastname": "Cavalli",
+      "firstname": "Gianfranco",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14199
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14198
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14197
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5162?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5162?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5162?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5166,
+      "lastname": "Clerici",
+      "firstname": "Fabio",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14202
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 14201
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14200
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5166?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5166?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5166?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5167,
+      "lastname": "Dacev",
+      "firstname": "Risto",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14205
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 14204
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14203
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5167?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 22413,
+      "lastname": "De Stephanis",
+      "firstname": "Ariele",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 115560
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 115546
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 115544
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1003,
+            "begin_date": null,
+            "id": 115522
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22413?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22413?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22413?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Kommunistische Partei ",
+        "fr": "Parti Communiste",
+        "it": "Partito Comunista",
+        "en": "Communist Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5176,
+      "lastname": "Genazzi",
+      "firstname": "Gionata",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14210
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14209
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14208
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5176?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5190,
+      "lastname": "Laganara",
+      "firstname": "Daniele",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14214
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 14213
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14212
+          },
+          {
+            "active": false,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14079
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5190?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5191,
+      "lastname": "Lappe",
+      "firstname": "Stefano",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14217
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14216
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14215
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5191?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5191?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5191?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5192,
+      "lastname": "Lazarov",
+      "firstname": "Saso",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14219
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14218
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5192?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5192?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5192?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5197,
+      "lastname": "Martinoni",
+      "firstname": "Michele",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 115547
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14222
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14221
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14220
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5197?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5200,
+      "lastname": "Merlini",
+      "firstname": "Simone",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 117033
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14224
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14223
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5200?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5200?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5200?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5201,
+      "lastname": "Meschiari",
+      "firstname": "Alessandro",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 115561
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14226
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14225
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5201?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5208,
+      "lastname": "Panizzolo",
+      "firstname": "Luca",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14229
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14228
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14227
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5208?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5213,
+      "lastname": "Pidò",
+      "firstname": "Kevin",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 115548
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1004,
+            "begin_date": null,
+            "id": 14231
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14230
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5213?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5217,
+      "lastname": "Renzetti",
+      "firstname": "Luca",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14234
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1001,
+            "begin_date": null,
+            "id": 14233
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14232
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5217?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5227,
+      "lastname": "Scaffetta",
+      "firstname": "Mattia",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14237
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1002,
+            "begin_date": null,
+            "id": 14236
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14235
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5227?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5230,
+      "lastname": "Singy",
+      "firstname": "Vanessa",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14240
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1006,
+            "begin_date": null,
+            "id": 14239
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14238
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5230?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5230?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5230?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5244,
+      "lastname": "Zanchi",
+      "firstname": "Pierluigi",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1007,
+            "begin_date": null,
+            "id": 14243
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1003,
+            "begin_date": null,
+            "id": 14242
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14241
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5244?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "https://www.locarno.ch/it/consiglio-comunale"
+      },
+      "function_latest": {},
+      "id": 5247,
+      "lastname": "Zlatanov",
+      "firstname": "Spase",
+      "body_key": "5113",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1008,
+            "begin_date": null,
+            "id": 14246
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1005,
+            "begin_date": null,
+            "id": 14245
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1000,
+            "begin_date": null,
+            "id": 14244
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5247?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

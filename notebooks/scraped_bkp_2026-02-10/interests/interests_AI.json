@@ -1,0 +1,5455 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 67,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=AI&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=AI&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=AI&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/ademi-erol"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 396,
+      "lastname": "Ademi",
+      "firstname": "Erol",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81444
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4377,
+            "begin_date": null,
+            "id": 81443
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81442
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4374,
+            "begin_date": "2019-01-01",
+            "id": 16753
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/396?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/396?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/396?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/birrer-kathrin"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 6807,
+      "lastname": "Birrer",
+      "firstname": "Kathrin",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6807,
+            "name": {
+              "de": "Mitglied der Mitte"
+            },
+            "id": 27700,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6807,
+            "name": {
+              "de": "Vorstand Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 27699,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6807?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6807?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6807?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4374,
+            "begin_date": "2020-01-01",
+            "id": 16751
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 16750
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6807?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6807?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6807?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/breu-simon"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 398,
+      "lastname": "Breu",
+      "firstname": "Simon",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 398,
+            "name": {
+              "de": "- Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 20126,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/398?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/398?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/398?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 81448
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81447
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/398?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/398?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/398?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/brunner-raphael"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 400,
+      "lastname": "Brunner",
+      "firstname": "Raphael",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 400,
+            "name": {
+              "de": "UBS Switzerland AG"
+            },
+            "id": 20128,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 400,
+            "name": {
+              "de": "Präsident Trainingsgemeinschaft Appenzell"
+            },
+            "id": 20127,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/400?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/400?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/400?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81453
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81452
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/400?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/400?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/400?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/bruelisauer-daniel"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 397,
+      "lastname": "Brülisauer",
+      "firstname": "Daniel",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2015-01-01",
+            "id": 81446
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81445
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/397?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/397?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/397?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/bruelisauer-sergio"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 406,
+      "lastname": "Brülisauer",
+      "firstname": "Sergio",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 406,
+            "name": {
+              "de": "Brülisauer Gipser AG"
+            },
+            "id": 20150,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/406?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/406?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/406?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2024-01-01",
+            "id": 81465
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81464
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/406?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/406?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/406?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/bruelisauer-signer-karin"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 6808,
+      "lastname": "Brülisauer-Signer",
+      "firstname": "Karin",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4374,
+            "begin_date": "2021-01-01",
+            "id": 81441
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2021-01-01",
+            "id": 81440
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 16752
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6808?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6808?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6808?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/buerki-josef"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 404,
+      "lastname": "Bürki",
+      "firstname": "Josef",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 404,
+            "name": {
+              "de": "Gewerbeverein Oberegg / Gewerbeverein Appenzell Innerrhoden "
+            },
+            "id": 20146,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 404,
+            "name": {
+              "de": "- Bezirksrat Oberegg"
+            },
+            "id": 20145,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/404?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/404?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/404?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 104593
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4390,
+            "begin_date": null,
+            "id": 81462
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/404?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/404?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/404?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/dietrich-huber-simone"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 423,
+      "lastname": "Dietrich-Huber",
+      "firstname": "Simone",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 423,
+            "name": {
+              "de": "- Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 20182,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/423?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/423?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/423?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 81497
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/423?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/423?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/423?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/durrer-gander-theres"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 399,
+      "lastname": "Durrer-Gander",
+      "firstname": "Theres",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81451
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2015-01-01",
+            "id": 81449
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/399?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/399?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/399?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/daehler-roland"
+      },
+      "function_latest": {
+        "de": "Regierender Landammann, Vorsteher Volkswirtschaftsdepartement"
+      },
+      "id": 6809,
+      "lastname": "Dähler",
+      "firstname": "Roland",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1180,
+            "begin_date": null,
+            "id": 16759
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1182,
+            "begin_date": null,
+            "id": 16758
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16757
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4391,
+            "begin_date": null,
+            "id": 16756
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1153,
+            "begin_date": null,
+            "id": 16755
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1151,
+            "begin_date": null,
+            "id": 16754
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6809?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6809?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/doerig-hans"
+      },
+      "function_latest": {
+        "de": "Bauherr, Vorsteher Bau- und Umweltdepartement"
+      },
+      "id": 449,
+      "lastname": "Dörig",
+      "firstname": "Hans",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 81555
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1177,
+            "begin_date": null,
+            "id": 81554
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1162,
+            "begin_date": null,
+            "id": 81553
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1161,
+            "begin_date": null,
+            "id": 81552
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1156,
+            "begin_date": null,
+            "id": 81551
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1152,
+            "begin_date": null,
+            "id": 81550
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/449?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/449?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/449?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/doerig-hans-2"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 6812,
+      "lastname": "Dörig",
+      "firstname": "Hans",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6812,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 4271,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6812,
+            "name": {
+              "de": "ZbW, Zentrum für berufliche Weiterbildung St.Gallen"
+            },
+            "id": 4270,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6812,
+            "name": {
+              "de": "EIT.swiss"
+            },
+            "id": 4269,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6812,
+            "name": {
+              "de": "St.Galler Kantonalbank AG"
+            },
+            "id": 4268,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6812?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6812?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6812?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 16745
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 16744
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6812?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6812?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6812?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/doerig-jonny"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 403,
+      "lastname": "Dörig",
+      "firstname": "Jonny",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Gallus Ferd. Rüesch AG"
+            },
+            "id": 20144,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20143,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 20142,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Präsident Kath. Kirchgemeinde Brülisau"
+            },
+            "id": 20141,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Präsident Schützenverein VOS Brülisau "
+            },
+            "id": 20140,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 403,
+            "name": {
+              "de": "Verwaltungsrat Hoher Kasten Drehrestaurant und Seilbahn AG"
+            },
+            "id": 20139,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/403?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/403?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/403?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81461
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4392,
+            "begin_date": null,
+            "id": 81460
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81459
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/403?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/403?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/403?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/doerig-urs"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 401,
+      "lastname": "Dörig",
+      "firstname": "Urs",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4386,
+            "begin_date": null,
+            "id": 81456
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 81455
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 81454
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/401?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/401?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/401?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/eberle-ruedi"
+      },
+      "function_latest": {
+        "de": "Säckelmeister, Vorsteher Finanzdepartement"
+      },
+      "id": 6823,
+      "lastname": "Eberle",
+      "firstname": "Ruedi",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1182,
+            "begin_date": null,
+            "id": 16794
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4395,
+            "begin_date": null,
+            "id": 16793
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1179,
+            "begin_date": null,
+            "id": 16792
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1155,
+            "begin_date": null,
+            "id": 16763
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16762
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4393,
+            "begin_date": null,
+            "id": 16761
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1160,
+            "begin_date": null,
+            "id": 16760
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6823?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6823?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6823?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/enzler-lukas"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 402,
+      "lastname": "Enzler",
+      "firstname": "Lukas",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Kassier der Korporation Forren, Appenzell"
+            },
+            "id": 20138,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20137,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Schulrat Schulgemeinde Appenzell"
+            },
+            "id": 20136,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Präsident Steig Wohnen und Arbeiten"
+            },
+            "id": 20135,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Appenzellische Offiziersgesellschaft"
+            },
+            "id": 20134,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Stiftungsrat Appenzellische Winkelriedstiftung"
+            },
+            "id": 20133,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Verwaltungsratspräsident Dynovus Solutions AG"
+            },
+            "id": 20132,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Verwaltungsratspräsident Grubenmann Liegenschaften AG"
+            },
+            "id": 20131,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Verwaltungsratspräsident IFB Finanzberatungs AG"
+            },
+            "id": 20130,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 402,
+            "name": {
+              "de": "Geschäftsführer und Verwaltungsrat Enzler AG Vermögensberatung"
+            },
+            "id": 20129,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/402?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/402?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/402?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81458
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81457
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/402?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/402?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/402?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/federer-pius"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 6819,
+      "lastname": "Federer",
+      "firstname": "Pius",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6819,
+            "name": {
+              "de": "Verwaltungsrat Federer Elektrotechnik AG"
+            },
+            "id": 4273,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6819,
+            "name": {
+              "de": "Verwaltungsrat Skilift Oberegg AG"
+            },
+            "id": 4272,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6819?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6819?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6819?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2007-01-01",
+            "id": 16771
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 16770
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6819?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/frey-silvia"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 405,
+      "lastname": "Frey",
+      "firstname": "Silvia",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 405,
+            "name": {
+              "de": "Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 20149,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 405,
+            "name": {
+              "de": "Schulgemeinde Appenzell"
+            },
+            "id": 20148,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 405,
+            "name": {
+              "de": "Vorstand Chinderhort Appenzell"
+            },
+            "id": 20147,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/405?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/405?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/405?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81463
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 16773
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/405?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/405?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/405?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/fritsche-albert"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 431,
+      "lastname": "Fritsche",
+      "firstname": "Albert",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 431,
+            "name": {
+              "de": "Kanton St.Gallen"
+            },
+            "id": 20192,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/431?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/431?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/431?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2023-01-01",
+            "id": 81511
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 16775
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/431?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/431?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/431?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/fritsche-manser-patricia"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 407,
+      "lastname": "Fritsche-Manser",
+      "firstname": "Patricia",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 407,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20152,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 407,
+            "name": {
+              "de": "Kirchenrätin Kath. Kirchgemeinde Appenzell"
+            },
+            "id": 20151,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/407?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/407?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/407?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81466
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 16777
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/407?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/407?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/407?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/faessler-urban"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 6818,
+      "lastname": "Fässler",
+      "firstname": "Urban",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2017-01-01",
+            "id": 16769
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4393,
+            "begin_date": null,
+            "id": 16768
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6818?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6818?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6818?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/faessler-schwab-yvonne"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 412,
+      "lastname": "Fässler-Schwab",
+      "firstname": "Yvonne",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 412,
+            "name": {
+              "de": "Appenzellerland Tourismus AI"
+            },
+            "id": 20158,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/412?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/412?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/412?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81475
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81474
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/412?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/gollino-erich-1"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 409,
+      "lastname": "Gollino",
+      "firstname": "Erich",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 409,
+            "name": {
+              "de": "Stadtverwaltung St. Gallen"
+            },
+            "id": 20156,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 409,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20155,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 409,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 20154,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/409?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/409?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/409?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81469
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81468
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/409?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/409?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/409?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/hersche-stefan"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 6820,
+      "lastname": "Hersche",
+      "firstname": "Stefan",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6820,
+            "name": {
+              "de": "altrimo ag"
+            },
+            "id": 4279,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6820?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6820?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6820?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 16781
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 16780
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6820?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6820?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6820?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/huber-bruno"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 415,
+      "lastname": "Huber",
+      "firstname": "Bruno",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 415,
+            "name": {
+              "de": "Regiobus AG"
+            },
+            "id": 20169,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 415,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20168,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 415,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20167,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 415,
+            "name": {
+              "de": "Verwaltungsrat Tarifverbund Ostschweiz"
+            },
+            "id": 20166,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/415?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/415?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/415?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4395,
+            "begin_date": null,
+            "id": 81484
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2017-01-01",
+            "id": 81483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/415?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/415?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/415?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-daniel"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 408,
+      "lastname": "Inauen",
+      "firstname": "Daniel",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 408,
+            "name": {
+              "de": "Hotel & Gastro formation SG AR AI FL\n "
+            },
+            "id": 20153,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/408?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/408?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/408?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2007-01-01",
+            "id": 81467
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 16784
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/408?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/408?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/408?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-karl"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 410,
+      "lastname": "Inauen",
+      "firstname": "Karl",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81471
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 81470
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/410?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/410?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/410?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-reto"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 427,
+      "lastname": "Inauen",
+      "firstname": "Reto",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 427,
+            "name": {
+              "de": "Raiffeisenbank Frauenfeld"
+            },
+            "id": 20190,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 427,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20189,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 427,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20188,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/427?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/427?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/427?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 81505
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 81504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4375,
+            "begin_date": null,
+            "id": 81503
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/427?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/427?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/427?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-roland"
+      },
+      "function_latest": {
+        "de": "Regierender Landammann, Vorsteher Erziehungsdepartement"
+      },
+      "id": 6821,
+      "lastname": "Inauen",
+      "firstname": "Roland",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1182,
+            "begin_date": null,
+            "id": 16791
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16790
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1176,
+            "begin_date": null,
+            "id": 16789
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1163,
+            "begin_date": null,
+            "id": 16788
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1159,
+            "begin_date": null,
+            "id": 16787
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1154,
+            "begin_date": null,
+            "id": 16786
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4388,
+            "begin_date": null,
+            "id": 16785
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6821?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6821?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6821?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-sepp"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 418,
+      "lastname": "Inauen",
+      "firstname": "Sepp",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 418,
+            "name": {
+              "de": "Bezirksrat Schwende-Rüte"
+            },
+            "id": 20175,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/418?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/418?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/418?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4375,
+            "begin_date": null,
+            "id": 81490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81489
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/418?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/418?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/418?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/inauen-maeder-karin"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 436,
+      "lastname": "Inauen-Mäder",
+      "firstname": "Karin",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 436,
+            "name": {
+              "de": "Spitex AI"
+            },
+            "id": 20200,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/436?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/436?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/436?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81523
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81522
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/436?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/436?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/436?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/keller-marco"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 411,
+      "lastname": "Keller",
+      "firstname": "Marco",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 411,
+            "name": {
+              "de": "Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 20157,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/411?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/411?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/411?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2022-01-01",
+            "id": 81473
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81472
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/411?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/411?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/411?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koch-urs"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 414,
+      "lastname": "Koch",
+      "firstname": "Urs",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 414,
+            "name": {
+              "de": "Verwaltungsrat ReConterra AG\n"
+            },
+            "id": 20165,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 414,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20164,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 414,
+            "name": {
+              "de": "Mitinhaber Koch AG, Strassen- & Tiefbau, Kies & Beton"
+            },
+            "id": 20163,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/414?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/414?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/414?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4374,
+            "begin_date": "2018-01-01",
+            "id": 81482
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 81481
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4388,
+            "begin_date": null,
+            "id": 81480
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81479
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/414?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/414?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/414?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koch-faessler-lukas"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 439,
+      "lastname": "Koch-Fässler",
+      "firstname": "Lukas",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 439,
+            "name": {
+              "de": "Gastro AI"
+            },
+            "id": 20204,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 439,
+            "name": {
+              "de": "- Gewerbeverband Appenzell Innerrhoden"
+            },
+            "id": 20203,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/439?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/439?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/439?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81530
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 81529
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/439?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/439?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/439?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koller-angela"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 6822,
+      "lastname": "Koller",
+      "firstname": "Angela",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6822,
+            "name": {
+              "de": "Kanton Appenzell A.Rh."
+            },
+            "id": 4281,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6822,
+            "name": {
+              "de": "Stiftungsrat Stiftung Opferhilfe"
+            },
+            "id": 4280,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6822,
+            "name": {
+              "de": "Präsidentin Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 4266,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6822?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6822?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6822?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4375,
+            "begin_date": null,
+            "id": 16796
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2013-01-01",
+            "id": 16795
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6822?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6822?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6822?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koller-angela-1"
+      },
+      "function_latest": {
+        "de": "Stillstehender Landammann, Vorsteherin Erziehungsdepartement"
+      },
+      "id": 448,
+      "lastname": "Koller",
+      "firstname": "Angela",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1182,
+            "begin_date": null,
+            "id": 81549
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1176,
+            "begin_date": null,
+            "id": 81548
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 81547
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1163,
+            "begin_date": null,
+            "id": 81546
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1159,
+            "begin_date": null,
+            "id": 81545
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1154,
+            "begin_date": null,
+            "id": 81544
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4388,
+            "begin_date": null,
+            "id": 81543
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/448?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/448?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/448?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koller-helen"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 428,
+      "lastname": "Koller",
+      "firstname": "Helen",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 428,
+            "name": {
+              "de": "- Arbeitnehmendenvereinigung Appenzell"
+            },
+            "id": 20191,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/428?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/428?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/428?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 104594
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4375,
+            "begin_date": null,
+            "id": 81508
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/428?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/428?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/428?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koller-michael"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 421,
+      "lastname": "Koller",
+      "firstname": "Michael",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 421,
+            "name": {
+              "de": "Inhaber und Geschäftsführer koller.team gmbh"
+            },
+            "id": 20177,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/421?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/421?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/421?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2024-01-01",
+            "id": 81494
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4382,
+            "begin_date": null,
+            "id": 81493
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/421?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/421?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/421?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koster-markus"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 413,
+      "lastname": "Koster",
+      "firstname": "Markus",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 413,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20162,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 413,
+            "name": {
+              "de": "Kantonaler Gewerbeverband AI"
+            },
+            "id": 20161,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 413,
+            "name": {
+              "de": "Hauptmann Bezirk Appenzell"
+            },
+            "id": 20160,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 413,
+            "name": {
+              "de": "VR-Delegierter und Geschäftsführer der SBC Treuhand AG"
+            },
+            "id": 20159,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/413?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/413?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/413?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81478
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 4374,
+            "begin_date": "2019-01-01",
+            "id": 81477
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4388,
+            "begin_date": null,
+            "id": 81476
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/413?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/413?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/413?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/koster-patrik"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 441,
+      "lastname": "Koster",
+      "firstname": "Patrik",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2015-01-01",
+            "id": 81534
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81533
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/441?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/441?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/441?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/locher-adrian"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 417,
+      "lastname": "Locher",
+      "firstname": "Adrian",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 417,
+            "name": {
+              "de": "Koch Kälte AG"
+            },
+            "id": 20174,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 417,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20173,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/417?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/417?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/417?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81488
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81487
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4387,
+            "begin_date": null,
+            "id": 81486
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/417?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/417?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/417?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/manser-albert"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 435,
+      "lastname": "Manser",
+      "firstname": "Albert",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 435,
+            "name": {
+              "de": "Geschäftsführer und Inhaber Holzbau Albert Manser AG"
+            },
+            "id": 20199,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 435,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20198,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 435,
+            "name": {
+              "de": "Verwaltungsrat Raiffeisenbank Appenzell"
+            },
+            "id": 20197,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/435?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/435?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/435?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81521
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4383,
+            "begin_date": null,
+            "id": 81520
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81519
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/435?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/435?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/435?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/manser-christian"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 426,
+      "lastname": "Manser",
+      "firstname": "Christian",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 426,
+            "name": {
+              "de": "feusuisse"
+            },
+            "id": 20187,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 426,
+            "name": {
+              "de": "Präsident Tanz-Musikanten-Verband AI"
+            },
+            "id": 20186,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 426,
+            "name": {
+              "de": "Verwaltungsratspräsident die mansers ag"
+            },
+            "id": 20185,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/426?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/426?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/426?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81501
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/426?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/426?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/426?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/manser-josef"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 416,
+      "lastname": "Manser",
+      "firstname": "Sepp",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 416,
+            "name": {
+              "de": "Geschäftsleiter und Inhaber Meglisalp"
+            },
+            "id": 20172,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 416,
+            "name": {
+              "de": "Hauptmann Bezirk Schwende-Rüte"
+            },
+            "id": 20171,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 416,
+            "name": {
+              "de": "Präsident Appenzellerland Tourismus AI"
+            },
+            "id": 20170,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/416?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/416?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/416?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2011-01-01",
+            "id": 81485
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/416?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/416?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/416?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/manser-barmettler-thomas"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 443,
+      "lastname": "Manser-Barmettler",
+      "firstname": "Thomas",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 443,
+            "name": {
+              "de": "Bergwirteverein Alpstein"
+            },
+            "id": 20214,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 443,
+            "name": {
+              "de": "- Gastro AI"
+            },
+            "id": 20213,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/443?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/443?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/443?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 81537
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/443?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/443?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/moser-nicola"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 422,
+      "lastname": "Moser",
+      "firstname": "Nicola",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 422,
+            "name": {
+              "de": "Appenzellische Offiziersgesellschaft"
+            },
+            "id": 20181,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 422,
+            "name": {
+              "de": "Appenzellische Winkelriedstiftung"
+            },
+            "id": 20180,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 422,
+            "name": {
+              "de": "Die Mitte AI"
+            },
+            "id": 20179,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 422,
+            "name": {
+              "de": "KGV AI"
+            },
+            "id": 20178,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/422?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/422?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/422?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81496
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2023-01-01",
+            "id": 81495
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/422?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/422?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/422?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/moesler-albert"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 438,
+      "lastname": "Mösler",
+      "firstname": "Albert",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 438,
+            "name": {
+              "de": "reg. Hauptmann Bezirk Schwende-Rüte"
+            },
+            "id": 20202,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/438?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/438?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/438?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81528
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2024-01-01",
+            "id": 81527
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/438?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/438?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/438?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/mueller-stefan"
+      },
+      "function_latest": {
+        "de": "Landeshauptmann, Vorsteher Land- und Forstwirtschaftsdepartement"
+      },
+      "id": 6828,
+      "lastname": "Müller",
+      "firstname": "Stefan",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16816
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1182,
+            "begin_date": null,
+            "id": 16815
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1181,
+            "begin_date": null,
+            "id": 16814
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4394,
+            "begin_date": null,
+            "id": 16813
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4393,
+            "begin_date": null,
+            "id": 16812
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4392,
+            "begin_date": null,
+            "id": 16811
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1161,
+            "begin_date": null,
+            "id": 16810
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1157,
+            "begin_date": null,
+            "id": 16809
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4389,
+            "begin_date": null,
+            "id": 16808
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6828?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/neff-albert"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 429,
+      "lastname": "Neff",
+      "firstname": "Albert",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2017-01-01",
+            "id": 81509
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 81506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 16807
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/429?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/429?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/429?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/neff-koebi"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 419,
+      "lastname": "Neff",
+      "firstname": "Köbi",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 419,
+            "name": {
+              "de": "L. Kellenberger & Co. AG, St.Gallen"
+            },
+            "id": 20176,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/419?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/419?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/419?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81492
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2020-01-01",
+            "id": 81491
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/419?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/419?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/419?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/neff-stefan"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 444,
+      "lastname": "Neff",
+      "firstname": "Stefan",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2021-01-01",
+            "id": 81540
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4394,
+            "begin_date": null,
+            "id": 81539
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81538
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/444?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/444?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/444?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/neff-maeder-doris"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 6824,
+      "lastname": "Neff-Mäder",
+      "firstname": "Doris",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6824,
+            "name": {
+              "de": "Emil Neff AG"
+            },
+            "id": 4297,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6824?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6824?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6824?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2022-01-01",
+            "id": 16818
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 16817
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6824?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/premerlani-romeo"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 425,
+      "lastname": "Premerlani",
+      "firstname": "Romeo",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 425,
+            "name": {
+              "de": "Geschäftsleiter Varioprint AG"
+            },
+            "id": 20184,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 425,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 20183,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/425?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/425?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/425?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81500
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81499
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4390,
+            "begin_date": null,
+            "id": 81498
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/425?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/425?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/425?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/rhiner-matthias"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 440,
+      "lastname": "Rhiner",
+      "firstname": "Matthias",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 440,
+            "name": {
+              "de": "Arbeitnehmer-Vereinigung Oberegg"
+            },
+            "id": 20209,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 440,
+            "name": {
+              "de": "Schulpräsident Oberegg"
+            },
+            "id": 20208,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 440,
+            "name": {
+              "de": "Bezirksrat Oberegg"
+            },
+            "id": 20207,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 440,
+            "name": {
+              "de": "Stiftungsrat Kantonsschule Trogen"
+            },
+            "id": 20206,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 440,
+            "name": {
+              "de": "Fachhochschulrat FHO"
+            },
+            "id": 20205,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/440?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/440?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/440?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2010-01-01",
+            "id": 81532
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4385,
+            "begin_date": null,
+            "id": 81531
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/440?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/440?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/440?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/rueegg-bless-monika"
+      },
+      "function_latest": {
+        "de": "Statthalter, Vorsteherin Gesundheits- und Sozialdepartement"
+      },
+      "id": 6830,
+      "lastname": "Rüegg Bless",
+      "firstname": "Monika",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1158,
+            "begin_date": null,
+            "id": 16831
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16830
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4395,
+            "begin_date": null,
+            "id": 16829
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4387,
+            "begin_date": null,
+            "id": 16828
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1150,
+            "begin_date": null,
+            "id": 16827
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6830?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6830?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/schefer-thomas"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 433,
+      "lastname": "Schefer",
+      "firstname": "Thomas",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 433,
+            "name": {
+              "de": "selbständig"
+            },
+            "id": 20195,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 433,
+            "name": {
+              "de": "Bauernverband Appenzell"
+            },
+            "id": 20194,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 433,
+            "name": {
+              "de": "Bezirksrat Gonten"
+            },
+            "id": 20193,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/433?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/433?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/433?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81515
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81514
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/433?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/433?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/433?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/signer-jakob"
+      },
+      "function_latest": {
+        "de": "Landesfähnrich, Vorsteher Justiz-, Polizei- und Militärdepartement"
+      },
+      "id": 6831,
+      "lastname": "Signer",
+      "firstname": "Jakob",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1164,
+            "begin_date": null,
+            "id": 16837
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16836
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4392,
+            "begin_date": null,
+            "id": 16835
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4391,
+            "begin_date": null,
+            "id": 16834
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4390,
+            "begin_date": null,
+            "id": 16833
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1150,
+            "begin_date": null,
+            "id": 16832
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1179,
+            "begin_date": null,
+            "id": 16819
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6831?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/vakant-sitz"
+      },
+      "function_latest": {},
+      "id": 6827,
+      "lastname": "Sitz",
+      "firstname": "1",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 16844
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": null,
+            "id": 16843
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6827?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/sonderegger-johannes"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 430,
+      "lastname": "Sonderegger",
+      "firstname": "Johannes",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4376,
+            "begin_date": null,
+            "id": 81510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2022-01-01",
+            "id": 16820
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/430?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/430?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/430?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/staeger-markus"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 6825,
+      "lastname": "Stäger",
+      "firstname": "Markus",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6825,
+            "name": {
+              "de": "St.Gallisch-Appenzellische Kraftwerke AG"
+            },
+            "id": 4310,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6825,
+            "name": {
+              "de": "Bezirksrat Schwende-Rüte"
+            },
+            "id": 4309,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6825,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 4308,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6825?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6825?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6825?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 16822
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 16821
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6825?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6825?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6825?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/sutter-albert"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 446,
+      "lastname": "Sutter",
+      "firstname": "Albert",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 446,
+            "name": {
+              "de": "Arbeitnehmervereinigung Appenzell"
+            },
+            "id": 20218,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 446,
+            "name": {
+              "de": "VST Verband schweizerische Türenbranche"
+            },
+            "id": 20217,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 446,
+            "name": {
+              "de": "VSSB Verband Schweizer Schloss- und Beschlägefabrikanten"
+            },
+            "id": 20216,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 446,
+            "name": {
+              "de": "MEGA GOSSAU AG "
+            },
+            "id": 20215,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/446?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/446?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/446?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 81542
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2018-01-01",
+            "id": 81541
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4378,
+            "begin_date": null,
+            "id": 16824
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/446?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/446?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/sutter-manser-esther"
+      },
+      "function_latest": {
+        "de": "Grossrätin"
+      },
+      "id": 432,
+      "lastname": "Sutter-Manser",
+      "firstname": "Esther",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4389,
+            "begin_date": null,
+            "id": 81512
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2023-01-01",
+            "id": 16825
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/432?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/432?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/432?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/tobler-elias"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 442,
+      "lastname": "Tobler",
+      "firstname": "Elias",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 442,
+            "name": {
+              "de": "Vorstandsmitglied IG Appenzeller Naturstrom"
+            },
+            "id": 20212,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 442,
+            "name": {
+              "de": "Gewerbeverein Oberegg"
+            },
+            "id": 20211,
+            "body_key": "AI"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 442,
+            "name": {
+              "de": "Geschäftsführer Technoform Tobler GmbH"
+            },
+            "id": 20210,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/442?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/442?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/442?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4381,
+            "begin_date": null,
+            "id": 81536
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81535
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/442?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/442?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/ulmann-ruedi"
+      },
+      "function_latest": {
+        "de": "Bauherr, Vorsteher Bau- und Umweltdepartement"
+      },
+      "id": 6826,
+      "lastname": "Ulmann",
+      "firstname": "Ruedi",
+      "body_key": "AI",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1178,
+            "begin_date": null,
+            "id": 16842
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1177,
+            "begin_date": null,
+            "id": 16841
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1162,
+            "begin_date": null,
+            "id": 16840
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1161,
+            "begin_date": null,
+            "id": 16839
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1156,
+            "begin_date": null,
+            "id": 16838
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1152,
+            "begin_date": null,
+            "id": 16826
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6826?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6826?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6826?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/waldburger-streule-remo"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 437,
+      "lastname": "Waldburger-Streule",
+      "firstname": "Remo",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 437,
+            "name": {
+              "de": "- Schulpräsident Gonten"
+            },
+            "id": 20201,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/437?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/437?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/437?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2025-01-01",
+            "id": 81525
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4379,
+            "begin_date": null,
+            "id": 81524
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/437?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/437?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/437?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.ai.ch/behoerdenmitglieder/wetter-christoph"
+      },
+      "function_latest": {
+        "de": "Grossrat"
+      },
+      "id": 434,
+      "lastname": "Wetter",
+      "firstname": "Christoph",
+      "body_key": "AI",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 434,
+            "name": {
+              "de": "Menzi Muck AG"
+            },
+            "id": 20196,
+            "body_key": "AI"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/434?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/434?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/434?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1149,
+            "begin_date": "2019-01-01",
+            "id": 81518
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4384,
+            "begin_date": null,
+            "id": 81517
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 4380,
+            "begin_date": null,
+            "id": 81516
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/434?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/434?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/434?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

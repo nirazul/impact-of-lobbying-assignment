@@ -1,0 +1,3123 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 59,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=JU&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=JU&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=JU&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3648"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11627,
+      "lastname": "Amstutz",
+      "firstname": "Rolf",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53802
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52958
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11627?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11627?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11627?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3603"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11240,
+      "lastname": "Aubry-Janketic",
+      "firstname": "Jelica",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53726
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5064,
+            "begin_date": null,
+            "id": 53490
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52848
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11240?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11240?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11240?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=819"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 10370,
+      "lastname": "Balmer",
+      "firstname": "David",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10370?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10370?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10370?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/fr/Autorites/Administration/DIN/Departement-de-l-interieur-DIN.html"
+      },
+      "function_latest": {
+        "fr": "Ministre jurassienne"
+      },
+      "id": 11790,
+      "lastname": "Barthoulot",
+      "firstname": "Nathalie",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1719,
+            "begin_date": "2015-12-18",
+            "id": 53033
+          },
+          {
+            "active": false,
+            "end_date": "2009-03-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": "1998-01-01",
+            "id": 45627
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11790?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11790?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11790?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3607"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11248,
+      "lastname": "Beuret",
+      "firstname": "Boris",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53683
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52851
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11248?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3608"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11249,
+      "lastname": "Beuret",
+      "firstname": "Serge",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53547
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52881
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11249?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11249?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11249?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/DFI"
+      },
+      "function_latest": {
+        "fr": "Ministre jurassienne"
+      },
+      "id": 9567,
+      "lastname": "Beuret Siess",
+      "firstname": "Rosalie",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2020-03-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": "2016-01-01",
+            "id": 53007
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1719,
+            "begin_date": "2020-03-25",
+            "id": 45207
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/9567?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/9567?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/9567?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1299"
+      },
+      "function_latest": {
+        "fr": "Suppléante"
+      },
+      "id": 11217,
+      "lastname": "Bourquin",
+      "firstname": "Valérie",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53863
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52767
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11217?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=404"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11206,
+      "lastname": "Breuleux",
+      "firstname": "Raphaël",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53584
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52728
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11206?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3641"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11320,
+      "lastname": "Burri-Schmassmann",
+      "firstname": "Sonia",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53758
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52927
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11320?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3609"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11250,
+      "lastname": "Cerf",
+      "firstname": "Mathieu",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53548
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52882
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11250?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11250?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11250?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3610"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11251,
+      "lastname": "Cerf",
+      "firstname": "Patrick",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53688
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52883
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11251?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3611"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11252,
+      "lastname": "Chaignat",
+      "firstname": "Florence",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53690
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52884
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11252?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=408"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 10341,
+      "lastname": "Chappuis",
+      "firstname": "Damien",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52433
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10341?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10341?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10341?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3612"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11253,
+      "lastname": "Chapuis",
+      "firstname": "Patrick",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53551
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52885
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11253?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11253?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=93"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 9565,
+      "lastname": "Comte",
+      "firstname": "Pierre-André",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53689
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1721,
+            "begin_date": null,
+            "id": 53088
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 53003
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/9565?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/9565?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/9565?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3613"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11254,
+      "lastname": "Corbat",
+      "firstname": "Gauthier",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53388
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52887
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11254?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11254?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/fr/Autorites/Administration/DFCS/Departement-de-la-formation-de-la-culture-et-des-sports-DFCS.html"
+      },
+      "function_latest": {
+        "fr": "Ministre jurassienne"
+      },
+      "id": 11793,
+      "lastname": "Courtet",
+      "firstname": "Martial",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1719,
+            "begin_date": "2015-12-18",
+            "id": 53034
+          },
+          {
+            "active": false,
+            "end_date": "2013-01-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": "2010-01-01",
+            "id": 45598
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11793?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11793?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11793?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=119"
+      },
+      "function_latest": {
+        "fr": "Suppléante"
+      },
+      "id": 10460,
+      "lastname": "Donzé",
+      "firstname": "Irène",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53552
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38932
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10460?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10460?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1502"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 10412,
+      "lastname": "Eggertswyler",
+      "firstname": "Philippe",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52611
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10412?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10412?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/DEN"
+      },
+      "function_latest": {
+        "fr": "Ministre jurassienne"
+      },
+      "id": 9568,
+      "lastname": "Eray",
+      "firstname": "David",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1719,
+            "begin_date": "2015-12-18",
+            "id": 53043
+          },
+          {
+            "active": false,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 53006
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/9568?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/9568?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/9568?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1280"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11215,
+      "lastname": "Eschmann",
+      "firstname": "Vincent",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53418
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52766
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11215?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11215?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11215?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1200"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 10391,
+      "lastname": "Farine",
+      "firstname": "Martial",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52560
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10391?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10391?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10391?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1559"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11232,
+      "lastname": "Favre",
+      "firstname": "Brigitte",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53866
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52810
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 45359
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11232?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11232?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11232?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1019"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11212,
+      "lastname": "Froidevaux",
+      "firstname": "Anne",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53684
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52763
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11212?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11212?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11212?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3614"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11255,
+      "lastname": "Frossard",
+      "firstname": "Gaëlle",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53419
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38937
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11255?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11255?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/fr/Autorites/Administration/DES/Departement-de-l-economie-et-de-la-sante-DES.html"
+      },
+      "function_latest": {
+        "fr": "Ministre jurassienne"
+      },
+      "id": 11796,
+      "lastname": "Gerber",
+      "firstname": "Jacques",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1719,
+            "begin_date": "2015-12-18",
+            "id": 53035
+          },
+          {
+            "active": false,
+            "end_date": "2015-12-01",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": "2007-01-01",
+            "id": 45497
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11796?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11796?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11796?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3617"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11257,
+      "lastname": "Gerster",
+      "firstname": "Sarah",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53793
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38940
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11257?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11257?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1520"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11228,
+      "lastname": "Girard",
+      "firstname": "Nicolas",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53799
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52806
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11228?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1542"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11231,
+      "lastname": "Godat",
+      "firstname": "Ivan",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53550
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52809
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11231?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3615"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11256,
+      "lastname": "Godat",
+      "firstname": "Pauline",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1722,
+            "begin_date": null,
+            "id": 53657
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53420
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38939
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11256?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11256?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11256?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3634"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11270,
+      "lastname": "Goffinet",
+      "firstname": "Olivier",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53830
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52892
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11270?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11270?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3623"
+      },
+      "function_latest": {
+        "fr": "Suppléante"
+      },
+      "id": 11262,
+      "lastname": "Guenot",
+      "firstname": "Sophie",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53864
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38944
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11262?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11262?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1279"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11214,
+      "lastname": "Haas",
+      "firstname": "Quentin",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1721,
+            "begin_date": null,
+            "id": 53121
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52765
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11214?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=210"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 10318,
+      "lastname": "Juillerat",
+      "firstname": "Frédéric",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38904
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10318?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10318?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10318?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3593"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11237,
+      "lastname": "Koller",
+      "firstname": "Alain",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1722,
+            "begin_date": null,
+            "id": 53624
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52845
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11237?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=419"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 10347,
+      "lastname": "Lachat",
+      "firstname": "Damien",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52439
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/10347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/10347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/10347?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3586"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11235,
+      "lastname": "Laville",
+      "firstname": "Baptiste",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53794
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52842
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11235?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1504"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11226,
+      "lastname": "Lehmann",
+      "firstname": "Katia",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52805
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11226?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3652"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11754,
+      "lastname": "Lovis",
+      "firstname": "Anael",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53586
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52967
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11754?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11754?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11754?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1099"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11213,
+      "lastname": "Macquat",
+      "firstname": "Fabrice",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52764
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11213?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3620"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11260,
+      "lastname": "Maitre",
+      "firstname": "Lionel",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53792
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38942
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11260?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11260?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=244"
+      },
+      "function_latest": {
+        "fr": "Suppléante"
+      },
+      "id": 11193,
+      "lastname": "Maitre-Schindelholz",
+      "firstname": "Suzanne",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53759
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52721
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11193?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11193?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11193?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=250"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11198,
+      "lastname": "Meury",
+      "firstname": "Rémy",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53829
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53691
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5064,
+            "begin_date": null,
+            "id": 53519
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53485
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52722
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11198?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11198?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11198?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3639"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11274,
+      "lastname": "Meyer",
+      "firstname": "Marcel",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1722,
+            "begin_date": null,
+            "id": 53589
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52921
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11274?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11274?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3636"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11272,
+      "lastname": "Monin",
+      "firstname": "François",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52894
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11272?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11272?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1501"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11225,
+      "lastname": "Montavon",
+      "firstname": "Lionel",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52804
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11225?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11225?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11225?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3645"
+      },
+      "function_latest": {
+        "fr": "Suppléante"
+      },
+      "id": 11564,
+      "lastname": "Pelletier Esposito",
+      "firstname": "Léonie",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53798
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5064,
+            "begin_date": null,
+            "id": 53518
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52930
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11564?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11564?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11564?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=2585"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11234,
+      "lastname": "Rais",
+      "firstname": "Irmin",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53588
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52841
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11234?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3632"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11269,
+      "lastname": "Raval",
+      "firstname": "Lisa",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5068,
+            "begin_date": null,
+            "id": 53893
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5064,
+            "begin_date": null,
+            "id": 53522
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52891
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11269?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11269?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=315"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11199,
+      "lastname": "Rottet",
+      "firstname": "Philippe",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5067,
+            "begin_date": null,
+            "id": 53791
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1721,
+            "begin_date": null,
+            "id": 53123
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52723
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11199?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11199?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11199?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=1521"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11229,
+      "lastname": "Rufer",
+      "firstname": "Yann",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5064,
+            "begin_date": null,
+            "id": 53489
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52807
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11229?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=324"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11201,
+      "lastname": "Schaffter",
+      "firstname": "Christophe",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52724
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11201?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11201?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3650"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11752,
+      "lastname": "Schaffter Houlmann",
+      "firstname": "Françoise",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1722,
+            "begin_date": null,
+            "id": 53656
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52965
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11752?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3626"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11265,
+      "lastname": "Schindelholz",
+      "firstname": "Jude",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 5066,
+            "begin_date": null,
+            "id": 53585
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38947
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11265?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11265?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3630"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11267,
+      "lastname": "Stettler",
+      "firstname": "Francine",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 53455
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52889
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11267?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11267?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11267?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3624"
+      },
+      "function_latest": {
+        "fr": "Députée"
+      },
+      "id": 11263,
+      "lastname": "Voillat",
+      "firstname": "Magali",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53685
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 38945
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11263?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11263?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=3637"
+      },
+      "function_latest": {
+        "fr": "Suppléant"
+      },
+      "id": 11273,
+      "lastname": "Vuillaume",
+      "firstname": "Thomas",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1726,
+            "begin_date": null,
+            "id": 53760
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52919
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.jura.ch/AppHost/9964,2/Scripts/Modules/VotesPLT/SearchVotes.aspx?deputyID=374"
+      },
+      "function_latest": {
+        "fr": "Député"
+      },
+      "id": 11204,
+      "lastname": "Wermeille",
+      "firstname": "Vincent",
+      "body_key": "JU",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1718,
+            "begin_date": null,
+            "id": 52727
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1721,
+            "begin_date": null,
+            "id": 45374
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": 1725,
+            "begin_date": null,
+            "id": 38974
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/11204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/11204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/11204?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

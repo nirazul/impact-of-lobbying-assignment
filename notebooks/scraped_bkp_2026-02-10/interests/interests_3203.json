@@ -1,0 +1,5401 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 63,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=3203&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=3203&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=3203&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=2f93ec0ad2f14ebcbacf0bd6c94c9dfa"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident Die Mitte / EVP"
+      },
+      "id": 3618,
+      "lastname": "Angehrn",
+      "firstname": "Patrik",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2021-09-20",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9455
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-09-21",
+            "id": 9454
+          },
+          {
+            "active": null,
+            "end_date": "2021-09-20",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9453
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-09-21",
+            "id": 9452
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-07-01",
+            "id": 9451
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-07-01",
+            "id": 9449
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2021-01-01",
+            "id": 9448
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2021-01-01",
+            "id": 9447
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 9446
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2017-01-01",
+            "id": 9445
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2017-01-01",
+            "id": 9444
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3618?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3618?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3618?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=ba0fd5f3469c4bb0bc52fe9cbe810d1a"
+      },
+      "function_latest": {},
+      "id": 3746,
+      "lastname": "Arpagaus Hans",
+      "firstname": "Peter",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9955
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2025-01-01",
+            "id": 9954
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2025-01-01",
+            "id": 9953
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3746?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3746?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3746?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=251beed8a093493b9eb7032e3667c699"
+      },
+      "function_latest": {},
+      "id": 3603,
+      "lastname": "Balok",
+      "firstname": "Chompel",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2021-01-01",
+            "id": 9377
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 4673
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2021-01-01",
+            "id": 4606
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3603?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3603?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3603?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=baf44060e4e24421a0ef78aaa88e2703"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 3747,
+      "lastname": "Baur",
+      "firstname": "Marcel",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 193251
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2026-01-01",
+            "id": 193249
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2026-01-01",
+            "id": 187325
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 187320
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2021-01-01",
+            "id": 187319
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2021-01-01",
+            "id": 9960
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2020-02-01",
+            "id": 9959
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2025-01-01",
+            "id": 9958
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2020-02-01",
+            "id": 9957
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2021-01-01",
+            "id": 9956
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3747?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3747?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3747?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=79484a72d8c340b1bc46a7b3b0254d2c"
+      },
+      "function_latest": {},
+      "id": 3688,
+      "lastname": "Bechtiger",
+      "firstname": "Roger",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 703,
+            "begin_date": "2015-01-01",
+            "id": 9734
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 703,
+            "begin_date": "2015-01-01",
+            "id": 9733
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9732
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9731
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-01-01",
+            "id": 9730
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-01-01",
+            "id": 9729
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2018-03-01",
+            "id": 9728
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2018-03-01",
+            "id": 9727
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 9726
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3688?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3688?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3688?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=3213ba37dc52491d8c2e02eacedc0a4e"
+      },
+      "function_latest": {},
+      "id": 3621,
+      "lastname": "Bertoldo",
+      "firstname": "Daniel",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-01-01",
+            "id": 9471
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-01-01",
+            "id": 9470
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-01-01",
+            "id": 9469
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 9468
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-01-01",
+            "id": 9467
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2010-01-01",
+            "id": 9466
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2011-03-22",
+            "id": 9465
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 9464
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3621?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3621?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3621?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=46f7222c3282470e807388f30c747ecb"
+      },
+      "function_latest": {
+        "de": "Präsident 2022"
+      },
+      "id": 3638,
+      "lastname": "Brunner",
+      "firstname": "Jürg",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2018-02-28",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2017-01-01",
+            "id": 9534
+          },
+          {
+            "active": null,
+            "end_date": "2018-02-28",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2017-01-01",
+            "id": 9533
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2022-01-01",
+            "id": 9532
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2023-01-01",
+            "id": 9531
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-01-01",
+            "id": 9530
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-01-01",
+            "id": 9529
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2014-03-25",
+            "id": 9528
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2018-12-01",
+            "id": 9527
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2014-04-01",
+            "id": 9526
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2014-03-25",
+            "id": 9525
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3638?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=c28718b4377145f29a012fa7c5537cf4"
+      },
+      "function_latest": {},
+      "id": 3760,
+      "lastname": "Bänziger",
+      "firstname": "Noemi",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-01-01",
+            "id": 10013
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10012
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2025-01-01",
+            "id": 10011
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3760?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3760?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3760?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=e52ad4b8b801426889a723806423cef0"
+      },
+      "function_latest": {},
+      "id": 3796,
+      "lastname": "Calzavara",
+      "firstname": "Andrea",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10184
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-01-01",
+            "id": 10183
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2025-01-01",
+            "id": 10182
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3796?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3796?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3796?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=fded5ae6c7db4cd6a1176d2961bb1d0d"
+      },
+      "function_latest": {},
+      "id": 3833,
+      "lastname": "Casaulta",
+      "firstname": "Marius",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-04-30",
+            "id": 10344
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2024-04-30",
+            "id": 10343
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2024-04-30",
+            "id": 10342
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3833?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=f25deeebdd214c279f00ca1f6fc1e686"
+      },
+      "function_latest": {},
+      "id": 3817,
+      "lastname": "Crottogini",
+      "firstname": "Eva",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2017-01-01",
+            "id": 10264
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2017-01-01",
+            "id": 10262
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2021-01-01",
+            "id": 10261
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2017-01-01",
+            "id": 10260
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3817?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3817?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3817?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=a0fa0f8c61b449908c71e5e7244f9ee1"
+      },
+      "function_latest": {
+        "de": "Co-Fraktionspräsidentin Grünliberale"
+      },
+      "id": 3723,
+      "lastname": "Diem",
+      "firstname": "Melanie",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-01-01",
+            "id": 9857
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 9856
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 9855
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2025-01-01",
+            "id": 9854
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3723?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3723?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3723?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=698112b0807a459392948dcd2bb634a6"
+      },
+      "function_latest": {},
+      "id": 3666,
+      "lastname": "Dudli",
+      "firstname": "Andreas",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2014-09-01",
+            "id": 9651
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2021-01-01",
+            "id": 9650
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2017-01-01",
+            "id": 9649
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2021-01-01",
+            "id": 9648
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3666?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3666?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3666?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=e904fc097cd649bc829e6bace3c83317"
+      },
+      "function_latest": {},
+      "id": 3802,
+      "lastname": "Eberhard",
+      "firstname": "Gabriela",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-05-04",
+            "id": 10209
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-01-01",
+            "id": 10208
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-05-04",
+            "id": 10206
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2017-01-01",
+            "id": 10205
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2017-01-01",
+            "id": 10204
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3802?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3802?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3802?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=c2c4b711ef7048e8955de08d52d05f2e"
+      },
+      "function_latest": {},
+      "id": 3761,
+      "lastname": "Eichmann",
+      "firstname": "Robin",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-03-01",
+            "id": 10016
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-03-01",
+            "id": 10015
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-02-28",
+            "id": 10014
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3761?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3761?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3761?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=fb6ac9cee18e440abe8af28e3ed9faea"
+      },
+      "function_latest": {},
+      "id": 3831,
+      "lastname": "Eisenring",
+      "firstname": "Sinah",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-01-01",
+            "id": 10332
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10331
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2025-01-01",
+            "id": 10330
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3831?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=c0fb9a552abe438483d5b18a4a12c4ba"
+      },
+      "function_latest": {},
+      "id": 3756,
+      "lastname": "Federer",
+      "firstname": "Cornelia",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 10000
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2021-01-01",
+            "id": 9999
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-01-01",
+            "id": 9966
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3756?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3756?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3756?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=4ab6362f73e747c3822b8141bbbb3716"
+      },
+      "function_latest": {},
+      "id": 22428,
+      "lastname": "Froidevaux",
+      "firstname": "Alice",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-08-27",
+            "id": 117044
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-08-27",
+            "id": 117040
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22428?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22428?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22428?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=785a112d55ed479ba5220d15e4ef2b6f"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 3686,
+      "lastname": "Garobbio-Campi",
+      "firstname": "Nadia",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2026-01-01",
+            "id": 187993
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 187992
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-06-27",
+            "id": 187991
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2025-06-27",
+            "id": 117045
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-06-27",
+            "id": 117042
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2023-01-01",
+            "id": 117037
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2023-01-01",
+            "id": 117036
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2023-01-01",
+            "id": 9723
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-05-04",
+            "id": 9722
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3686?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=509cc03a906742db8cfd6bc029918e4c"
+      },
+      "function_latest": {
+        "de": "Präsidentin 2025"
+      },
+      "id": 3649,
+      "lastname": "Gasser-Beck",
+      "firstname": "Jacqueline",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 193252
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 193250
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2021-01-01",
+            "id": 193248
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2026-01-01",
+            "id": 193247
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-01-01",
+            "id": 9592
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-01-01",
+            "id": 9591
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-12-01",
+            "id": 9590
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-12-01",
+            "id": 9589
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 9588
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2018-08-01",
+            "id": 9587
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2018-08-01",
+            "id": 9585
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-01-01",
+            "id": 9584
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-08-01",
+            "id": 9583
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-08-01",
+            "id": 9582
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2025-01-01",
+            "id": 9581
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3649?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=604ca9a467274a94baee8935e36651b0"
+      },
+      "function_latest": {},
+      "id": 3656,
+      "lastname": "Giger",
+      "firstname": "Timothy",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9621
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9619
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2025-01-01",
+            "id": 9618
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3656?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=eb76328df12f4bdda73f8416473f9b7e"
+      },
+      "function_latest": {},
+      "id": 3810,
+      "lastname": "Giger",
+      "firstname": "Thomas",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2025-01-01",
+            "id": 10234
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-01-01",
+            "id": 10233
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2022-01-01",
+            "id": 10232
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3810?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3810?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3810?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=67eeb6697f0a4aac8185868e3ad77ea8"
+      },
+      "function_latest": {},
+      "id": 3664,
+      "lastname": "Granitzer",
+      "firstname": "Esther",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-01-01",
+            "id": 9643
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 9642
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2023-01-01",
+            "id": 9641
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9640
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 9639
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2021-01-01",
+            "id": 9638
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3664?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3664?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3664?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=dfe5b2945af94aa6bce658a11ebbe581"
+      },
+      "function_latest": {},
+      "id": 3791,
+      "lastname": "Heeb-Riedl",
+      "firstname": "Jenny",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2021-01-01",
+            "id": 10165
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-04-01",
+            "id": 10164
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2018-04-01",
+            "id": 10163
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3791?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3791?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3791?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Politische Frauengruppe",
+        "fr": "Politische Frauengruppe",
+        "it": "Politische Frauengruppe",
+        "en": "Politische Frauengruppe"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=4f572971c05e446ea1cea73e12d601f8"
+      },
+      "function_latest": {},
+      "id": 3647,
+      "lastname": "Hornstein",
+      "firstname": "Andrea",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2013-07-04",
+            "id": 9578
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2013-08-12",
+            "id": 9577
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2013-07-09",
+            "id": 9576
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3647?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3647?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3647?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=7321035f4b8d463a8e5e844acb6c3d2f"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident Grüne / Junge Grüne"
+      },
+      "id": 3677,
+      "lastname": "Huber",
+      "firstname": "Christian",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9693
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-05-01",
+            "id": 9692
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9691
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-05-01",
+            "id": 9690
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9689
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-01-01",
+            "id": 9688
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-04-01",
+            "id": 9687
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-01-01",
+            "id": 9686
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-04-01",
+            "id": 9685
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2024-05-01",
+            "id": 9684
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9655
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3677?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3677?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3677?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=acd96e23e7d04b5dbbffb7bf57d3aec3"
+      },
+      "function_latest": {
+        "de": "Präsident 2018"
+      },
+      "id": 3731,
+      "lastname": "Hufenus",
+      "firstname": "Gallus",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-01-01",
+            "id": 9894
+          },
+          {
+            "active": null,
+            "end_date": "2017-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2017-01-01",
+            "id": 9893
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2020-01-14",
+            "id": 9892
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-01-01",
+            "id": 9891
+          },
+          {
+            "active": null,
+            "end_date": "2017-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2017-01-01",
+            "id": 9890
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2010-03-23",
+            "id": 9889
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2010-03-23",
+            "id": 9888
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3731?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3731?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3731?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=6e8bcdc390b5453f92726426784c4274"
+      },
+      "function_latest": {},
+      "id": 3672,
+      "lastname": "Jud",
+      "firstname": "David",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-04-30",
+            "id": 9672
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2025-01-01",
+            "id": 9671
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2024-04-30",
+            "id": 9670
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3672?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3672?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3672?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=32830f20458446f9ab1dd8ce2cd0376d"
+      },
+      "function_latest": {
+        "de": "Präsident 2023"
+      },
+      "id": 3622,
+      "lastname": "Keller",
+      "firstname": "Stefan",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2023-01-01",
+            "id": 9479
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2022-01-01",
+            "id": 9478
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2017-12-01",
+            "id": 9477
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-01-01",
+            "id": 9476
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-01-01",
+            "id": 9475
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2012-06-01",
+            "id": 9474
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2013-01-01",
+            "id": 9473
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2012-01-01",
+            "id": 9472
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3622?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3622?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3622?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=bfce466cecb24122af89641cb5f4fb89"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident FDP / JF"
+      },
+      "id": 3753,
+      "lastname": "Keller",
+      "firstname": "Felix",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-01-01",
+            "id": 9998
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2017-12-01",
+            "id": 9997
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2009-01-01",
+            "id": 9996
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2013-01-01",
+            "id": 9995
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2012-01-01",
+            "id": 9994
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2021-01-01",
+            "id": 9993
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3753?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3753?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3753?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=25159123b9a24f79ae5f9ae3446acc41"
+      },
+      "function_latest": {},
+      "id": 3602,
+      "lastname": "Kobel",
+      "firstname": "Christoph",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2024-01-01",
+            "id": 9376
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9375
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-01-01",
+            "id": 9374
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2024-01-01",
+            "id": 9373
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3602?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3602?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3602?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=d088f1881d7e46418d78ee90c282342b"
+      },
+      "function_latest": {},
+      "id": 3779,
+      "lastname": "Kobler",
+      "firstname": "Liliane",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2022-05-04",
+            "id": 10112
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-02-01",
+            "id": 10111
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2022-02-01",
+            "id": 10110
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3779?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3779?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3779?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=8908545353f746298f38999e7488baa5"
+      },
+      "function_latest": {},
+      "id": 3701,
+      "lastname": "Kuratli",
+      "firstname": "Donat",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2018-03-01",
+            "id": 9768
+          },
+          {
+            "active": null,
+            "end_date": "2018-02-28",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2017-01-01",
+            "id": 9767
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2021-01-01",
+            "id": 9766
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2017-01-01",
+            "id": 9765
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2017-01-01",
+            "id": 9764
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2025-01-01",
+            "id": 4577
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3701?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=193333a9cb0146cfa7bd4ccd6718d5df"
+      },
+      "function_latest": {},
+      "id": 3595,
+      "lastname": "Königer",
+      "firstname": "Doris",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2010-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2010-01-01",
+            "id": 9352
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2025-01-01",
+            "id": 9351
+          },
+          {
+            "active": null,
+            "end_date": "2010-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2010-01-01",
+            "id": 9350
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2001-01-01",
+            "id": 9349
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2001-01-01",
+            "id": 9348
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2001-01-01",
+            "id": 9347
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2013-01-01",
+            "id": 9346
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3595?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3595?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3595?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=afa5db75430e40c881fb5fc47117f1f0"
+      },
+      "function_latest": {},
+      "id": 3736,
+      "lastname": "Liechti",
+      "firstname": "Ivo",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2019-02-01",
+            "id": 9909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2019-02-01",
+            "id": 9908
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-02-01",
+            "id": 9907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-02-01",
+            "id": 9906
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 9905
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3736?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3736?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3736?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=fd8ad0f9ad2e42edb62082e4c5d62a3f"
+      },
+      "function_latest": {},
+      "id": 22429,
+      "lastname": "Lüchinger",
+      "firstname": "Raphael",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2025-06-27",
+            "id": 117046
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-06-27",
+            "id": 117043
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2025-06-27",
+            "id": 117038
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22429?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22429?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22429?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=783efbdce6c3452991908bac5125af04"
+      },
+      "function_latest": {},
+      "id": 3685,
+      "lastname": "Mauchle",
+      "firstname": "Arnold",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-01-01",
+            "id": 9721
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2023-01-01",
+            "id": 9720
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2023-01-01",
+            "id": 9719
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3685?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=e6a198e4e6d74bbb81e6244178d8881a"
+      },
+      "function_latest": {},
+      "id": 3800,
+      "lastname": "Meyer",
+      "firstname": "Veronika",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2017-01-01",
+            "id": 10199
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2021-01-01",
+            "id": 10198
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 703,
+            "begin_date": "2016-04-01",
+            "id": 10197
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 10196
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-01-01",
+            "id": 10195
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2017-01-01",
+            "id": 10194
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3800?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3800?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3800?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=84863d7e0fb44fbc9078a06974249626"
+      },
+      "function_latest": {},
+      "id": 3696,
+      "lastname": "Neuweiler",
+      "firstname": "René",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 703,
+            "begin_date": "2014-01-01",
+            "id": 9752
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2014-01-01",
+            "id": 9751
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2017-01-01",
+            "id": 9750
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2014-01-01",
+            "id": 9749
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3696?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=75dbabff8f564ace9e69e0cc5e744190"
+      },
+      "function_latest": {},
+      "id": 3680,
+      "lastname": "Olibet",
+      "firstname": "Peter",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2017-01-01",
+            "id": 9706
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2015-01-01",
+            "id": 9705
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2015-01-01",
+            "id": 9704
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2015-01-01",
+            "id": 9703
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3680?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=3f1bfcd8a2c644b2ab52b736deaf69b9"
+      },
+      "function_latest": {},
+      "id": 3631,
+      "lastname": "Pinto Cardoso",
+      "firstname": "Tatiana",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2025-01-01",
+            "id": 9501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9500
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-01-01",
+            "id": 9499
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3631?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3631?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3631?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=99a06cf388ad4b10bb1b4747d1e4fc51"
+      },
+      "function_latest": {},
+      "id": 3717,
+      "lastname": "Rickli",
+      "firstname": "Matthias",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2025-01-01",
+            "id": 9833
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9832
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-01-01",
+            "id": 9831
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3717?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3717?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3717?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=1c28e0d0dddc497c9344b3b565e4fde5"
+      },
+      "function_latest": {},
+      "id": 3600,
+      "lastname": "Ronzani",
+      "firstname": "Manuela",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2017-01-01",
+            "id": 9369
+          },
+          {
+            "active": null,
+            "end_date": "2018-11-30",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2017-01-01",
+            "id": 9368
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2021-01-01",
+            "id": 9367
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2017-01-01",
+            "id": 9366
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3600?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3600?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3600?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=4d85ede227814100b03c24bc6a10edb2"
+      },
+      "function_latest": {
+        "de": "Präsident 2013"
+      },
+      "id": 3646,
+      "lastname": "Rotach",
+      "firstname": "Marcel",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2005-01-01",
+            "id": 9575
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2017-01-01",
+            "id": 9574
+          },
+          {
+            "active": null,
+            "end_date": "2013-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2013-01-01",
+            "id": 9573
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2012-01-01",
+            "id": 9572
+          },
+          {
+            "active": null,
+            "end_date": "2011-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2009-01-01",
+            "id": 9571
+          },
+          {
+            "active": null,
+            "end_date": "2013-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2013-01-01",
+            "id": 9570
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2012-01-01",
+            "id": 9569
+          },
+          {
+            "active": null,
+            "end_date": "2011-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2009-01-19",
+            "id": 9568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2001-10-01",
+            "id": 9567
+          },
+          {
+            "active": null,
+            "end_date": "2004-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2001-12-11",
+            "id": 9566
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2021-01-01",
+            "id": 9565
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3646?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3646?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3646?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=bb1e8e66906940aa90408e2251ecd549"
+      },
+      "function_latest": {
+        "de": "Präsident 2020"
+      },
+      "id": 3749,
+      "lastname": "Rütsche",
+      "firstname": "Beat",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2020-01-01",
+            "id": 9978
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9977
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2020-01-01",
+            "id": 9976
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2019-01-01",
+            "id": 9975
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 9974
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 9973
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-01-01",
+            "id": 9972
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2011-06-01",
+            "id": 9971
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2020-01-01",
+            "id": 9970
+          },
+          {
+            "active": null,
+            "end_date": "2019-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-01-01",
+            "id": 9969
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2011-06-01",
+            "id": 9968
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2020-01-01",
+            "id": 9967
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2025-01-01",
+            "id": 9965
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2015-07-01",
+            "id": 9964
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2025-01-01",
+            "id": 9963
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2015-07-01",
+            "id": 9962
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 9961
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 17,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3749?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3749?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3749?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=bd734075547a4996997f41986af6d1f8"
+      },
+      "function_latest": {},
+      "id": 3752,
+      "lastname": "Saxer",
+      "firstname": "Corina",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-03-19",
+            "id": 9992
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2023-01-01",
+            "id": 9991
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-08-01",
+            "id": 9990
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-04-01",
+            "id": 9989
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-08-01",
+            "id": 9988
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2025-01-01",
+            "id": 9987
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2021-08-01",
+            "id": 9986
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3752?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=b8a6e4e305f849ca938c9cb7020e4828"
+      },
+      "function_latest": {},
+      "id": 3743,
+      "lastname": "Schmid",
+      "firstname": "Rebekka",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 9948
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-01-01",
+            "id": 9947
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2021-01-01",
+            "id": 9945
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2021-01-01",
+            "id": 9944
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2021-01-01",
+            "id": 9943
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3743?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3743?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3743?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=af5d6f4c40e1450598184a15e55ed0f3"
+      },
+      "function_latest": {
+        "de": "Co-Fraktionspräsidentin SP / JUSO / PFG"
+      },
+      "id": 3734,
+      "lastname": "Schmid-Baerlocher",
+      "firstname": "Angelica",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2022-05-04",
+            "id": 9904
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-07-01",
+            "id": 9903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-04-01",
+            "id": 9902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2024-01-01",
+            "id": 9901
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2024-07-01",
+            "id": 9900
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3734?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3734?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3734?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=db8abf15e27640d1af05ee002147ab4e"
+      },
+      "function_latest": {},
+      "id": 3790,
+      "lastname": "Schönbächler",
+      "firstname": "Philipp",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2020-02-01",
+            "id": 10162
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2022-01-01",
+            "id": 10161
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2022-01-01",
+            "id": 10160
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-12-01",
+            "id": 10159
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2021-01-01",
+            "id": 10158
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3790?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3790?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3790?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=3ab99a0b90ff45bfb8cc80a856cab8e9"
+      },
+      "function_latest": {},
+      "id": 3629,
+      "lastname": "Schürch",
+      "firstname": "Marlène",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2022-05-03",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-05-04",
+            "id": 9490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-04-01",
+            "id": 9489
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2022-05-04",
+            "id": 9488
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2021-04-01",
+            "id": 9487
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3629?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3629?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3629?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=c3c6dd9cf4dd4630a422776c40fdeb51"
+      },
+      "function_latest": {},
+      "id": 3763,
+      "lastname": "Stauffacher",
+      "firstname": "Marc",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2024-01-01",
+            "id": 10025
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-01-01",
+            "id": 10024
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2024-01-01",
+            "id": 10023
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3763?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3763?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3763?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=f1c9a087d8c84b4090e2e1499ae71723"
+      },
+      "function_latest": {},
+      "id": 3816,
+      "lastname": "Städler",
+      "firstname": "Michael",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2025-03-01",
+            "id": 10259
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-03-01",
+            "id": 10258
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2025-03-01",
+            "id": 10257
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3816?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3816?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3816?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=c715b4d925f94e07b609416a27c855ea"
+      },
+      "function_latest": {},
+      "id": 3766,
+      "lastname": "Stähelin",
+      "firstname": "Louis",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-08-01",
+            "id": 10065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-08-01",
+            "id": 10064
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2023-01-01",
+            "id": 10063
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2023-01-01",
+            "id": 10062
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2019-10-01",
+            "id": 10061
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 702,
+            "begin_date": "2019-10-01",
+            "id": 10060
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-01-01",
+            "id": 10059
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-08-01",
+            "id": 10058
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-10-01",
+            "id": 10057
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-01-01",
+            "id": 10056
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-08-01",
+            "id": 10055
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2019-10-01",
+            "id": 10054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2021-09-21",
+            "id": 10053
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3766?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3766?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3766?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=138a05ab274f494c881217d5fe250afb"
+      },
+      "function_latest": {},
+      "id": 3586,
+      "lastname": "Sutter",
+      "firstname": "Flavia",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2023-05-02",
+            "id": 9322
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-05-01",
+            "id": 9321
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2023-05-01",
+            "id": 9320
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3586?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3586?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3586?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=d94cf650493b4f18ac8f836495d30012"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 3788,
+      "lastname": "Thurairajah",
+      "firstname": "Jeyakumar",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2026-01-01",
+            "id": 187326
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 187324
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 187323
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 10156
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10155
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2016-04-01",
+            "id": 10154
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 697,
+            "begin_date": "2017-01-01",
+            "id": 10153
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2017-01-01",
+            "id": 10152
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3788?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3788?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3788?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=16e25ba8979f4db4a4251d138d03326e"
+      },
+      "function_latest": {},
+      "id": 3591,
+      "lastname": "Vosseler",
+      "firstname": "David",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 9336
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2025-01-01",
+            "id": 9335
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2025-01-01",
+            "id": 9334
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3591?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3591?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3591?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=d028765091344cac83a8c3be66013065"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 3777,
+      "lastname": "Weibel",
+      "firstname": "Lara",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 10104
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10103
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-08-01",
+            "id": 10102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2021-08-01",
+            "id": 10101
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2021-08-01",
+            "id": 10100
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-01-01",
+            "id": 10035
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3777?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3777?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3777?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=b07dbebc9f16481fba6059893667346a"
+      },
+      "function_latest": {
+        "de": "Co-Fraktionspräsidentin SP / JUSO / PFG"
+      },
+      "id": 3737,
+      "lastname": "Wenger",
+      "firstname": "Lydia",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2021-08-24",
+            "id": 9915
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-07-01",
+            "id": 9914
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2025-01-01",
+            "id": 9913
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2021-07-07",
+            "id": 9912
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 696,
+            "begin_date": "2024-07-01",
+            "id": 9911
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3737?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3737?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3737?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=4b1c06c4dfbc47a88182cbfbd3987049"
+      },
+      "function_latest": {},
+      "id": 3641,
+      "lastname": "Wettach",
+      "firstname": "Christoph",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-07-03",
+            "id": 126838
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2020-01-01",
+            "id": 126837
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2017-01-01",
+            "id": 126824
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2025-07-03",
+            "id": 126823
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 693,
+            "begin_date": "2025-07-03",
+            "id": 117047
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2020-01-01",
+            "id": 117041
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-08-01",
+            "id": 117039
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-08-01",
+            "id": 9547
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-08-01",
+            "id": 9546
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-08-01",
+            "id": 9545
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2012-01-01",
+            "id": 9544
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2012-01-01",
+            "id": 9543
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2017-01-01",
+            "id": 9542
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2016-01-01",
+            "id": 9541
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 694,
+            "begin_date": "2012-09-11",
+            "id": 9540
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3641?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3641?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3641?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=28ab71504a4c469e91b8c5dd5ba2cde4"
+      },
+      "function_latest": {},
+      "id": 3609,
+      "lastname": "Wick",
+      "firstname": "Oliver",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2024-03-19",
+            "id": 9407
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2024-03-19",
+            "id": 9406
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 706,
+            "begin_date": "2024-03-19",
+            "id": 9405
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-03-06",
+            "id": 9404
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-03-06",
+            "id": 9403
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 692,
+            "begin_date": "2024-03-19",
+            "id": 9402
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3609?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3609?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3609?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=f3e1d6b89afb4d70a619673e705c6e28"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsidentin SVP"
+      },
+      "id": 3819,
+      "lastname": "Winter-Dubs",
+      "firstname": "Karin",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2013-01-01",
+            "id": 10292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2013-01-01",
+            "id": 10291
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2013-01-01",
+            "id": 10290
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-01-01",
+            "id": 10289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 10288
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-01-01",
+            "id": 10287
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 10286
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2021-01-01",
+            "id": 10285
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 701,
+            "begin_date": "2017-01-01",
+            "id": 10284
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2009-01-01",
+            "id": 10283
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2009-01-01",
+            "id": 10282
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2009-01-01",
+            "id": 10281
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2011-01-01",
+            "id": 10280
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2011-01-01",
+            "id": 10279
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 699,
+            "begin_date": "2011-01-01",
+            "id": 10278
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2013-01-01",
+            "id": 10277
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2012-01-01",
+            "id": 10276
+          },
+          {
+            "active": null,
+            "end_date": "2011-01-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2009-01-01",
+            "id": 10275
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2013-01-01",
+            "id": 10274
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2012-01-01",
+            "id": 10273
+          },
+          {
+            "active": null,
+            "end_date": "2011-01-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2009-01-01",
+            "id": 10272
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2013-01-01",
+            "id": 10271
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 22,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3819?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3819?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=b564d4467d1a4a608aa3babc0124e330"
+      },
+      "function_latest": {},
+      "id": 3742,
+      "lastname": "Wäspe",
+      "firstname": "Remo",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2018-08-01",
+            "id": 9942
+          },
+          {
+            "active": null,
+            "end_date": "2020-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2018-08-01",
+            "id": 9941
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2013-01-01",
+            "id": 9940
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2017-01-01",
+            "id": 9939
+          },
+          {
+            "active": null,
+            "end_date": "2016-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2013-01-01",
+            "id": 9938
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 691,
+            "begin_date": "2013-01-01",
+            "id": 9937
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3742?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3742?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3742?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadt.sg.ch/home/verwaltung-politik/demokratie-politik/stadtparlament/mitglieder/aktuelleMitglieder.personDetail.html?personGUID=d516783a18a34dd8b3fb42f5e04c6876"
+      },
+      "function_latest": {
+        "de": "Vizepräsident/-in"
+      },
+      "id": 3781,
+      "lastname": "Ziegler",
+      "firstname": "Antje",
+      "body_key": "3203",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2026-01-01",
+            "id": 187322
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2025-01-01",
+            "id": 187321
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-01-01",
+            "id": 10130
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-01-01",
+            "id": 10129
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 705,
+            "begin_date": "2024-01-01",
+            "id": 10128
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10127
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-01-01",
+            "id": 10126
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-04-01",
+            "id": 10125
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2026-01-01",
+            "id": 10124
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2025-01-01",
+            "id": 10123
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2024-01-01",
+            "id": 10121
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 700,
+            "begin_date": "2023-04-01",
+            "id": 10120
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 698,
+            "begin_date": "2023-04-01",
+            "id": 10119
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2023-04-01",
+            "id": 10118
+          },
+          {
+            "active": null,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 695,
+            "begin_date": "2023-04-01",
+            "id": 10117
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3781?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3781?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3781?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

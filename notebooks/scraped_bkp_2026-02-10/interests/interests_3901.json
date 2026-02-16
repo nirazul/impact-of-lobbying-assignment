@@ -1,0 +1,2620 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 24,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=3901&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=3901&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=3901&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403360"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4349,
+      "lastname": "Adank-Arioli",
+      "firstname": "Sandra",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Grossrätliche Kommission für Wirtschaft und Abgaben; Mitglied"
+            },
+            "id": 3145,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "SRG Ostschweiz; Vorstandsmitglied"
+            },
+            "id": 3143,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Bürgergemeinde Chur; Mitglied Bürgerrat"
+            },
+            "id": 3142,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Bürgergemeinde Chur, Einbürgerungskommission; Präsidentin"
+            },
+            "id": 3141,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Chur Tourismus; Präsidentin"
+            },
+            "id": 3140,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Bündner Gewerbeverband; Vorstandsmitglied"
+            },
+            "id": 3139,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Gewerbeverein Chur; Präsidentin"
+            },
+            "id": 3137,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "Grosser Rat Graubünden; Mitglied"
+            },
+            "id": 3136,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4349,
+            "name": {
+              "de": "RhB; Mitglied Konsultativrat"
+            },
+            "id": 3135,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4349?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4349?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4349?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 863,
+            "begin_date": "2025-01-01",
+            "id": 12704
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 860,
+            "begin_date": null,
+            "id": 12703
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12702
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4349?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4349?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4349?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403369"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4352,
+      "lastname": "Brüesch",
+      "firstname": "Flavia",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4352,
+            "name": {
+              "de": "Verein Bauernhof Spielgruppe; Vorstandsmitglied"
+            },
+            "id": 3164,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4352?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4352?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4352?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 862,
+            "begin_date": null,
+            "id": 12712
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12711
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 855,
+            "begin_date": "2025-01-01",
+            "id": 12710
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4352?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4352?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4352?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/172123"
+      },
+      "function_latest": {
+        "de": "Vizepräsidentin"
+      },
+      "id": 4331,
+      "lastname": "Cabalzar",
+      "firstname": "Corina",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "Frauenzentrale Graubünden; Mitglied"
+            },
+            "id": 3099,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "Pflegeakademie; Mitglied"
+            },
+            "id": 3098,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "Alterssiedlung Kantengut; Stiftungsrätin"
+            },
+            "id": 3097,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "SBK; Mitglied"
+            },
+            "id": 3096,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "Förderverein Maisha Tanzania; Präsidentin"
+            },
+            "id": 3095,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4331,
+            "name": {
+              "de": "SP Sektion Chur; Vorstandsmitglied"
+            },
+            "id": 3094,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4331?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4331?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4331?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 862,
+            "begin_date": null,
+            "id": 12675
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 861,
+            "begin_date": null,
+            "id": 12674
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "2022-01-01",
+            "id": 12673
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2018-09-01",
+            "id": 12672
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 851,
+            "begin_date": "2025-01-01",
+            "id": 12671
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4331?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4331?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4331?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/314549"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4337,
+      "lastname": "Cangemi",
+      "firstname": "Vincenzo",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4337,
+            "name": {
+              "de": "Verwaltungskommission GVG GR; Mitglied"
+            },
+            "id": 3118,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4337,
+            "name": {
+              "de": "Kinderhaus St. Josef Chur; Präsident"
+            },
+            "id": 3117,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4337?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4337?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4337?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2022-10-01",
+            "id": 12104
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 849,
+            "begin_date": null,
+            "id": 11917
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "2022-10-01",
+            "id": 10803
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4337?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4337?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4337?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/246230"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4227,
+      "lastname": "Carigiet Fitzgerald",
+      "firstname": "Angela",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2021-01-01",
+            "id": 12484
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 862,
+            "begin_date": null,
+            "id": 11181
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "2021-01-01",
+            "id": 11148
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4227?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4227?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/325222"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4338,
+      "lastname": "Casale",
+      "firstname": "Giulia",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4338,
+            "name": {
+              "de": "VCS Graubünden; Vorstandsmitglied"
+            },
+            "id": 3119,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4338?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4338?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4338?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 860,
+            "begin_date": null,
+            "id": 12683
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "2023-01-01",
+            "id": 12682
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2023-01-01",
+            "id": 10990
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4338?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4338?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4338?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/310457"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4336,
+      "lastname": "Curschellas",
+      "firstname": "Silvio",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 860,
+            "begin_date": null,
+            "id": 11762
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2022-07-01",
+            "id": 11631
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 854,
+            "begin_date": "2024-01-01",
+            "id": 11536
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4336?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4336?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4336?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/246227"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4334,
+      "lastname": "Danuser",
+      "firstname": "Géraldine",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4334,
+            "name": {
+              "de": "GLP Graubünden; Präsidentin"
+            },
+            "id": 3112,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4334,
+            "name": {
+              "de": "Grosser Rat Graubünden; Mitglied"
+            },
+            "id": 3111,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4334,
+            "name": {
+              "de": "Stiftungsrat der Stiftung Stadtbibliothek Chur; Mitglied"
+            },
+            "id": 3109,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4334,
+            "name": {
+              "de": "GLP Schweiz; Vorstandsmitglied"
+            },
+            "id": 3108,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4334?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4334?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4334?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2021-01-01",
+            "id": 12453
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 847,
+            "begin_date": "2021-01-01",
+            "id": 12388
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4334?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4334?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4334?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/172732"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4332,
+      "lastname": "Good",
+      "firstname": "Rainer",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4332,
+            "name": {
+              "de": "Good Consult AG; Verwaltungsrat"
+            },
+            "id": 3103,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4332,
+            "name": {
+              "de": "Stiftung Ferienkolonie der Stadt Chur; Mitglied Stiftungsrat"
+            },
+            "id": 3102,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4332,
+            "name": {
+              "de": "Bever Lodge AG; Verwaltungsratspräsident"
+            },
+            "id": 3101,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4332,
+            "name": {
+              "de": "Ina Immobilia AG; Verwaltungsratspräsident"
+            },
+            "id": 3100,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4332?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4332?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4332?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 268,
+            "begin_date": "2025-01-01",
+            "id": 12679
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12678
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 852,
+            "begin_date": null,
+            "id": 12677
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 851,
+            "begin_date": "2025-01-01",
+            "id": 12676
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4332?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4332?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4332?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/404119"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4353,
+      "lastname": "Gredig",
+      "firstname": "Simon",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4353,
+            "name": {
+              "de": "Begleitkommission \"Abschluss Kiesgewinnung Oldis\""
+            },
+            "id": 3167,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4353,
+            "name": {
+              "de": "Wohnbaugenossenschaft der Stadt Chur (WSC) <a href=\"https://www.chur.ch/publikationen/56655\" class=\"icms-link-int\">(Info)</a>"
+            },
+            "id": 3166,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4353,
+            "name": {
+              "de": "Baumeister Stark und Frau Aschwanden-Stark Fonds"
+            },
+            "id": 3165,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4353?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4353?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4353?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 853,
+            "begin_date": null,
+            "id": 12715
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 849,
+            "begin_date": null,
+            "id": 12714
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 848,
+            "begin_date": "2025-01-01",
+            "id": 12713
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4353?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4353?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4353?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/120029"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4328,
+      "lastname": "Hegner",
+      "firstname": "Walter",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4328,
+            "name": {
+              "de": "HEV Graubünden; Mitglied"
+            },
+            "id": 3093,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4328,
+            "name": {
+              "de": "RhB; Konsultativrat"
+            },
+            "id": 3092,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4328,
+            "name": {
+              "de": "Gewerbeverein Graubünden; Mitglied"
+            },
+            "id": 3091,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4328,
+            "name": {
+              "de": "SVP Graubünden; Vizepräsident"
+            },
+            "id": 3090,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4328?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4328?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4328?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 863,
+            "begin_date": "2017-01-01",
+            "id": 12662
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 860,
+            "begin_date": null,
+            "id": 12661
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2017-01-01",
+            "id": 12660
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4328?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4328?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4328?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/363253"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4345,
+      "lastname": "Kamber",
+      "firstname": "Peter",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 863,
+            "begin_date": "2023-12-16",
+            "id": 12693
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2023-12-16",
+            "id": 12692
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4345?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4345?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4345?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403357"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4348,
+      "lastname": "Liesch",
+      "firstname": "Leonie",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4348,
+            "name": {
+              "de": "Gewerbliche Berufsschule Chur GBC; Berufsschulrätin"
+            },
+            "id": 32400,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4348,
+            "name": {
+              "de": "Marke graubünden; Markenbeirätin"
+            },
+            "id": 3134,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4348,
+            "name": {
+              "de": "Die Mitte Frauen Graubünden; Vizepräsidentin"
+            },
+            "id": 3133,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4348,
+            "name": {
+              "de": "Matterhorn Gotthard Bahn; Verwaltungsratsmitglied"
+            },
+            "id": 3132,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4348,
+            "name": {
+              "de": "Churer Wochenmarkt; Vorstandsmitglied"
+            },
+            "id": 3131,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4348?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4348?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4348?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12701
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 854,
+            "begin_date": "2025-01-01",
+            "id": 12700
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4348?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4348?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4348?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/363256"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4346,
+      "lastname": "Lütscher",
+      "firstname": "Daniel",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4346,
+            "name": {
+              "de": "Interessengemeinschaft Tanklöschfahrzeug 66, Chur; Vorstandsmitglied"
+            },
+            "id": 3128,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4346,
+            "name": {
+              "de": "Bürgerverein Haldenstein; Vorstandsmitglied"
+            },
+            "id": 3127,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4346,
+            "name": {
+              "de": "Bürgerverein Chur; Vorstandsmitglied"
+            },
+            "id": 3126,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4346,
+            "name": {
+              "de": "Bürgerrat; Mitglied"
+            },
+            "id": 3125,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4346,
+            "name": {
+              "de": "Bündner Kantonaler Schwingerverband; Revisor"
+            },
+            "id": 3124,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4346?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4346?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4346?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 860,
+            "begin_date": null,
+            "id": 12696
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 268,
+            "begin_date": "2025-01-01",
+            "id": 12695
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2024-01-01",
+            "id": 12694
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4346?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4346?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4346?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/65044"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 4357,
+      "lastname": "Meuli",
+      "firstname": "Hans Martin",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4357,
+            "name": {
+              "de": "Baumeister Stark und Frau Aschwanden-Stark Fonds"
+            },
+            "id": 3170,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4357,
+            "name": {
+              "de": "Wohnbaugenossenschaft der Stadt Chur (WSC) <a href=\"https://www.chur.ch/publikationen/56655\" class=\"icms-link-int\">(Info)</a>"
+            },
+            "id": 3169,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4357?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4357?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4357?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 850,
+            "begin_date": null,
+            "id": 12717
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 848,
+            "begin_date": "2025-01-01",
+            "id": 12716
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4357?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4357?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4357?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403354"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4347,
+      "lastname": "Meyer",
+      "firstname": "Johannes",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4347,
+            "name": {
+              "de": "Fotostiftung Graubünden; Stiftungsrat"
+            },
+            "id": 3130,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4347,
+            "name": {
+              "de": "Grünliberale Partei Chur; Präsident"
+            },
+            "id": 3129,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4347?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4347?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4347?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 862,
+            "begin_date": null,
+            "id": 12699
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12698
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 847,
+            "begin_date": "2025-01-01",
+            "id": 12697
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4347?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/354130"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4343,
+      "lastname": "Nett Schatz",
+      "firstname": "Martina",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4343,
+            "name": {
+              "de": "Quartierverein Gäuggeli, Vorstandsmitglied"
+            },
+            "id": 3123,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4343,
+            "name": {
+              "de": "Freie Liste & Grüne Chur, Vorstandsmitglied"
+            },
+            "id": 3122,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4343?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4343?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4343?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2023-10-01",
+            "id": 12688
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 855,
+            "begin_date": "2023-10-01",
+            "id": 12687
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4343?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4343?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4343?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/354127"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4342,
+      "lastname": "Rimml",
+      "firstname": "Barbara",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "1900-01-01",
+            "id": 183596
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6043,
+            "begin_date": null,
+            "id": 153627
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6042,
+            "begin_date": null,
+            "id": 153626
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5522,
+            "begin_date": null,
+            "id": 116004
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5523,
+            "begin_date": null,
+            "id": 116003
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5524,
+            "begin_date": null,
+            "id": 116002
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5527,
+            "begin_date": null,
+            "id": 116001
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5526,
+            "begin_date": null,
+            "id": 116000
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5525,
+            "begin_date": null,
+            "id": 115999
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5528,
+            "begin_date": null,
+            "id": 115998
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5533,
+            "begin_date": null,
+            "id": 115997
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5529,
+            "begin_date": null,
+            "id": 115996
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5530,
+            "begin_date": null,
+            "id": 115995
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5532,
+            "begin_date": null,
+            "id": 115994
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5531,
+            "begin_date": null,
+            "id": 115993
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5536,
+            "begin_date": null,
+            "id": 115992
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5535,
+            "begin_date": null,
+            "id": 115991
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5534,
+            "begin_date": null,
+            "id": 115990
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5537,
+            "begin_date": null,
+            "id": 115989
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5540,
+            "begin_date": null,
+            "id": 115988
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5539,
+            "begin_date": null,
+            "id": 115987
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5538,
+            "begin_date": null,
+            "id": 115986
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5542,
+            "begin_date": null,
+            "id": 115985
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5541,
+            "begin_date": null,
+            "id": 115984
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2026-01-01",
+            "id": 115983
+          },
+          {
+            "active": false,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": null,
+            "id": 12669
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 26,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4342?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4342?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4342?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/325225"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 4339,
+      "lastname": "Salis",
+      "firstname": "Johann Ulrich",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4339,
+            "name": {
+              "de": "Bündner Bauernverband; Mitglied Fachkommission Bildung"
+            },
+            "id": 3121,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4339,
+            "name": {
+              "de": "Churer Wochenmarkt; Vorstandsmitglied"
+            },
+            "id": 3120,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4339?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4339?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4339?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 863,
+            "begin_date": "2023-01-01",
+            "id": 12686
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12685
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 851,
+            "begin_date": "2025-01-01",
+            "id": 12684
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4339?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4339?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4339?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/246233"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4273,
+      "lastname": "Schneider",
+      "firstname": "Tino",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4273,
+            "name": {
+              "de": "Katholische Landeskirche; Mitglied"
+            },
+            "id": 3116,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4273,
+            "name": {
+              "de": "Die Mitte Schweiz; Mitglied Parteipräsidium"
+            },
+            "id": 3115,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4273,
+            "name": {
+              "de": "Grosser Rat Graubünden; Mitglied"
+            },
+            "id": 3114,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4273,
+            "name": {
+              "de": "AWG Graubünden; Vorstandsmitglied"
+            },
+            "id": 3113,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4273?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4273?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4273?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2021-01-01",
+            "id": 11442
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 854,
+            "begin_date": "2021-06-03",
+            "id": 11408
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4273?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4273?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/213262"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4333,
+      "lastname": "Schnoz",
+      "firstname": "Andreas",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4333,
+            "name": {
+              "de": "Verband Sing- und Musikschulen Graubünden; Vorstandsmitglied"
+            },
+            "id": 3107,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4333,
+            "name": {
+              "de": "Freie Liste Chur; Vorstandsmitglied"
+            },
+            "id": 3106,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4333,
+            "name": {
+              "de": "JazzChur; Vorstandsmitglied"
+            },
+            "id": 3104,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4333?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4333?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4333?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2019-12-20",
+            "id": 12681
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 855,
+            "begin_date": "2023-02-03",
+            "id": 12680
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4333?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4333?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4333?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403366"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4351,
+      "lastname": "Trost",
+      "firstname": "Kiran",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 861,
+            "begin_date": null,
+            "id": 12709
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 858,
+            "begin_date": "2025-01-01",
+            "id": 12708
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12707
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4351?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4351?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4351?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/403363"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4350,
+      "lastname": "Weingart",
+      "firstname": "Giancarlo",
+      "body_key": "3901",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Logistik AG; Verwaltungsratspräsident"
+            },
+            "id": 3163,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Recycling AG; Verwaltungsratspräsident und Geschäftsführer"
+            },
+            "id": 3162,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Beteiligungen AG; Verwaltungsratspräsident"
+            },
+            "id": 3161,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "GRIBAG Beton AG; Vorsitzender der Geschäftsleitung und Mitglied des Verwaltungsrates"
+            },
+            "id": 3160,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Kieswerk Bergli AG; Verwaltungsratspräsident"
+            },
+            "id": 3159,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Holding AG; Geschäftsführer"
+            },
+            "id": 3158,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Verein Dorf Haldenstein; Präsident"
+            },
+            "id": 3157,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Innexo AG; Mitglied des Verwaltungsrates"
+            },
+            "id": 3156,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Wohnbaugenossenschaft Scawoba; Vorstandsmitglied"
+            },
+            "id": 3155,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Baustoffwerk Trimmis AG; Mitglied des Verwaltungsrates"
+            },
+            "id": 3154,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Enserta AG; Mitglied des Verwaltungsrates"
+            },
+            "id": 3153,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Reno Pumpbeton AG; Mitglied des Verwaltungsrates"
+            },
+            "id": 3152,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Berufsschulrat GBC; Präsident"
+            },
+            "id": 3151,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "FDP Chur; Vorstandsmitglied"
+            },
+            "id": 3150,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Muldenservice AG; Verwaltungsratspräsident (ohne Geschäftstätigkeit)"
+            },
+            "id": 3149,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Kieswerk Calanda AG; Verwaltungsratspräsident (ohne Geschäftstätigkeit)"
+            },
+            "id": 3148,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Kieswerk Reichenau AG; Verwaltungsratspräsident (ohne Geschäftstätigkeit)"
+            },
+            "id": 3147,
+            "body_key": "3901"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 4350,
+            "name": {
+              "de": "Calanda Gruppe AG; Geschäftsführer"
+            },
+            "id": 3146,
+            "body_key": "3901"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 18,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4350?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4350?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4350?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 268,
+            "begin_date": "2025-01-01",
+            "id": 12706
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2025-01-01",
+            "id": 12705
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4350?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4350?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4350?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.chur.ch/behoerdenmitglieder/363250"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4344,
+      "lastname": "Z'Graggen",
+      "firstname": "Sandy",
+      "body_key": "3901",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 862,
+            "begin_date": null,
+            "id": 12691
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 268,
+            "begin_date": "2024-01-01",
+            "id": 12690
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 857,
+            "begin_date": "2024-01-01",
+            "id": 12689
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4344?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4344?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4344?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,5505 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 54,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=942&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=942&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=942&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325828"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6675,
+      "lastname": "Aegerter",
+      "firstname": "Peter",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2026-01-16",
+            "id": 190757
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5485,
+            "begin_date": "2023-02-16",
+            "id": 105186
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2011-01-01",
+            "id": 16284
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16283
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1107,
+            "begin_date": "2023-02-16",
+            "id": 16282
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2025-01-17",
+            "id": 16281
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2020-01-25",
+            "id": 16185
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2019-01-18",
+            "id": 16050
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2015-01-01",
+            "id": 15885
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2013-01-18",
+            "id": 15852
+          },
+          {
+            "active": null,
+            "end_date": "2013-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2012-01-20",
+            "id": 15265
+          },
+          {
+            "active": null,
+            "end_date": "2012-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-01-21",
+            "id": 15202
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6675?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6675?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6675?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329558"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6714,
+      "lastname": "Ali-Oesch",
+      "firstname": "Katharina",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1123,
+            "begin_date": null,
+            "id": 16475
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6714?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6714?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6714?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329546"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6711,
+      "lastname": "Allemann",
+      "firstname": "Martin",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2026-01-16",
+            "id": 190770
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2026-01-14",
+            "id": 16454
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16453
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2023-02-16",
+            "id": 16452
+          },
+          {
+            "active": null,
+            "end_date": "2023-02-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2019-02-14",
+            "id": 16451
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2019-01-18",
+            "id": 16450
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16449
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16448
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-12-17",
+            "id": 16447
+          },
+          {
+            "active": null,
+            "end_date": "2021-12-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-01-01",
+            "id": 16446
+          },
+          {
+            "active": null,
+            "end_date": "2017-06-30",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2008-12-12",
+            "id": 16093
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2017-07-01",
+            "id": 14337
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6711?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6711?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6711?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325951"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6700,
+      "lastname": "Althaus Spinnler",
+      "firstname": "Natalie",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2024-11-08",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16380
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2022-09-02",
+            "id": 16379
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2022-09-22",
+            "id": 16378
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2024-01-20",
+            "id": 16377
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2022-09-22",
+            "id": 16376
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-09-02",
+            "id": 16375
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6700?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6700?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6700?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325963"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6703,
+      "lastname": "Badertscher",
+      "firstname": "Sandro",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5485,
+            "begin_date": "2025-03-20",
+            "id": 105208
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1107,
+            "begin_date": "2025-03-20",
+            "id": 16388
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2023-01-20",
+            "id": 16387
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16386
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6703?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6703?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6703?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/368125"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6736,
+      "lastname": "Badertscher",
+      "firstname": "Simon",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2024-02-01",
+            "id": 16500
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2024-03-21",
+            "id": 16499
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-08-22",
+            "id": 16498
+          },
+          {
+            "active": null,
+            "end_date": "2024-08-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-02-15",
+            "id": 16497
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-02-01",
+            "id": 16496
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6736?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6736?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6736?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325789"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4833,
+      "lastname": "Baumann",
+      "firstname": "Jonas",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2026-01-14",
+            "id": 16259
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2011-01-21",
+            "id": 16258
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2024-01-20",
+            "id": 16257
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2023-01-20",
+            "id": 16256
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2021-01-23",
+            "id": 16255
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2020-01-25",
+            "id": 16254
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2019-01-18",
+            "id": 16253
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2018-01-19",
+            "id": 16252
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2017-01-20",
+            "id": 16251
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2015-01-16",
+            "id": 16250
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2009-01-23",
+            "id": 16249
+          },
+          {
+            "active": null,
+            "end_date": "2009-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2008-09-26",
+            "id": 16248
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4833?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4833?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329543"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6710,
+      "lastname": "Berger",
+      "firstname": "Mathias",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190765
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2026-01-16",
+            "id": 190764
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2025-08-21",
+            "id": 115974
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2021-10-20",
+            "id": 16445
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2022-08-01",
+            "id": 16444
+          },
+          {
+            "active": null,
+            "end_date": "2025-08-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2023-01-20",
+            "id": 16443
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2021-10-28",
+            "id": 16442
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-10-20",
+            "id": 16441
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6710?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6710?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6710?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/332894"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6726,
+      "lastname": "Beutler",
+      "firstname": "Reto",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2025-02-05",
+            "id": 194488
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2026-01-16",
+            "id": 190772
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5485,
+            "begin_date": "2023-02-16",
+            "id": 105185
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1107,
+            "begin_date": "2023-02-16",
+            "id": 16486
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-02-13",
+            "id": 16485
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-02-05",
+            "id": 16484
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6726?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6726?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6726?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325930"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6695,
+      "lastname": "Bieri",
+      "firstname": "Thomas",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2026-01-16",
+            "id": 190756
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2021-05-07",
+            "id": 16345
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2023-02-16",
+            "id": 16344
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2021-08-19",
+            "id": 16343
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2021-06-24",
+            "id": 16342
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-01-17",
+            "id": 16341
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2024-01-20",
+            "id": 16340
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-05-07",
+            "id": 16339
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6695?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6695?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6695?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329528"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsidium"
+      },
+      "id": 6707,
+      "lastname": "Borter",
+      "firstname": "Valentin",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190762
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190761
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16412
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2018-08-09",
+            "id": 16411
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2025-01-17",
+            "id": 16410
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2018-01-20",
+            "id": 16409
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2019-02-14",
+            "id": 16408
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1102,
+            "begin_date": "2015-02-11",
+            "id": 16407
+          },
+          {
+            "active": null,
+            "end_date": "2021-06-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2019-01-18",
+            "id": 16406
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2025-01-17",
+            "id": 16405
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2024-01-20",
+            "id": 16404
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2023-01-20",
+            "id": 16403
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2021-06-24",
+            "id": 16402
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-01-17",
+            "id": 16401
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-01-22",
+            "id": 16400
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-01-24",
+            "id": 16399
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2018-08-09",
+            "id": 16398
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 17,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6707?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6707?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6707?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325801"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6671,
+      "lastname": "Christen",
+      "firstname": "Adrian",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190753
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2015-01-01",
+            "id": 16269
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1101,
+            "begin_date": "2019-03-26",
+            "id": 16268
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2025-01-17",
+            "id": 16267
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2024-01-20",
+            "id": 16266
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2022-01-21",
+            "id": 16265
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2020-01-25",
+            "id": 16264
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2019-01-18",
+            "id": 16263
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-01-24",
+            "id": 16262
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2018-01-19",
+            "id": 16261
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2015-01-01",
+            "id": 16260
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6671?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6671?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6671?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325723"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6655,
+      "lastname": "Deriaz",
+      "firstname": "Philipp",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-08-21",
+            "id": 115972
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2012-01-12",
+            "id": 16217
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2024-01-19",
+            "id": 16216
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16215
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1102,
+            "begin_date": "2015-01-01",
+            "id": 16214
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1102,
+            "begin_date": "2011-02-11",
+            "id": 16213
+          },
+          {
+            "active": null,
+            "end_date": "2025-08-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2024-01-20",
+            "id": 16212
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2023-01-20",
+            "id": 16211
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2019-01-18",
+            "id": 16210
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2018-01-19",
+            "id": 16209
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2017-01-20",
+            "id": 16208
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2016-01-22",
+            "id": 16207
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2015-01-16",
+            "id": 16206
+          },
+          {
+            "active": null,
+            "end_date": "2015-01-15",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2012-02-16",
+            "id": 16205
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-01-17",
+            "id": 16204
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 16203
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 16202
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16201
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16200
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2012-01-12",
+            "id": 16199
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 20,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6655?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/388246"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6740,
+      "lastname": "Dolder",
+      "firstname": "Anja",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190771
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2024-08-07",
+            "id": 16511
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2024-08-22",
+            "id": 16510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-08-07",
+            "id": 16509
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6740?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6740?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6740?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325945"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 6698,
+      "lastname": "Eggenberg",
+      "firstname": "Franziska",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190755
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190754
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16364
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2026-01-14",
+            "id": 16363
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2024-01-17",
+            "id": 16362
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1102,
+            "begin_date": "2015-02-11",
+            "id": 16361
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2022-03-24",
+            "id": 16360
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-03-18",
+            "id": 16359
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6698?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6698?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6698?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/459038"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24839,
+      "lastname": "Erni",
+      "firstname": "Caroline",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-28",
+            "id": 197273
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2026-01-28",
+            "id": 197272
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24839?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24839?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325966"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6704,
+      "lastname": "Fritschi",
+      "firstname": "Marc",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2023-01-20",
+            "id": 16391
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16389
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6704?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6704?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6704?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329549"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6712,
+      "lastname": "Glauser",
+      "firstname": "Nicolas",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2025-07-01",
+            "id": 105206
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2024-01-17",
+            "id": 16464
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16463
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1110,
+            "begin_date": "2023-03-17",
+            "id": 16462
+          },
+          {
+            "active": null,
+            "end_date": "2025-06-30",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2020-11-01",
+            "id": 16461
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2021-02-18",
+            "id": 16460
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-01-17",
+            "id": 16459
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2024-01-20",
+            "id": 16458
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16457
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16456
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-02-01",
+            "id": 16455
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6712?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6712?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6712?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325933"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6696,
+      "lastname": "Graf",
+      "firstname": "Sonja",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2021-06-04",
+            "id": 16351
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2023-01-20",
+            "id": 16350
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2022-01-21",
+            "id": 16349
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2021-08-19",
+            "id": 16348
+          },
+          {
+            "active": null,
+            "end_date": "2021-08-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2021-06-24",
+            "id": 16347
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-06-04",
+            "id": 16346
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6696?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325750"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6663,
+      "lastname": "Gugger",
+      "firstname": "Roman",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2015-01-01",
+            "id": 16237
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2016-01-22",
+            "id": 16236
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2015-01-16",
+            "id": 16235
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2019-01-18",
+            "id": 16234
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16233
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-01-22",
+            "id": 16232
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-01-24",
+            "id": 16231
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2019-01-18",
+            "id": 16230
+          },
+          {
+            "active": null,
+            "end_date": "2019-01-18",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2015-01-01",
+            "id": 16229
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6663?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6663?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6663?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325777"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6670,
+      "lastname": "Hiltpold",
+      "firstname": "Thomas",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2001-01-01",
+            "id": 16247
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2007-02-12",
+            "id": 16246
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2025-01-17",
+            "id": 16245
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2024-08-22",
+            "id": 16244
+          },
+          {
+            "active": null,
+            "end_date": "2024-08-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2019-01-18",
+            "id": 16243
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2016-01-22",
+            "id": 16242
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2015-01-16",
+            "id": 16241
+          },
+          {
+            "active": null,
+            "end_date": "2015-01-15",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2014-01-17",
+            "id": 16240
+          },
+          {
+            "active": null,
+            "end_date": "2014-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2013-01-18",
+            "id": 16239
+          },
+          {
+            "active": null,
+            "end_date": "2013-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2001-01-01",
+            "id": 16238
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6670?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6670?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6670?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329555"
+      },
+      "function_latest": {
+        "de": "Stadtschreiber"
+      },
+      "id": 6713,
+      "lastname": "Huwyler Müller",
+      "firstname": "Bruno",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1109,
+            "begin_date": "2012-02-16",
+            "id": 16474
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1109,
+            "begin_date": "2012-02-16",
+            "id": 16473
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2011-09-01",
+            "id": 16472
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1108,
+            "begin_date": "2011-09-01",
+            "id": 16471
+          },
+          {
+            "active": null,
+            "end_date": "2025-06-30",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1104,
+            "begin_date": "2012-02-16",
+            "id": 16470
+          },
+          {
+            "active": null,
+            "end_date": "2025-06-30",
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1104,
+            "begin_date": "2012-02-16",
+            "id": 16469
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2011-09-01",
+            "id": 16468
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2011-09-01",
+            "id": 16467
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-09-01",
+            "id": 16466
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-09-01",
+            "id": 16465
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6713?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6713?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6713?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325891"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6689,
+      "lastname": "Jaccard",
+      "firstname": "Manon",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16316
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16315
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2022-01-21",
+            "id": 16314
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2021-01-23",
+            "id": 16313
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2019-01-18",
+            "id": 16312
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2023-01-20",
+            "id": 16311
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 16310
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 16309
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16308
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2019-01-01",
+            "id": 16307
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2019-01-01",
+            "id": 16027
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6689?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6689?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6689?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325747"
+      },
+      "function_latest": {
+        "de": "Stadtratspräsidium"
+      },
+      "id": 6661,
+      "lastname": "Kropf",
+      "firstname": "Alice",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190752
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2013-10-01",
+            "id": 16228
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2025-01-17",
+            "id": 16227
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2024-01-19",
+            "id": 16226
+          },
+          {
+            "active": null,
+            "end_date": "2017-04-05",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1102,
+            "begin_date": "2005-06-03",
+            "id": 16225
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2021-01-23",
+            "id": 16224
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2020-01-25",
+            "id": 16223
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2019-01-18",
+            "id": 16222
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2017-01-20",
+            "id": 16221
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-01-17",
+            "id": 16220
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 16219
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2013-10-01",
+            "id": 16218
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6661?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6661?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6661?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325948"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6699,
+      "lastname": "Lanz",
+      "firstname": "Thomas",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190760
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2025-01-10",
+            "id": 16374
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2025-01-17",
+            "id": 16373
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2024-01-19",
+            "id": 16372
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16371
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2022-09-01",
+            "id": 16370
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-01-17",
+            "id": 16369
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-20",
+            "id": 16368
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 16367
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16366
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-08-17",
+            "id": 16365
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6699?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6699?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6699?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/330505"
+      },
+      "function_latest": {
+        "de": "Stadtpräsident"
+      },
+      "id": 6715,
+      "lastname": "Lanz",
+      "firstname": "Raphael",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1120,
+            "begin_date": null,
+            "id": 16476
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6715?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6715?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6715?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325906"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6693,
+      "lastname": "Lauener",
+      "firstname": "Christoph",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2020-08-12",
+            "id": 16335
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2020-08-20",
+            "id": 16334
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-08-12",
+            "id": 16333
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6693?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6693?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6693?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/415495"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6742,
+      "lastname": "Lauper",
+      "firstname": "Iris",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2026-01-16",
+            "id": 190774
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2025-03-07",
+            "id": 16521
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2025-03-20",
+            "id": 16520
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2025-03-20",
+            "id": 16519
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-03-07",
+            "id": 16518
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6742?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6742?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6742?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325909"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6694,
+      "lastname": "Lehmann Rickli",
+      "firstname": "Barbara",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2020-09-04",
+            "id": 16338
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2020-09-17",
+            "id": 16337
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-09-04",
+            "id": 16336
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6694?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6694?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6694?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325822"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6674,
+      "lastname": "Locher",
+      "firstname": "Manfred",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2021-01-23",
+            "id": 16280
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2020-01-25",
+            "id": 16279
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2017-01-20",
+            "id": 16278
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2016-01-22",
+            "id": 16277
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2015-01-16",
+            "id": 16276
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 16275
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 16274
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16273
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16272
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-01-22",
+            "id": 16271
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-01-01",
+            "id": 16270
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2011-01-01",
+            "id": 15171
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 14972
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1107,
+            "begin_date": "2011-02-17",
+            "id": 14906
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2014-01-18",
+            "id": 14557
+          },
+          {
+            "active": null,
+            "end_date": "2014-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2013-01-19",
+            "id": 14269
+          },
+          {
+            "active": null,
+            "end_date": "2013-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2011-01-21",
+            "id": 14192
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2022-01-21",
+            "id": 908
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 18,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6674?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/418543"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 22325,
+      "lastname": "Locher",
+      "firstname": "Manfred",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 105205
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 105204
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 105203
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 105202
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-01-22",
+            "id": 105201
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-01-01",
+            "id": 105200
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2014-01-18",
+            "id": 105199
+          },
+          {
+            "active": null,
+            "end_date": "2014-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2013-01-19",
+            "id": 105198
+          },
+          {
+            "active": null,
+            "end_date": "2013-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2011-01-21",
+            "id": 105197
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2022-01-21",
+            "id": 105196
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2021-01-23",
+            "id": 105195
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2020-01-25",
+            "id": 105194
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2017-01-20",
+            "id": 105193
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2016-01-22",
+            "id": 105192
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2015-01-16",
+            "id": 105191
+          },
+          {
+            "active": null,
+            "end_date": "2023-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5485,
+            "begin_date": "2011-02-17",
+            "id": 105190
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 105189
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2011-01-01",
+            "id": 105188
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 18,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22325?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22325?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22325?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325894"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6690,
+      "lastname": "Marbach",
+      "firstname": "Michelle",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190759
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2026-01-16",
+            "id": 190758
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-11-21",
+            "id": 16325
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2025-01-10",
+            "id": 16324
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2025-01-09",
+            "id": 16323
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2025-01-17",
+            "id": 16322
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2021-01-23",
+            "id": 16321
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2020-01-25",
+            "id": 16320
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2019-09-20",
+            "id": 16319
+          },
+          {
+            "active": null,
+            "end_date": "2019-09-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2019-01-18",
+            "id": 16318
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2019-01-01",
+            "id": 16317
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6690?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6690?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6690?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/388237"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6738,
+      "lastname": "McGarty",
+      "firstname": "Michael",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190769
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2026-01-16",
+            "id": 190768
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2024-08-07",
+            "id": 16505
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2025-01-17",
+            "id": 16504
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2024-08-22",
+            "id": 16503
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-08-07",
+            "id": 16502
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6738?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6738?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6738?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325969"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6705,
+      "lastname": "Meier",
+      "firstname": "Vanessa",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190767
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2026-01-16",
+            "id": 190766
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2023-01-01",
+            "id": 16396
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2024-01-19",
+            "id": 16395
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2023-01-20",
+            "id": 16394
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-01-19",
+            "id": 16393
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16392
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6705?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6705?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6705?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/369709"
+      },
+      "function_latest": {
+        "de": "Vizestadtschreiberin"
+      },
+      "id": 6737,
+      "lastname": "Meister-Vogt",
+      "firstname": "Gabriela",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2024-01-01",
+            "id": 16501
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6737?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6737?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6737?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/388240"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6739,
+      "lastname": "Müller",
+      "firstname": "Lara",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190780
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2024-08-07",
+            "id": 16508
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-08-22",
+            "id": 16507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-08-07",
+            "id": 16506
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6739?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6739?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6739?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325939"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6697,
+      "lastname": "Oesch Bartlome",
+      "firstname": "Marianna",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6616,
+            "begin_date": "2026-01-16",
+            "id": 190778
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2026-01-16",
+            "id": 190777
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16358
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2026-01-14",
+            "id": 16357
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-08-22",
+            "id": 16356
+          },
+          {
+            "active": null,
+            "end_date": "2024-08-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-01-20",
+            "id": 16355
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2023-01-20",
+            "id": 16354
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2022-01-21",
+            "id": 16353
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-01",
+            "id": 16352
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6697?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6697?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6697?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/415498"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsidium"
+      },
+      "id": 6743,
+      "lastname": "Porfido",
+      "firstname": "Noëmi",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2026-01-16",
+            "id": 190776
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2026-01-16",
+            "id": 190775
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-05-08",
+            "id": 105187
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2025-03-07",
+            "id": 16524
+          },
+          {
+            "active": null,
+            "end_date": "2025-05-08",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-03-20",
+            "id": 16523
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-03-07",
+            "id": 16522
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6743?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6743?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6743?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325957"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6701,
+      "lastname": "Reymondin",
+      "firstname": "Alex",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2025-08-21",
+            "id": 115973
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2023-01-01",
+            "id": 16383
+          },
+          {
+            "active": null,
+            "end_date": "2025-08-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2023-01-20",
+            "id": 16382
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16381
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6701?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/326005"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6706,
+      "lastname": "Salzmann",
+      "firstname": "Eveline",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1124,
+            "begin_date": null,
+            "id": 16397
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6706?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6706?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6706?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/336241"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6733,
+      "lastname": "Schertenleib",
+      "firstname": "Reto",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5629,
+            "begin_date": "2025-08-27",
+            "id": 119766
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1121,
+            "begin_date": null,
+            "id": 16491
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1113,
+            "begin_date": "2023-06-16",
+            "id": 16490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1111,
+            "begin_date": "2023-04-05",
+            "id": 16489
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1102,
+            "begin_date": "2011-02-10",
+            "id": 16488
+          },
+          {
+            "active": null,
+            "end_date": "2017-11-16",
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1100,
+            "begin_date": "2015-01-16",
+            "id": 15766
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1096,
+            "begin_date": "2022-01-21",
+            "id": 15732
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2023-01-01",
+            "id": 15245
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-01-24",
+            "id": 15215
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1101,
+            "begin_date": "2023-01-13",
+            "id": 3374
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6733?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6733?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6733?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325831"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 6676,
+      "lastname": "Schlapbach",
+      "firstname": "Claude",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2022-06-01",
+            "id": 16298
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16297
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2022-06-16",
+            "id": 16296
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2018-01-19",
+            "id": 16295
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2017-01-20",
+            "id": 16294
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2016-06-03",
+            "id": 16293
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2023-01-20",
+            "id": 16292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-20",
+            "id": 16291
+          },
+          {
+            "active": null,
+            "end_date": "2023-01-20",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16290
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-06-01",
+            "id": 16289
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2018-01-19",
+            "id": 16288
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2017-01-20",
+            "id": 16287
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-20",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2016-04-08",
+            "id": 16286
+          },
+          {
+            "active": null,
+            "end_date": "2014-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2011-01-01",
+            "id": 16285
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6676?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6676?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6676?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/336662"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6734,
+      "lastname": "Schlatter",
+      "firstname": "Leonardo",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2025-08-21",
+            "id": 115975
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16495
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1118,
+            "begin_date": "2023-03-10",
+            "id": 16494
+          },
+          {
+            "active": null,
+            "end_date": "2025-08-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2023-03-23",
+            "id": 16493
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-03-10",
+            "id": 16492
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6734?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6734?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6734?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/388249"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6741,
+      "lastname": "Schmutz",
+      "firstname": "Malenka",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2026-01-16",
+            "id": 190773
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16517
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2024-08-07",
+            "id": 16516
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2025-03-20",
+            "id": 16515
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-01-17",
+            "id": 16514
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2024-08-22",
+            "id": 16513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2024-08-07",
+            "id": 16512
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6741?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6741?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6741?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325717"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6654,
+      "lastname": "Schori",
+      "firstname": "Franz",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2026-01-16",
+            "id": 190751
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2010-01-01",
+            "id": 16198
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2018-02-16",
+            "id": 16197
+          },
+          {
+            "active": null,
+            "end_date": "2018-02-15",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2011-02-15",
+            "id": 16196
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2025-01-17",
+            "id": 16195
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2024-08-22",
+            "id": 16194
+          },
+          {
+            "active": null,
+            "end_date": "2024-08-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2022-01-21",
+            "id": 16193
+          },
+          {
+            "active": null,
+            "end_date": "2018-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2018-01-19",
+            "id": 16192
+          },
+          {
+            "active": null,
+            "end_date": "2018-01-18",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2017-01-20",
+            "id": 16191
+          },
+          {
+            "active": null,
+            "end_date": "2017-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2016-01-22",
+            "id": 16190
+          },
+          {
+            "active": null,
+            "end_date": "2016-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2015-01-16",
+            "id": 16189
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2010-01-01",
+            "id": 16188
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2021-01-23",
+            "id": 15930
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2020-01-25",
+            "id": 15703
+          },
+          {
+            "active": null,
+            "end_date": "2020-01-24",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2019-01-18",
+            "id": 15626
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6654?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325903"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6692,
+      "lastname": "Siegenthaler",
+      "firstname": "Nina",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1114,
+            "begin_date": "2026-01-14",
+            "id": 16332
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2022-02-17",
+            "id": 16331
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2024-01-20",
+            "id": 16330
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2023-01-20",
+            "id": 16329
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2022-01-21",
+            "id": 16328
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2020-07-01",
+            "id": 16327
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2020-07-01",
+            "id": 16326
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6692?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6692?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6692?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/333023"
+      },
+      "function_latest": {
+        "de": "Vizestadtschreiber"
+      },
+      "id": 6728,
+      "lastname": "Stalder",
+      "firstname": "Christoph",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5486,
+            "begin_date": "2023-03-28",
+            "id": 105209
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5486,
+            "begin_date": "2023-03-28",
+            "id": 105207
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2018-05-01",
+            "id": 16487
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1109,
+            "begin_date": "2018-05-01",
+            "id": 14968
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1109,
+            "begin_date": "2018-05-01",
+            "id": 14885
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2018-05-01",
+            "id": 14356
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1108,
+            "begin_date": "2018-05-01",
+            "id": 14289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2018-05-01",
+            "id": 14254
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1095,
+            "begin_date": "2018-05-01",
+            "id": 3185
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2018-05-01",
+            "id": 1804
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6728?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6728?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6728?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329537"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6709,
+      "lastname": "Studerus",
+      "firstname": "Alois",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2025-01-10",
+            "id": 16440
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-09",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2023-01-01",
+            "id": 16439
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2023-02-16",
+            "id": 16437
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2015-02-12",
+            "id": 16436
+          },
+          {
+            "active": null,
+            "end_date": "2010-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2005-03-17",
+            "id": 16435
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2024-01-20",
+            "id": 16434
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2023-01-01",
+            "id": 16433
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2022-01-21",
+            "id": 16432
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1098,
+            "begin_date": "2021-08-19",
+            "id": 16431
+          },
+          {
+            "active": null,
+            "end_date": "2021-08-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2021-01-23",
+            "id": 16430
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2017-03-27",
+            "id": 16429
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2021-01-22",
+            "id": 16428
+          },
+          {
+            "active": null,
+            "end_date": "2021-01-22",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2019-01-18",
+            "id": 16427
+          },
+          {
+            "active": null,
+            "end_date": "2019-01-18",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2017-02-17",
+            "id": 16426
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6709?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6709?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6709?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/446026"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 22500,
+      "lastname": "Waber",
+      "firstname": "Mirjam",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1097,
+            "begin_date": "2025-10-23",
+            "id": 142136
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1117,
+            "begin_date": "2025-10-15",
+            "id": 131920
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2025-10-15",
+            "id": 131919
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22500?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22500?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22500?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325873"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6685,
+      "lastname": "Weber",
+      "firstname": "Cloe",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1116,
+            "begin_date": "2019-01-01",
+            "id": 16306
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2024-01-20",
+            "id": 16305
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2023-01-20",
+            "id": 16304
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2022-01-21",
+            "id": 16303
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2019-01-18",
+            "id": 16302
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16301
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2022-01-21",
+            "id": 16300
+          },
+          {
+            "active": null,
+            "end_date": "2022-01-21",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2019-01-01",
+            "id": 16299
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6685?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/325960"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6702,
+      "lastname": "Zellweger",
+      "firstname": "Matthias",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2023-01-20",
+            "id": 16385
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-01-01",
+            "id": 16384
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6702?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6702?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6702?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/332288"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6725,
+      "lastname": "Zimmermann",
+      "firstname": "Angelika",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2026-01-16",
+            "id": 190779
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2023-12-20",
+            "id": 16483
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1108,
+            "begin_date": "2023-02-16",
+            "id": 16482
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1103,
+            "begin_date": "2019-02-27",
+            "id": 16481
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2025-01-17",
+            "id": 16480
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1096,
+            "begin_date": "2024-01-19",
+            "id": 16479
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2023-12-20",
+            "id": 16478
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6725?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6725?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6725?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/330508"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6716,
+      "lastname": "de Meuron",
+      "firstname": "Andrea",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 1122,
+            "begin_date": null,
+            "id": 16477
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6716?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6716?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6716?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.thun.ch/behoerdenmitglieder/329534"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6708,
+      "lastname": "van Wijk",
+      "firstname": "Markus",
+      "body_key": "942",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2026-01-16",
+            "id": 190763
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-20",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1119,
+            "begin_date": "2024-08-22",
+            "id": 16425
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1115,
+            "begin_date": "2025-01-10",
+            "id": 16424
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1112,
+            "begin_date": "2025-01-10",
+            "id": 16423
+          },
+          {
+            "active": null,
+            "end_date": "2022-07-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1110,
+            "begin_date": "2005-02-18",
+            "id": 16422
+          },
+          {
+            "active": null,
+            "end_date": "2022-07-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2013-01-01",
+            "id": 16421
+          },
+          {
+            "active": null,
+            "end_date": "2012-12-13",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1106,
+            "begin_date": "2005-03-17",
+            "id": 16420
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1105,
+            "begin_date": "2023-02-16",
+            "id": 16419
+          },
+          {
+            "active": null,
+            "end_date": "2022-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1100,
+            "begin_date": "2019-01-18",
+            "id": 16418
+          },
+          {
+            "active": null,
+            "end_date": "2026-01-16",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2025-01-17",
+            "id": 16417
+          },
+          {
+            "active": null,
+            "end_date": "2025-01-17",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2024-01-20",
+            "id": 16416
+          },
+          {
+            "active": null,
+            "end_date": "2024-01-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2023-01-20",
+            "id": 16415
+          },
+          {
+            "active": null,
+            "end_date": "2020-09-15",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1099,
+            "begin_date": "2020-08-11",
+            "id": 16414
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1094,
+            "begin_date": "2015-01-01",
+            "id": 16413
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6708?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6708?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6708?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

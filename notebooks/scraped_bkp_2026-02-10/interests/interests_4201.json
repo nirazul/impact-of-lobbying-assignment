@@ -1,0 +1,3657 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 48,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=4201&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=4201&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=4201&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/373105"
+      },
+      "function_latest": {
+        "de": "Stadtrat"
+      },
+      "id": 24031,
+      "lastname": "Ammann",
+      "firstname": "Sven",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6174,
+            "begin_date": "2022-01-01",
+            "id": 173302
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 6082,
+            "begin_date": null,
+            "id": 167409
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155076
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 6098,
+            "begin_date": null,
+            "id": 155071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2022-01-01",
+            "id": 155068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6092,
+            "begin_date": "2022-01-01",
+            "id": 155055
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6084,
+            "begin_date": "2022-01-01",
+            "id": 155054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6082,
+            "begin_date": null,
+            "id": 155053
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6080,
+            "begin_date": "2022-01-01",
+            "id": 155052
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6098,
+            "begin_date": "2022-01-01",
+            "id": 155051
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24031?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24031?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24031?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/392104"
+      },
+      "function_latest": {
+        "de": "Vizeammann"
+      },
+      "id": 23992,
+      "lastname": "Bachmann-Roth",
+      "firstname": "Christina",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2026-01-01",
+            "id": 193464
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6086,
+            "begin_date": "2026-01-01",
+            "id": 193463
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6079,
+            "begin_date": "2026-01-01",
+            "id": 193462
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2026-01-01",
+            "id": 191429
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2026-01-01",
+            "id": 181292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2026-01-01",
+            "id": 181291
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2024-11-28",
+            "id": 168979
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6072,
+            "begin_date": null,
+            "id": 154990
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2019-11-13",
+            "id": 154938
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2025-01-01",
+            "id": 154898
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2022-01-01",
+            "id": 154874
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23992?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23992?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23992?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392092"
+      },
+      "function_latest": {
+        "de": "Präsidentin"
+      },
+      "id": 23993,
+      "lastname": "Ballhaus",
+      "firstname": "Corin",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2018-01-01",
+            "id": 168980
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-01-01",
+            "id": 167303
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6071,
+            "begin_date": null,
+            "id": 154991
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154939
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6070,
+            "begin_date": "2024-11-01",
+            "id": 154900
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2022-01-01",
+            "id": 154899
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2022-01-01",
+            "id": 154875
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23993?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23993?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23993?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392005"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23995,
+      "lastname": "Baumann",
+      "firstname": "Rudolf",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175286
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2012-01-01",
+            "id": 168986
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": "2021-03-11",
+            "id": 167302
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6071,
+            "begin_date": null,
+            "id": 154993
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2003-01-01",
+            "id": 154941
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6093,
+            "begin_date": "2003-07-01",
+            "id": 154907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 154906
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2012-01-01",
+            "id": 154905
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 154904
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2022-01-01",
+            "id": 154877
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23995?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23995?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23995?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454469"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24656,
+      "lastname": "Baumann",
+      "firstname": "Nico",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182375
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2026-01-01",
+            "id": 182374
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24656?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392059"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23989,
+      "lastname": "Bašic",
+      "firstname": "Ivanka",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2022-09-15",
+            "id": 168985
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 154987
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-01-01",
+            "id": 154935
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2022-09-15",
+            "id": 154896
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2024-08-01",
+            "id": 154871
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23989?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23989?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23989?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392002"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23994,
+      "lastname": "Blaser",
+      "firstname": "Daniel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175287
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": "2021-03-11",
+            "id": 167306
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6072,
+            "begin_date": null,
+            "id": 154992
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2013-06-27",
+            "id": 154940
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6070,
+            "begin_date": "2024-11-01",
+            "id": 154903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6096,
+            "begin_date": null,
+            "id": 154902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 154901
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2022-01-01",
+            "id": 154876
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23994?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23994?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23994?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392062"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23990,
+      "lastname": "Bär",
+      "firstname": "Daniel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2026-01-01",
+            "id": 189292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-08-01",
+            "id": 173301
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 154988
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-08-01",
+            "id": 154937
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2024-08-01",
+            "id": 154873
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23990?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23990?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23990?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392074"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23996,
+      "lastname": "Casanova",
+      "firstname": "Claudia",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6072,
+            "begin_date": null,
+            "id": 154994
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-01-01",
+            "id": 154942
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2024-01-01",
+            "id": 154908
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2022-01-01",
+            "id": 154878
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23996?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23996?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23996?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454475"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24653,
+      "lastname": "Deniz",
+      "firstname": "Selin",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2026-01-01",
+            "id": 182368
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182367
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24653?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24653?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24653?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/396541"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23997,
+      "lastname": "Egli",
+      "firstname": "Manuel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2025-06-19",
+            "id": 168987
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6076,
+            "begin_date": null,
+            "id": 154995
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-08-01",
+            "id": 154943
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6070,
+            "begin_date": "2024-11-01",
+            "id": 154910
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2025-06-19",
+            "id": 154909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6067,
+            "begin_date": "2024-08-01",
+            "id": 154879
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23997?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23997?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23997?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454481"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24651,
+      "lastname": "Genhart",
+      "firstname": "Lisa",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2026-01-01",
+            "id": 193458
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182364
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2026-01-01",
+            "id": 182363
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24651?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24651?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24651?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392119"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24000,
+      "lastname": "Guindo Modibo",
+      "firstname": "Dominique",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6076,
+            "begin_date": null,
+            "id": 154998
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-01-01",
+            "id": 154946
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2022-01-01",
+            "id": 154918
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6067,
+            "begin_date": "2022-01-01",
+            "id": 154882
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24000?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24000?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24000?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392017"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24002,
+      "lastname": "Holliger",
+      "firstname": "Hans",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2026-01-01",
+            "id": 193456
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6071,
+            "begin_date": null,
+            "id": 155000
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2019-05-01",
+            "id": 154948
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6096,
+            "begin_date": null,
+            "id": 154922
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6077,
+            "begin_date": null,
+            "id": 154921
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2022-01-01",
+            "id": 154884
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24002?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24002?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24002?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/372667"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24655,
+      "lastname": "Häusermann",
+      "firstname": "Timo",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2026-01-01",
+            "id": 182373
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182372
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6077,
+            "begin_date": null,
+            "id": 182371
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24655?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392095"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 23999,
+      "lastname": "Häusermann",
+      "firstname": "Michael",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6071,
+            "begin_date": null,
+            "id": 154997
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2002-01-01",
+            "id": 154945
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "1996-12-05",
+            "id": 154917
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6091,
+            "begin_date": "2002-01-01",
+            "id": 154916
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2002-01-01",
+            "id": 154881
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/23999?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/23999?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/23999?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454487"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24652,
+      "lastname": "Jäger",
+      "firstname": "Benjamin",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182366
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2026-01-01",
+            "id": 182365
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24652?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24652?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24652?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392020"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24005,
+      "lastname": "Kamber",
+      "firstname": "Sofie",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155003
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-07-01",
+            "id": 154951
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2024-01-01",
+            "id": 154927
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2022-01-01",
+            "id": 154887
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24005?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24005?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24005?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454496"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24660,
+      "lastname": "Kiener",
+      "firstname": "Manfred",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2026-01-01",
+            "id": 193461
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2026-01-01",
+            "id": 193460
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182383
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6064,
+            "begin_date": "2026-01-01",
+            "id": 182382
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24660?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/449933"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24223,
+      "lastname": "Kneuss",
+      "firstname": "Christoph",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2026-01-01",
+            "id": 191428
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6081,
+            "begin_date": "2020-01-01",
+            "id": 156300
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2025-10-01",
+            "id": 156299
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2025-10-30",
+            "id": 156298
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24223?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24223?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24223?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392056"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24006,
+      "lastname": "Kohler",
+      "firstname": "Cécile",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6072,
+            "begin_date": null,
+            "id": 155004
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154952
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 154928
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2022-01-01",
+            "id": 154888
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24006?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24006?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24006?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392029"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24008,
+      "lastname": "Kuhlen",
+      "firstname": "François",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175288
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2016-01-01",
+            "id": 168990
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": "2021-03-11",
+            "id": 167307
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155006
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2014-01-01",
+            "id": 154954
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2024-01-01",
+            "id": 154933
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 154932
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 154890
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24008?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24008?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24008?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392077"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24010,
+      "lastname": "Landini",
+      "firstname": "Noemi",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155008
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6087,
+            "begin_date": "2025-01-01",
+            "id": 154957
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-01-01",
+            "id": 154956
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2024-01-01",
+            "id": 154892
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24010?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24010?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24010?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392032"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 24009,
+      "lastname": "Locher",
+      "firstname": "Roland",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6076,
+            "begin_date": null,
+            "id": 155007
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154955
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6079,
+            "begin_date": "2022-01-01",
+            "id": 154934
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6067,
+            "begin_date": "2022-01-01",
+            "id": 154891
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24009?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24009?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24009?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392080"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24012,
+      "lastname": "Meier",
+      "firstname": "Marvin",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6085,
+            "begin_date": "2026-01-01",
+            "id": 193457
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2026-01-01",
+            "id": 189293
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6071,
+            "begin_date": null,
+            "id": 155010
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-01-01",
+            "id": 154961
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2024-01-01",
+            "id": 154960
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2022-01-01",
+            "id": 154894
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24012?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24012?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24012?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454478"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24657,
+      "lastname": "Meyer",
+      "firstname": "Fabian",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182377
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2026-01-01",
+            "id": 182376
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24657?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24657?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24657?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392086"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24013,
+      "lastname": "Minnig",
+      "firstname": "Philippe",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2026-01-01",
+            "id": 168991
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155011
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2022-01-01",
+            "id": 154963
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-01-01",
+            "id": 154962
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 154895
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24013?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24013?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24013?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392101"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24011,
+      "lastname": "Minnig",
+      "firstname": "Simona",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155009
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6070,
+            "begin_date": "2024-11-01",
+            "id": 154959
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2023-03-01",
+            "id": 154958
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 154893
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24011?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24011?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24011?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/373492"
+      },
+      "function_latest": {
+        "de": "Stadtammann"
+      },
+      "id": 24032,
+      "lastname": "Mosimann",
+      "firstname": "Daniel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6093,
+            "begin_date": "2013-01-01",
+            "id": 178006
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2013-01-01",
+            "id": 178005
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2022-01-01",
+            "id": 178004
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 178003
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 178002
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6086,
+            "begin_date": "2022-01-01",
+            "id": 178001
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6079,
+            "begin_date": "2022-01-01",
+            "id": 178000
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175291
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 6089,
+            "begin_date": null,
+            "id": 167408
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": null,
+            "id": 167311
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6144,
+            "begin_date": "2025-01-01",
+            "id": 167310
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155077
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 6078,
+            "begin_date": null,
+            "id": 155072
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2013-01-01",
+            "id": 155069
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6093,
+            "begin_date": "2013-01-01",
+            "id": 155064
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2013-01-01",
+            "id": 155063
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2022-01-01",
+            "id": 155062
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 155061
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6086,
+            "begin_date": "2022-01-01",
+            "id": 155060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6079,
+            "begin_date": "2022-01-01",
+            "id": 155059
+          },
+          {
+            "active": null,
+            "end_date": "2025-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2022-01-01",
+            "id": 155058
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 155057
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6077,
+            "begin_date": null,
+            "id": 155056
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 23,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24032?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24032?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24032?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/442813"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24015,
+      "lastname": "Muhmenthaler",
+      "firstname": "Pascale",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6067,
+            "begin_date": "2025-10-30",
+            "id": 156297
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6069,
+            "begin_date": "2025-09-24",
+            "id": 155027
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6076,
+            "begin_date": null,
+            "id": 155013
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2025-09-24",
+            "id": 154965
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24015?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24015?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24015?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392071"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 24014,
+      "lastname": "Ninow",
+      "firstname": "Beate",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2022-01-01",
+            "id": 155026
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155012
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154964
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24014?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24014?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24014?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392035"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24016,
+      "lastname": "Nyfeler",
+      "firstname": "Christoph",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": "2021-03-11",
+            "id": 167308
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 155028
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155014
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2019-10-01",
+            "id": 154967
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 154966
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24016?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24016?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24016?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392038"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24018,
+      "lastname": "Pfister Meier",
+      "firstname": "Janine",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2022-01-01",
+            "id": 155030
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155016
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 154971
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-01-01",
+            "id": 154970
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24018?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24018?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24018?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/373522"
+      },
+      "function_latest": {
+        "de": "Stadträtin"
+      },
+      "id": 24029,
+      "lastname": "Portmann-Müller",
+      "firstname": "Barbara",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6076,
+            "begin_date": null,
+            "id": 155074
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2022-01-01",
+            "id": 155066
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24029?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24029?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24029?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454484"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24654,
+      "lastname": "Salm",
+      "firstname": "Sabine",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182370
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6062,
+            "begin_date": "2026-01-01",
+            "id": 182369
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24654?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/373579"
+      },
+      "function_latest": {
+        "de": "Stadtammann"
+      },
+      "id": 24030,
+      "lastname": "Schmid",
+      "firstname": "Andreas",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2026-01-01",
+            "id": 193467
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6078,
+            "begin_date": "2026-01-01",
+            "id": 193466
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6144,
+            "begin_date": "2026-01-01",
+            "id": 193465
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2026-01-01",
+            "id": 191430
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155075
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 6096,
+            "begin_date": null,
+            "id": 155070
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2026-01-01",
+            "id": 155067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6093,
+            "begin_date": "2022-01-01",
+            "id": 155050
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6089,
+            "begin_date": "2026-01-01",
+            "id": 155049
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6085,
+            "begin_date": "2022-01-01",
+            "id": 155048
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6083,
+            "begin_date": "2022-01-01",
+            "id": 155047
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6095,
+            "begin_date": "2022-01-01",
+            "id": 155046
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6091,
+            "begin_date": "2022-01-01",
+            "id": 155045
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6090,
+            "begin_date": "2022-01-01",
+            "id": 155044
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6096,
+            "begin_date": null,
+            "id": 155043
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24030?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24030?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24030?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454493"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24659,
+      "lastname": "Schmutz",
+      "firstname": "Manuel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6066,
+            "begin_date": "2026-01-01",
+            "id": 182381
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182380
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24659?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24659?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24659?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/391996"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24023,
+      "lastname": "Schoch",
+      "firstname": "Kaspar",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 155035
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155021
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154980
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24023?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24023?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24023?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392089"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24019,
+      "lastname": "Schär",
+      "firstname": "Thomas",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6183,
+            "begin_date": "2021-03-11",
+            "id": 175290
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2026-01-01",
+            "id": 168992
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6143,
+            "begin_date": "2021-03-11",
+            "id": 167309
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2022-01-01",
+            "id": 155031
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155017
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6060,
+            "begin_date": "2024-01-01",
+            "id": 154974
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2019-01-01",
+            "id": 154973
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6097,
+            "begin_date": null,
+            "id": 154972
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24019?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24019?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24019?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392041"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24021,
+      "lastname": "Schärer",
+      "firstname": "Sigrid",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6066,
+            "begin_date": "2022-01-01",
+            "id": 155033
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6073,
+            "begin_date": null,
+            "id": 155019
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2022-01-01",
+            "id": 154978
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 154977
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-07-01",
+            "id": 154976
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24021?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24021?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24021?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/457598"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24701,
+      "lastname": "Schärer",
+      "firstname": "Sigrid",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2022-01-01",
+            "id": 189297
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6099,
+            "begin_date": "2025-01-01",
+            "id": 189296
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-07-01",
+            "id": 189295
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6066,
+            "begin_date": "2022-01-01",
+            "id": 189294
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24701?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24701?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392047"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 24024,
+      "lastname": "Strebel",
+      "firstname": "Marcel",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2022-01-01",
+            "id": 155036
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155022
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 154981
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24024?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24024?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24024?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/373024"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24634,
+      "lastname": "Sutter",
+      "firstname": "Benedikt",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2018-01-01",
+            "id": 181290
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 181289
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2026-01-01",
+            "id": 181288
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24634?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24634?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24634?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/457601"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24702,
+      "lastname": "Sutter",
+      "firstname": "Benedikt",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6063,
+            "begin_date": "2026-01-01",
+            "id": 189301
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2018-01-01",
+            "id": 189300
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6168,
+            "begin_date": "2026-01-01",
+            "id": 189299
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 189298
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24702?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24702?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24702?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/_rte/person/373621"
+      },
+      "function_latest": {
+        "de": "Stadträtin"
+      },
+      "id": 24028,
+      "lastname": "Taubert-Baldinger",
+      "firstname": "Beatrice",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155073
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 6094,
+            "begin_date": "2022-01-01",
+            "id": 155065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6087,
+            "begin_date": "2022-01-01",
+            "id": 155042
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6081,
+            "begin_date": "2023-01-01",
+            "id": 155041
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24028?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24028?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24028?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/396538"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24025,
+      "lastname": "Werder",
+      "firstname": "Sandro",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6091,
+            "begin_date": "2026-01-01",
+            "id": 193459
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6065,
+            "begin_date": "2024-08-01",
+            "id": 155037
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6075,
+            "begin_date": null,
+            "id": 155023
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2024-08-01",
+            "id": 154982
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24025?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24025?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24025?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/392053"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24026,
+      "lastname": "Würmli",
+      "firstname": "Fabian-Lukas",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2022-01-01",
+            "id": 155038
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 6100,
+            "begin_date": null,
+            "id": 155024
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6088,
+            "begin_date": "2022-01-01",
+            "id": 154984
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2022-01-01",
+            "id": 154983
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24026?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24026?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24026?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.lenzburg.ch/behoerdenmitglieder/454472"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24658,
+      "lastname": "Zimmermann",
+      "firstname": "Julia",
+      "body_key": "4201",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 6069,
+            "begin_date": "2026-01-01",
+            "id": 182379
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 6068,
+            "begin_date": "2026-01-01",
+            "id": 182378
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24658?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24658?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24658?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

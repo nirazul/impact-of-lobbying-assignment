@@ -1,0 +1,4979 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 56,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=6458&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=6458&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=6458&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "3e suppléant"
+      },
+      "id": 24824,
+      "lastname": "Alcala",
+      "firstname": "Yann",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Alcala_Yann.pdf",
+            "person_id": 24824,
+            "name": {},
+            "id": 32343,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24824?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24824?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24824?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 194562
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 194561
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 194560
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24824?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24824?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6204,
+      "lastname": "Aubert",
+      "firstname": "Jules",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Aubert_Jules.pdf",
+            "person_id": 6204,
+            "name": {},
+            "id": 3630,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6204?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6204?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6204?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188003
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15207
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15206
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15205
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6204?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6204?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6251,
+      "lastname": "Bachmann",
+      "firstname": "Zoé",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Bachmann_Zoe.pdf",
+            "person_id": 6251,
+            "name": {},
+            "id": 3661,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6251?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6251?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6251?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15322
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6251?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6251?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6206,
+      "lastname": "Biloni",
+      "firstname": "Kim",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Biloni_Kim.pdf",
+            "person_id": 6206,
+            "name": {},
+            "id": 3631,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6206?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6206?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6206?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188004
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15211
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15210
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15209
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15208
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6206?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6206?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6229,
+      "lastname": "Bongiovanni",
+      "firstname": "Nolan",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Bongiovanni_Nolan.pdf",
+            "person_id": 6229,
+            "name": {},
+            "id": 3648,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6229?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6229?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6229?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15270
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6229?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6229?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "2e suppléant"
+      },
+      "id": 22350,
+      "lastname": "Borel",
+      "firstname": "Jean-Claude",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Borel_Jean-Claude.pdf",
+            "person_id": 22350,
+            "name": {},
+            "id": 27899,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22350?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22350?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22350?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 108773
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22350?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22350?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22350?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6171,
+      "lastname": "Bourquard Froidevaux",
+      "firstname": "Anne",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Bourquard_Froidevaux_Anne.pdf",
+            "person_id": 6171,
+            "name": {},
+            "id": 3611,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6171?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6171?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6171?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15145
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15144
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15142
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6171?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6171?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6171?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6241,
+      "lastname": "Brunner",
+      "firstname": "Romain",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Brunner_Romain.pdf",
+            "person_id": 6241,
+            "name": {},
+            "id": 3655,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6241?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6241?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6241?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188010
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15296
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15295
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15294
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15293
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6241?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6241?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6241?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6211,
+      "lastname": "Bugnon",
+      "firstname": "Marc-André",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Bugnon_Marc-Andre.pdf",
+            "person_id": 6211,
+            "name": {},
+            "id": 3635,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6211?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6211?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6211?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15229
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6211?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6211?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6211?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6207,
+      "lastname": "Castillon",
+      "firstname": "Laurence",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Castillon_Laurence.pdf",
+            "person_id": 6207,
+            "name": {},
+            "id": 3632,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6207?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6207?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6207?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 15217
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15216
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15214
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15213
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15212
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6207?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6207?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6207?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6169,
+      "lastname": "Chapuis",
+      "firstname": "Aline",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Chapuis_Aline.pdf",
+            "person_id": 6169,
+            "name": {},
+            "id": 3610,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6169?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6169?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6169?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 187997
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1067,
+            "begin_date": null,
+            "id": 15140
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15139
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15138
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15137
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6169?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6169?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6169?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "SolidaritéS",
+        "fr": "SolidaritéS",
+        "it": "SolidaritéS",
+        "en": "SolidaritéS"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1er suppléant"
+      },
+      "id": 6187,
+      "lastname": "Chédel",
+      "firstname": "François",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Chedel_Francois.pdf",
+            "person_id": 6187,
+            "name": {},
+            "id": 3624,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6187?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6187?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6187?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1073,
+            "begin_date": null,
+            "id": 15187
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15186
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15185
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6187?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6187?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6187?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6188,
+      "lastname": "Cognard",
+      "firstname": "Frédéric",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Cognard_Frederic.pdf",
+            "person_id": 6188,
+            "name": {},
+            "id": 3625,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6188?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6188?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6188?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 188002
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15190
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15189
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15188
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6188?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6188?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6188?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6196,
+      "lastname": "Correvon",
+      "firstname": "Jari",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Correvon_Jari.pdf",
+            "person_id": 6196,
+            "name": {},
+            "id": 3628,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6196?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6196?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6196?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15203
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15201
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15200
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15199
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15198
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6196?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6196?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6196?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6182,
+      "lastname": "Da Costa Tavares",
+      "firstname": "Cindy",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Da_Costa_Tavares_Cindy.pdf",
+            "person_id": 6182,
+            "name": {},
+            "id": 3621,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6182?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6182?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6182?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15177
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15176
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15174
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6182?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6182?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6182?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6215,
+      "lastname": "Egger",
+      "firstname": "Marie-Line",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Egger_Marie-Line.pdf",
+            "person_id": 6215,
+            "name": {},
+            "id": 3638,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6215?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6215?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6215?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 188007
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 137614
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 15240
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15239
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15238
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15237
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6215?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6215?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6215?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "(liste no 54 UDC) indépendant"
+      },
+      "id": 24234,
+      "lastname": "Esposito",
+      "firstname": "Fabio",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Esposito_Fabio.pdf",
+            "person_id": 24234,
+            "name": {},
+            "id": 31402,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24234?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24234?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24234?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 173303
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24234?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6252,
+      "lastname": "Faralli",
+      "firstname": "Zully",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Faralli_Zully.pdf",
+            "person_id": 6252,
+            "name": {},
+            "id": 3662,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6252?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6252?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6252?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1073,
+            "begin_date": null,
+            "id": 15328
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15327
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15326
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15325
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15324
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15323
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6252?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6252?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Partei der Arbeit der Schweiz",
+        "fr": "Parti suisse du Travail",
+        "it": "Partito Operaio e Popolare",
+        "en": "Swiss Party of Labour"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1er suppléant"
+      },
+      "id": 6231,
+      "lastname": "Forel",
+      "firstname": "Olivier",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Forel_Olivier.pdf",
+            "person_id": 6231,
+            "name": {},
+            "id": 3650,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6231?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6231?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6231?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15274
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6231?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6228,
+      "lastname": "Galland",
+      "firstname": "Nicole",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Galland_Nicole.pdf",
+            "person_id": 6228,
+            "name": {},
+            "id": 3647,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6228?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6228?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6228?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1072,
+            "begin_date": null,
+            "id": 15269
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15268
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15267
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15266
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6228?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6228?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6244,
+      "lastname": "Gatti",
+      "firstname": "Selim",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Gatti_Selim.pdf",
+            "person_id": 6244,
+            "name": {},
+            "id": 3657,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6244?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6244?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6244?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15308
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15307
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15306
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15305
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15304
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6244?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6244?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6177,
+      "lastname": "Gonseth",
+      "firstname": "Camille",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Gonseth_Camille.pdf",
+            "person_id": 6177,
+            "name": {},
+            "id": 3617,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6177?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6177?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6177?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15164
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15162
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15161
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15160
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15159
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6177?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6177?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6177?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1ère suppléante"
+      },
+      "id": 6179,
+      "lastname": "Grosjean",
+      "firstname": "Charlotte",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Grosjean_Charlotte.pdf",
+            "person_id": 6179,
+            "name": {},
+            "id": 3619,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6179?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6179?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6179?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15167
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15166
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6179?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6179?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6179?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1ère suppléante"
+      },
+      "id": 6197,
+      "lastname": "Herrera",
+      "firstname": "Jasmine",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Herrera_Jasmine.pdf",
+            "person_id": 6197,
+            "name": {},
+            "id": 3629,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6197?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6197?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6197?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15204
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6197?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6197?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1er suppléant"
+      },
+      "id": 6218,
+      "lastname": "Hofer",
+      "firstname": "Marius",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Hofer_Marius.pdf",
+            "person_id": 6218,
+            "name": {},
+            "id": 3642,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6218?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6218?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6218?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15253
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15252
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15251
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15250
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6218?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6218?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6218?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6246,
+      "lastname": "Hofer-Carbonnier",
+      "firstname": "Sylvie",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Hofer_Carbonnier_Sylvie.pdf",
+            "person_id": 6246,
+            "name": {},
+            "id": 3658,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6246?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6246?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6246?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15312
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15311
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15310
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15309
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6246?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6246?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6246?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6210,
+      "lastname": "Honegger Heller",
+      "firstname": "Manuela",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Honegger_Heller_Manuela.pdf",
+            "person_id": 6210,
+            "name": {},
+            "id": 3634,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6210?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6210?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6210?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 137623
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 15228
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15226
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15225
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15223
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15222
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6210?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6210?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6178,
+      "lastname": "Hostettler",
+      "firstname": "Camille",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Hostettler_Camille.pdf",
+            "person_id": 6178,
+            "name": {},
+            "id": 3618,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6178?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6178?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6178?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 109504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 109503
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15165
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6178?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6178?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6178?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6172,
+      "lastname": "Huguenin",
+      "firstname": "Ariane",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Huguenin_Ariane.pdf",
+            "person_id": 6172,
+            "name": {},
+            "id": 3612,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6172?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6172?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6172?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15148
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15147
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15146
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6172?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6172?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6172?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6190,
+      "lastname": "Jeanneret",
+      "firstname": "Gabriel",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Jeanneret_Gabriel.pdf",
+            "person_id": 6190,
+            "name": {},
+            "id": 3626,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6190?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6190?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6190?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 109505
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15192
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15191
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6190?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6190?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6237,
+      "lastname": "Jeannin",
+      "firstname": "Pierre-Yves",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Jeannin_Pierre-Yves.pdf",
+            "person_id": 6237,
+            "name": {},
+            "id": 3653,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6237?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6237?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6237?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 15289
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15287
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15286
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15285
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6237?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6237?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6165,
+      "lastname": "Kistler",
+      "firstname": "Aël",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Kistler_Ael.pdf",
+            "person_id": 6165,
+            "name": {},
+            "id": 3608,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6165?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6165?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6165?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 187998
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15135
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15134
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15133
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6165?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6165?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6165?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6235,
+      "lastname": "Loup",
+      "firstname": "Philippe",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Loup_Philippe.pdf",
+            "person_id": 6235,
+            "name": {},
+            "id": 3652,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6235?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6235?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6235?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188009
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 137617
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1072,
+            "begin_date": null,
+            "id": 15284
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15283
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15282
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15281
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15280
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6235?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6235?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6194,
+      "lastname": "Mellana Tschoumy",
+      "firstname": "Isabelle",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Mellana_Tschoumy_Isabelle.pdf",
+            "person_id": 6194,
+            "name": {},
+            "id": 3627,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6194?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6194?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6194?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15197
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15196
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15194
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6194?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6194?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6194?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6221,
+      "lastname": "Meury",
+      "firstname": "Mila",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Meury_Mila.pdf",
+            "person_id": 6221,
+            "name": {},
+            "id": 3645,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6221?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6221?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6221?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15260
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15259
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15258
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6221?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6221?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6221?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6167,
+      "lastname": "Morais",
+      "firstname": "Alexandre",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Morais_Alexandre.pdf",
+            "person_id": 6167,
+            "name": {},
+            "id": 3609,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6167?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6167?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6167?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15136
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6167?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6208,
+      "lastname": "Muhlemann",
+      "firstname": "Loïc",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Muhlemann_Loic.pdf",
+            "person_id": 6208,
+            "name": {},
+            "id": 3633,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6208?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6208?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6208?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 188005
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 137611
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 109506
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15220
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15219
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15218
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6208?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6208?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6216,
+      "lastname": "Mühlethaler",
+      "firstname": "Marine",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Muehethaler_Marine.pdf",
+            "person_id": 6216,
+            "name": {},
+            "id": 3639,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6216?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6216?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6216?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1073,
+            "begin_date": null,
+            "id": 15244
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15243
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15242
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15241
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6216?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6216?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6216?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1re suppléante"
+      },
+      "id": 6220,
+      "lastname": "Neuhaus",
+      "firstname": "Mélanie",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Neuhaus_Melanie.pdf",
+            "person_id": 6220,
+            "name": {},
+            "id": 3644,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6220?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6220?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6220?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15257
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1061,
+            "begin_date": null,
+            "id": 15256
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15255
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 1,
+            "group_id": null,
+            "begin_date": null,
+            "id": 15254
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6220?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6220?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6220?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6175,
+      "lastname": "Nys",
+      "firstname": "Béatrice",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Nys_Beatrice.pdf",
+            "person_id": 6175,
+            "name": {},
+            "id": 3614,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6175?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6175?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6175?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 188000
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15154
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1068,
+            "begin_date": null,
+            "id": 15153
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15152
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15151
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15150
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6175?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6175?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6175?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6248,
+      "lastname": "Nys",
+      "firstname": "Valérie",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Nys_Valerie.pdf",
+            "person_id": 6248,
+            "name": {},
+            "id": 3660,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6248?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6248?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6248?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188012
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15321
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15320
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15318
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6248?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6248?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6185,
+      "lastname": "Paratte",
+      "firstname": "Dimitri",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Paratte_Dimitri.pdf",
+            "person_id": 6185,
+            "name": {},
+            "id": 3622,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6185?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6185?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6185?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1072,
+            "begin_date": null,
+            "id": 15181
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15180
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15179
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15178
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6185?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6185?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6185?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6243,
+      "lastname": "Pearson Perret",
+      "firstname": "Sarah",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Pearson_Perret_Sarah.pdf",
+            "person_id": 6243,
+            "name": {},
+            "id": 3656,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6243?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6243?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6243?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188011
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15303
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15302
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15300
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15298
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6243?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6243?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6243?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6247,
+      "lastname": "Perret",
+      "firstname": "Thomas",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Perret_Thomas.pdf",
+            "person_id": 6247,
+            "name": {},
+            "id": 3659,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6247?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6247?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6247?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1069,
+            "begin_date": null,
+            "id": 15317
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15316
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15315
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15314
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15313
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6247?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6247?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6186,
+      "lastname": "Principi",
+      "firstname": "Flavio",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Principi_Flavio.pdf",
+            "person_id": 6186,
+            "name": {},
+            "id": 3623,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6186?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6186?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6186?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15184
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15183
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15182
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6186?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6186?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6186?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "1ère suppléante"
+      },
+      "id": 6230,
+      "lastname": "Rak",
+      "firstname": "Olga",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Rak_Olga.pdf",
+            "person_id": 6230,
+            "name": {},
+            "id": 3649,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6230?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6230?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6230?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1071,
+            "begin_date": null,
+            "id": 15273
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15272
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15271
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6230?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6230?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6230?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6213,
+      "lastname": "Rémy",
+      "firstname": "Marc",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Remy_Marc.pdf",
+            "person_id": 6213,
+            "name": {},
+            "id": 3636,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6213?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6213?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6213?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1067,
+            "begin_date": null,
+            "id": 15232
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15231
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15230
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15168
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6213?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6213?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6234,
+      "lastname": "Schneider",
+      "firstname": "Pauline",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Schneider_Pauline.pdf",
+            "person_id": 6234,
+            "name": {},
+            "id": 3651,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6234?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6234?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6234?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15279
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15277
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15276
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6234?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6180,
+      "lastname": "Schwarb",
+      "firstname": "Christophe",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Schwarb_Christophe.pdf",
+            "person_id": 6180,
+            "name": {},
+            "id": 3620,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6180?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6180?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6180?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188001
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15172
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15170
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 15169
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6180?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6180?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6180?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "2e suppléant"
+      },
+      "id": 24686,
+      "lastname": "Studer",
+      "firstname": "Stéphane",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Studer_Stephane.pdf",
+            "person_id": 24686,
+            "name": {},
+            "id": 32122,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24686?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24686?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24686?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 184954
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24686?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6173,
+      "lastname": "Tenky",
+      "firstname": "Bastien",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Tenky_Bastien.pdf",
+            "person_id": 6173,
+            "name": {},
+            "id": 3613,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6173?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6173?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6173?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15149
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6173?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6173?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6173?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6240,
+      "lastname": "Tschoumy",
+      "firstname": "Raphaèle",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Tschoumy_Raphaele.pdf",
+            "person_id": 6240,
+            "name": {},
+            "id": 3654,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6240?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6240?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6240?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15292
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1062,
+            "begin_date": null,
+            "id": 15291
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15290
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6240?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6240?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6240?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6214,
+      "lastname": "Tschudi",
+      "firstname": "Marie-Jeanne",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Tschudi_Marie-Jeanne.pdf",
+            "person_id": 6214,
+            "name": {},
+            "id": 3637,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6214?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6214?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6214?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6604,
+            "begin_date": null,
+            "id": 188006
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1060,
+            "begin_date": null,
+            "id": 137613
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1067,
+            "begin_date": null,
+            "id": 15236
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15235
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15234
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1057,
+            "begin_date": null,
+            "id": 15233
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6214?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6214?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6217,
+      "lastname": "Vieira",
+      "firstname": "Mario",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Vieira_Mario.pdf",
+            "person_id": 6217,
+            "name": {},
+            "id": 3640,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6217?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6217?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6217?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15249
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1065,
+            "begin_date": null,
+            "id": 15248
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1064,
+            "begin_date": null,
+            "id": 15247
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1058,
+            "begin_date": null,
+            "id": 15246
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6217?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6217?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6176,
+      "lastname": "Zumsteg",
+      "firstname": "Benoît",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/Zumsteg_Benoit.pdf",
+            "person_id": 6176,
+            "name": {},
+            "id": 3616,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6176?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6176?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6176?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 6605,
+            "begin_date": null,
+            "id": 187999
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15158
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15157
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15156
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1059,
+            "begin_date": null,
+            "id": 15155
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6176?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6176?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "fr": "https://www.neuchatelville.ch/votre-commune/conseil-general/composition"
+      },
+      "function_latest": {
+        "fr": "Membre du Conseil général"
+      },
+      "id": 6226,
+      "lastname": "de Pury",
+      "firstname": "Nicolas",
+      "body_key": "6458",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": "https://www.neuchatelville.ch/fileadmin/sites/ne_ville/fichiers/votre_commune/CG_NEO/CG_NEO_composition/De_Pury_Nicolas.pdf",
+            "person_id": 6226,
+            "name": {},
+            "id": 3646,
+            "body_key": "6458"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6226?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6226?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6226?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1066,
+            "begin_date": null,
+            "id": 15264
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1063,
+            "begin_date": null,
+            "id": 15263
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6226?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6226?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3826 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 42,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=62&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=62&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=62&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/120314"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6092,
+      "lastname": "Brunner",
+      "firstname": "Marco",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": null,
+            "id": 15019
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2018-07-01",
+            "id": 15018
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6092?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6092?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6092?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/299926"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 6114,
+      "lastname": "Brunner",
+      "firstname": "Urs",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6114,
+            "name": {
+              "de": "Stadt Kloten; Förster"
+            },
+            "id": 3551,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6114,
+            "name": {
+              "de": "Klientiere Kloten; Kassier"
+            },
+            "id": 3550,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6114?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6114?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6114?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15055
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6114?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6114?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6114?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/187658"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6102,
+      "lastname": "Bühler",
+      "firstname": "Willi",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2025-08-19",
+            "id": 117572
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2025-04-01",
+            "id": 15031
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1046,
+            "begin_date": "2022-07-05",
+            "id": 15030
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6102?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6102?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6102?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/353248"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6121,
+      "lastname": "Chambettaz",
+      "firstname": "Dominique",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6121,
+            "name": {
+              "de": "Econics Management AG; Mitglied des Verwaltunsgrats"
+            },
+            "id": 3566,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6121,
+            "name": {
+              "de": "Viseca Payment Services SA; Specialist Operations Services"
+            },
+            "id": 3565,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6121?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6121?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6121?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": "2023-09-01",
+            "id": 15065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2023-09-01",
+            "id": 15064
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6121?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6121?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6121?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/365674"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6124,
+      "lastname": "Dagli",
+      "firstname": "Erkam",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6124,
+            "name": {
+              "de": "FDP Kloten; Vorstandsmitglied"
+            },
+            "id": 3569,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6124,
+            "name": {
+              "de": "FDP Bezirk Bülach; Vizepräsident"
+            },
+            "id": 3568,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6124,
+            "name": {
+              "de": "GW&P Financal Services Advisory: Senior Consultant"
+            },
+            "id": 3567,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6124?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6124?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6124?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2024-01-01",
+            "id": 15069
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6124?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6124?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6124?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/239419"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 6110,
+      "lastname": "Deuber",
+      "firstname": "Bernhard",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6110,
+            "name": {
+              "de": "FC Kloten; Vorstandsmitglied"
+            },
+            "id": 3545,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6110,
+            "name": {
+              "de": "SBB; Angestellter"
+            },
+            "id": 3544,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6110?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6110?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6110?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2020-10-20",
+            "id": 15049
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6110?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6110?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6110?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/377608"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6125,
+      "lastname": "Diaz",
+      "firstname": "Diana",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6125,
+            "name": {
+              "de": "EHC Kloten Sports AG; Mitarbeiterin"
+            },
+            "id": 3571,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6125,
+            "name": {
+              "de": "EHC Kloten Sports AG; Mitarbeiterin"
+            },
+            "id": 3570,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6125?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6125?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6125?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": "2024-10-01",
+            "id": 15073
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2024-10-01",
+            "id": 15072
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2024-10-22",
+            "id": 15071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1046,
+            "begin_date": "2023-05-09",
+            "id": 15070
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6125?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6125?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6125?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/306289"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6119,
+      "lastname": "Dieng",
+      "firstname": "Brian",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2023-10-01",
+            "id": 15062
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1046,
+            "begin_date": "2022-07-05",
+            "id": 15061
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6119?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6119?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6119?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/62279"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6132,
+      "lastname": "Eberhard",
+      "firstname": "Sandra",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6132,
+            "name": {
+              "de": "Eberhard Gartenbau; Personal und Finanzen"
+            },
+            "id": 3580,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6132,
+            "name": {
+              "de": "Eberhard Gartenbau; Verwaltungsratsmitglied"
+            },
+            "id": 3579,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6132?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6132?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6132?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": null,
+            "id": 15083
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2018-07-01",
+            "id": 15082
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6132?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6132?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6132?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/76932"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6134,
+      "lastname": "Eberhard",
+      "firstname": "Silvan",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Weltoffenes Zürich; Vorstandmitglied"
+            },
+            "id": 28325,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Hardfeld Logistik AG; Verwaltungsrat"
+            },
+            "id": 3595,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Eberhard Recycling AG; Verwaltungsrat"
+            },
+            "id": 3594,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Stiftungsrat der Schweizer KMU Pensionskasse und der Anlagestiftung VALYOU"
+            },
+            "id": 3593,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "ASTAG Sektion Zürich; Vorstandsmitglied"
+            },
+            "id": 3592,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "SEG24 AG; Verwaltungsrat"
+            },
+            "id": 3591,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Ebiox AG; Verwaltungsrat"
+            },
+            "id": 3590,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Weiacher Kies AG"
+            },
+            "id": 3589,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "WSB AG; Verwaltungsrat"
+            },
+            "id": 3588,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Eberhard Bau AG; Verwaltungsrat"
+            },
+            "id": 3587,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Eberhard Holding AG; Verwaltungsrat"
+            },
+            "id": 3586,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Eberhard Bau AG; Leiter Logistik / Mitglied Geschäftsleitung"
+            },
+            "id": 3585,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Merz Baustoff AG in Gebenstorf; Verwaltungsrat"
+            },
+            "id": 3584,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6134,
+            "name": {
+              "de": "Ani Holding AG; Verwaltunsgrat"
+            },
+            "id": 3583,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6134?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6134?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6134?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2012-08-01",
+            "id": 15087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2024-09-03",
+            "id": 15086
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6134?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/149695"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6095,
+      "lastname": "Egg",
+      "firstname": "Anita",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2018-07-01",
+            "id": 15021
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6095?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6095?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6095?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/21642"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6105,
+      "lastname": "Fischbach",
+      "firstname": "Christoph",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Kantonsrat Zürich; Mitglied"
+            },
+            "id": 3534,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Kanton Zürich, Steueramt; Steuerkommissär"
+            },
+            "id": 3533,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Aufsichtskommission Bildung und Gesundheit (Kantonsrat); Mitglied"
+            },
+            "id": 3532,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Geschäftsleitung SP Bezirk Bülach; Mitglied"
+            },
+            "id": 3531,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Vorstand FC Kloten; Finanzchef"
+            },
+            "id": 3530,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6105,
+            "name": {
+              "de": "Vorstand SP Kloten; Vizepräsident"
+            },
+            "id": 3529,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6105?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6105?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6105?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1051,
+            "begin_date": null,
+            "id": 15039
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15038
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6105?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6105?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6105?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/122572"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6094,
+      "lastname": "Gehrig Philipp",
+      "firstname": "Alex",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6094,
+            "name": {
+              "de": "Swiss Life AG; Specialist Public Affairs"
+            },
+            "id": 3503,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6094,
+            "name": {
+              "de": "FDP Kloten; Vizepräsident"
+            },
+            "id": 3502,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6094,
+            "name": {
+              "de": "Regionalkonferenz Nördlich Lägern; Delegierter für Forum Vea"
+            },
+            "id": 3501,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6094?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6094?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6094?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2019-08-02",
+            "id": 15020
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6094?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6094?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6094?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/312127"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6120,
+      "lastname": "Gerber",
+      "firstname": "André",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6120,
+            "name": {
+              "de": "FBV Firma für Beratung & Verkauf GmbH; Inhaber"
+            },
+            "id": 3564,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6120,
+            "name": {
+              "de": "Emil Frey AG Schlieren, Leiter Firmengeschäft"
+            },
+            "id": 3563,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6120?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6120?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6120?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-09-01",
+            "id": 15063
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6120?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6120?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6120?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/149743"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6096,
+      "lastname": "Graf",
+      "firstname": "Philip",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6096,
+            "name": {
+              "de": "econcept AG; Wissenschaftlicher Mitarbeiter"
+            },
+            "id": 3506,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6096,
+            "name": {
+              "de": "SP Kloten; Vorstandsmitglied (Kassier)"
+            },
+            "id": 3505,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6096,
+            "name": {
+              "de": "Kanadevia Inova AG als Prozessingenieur"
+            },
+            "id": 3504,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6096?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6096?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6096?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2025-08-01",
+            "id": 117571
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2018-07-01",
+            "id": 15023
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1046,
+            "begin_date": "2022-07-05",
+            "id": 15022
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6096?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6096?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6096?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/69926"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6133,
+      "lastname": "Hiltebrand",
+      "firstname": "Maja",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6133,
+            "name": {
+              "de": "SP Kloten; Präsidentin"
+            },
+            "id": 3582,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6133,
+            "name": {
+              "de": "Ref. Kirchgemeinde Kloten; Sachbearbeiterin"
+            },
+            "id": 3581,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6133?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6133?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6133?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": "2021-07-01",
+            "id": 15085
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2011-08-01",
+            "id": 15084
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6133?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6133?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6133?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/355900"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6123,
+      "lastname": "Horvath",
+      "firstname": "Bert",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": "2023-10-01",
+            "id": 15068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2023-10-01",
+            "id": 15067
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6123?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6123?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6123?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/21048"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6103,
+      "lastname": "Hottinger",
+      "firstname": "Kurt",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6103,
+            "name": {
+              "de": "Verein freiwillig@kloten; Vereinspräsident"
+            },
+            "id": 3518,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6103,
+            "name": {
+              "de": "Proyecto Indio; Vorstandsmitglied"
+            },
+            "id": 3517,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6103,
+            "name": {
+              "de": "FleuraMetz; Commercial Manager"
+            },
+            "id": 3516,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6103?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6103?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6103?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1056,
+            "begin_date": null,
+            "id": 15034
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1052,
+            "begin_date": null,
+            "id": 15033
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15032
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6103?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6103?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6103?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/21049"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 6104,
+      "lastname": "Huber",
+      "firstname": "René",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Curling Club Kloten-Dorf; Vorstandsmitglied"
+            },
+            "id": 3528,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Curling Club Kloten-Dorf; Vorstandsmitglied"
+            },
+            "id": 3527,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Gemeindepräsidentenkonferenz Bezirk Bülach (GPK); Vizepräsident"
+            },
+            "id": 3526,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Schutzverband der Bevölkerung um den Flughafen (sbfz), Niederhasli; Vorstandsmitglied"
+            },
+            "id": 3525,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "SVP Kloten; Vorstandsmitglied"
+            },
+            "id": 3524,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "glow das Glattal; Mitglied Steuerungsgruppe und Regionalkonferenz"
+            },
+            "id": 3523,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Zürcher Kantonalbank; Bankrat"
+            },
+            "id": 3522,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Verkehrsbetriebe Glattal AG (VBG); Präsident Verwaltungsrat"
+            },
+            "id": 3521,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Seitzmeir Immobilien AG,  Zürich; Verwaltungsrat"
+            },
+            "id": 3520,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6104,
+            "name": {
+              "de": "Pensionskasse Zürcher Kantonalbank; Verwaltungskommission (Arbeitgebervertreter)"
+            },
+            "id": 3519,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6104?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6104?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6104?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15037
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15036
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1045,
+            "begin_date": null,
+            "id": 15035
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6104?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6104?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6104?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/59322"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6130,
+      "lastname": "Isler",
+      "firstname": "Roger",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6130,
+            "name": {
+              "de": "IBK; Verwaltungsrat"
+            },
+            "id": 3577,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6130,
+            "name": {
+              "de": "Angel Dogs; Vorstand"
+            },
+            "id": 3576,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6130,
+            "name": {
+              "de": "FDP.Die Liberalen Kloten; Vorstand"
+            },
+            "id": 3575,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6130,
+            "name": {
+              "de": "Isler & Isler AG ; Delegierter des Verwaltungsrates"
+            },
+            "id": 3574,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6130,
+            "name": {
+              "de": "ZPG; Delegierter"
+            },
+            "id": 3573,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6130?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6130?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6130?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1050,
+            "begin_date": null,
+            "id": 15079
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1050,
+            "begin_date": null,
+            "id": 15078
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 15077
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15076
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6130?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6130?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6130?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/21655"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 6107,
+      "lastname": "Kuratli",
+      "firstname": "Gaby",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6107,
+            "name": {
+              "de": "TCS, Unterland; Vorstand"
+            },
+            "id": 3542,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6107,
+            "name": {
+              "de": "Ref. Kirche, Kloten; RPK"
+            },
+            "id": 3541,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6107,
+            "name": {
+              "de": "Enderli Metallbau AG; Mitglied der Geschäftsleitung"
+            },
+            "id": 3540,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6107,
+            "name": {
+              "de": "IBK Kloten; Verwaltungsrat"
+            },
+            "id": 3539,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6107,
+            "name": {
+              "de": "AKO/ARA Kloten,Opfikon; Verwaltungsrat"
+            },
+            "id": 3538,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6107?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6107?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6107?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 15046
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15045
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6107?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6107?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6107?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/288374"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6111,
+      "lastname": "Käser",
+      "firstname": "André",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6111,
+            "name": {
+              "de": "Schule Wallisellen; Schulleiter"
+            },
+            "id": 3547,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6111,
+            "name": {
+              "de": "GLP Kloten; Vorstandsmitglied"
+            },
+            "id": 3546,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6111?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6111?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6111?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15052
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 15051
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1046,
+            "begin_date": "2022-07-05",
+            "id": 15050
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6111?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6111?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6111?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/21653"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsidentin"
+      },
+      "id": 6106,
+      "lastname": "Käser-Stöckli",
+      "firstname": "Regula",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6106,
+            "name": {
+              "de": "Grüne Bezirk Bülach; Präsidentin"
+            },
+            "id": 3537,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6106,
+            "name": {
+              "de": "Stiftung Unterstützungsfond der JVA Pöschwies; Präsidentin"
+            },
+            "id": 3536,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6106,
+            "name": {
+              "de": "FES Fachstelle für Erwachsenenschutz; Beiständin PriMa"
+            },
+            "id": 3535,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6106?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6106?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6106?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1055,
+            "begin_date": null,
+            "id": 15044
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1055,
+            "begin_date": "2022-10-01",
+            "id": 15043
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1053,
+            "begin_date": null,
+            "id": 15042
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1053,
+            "begin_date": null,
+            "id": 15041
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15040
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6106?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6106?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6106?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/299929"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6115,
+      "lastname": "Körner",
+      "firstname": "Daniel",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6115,
+            "name": {
+              "de": "Gönnervereinigung der Stadtmusik Kloten; Vorstand"
+            },
+            "id": 3553,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6115,
+            "name": {
+              "de": "Tiefpreis-Optik"
+            },
+            "id": 3552,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6115?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6115?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6115?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15056
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6115?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6115?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6115?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/353254"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6122,
+      "lastname": "Morf",
+      "firstname": "Eliane",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2023-05-01",
+            "id": 15066
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6122?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6122?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6122?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/90094"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6137,
+      "lastname": "Morf",
+      "firstname": "Ueli",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6137,
+            "name": {
+              "de": "Swissem Schweizerischersaatzuchtverein; Vorstandsmitglied"
+            },
+            "id": 3601,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6137,
+            "name": {
+              "de": "V-Ost für Pflanzkartoffeln"
+            },
+            "id": 3600,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6137,
+            "name": {
+              "de": "Landi Nürensdorf/Bassersdorf; Vizepräsident"
+            },
+            "id": 3599,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6137?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6137?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6137?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": null,
+            "id": 15090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2014-04-01",
+            "id": 15089
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6137?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/299932"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6090,
+      "lastname": "Murati",
+      "firstname": "Jennifer",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15057
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6090?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6090?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6090?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/455768"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 24679,
+      "lastname": "Müller",
+      "firstname": "Patrick",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 24679,
+            "name": {
+              "de": "SVP; Kassier"
+            },
+            "id": 32361,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 24679,
+            "name": {
+              "de": "Katholische Kirche Kloten; Lektor"
+            },
+            "id": 32360,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 24679,
+            "name": {
+              "de": "UBN / Unihockey Bassi/Nüri; Funktionär"
+            },
+            "id": 32359,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 24679,
+            "name": {
+              "de": "E.Weber&Cie AG; Leiter Innendienst / GL"
+            },
+            "id": 32358,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24679?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24679?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24679?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2026-01-01",
+            "id": 184179
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24679?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24679?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24679?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/59328"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6131,
+      "lastname": "Nabholz",
+      "firstname": "Peter",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6131,
+            "name": {
+              "de": "Raiffeisenbank an der Limmat; Vermögensberater"
+            },
+            "id": 3578,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6131?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6131?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6131?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": "2022-07-01",
+            "id": 15081
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2010-05-01",
+            "id": 15080
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6131?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6131?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6131?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/220235"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsident"
+      },
+      "id": 6108,
+      "lastname": "Ruosch",
+      "firstname": "Florian",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6108,
+            "name": {
+              "de": "Universität Zürich; Angestellter (Doktorand)"
+            },
+            "id": 3543,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6108?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6108?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6108?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2020-05-01",
+            "id": 15047
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6108?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6108?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6108?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/79904"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 6135,
+      "lastname": "Schindler",
+      "firstname": "Reto",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6135,
+            "name": {
+              "de": "Feuerwehr Kloten; Mitglied"
+            },
+            "id": 3598,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6135,
+            "name": {
+              "de": "Grüne Partei Kloten; Vorstandsmitglied"
+            },
+            "id": 3597,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6135,
+            "name": {
+              "de": "Stadt Kloten; Stv. Leiter Umwelt / Entsorgungsbeauftragter"
+            },
+            "id": 3596,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6135?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6135?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6135?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2013-01-01",
+            "id": 15088
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6135?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6135?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6135?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/152986"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 6097,
+      "lastname": "Schmid",
+      "firstname": "Hansjürg",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "Kantonales Steueramt Zürich; Mitarbeiter"
+            },
+            "id": 3512,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "Schlemmerchuchi Zürich; Präsident"
+            },
+            "id": 3511,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "Angel Dogs; Mitglied"
+            },
+            "id": 3510,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "Interessengemeinschaft Flughafen; Mitglied"
+            },
+            "id": 3509,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "FDP Kloten; Vorstandsmitglied"
+            },
+            "id": 3508,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6097,
+            "name": {
+              "de": "Curling Club Kloten Dorf; Mitglied"
+            },
+            "id": 3507,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6097?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6097?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6097?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15025
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": null,
+            "id": 15024
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6097?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6097?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6097?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/299923"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6113,
+      "lastname": "Schneider",
+      "firstname": "Thomas",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6113,
+            "name": {
+              "de": "Karate Club Höri; Präsident"
+            },
+            "id": 3549,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6113,
+            "name": {
+              "de": "Endress + Hauser (Schweiz) AG"
+            },
+            "id": 3548,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6113?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6113?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6113?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2022-07-01",
+            "id": 15054
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2023-06-01",
+            "id": 15053
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6113?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6113?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6113?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/47369"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin"
+      },
+      "id": 6128,
+      "lastname": "Sommer",
+      "firstname": "Sigi",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2009-04-01",
+            "id": 15075
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6128?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6128?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6128?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/221245"
+      },
+      "function_latest": {
+        "de": "Sekretärin"
+      },
+      "id": 6109,
+      "lastname": "Tanner",
+      "firstname": "Jacqueline",
+      "body_key": "62",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2020-06-01",
+            "id": 15048
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6109?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6109?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6109?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/187553"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6101,
+      "lastname": "Trachsel",
+      "firstname": "Christian",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6101,
+            "name": {
+              "de": "Freunde des gepflegten Wintersports; Präsident"
+            },
+            "id": 3515,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6101,
+            "name": {
+              "de": "Denner AG; Verkaufsleiter"
+            },
+            "id": 3514,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6101?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6101?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6101?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2019-04-01",
+            "id": 15029
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 15028
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6101?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6101?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6101?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/163087"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6099,
+      "lastname": "Töpfer",
+      "firstname": "Max",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6099,
+            "name": {
+              "de": "SP Kloten; Vorstandsmitglied"
+            },
+            "id": 3446,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6099,
+            "name": {
+              "de": "SP Bezirk Bülach; Kassier"
+            },
+            "id": 3407,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6099,
+            "name": {
+              "de": "SP Kanton Zürich; Parteisekretär"
+            },
+            "id": 3385,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6099?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6099?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6099?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2021-07-01",
+            "id": 15027
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2023-07-01",
+            "id": 15026
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6099?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6099?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6099?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/90097"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6138,
+      "lastname": "Walt",
+      "firstname": "Pascal",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6138,
+            "name": {
+              "de": "Swisscom AG; Angestellter"
+            },
+            "id": 3603,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6138,
+            "name": {
+              "de": "Die Mitte Kloten; Präsident"
+            },
+            "id": 3602,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6138?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6138?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6138?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2014-04-01",
+            "id": 15092
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 15091
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6138?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6138?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6138?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/98835"
+      },
+      "function_latest": {
+        "de": "Fraktionschef"
+      },
+      "id": 6139,
+      "lastname": "Walt",
+      "firstname": "Roman",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6139,
+            "name": {
+              "de": "ETH Zürich / ETH-Bibliothek; Angestellter"
+            },
+            "id": 3607,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6139,
+            "name": {
+              "de": "GartenParkVerein Hohrainli, Vorstandsmitglied"
+            },
+            "id": 3606,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6139,
+            "name": {
+              "de": "GLP Bezirk Bülach, Vorstandsmitglied"
+            },
+            "id": 3605,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6139,
+            "name": {
+              "de": "GLP Kloten, Präsidium/Vorstandsmitglied"
+            },
+            "id": 3604,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6139?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6139?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6139?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1054,
+            "begin_date": null,
+            "id": 15094
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2014-11-01",
+            "id": 15093
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6139?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/30223"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 6118,
+      "lastname": "Wisskirchen",
+      "firstname": "Mark",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "EVP Kanton Zürich; Geschäftsführer"
+            },
+            "id": 3562,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Spital Bülach AG; Verwaltungsrat, Vizepräsident"
+            },
+            "id": 3561,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "KZU Kompetenzzentrum Pflege und Gesundheit; Verwaltungsrat, Mitglied"
+            },
+            "id": 3560,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Stiftung Pigna; Stiftungsrat, Mitglied"
+            },
+            "id": 3559,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Gesundheitskonferenz des Kanton Zürich (GeKoZH); Präsident"
+            },
+            "id": 3558,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Konferenz der städtischen Finanzdirektoren (KSFD); Vorstandsmitglied"
+            },
+            "id": 3557,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Kantonsrat & Mitglied der Kommission KSSG; Mitglied"
+            },
+            "id": 3556,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Curaviva Zürich; Vorstandsmitglied"
+            },
+            "id": 3555,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6118,
+            "name": {
+              "de": "Stiftung Wisli; Präsident des Stiftungsrates"
+            },
+            "id": 3554,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6118?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6118?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6118?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1047,
+            "begin_date": null,
+            "id": 15060
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1045,
+            "begin_date": null,
+            "id": 15059
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1045,
+            "begin_date": null,
+            "id": 15058
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6118?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6118?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6118?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/112654"
+      },
+      "function_latest": {
+        "de": "Fraktionschefin"
+      },
+      "id": 6091,
+      "lastname": "Woodhatch",
+      "firstname": "Tania",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6091,
+            "name": {
+              "de": "Verein Lebensanker; Geschäftsführerin"
+            },
+            "id": 3499,
+            "body_key": "62"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 6091,
+            "name": {
+              "de": "Lehrlingshaus Eidmatt; Stiftungsrätin"
+            },
+            "id": 3498,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6091?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6091?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6091?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2016-04-01",
+            "id": 14975
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1048,
+            "begin_date": "2022-07-01",
+            "id": 14974
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6091?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6091?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6091?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.kloten.ch/_rte/person/409627"
+      },
+      "function_latest": {
+        "de": "Gemeinderat"
+      },
+      "id": 6127,
+      "lastname": "Wäger",
+      "firstname": "Claudio",
+      "body_key": "62",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 6127,
+            "name": {
+              "de": "Swiss International Airlines"
+            },
+            "id": 3572,
+            "body_key": "62"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6127?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6127?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6127?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1049,
+            "begin_date": "2025-01-01",
+            "id": 15074
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/6127?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/6127?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/6127?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

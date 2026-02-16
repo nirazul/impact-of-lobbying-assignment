@@ -1,0 +1,2808 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 41,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=3001&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=3001&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=3001&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/1750"
+      },
+      "function_latest": {
+        "de": "Gemeinderat (seit 2018), Ressortchef Volkswirtschaft, Stv. Ressortchef Tiefbau/Umweltschutz"
+      },
+      "id": 3506,
+      "lastname": "Aggeler",
+      "firstname": "Glen",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Die Mitte Hinterland: Vorstandsmitglied"
+            },
+            "id": 2662,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Die Mitte AR: Vizepräsident"
+            },
+            "id": 2661,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Verein Spielinsel Herisau: Präsident"
+            },
+            "id": 2660,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Raiffeisenbank Bernhardzell: Vizepräsident Verwaltungsrat"
+            },
+            "id": 2658,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Stiftung Schweizer Kinder des Kinder Dörfli St. Iddaheim: Stiftungsratspräsident"
+            },
+            "id": 2657,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Schwänberg-Stiftung Herisau: Vizepräsident Stiftungsrat"
+            },
+            "id": 2656,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Kantonsrat AR: Kantonsrat"
+            },
+            "id": 2655,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Kantonsrat AR: Präsident der ständigen Kommission Inneres und Sicherheit (KIS)"
+            },
+            "id": 2654,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "KESB Region Zürichsee-Linth: Präsident"
+            },
+            "id": 2653,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Historischer Verein Herisau und Umgebung: Vorstandsmitglied"
+            },
+            "id": 2652,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Verein Kinder Dörfli Lütisburg: Präsident"
+            },
+            "id": 2651,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Waldbauverein Herisau: Vizepräsident"
+            },
+            "id": 2650,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3506,
+            "name": {
+              "de": "Verkehrskadetten St. Gallen/Appenzellerland: Präsident"
+            },
+            "id": 2649,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3506?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3506?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3506?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9183
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9182
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 681,
+            "begin_date": null,
+            "id": 9181
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3506?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3506?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3506?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378937"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3536,
+      "lastname": "Baumgartner",
+      "firstname": "Peter",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9223
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 679,
+            "begin_date": null,
+            "id": 9222
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3536?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3536?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3536?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/19700"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat, 3. Stimmenzähler"
+      },
+      "id": 3521,
+      "lastname": "Chenevard",
+      "firstname": "Rémy",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 687,
+            "begin_date": null,
+            "id": 9203
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9202
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3521?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3521?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3521?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/123638"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3497,
+      "lastname": "Diem",
+      "firstname": "Hansueli",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9138
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 679,
+            "begin_date": null,
+            "id": 9137
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3497?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3497?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3497?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/123685"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3498,
+      "lastname": "Dudle",
+      "firstname": "Marisa",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9139
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3498?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3498?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3498?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378940"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3537,
+      "lastname": "Eggenberger",
+      "firstname": "Karin",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9224
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3537?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3537?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3537?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/1752"
+      },
+      "function_latest": {
+        "de": "Gemeindepräsident (seit 2021), Ressortchef Allg. Verwaltung, Finanzen, Sport, Stv. Ressortchef Hochbau/Ortsplanung"
+      },
+      "id": 3508,
+      "lastname": "Eugster",
+      "firstname": "Max",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Verein Gesundheitskoordination GeKo: Vorstandsmitglied"
+            },
+            "id": 27952,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "REGIO-Bus AG Gossau: Verwaltungsrat, Mitglied"
+            },
+            "id": 2669,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Gemeindepräsidien-Konferenz AR: Vorstandsmitglied"
+            },
+            "id": 2668,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Verein Wohnheim Kreuzstrasse Herisau: Vorstandsmitglied"
+            },
+            "id": 2667,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Stiftung Dorfbild Herisau: Stiftungsrat"
+            },
+            "id": 2666,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Vereinigung der Gemeinden der Region AR - SG - Bodensee: Delegierter, Mitglied im Lenkungsausschuss Agglomerationsprogramme"
+            },
+            "id": 2665,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Sozialdemokratische Partei Herisau: Vorstandsmitglied"
+            },
+            "id": 2664,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3508,
+            "name": {
+              "de": "Abstinenten Touristenclub Altmann Hundwil: 3. Revisor"
+            },
+            "id": 2663,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3508?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3508?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3508?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 689,
+            "begin_date": null,
+            "id": 9189
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 688,
+            "begin_date": null,
+            "id": 9188
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9187
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9186
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 682,
+            "begin_date": null,
+            "id": 9185
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 681,
+            "begin_date": null,
+            "id": 9184
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3508?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3508?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3508?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378943"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3538,
+      "lastname": "Frick",
+      "firstname": "Peter",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9225
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3538?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3538?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3538?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/427183"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 22359,
+      "lastname": "Fries",
+      "firstname": "Matthias",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 110923
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22359?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22359?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22359?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/12506"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin (seit 2019), Ressortchefin Schule, Stv. Ressortchefin Soziales"
+      },
+      "id": 3501,
+      "lastname": "Hagmann",
+      "firstname": "Irene",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Kantonsrat AR: Kantonsrätin"
+            },
+            "id": 2644,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Kantonsrat AR: Mitglied Büro des Kantonsrates - stv. Fraktionsvertreterin PU"
+            },
+            "id": 2643,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Kantonsrat AR: Mitglied Kommission Bildung und Kultur (KBK)"
+            },
+            "id": 2642,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Schulpräsidienkonferenz AR: Präsidentin"
+            },
+            "id": 2641,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Keller + Marquart AG Herisau: Mitglied Verwaltungsrat"
+            },
+            "id": 2640,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3501,
+            "name": {
+              "de": "Keller + Marquart Immo AG Herisau: Präsidentin Verwaltungsrat"
+            },
+            "id": 2639,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3501?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3501?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3501?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9144
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9143
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3501?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3501?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3501?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191377"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3514,
+      "lastname": "Hagmann",
+      "firstname": "Hans",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9194
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 9193
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3514?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3514?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3514?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/123687"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3500,
+      "lastname": "Hochreutener",
+      "firstname": "Elisa",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9142
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3500?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3500?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3500?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/223334"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin, Präsidentin"
+      },
+      "id": 3524,
+      "lastname": "Hubmann",
+      "firstname": "Celia",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 687,
+            "begin_date": null,
+            "id": 9207
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9206
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3524?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3524?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3524?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378931"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3534,
+      "lastname": "Hug",
+      "firstname": "Anita",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9220
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3534?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3534?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3534?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/102346"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3494,
+      "lastname": "Hutter",
+      "firstname": "Roman",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9132
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3494?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3494?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3494?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/91692"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3549,
+      "lastname": "Jung",
+      "firstname": "Karin",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9230
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3549?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3549?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3549?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/223340"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3525,
+      "lastname": "Kellenberger",
+      "firstname": "Michael",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9209
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 679,
+            "begin_date": null,
+            "id": 9208
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3525?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3525?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3525?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/275014"
+      },
+      "function_latest": {
+        "de": "Gemeinderat (seit 2023), Ressortchef Technische Dienste, Stv. Ressortchef Schule"
+      },
+      "id": 3527,
+      "lastname": "Knöpfel",
+      "firstname": "Samuel",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3527,
+            "name": {
+              "de": "Wasserversorgung Herisau: Verwaltungsrat"
+            },
+            "id": 2675,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3527,
+            "name": {
+              "de": "Verband Schweizerischer Elektrokontrollen (VSEK): Mitglied"
+            },
+            "id": 2674,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3527,
+            "name": {
+              "de": "Verband Schweizerischer Elektro-Installationsfirmen (VSEI): Mitglied"
+            },
+            "id": 2673,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3527,
+            "name": {
+              "de": "ETAVIS Grossenbacher AG Herisau: Geschäftsführer"
+            },
+            "id": 2672,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3527,
+            "name": {
+              "de": "SVP Herisau: Vorstandsmitglied"
+            },
+            "id": 2671,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3527?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3527?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3527?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9216
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 685,
+            "begin_date": null,
+            "id": 9215
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 684,
+            "begin_date": null,
+            "id": 9214
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9213
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 681,
+            "begin_date": null,
+            "id": 9212
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3527?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3527?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3527?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378934"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3535,
+      "lastname": "Kurz",
+      "firstname": "Andreas",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9221
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3535?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3535?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3535?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/16039"
+      },
+      "function_latest": {
+        "de": "Gemeinderat (seit 2019), Ressortchef Tiefbau/Umweltschutz, Stv. Ressortchef Volkswirtschaft"
+      },
+      "id": 3504,
+      "lastname": "Künzle",
+      "firstname": "Peter",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3504,
+            "name": {
+              "de": "Stiftung benevol St. Gallen: Geschäftsführer"
+            },
+            "id": 2648,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3504,
+            "name": {
+              "de": "Glattkommission: Mitglied"
+            },
+            "id": 2647,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3504,
+            "name": {
+              "de": "Energie- und Klimapolitische Kommission des schweizerischen Städteverbandes: Mitglied"
+            },
+            "id": 2646,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3504,
+            "name": {
+              "de": "A-Region Rorschach: Delegierter"
+            },
+            "id": 2645,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3504?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3504?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3504?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 690,
+            "begin_date": null,
+            "id": 9180
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9179
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9178
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3504?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3504?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3504?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/427198"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 22361,
+      "lastname": "Lehmann",
+      "firstname": "Andreas",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 110925
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22361?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22361?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22361?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191374"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3513,
+      "lastname": "Lenzo",
+      "firstname": "Daniele",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9192
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3513?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3513?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3513?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/102345"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3493,
+      "lastname": "Locher-Wehrlin",
+      "firstname": "Jeannette",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9131
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3493?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3493?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3493?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/306253"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3531,
+      "lastname": "Lämmler",
+      "firstname": "Dominik",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 110922
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9217
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3531?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3531?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3531?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/91725"
+      },
+      "function_latest": {
+        "de": "Gemeinderätin (seit 2014), Gemeindevizepräsidentin (seit 2021) Ressortchefin Hochbau/Ortsplanung, Stv. Allg. Verwaltung, Finanzen, Sport"
+      },
+      "id": 3551,
+      "lastname": "Nater-Schönenberger",
+      "firstname": "Sandra",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "HEV AR: Revisorin"
+            },
+            "id": 2686,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Appenzellerland Tourismus AR: Mitglied Verwaltungsrat"
+            },
+            "id": 2685,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Spitex Verband SG/AR/AI: Revisorin"
+            },
+            "id": 2684,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Kantonsrat AR: Kantonsrätin"
+            },
+            "id": 2683,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "FDP Herisau: Vorstandsmitglied"
+            },
+            "id": 2682,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Vereinigung der Gemeinden der Region AR - SG - Bodensee: Delegierte (Ersatz von GP Max Eugster)"
+            },
+            "id": 2681,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Kantonsrat AR: Mitglied Kommission Gesundheit und Soziales (KGS)"
+            },
+            "id": 2680,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Winterhilfe AR: Stiftungsrätin"
+            },
+            "id": 2679,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Sana Fürstenland AG Gossau: Mitglied Geschäftsleitung"
+            },
+            "id": 2678,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Stiftung für schweizerische naive Kunst und art brut St. Gallen: Stiftungsrätin"
+            },
+            "id": 2677,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3551,
+            "name": {
+              "de": "Steinegg Stiftung Herisau: Stiftungsrätin"
+            },
+            "id": 2676,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3551?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3551?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3551?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9233
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9232
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 682,
+            "begin_date": null,
+            "id": 9231
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3551?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3551?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3551?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/378949"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3539,
+      "lastname": "Panzer",
+      "firstname": "Marcel",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9226
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3539?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3539?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3539?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/1840"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3511,
+      "lastname": "Preisig",
+      "firstname": "Thomas",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9191
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 9190
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3511?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3511?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3511?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/102343"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat, 2. Stimmenzähler"
+      },
+      "id": 3492,
+      "lastname": "Rechsteiner",
+      "firstname": "Michael",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 687,
+            "begin_date": null,
+            "id": 9130
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9129
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3492?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3492?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3492?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/74375"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3547,
+      "lastname": "Ritter",
+      "firstname": "Regula",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9227
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3547?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3547?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3547?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/427168"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 22360,
+      "lastname": "River",
+      "firstname": "Natalie",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 110924
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22360?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22360?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22360?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191386"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3516,
+      "lastname": "Roth",
+      "firstname": "Ruedi",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9195
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3516?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3516?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3516?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/91659"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3548,
+      "lastname": "Ruprecht",
+      "firstname": "David",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9229
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 9228
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3548?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3548?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3548?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191389"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3517,
+      "lastname": "Schläpfer",
+      "firstname": "Eva",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9197
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 679,
+            "begin_date": null,
+            "id": 9196
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3517?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3517?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3517?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/223343"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3526,
+      "lastname": "Signer",
+      "firstname": "Urs",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9211
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 679,
+            "begin_date": null,
+            "id": 9210
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3526?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3526?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3526?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/102348"
+      },
+      "function_latest": {
+        "de": "Gemeinderat (seit 2024), Ressortchef Soziales, Stv. Ressortchef Technische Dienste"
+      },
+      "id": 3495,
+      "lastname": "Slongo",
+      "firstname": "Max",
+      "body_key": "3001",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Klassenlehrer, 1./2. Klasse, Primarschule Gaiserwald"
+            },
+            "id": 2638,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonsrat AR: Mitglied Kommission Bildung und Kultur (KBK)"
+            },
+            "id": 2637,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonsschule Romanshorn Alumni: Mitglied"
+            },
+            "id": 2636,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Junge SVP Säntis: Vizepräsident"
+            },
+            "id": 2634,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonaler Lehrerverband St. Gallen: Mitglied"
+            },
+            "id": 2633,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonale Unterstufenkonferenz St. Gallen: Mitglied und Leiter Schulhausdelegation"
+            },
+            "id": 2632,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonsrat AR: Kantonsrat"
+            },
+            "id": 2631,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "SVP AR: Parteileitung"
+            },
+            "id": 2630,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "Kantonsrat AR: Mitglied Büro des Kantonsrates - stv. Fraktionsvertreter SVP"
+            },
+            "id": 2629,
+            "body_key": "3001"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 3495,
+            "name": {
+              "de": "kinderlager.ch: Vorstandsmitglied"
+            },
+            "id": 2603,
+            "body_key": "3001"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3495?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3495?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3495?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 90,
+            "begin_date": null,
+            "id": 9136
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 684,
+            "begin_date": null,
+            "id": 9135
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 683,
+            "begin_date": null,
+            "id": 9134
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 681,
+            "begin_date": null,
+            "id": 9133
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3495?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3495?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3495?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/123686"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin, 1. Stimmenzählerin"
+      },
+      "id": 3499,
+      "lastname": "Steiner",
+      "firstname": "Jil",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 687,
+            "begin_date": null,
+            "id": 9141
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9140
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3499?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3499?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3499?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191392"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3518,
+      "lastname": "Strässle",
+      "firstname": "Yvonne",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9198
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3518?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3518?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3518?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/33024"
+      },
+      "function_latest": {
+        "de": "Einwohnerrätin"
+      },
+      "id": 3533,
+      "lastname": "Taisch Dudli",
+      "firstname": "Silvia",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9219
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 9218
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3533?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/223328"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3523,
+      "lastname": "Vuilleumier",
+      "firstname": "Bénédict",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9205
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 680,
+            "begin_date": null,
+            "id": 9204
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3523?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3523?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3523?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191395"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat"
+      },
+      "id": 3519,
+      "lastname": "Wäspi",
+      "firstname": "Marc",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9199
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3519?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3519?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3519?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.herisau.ch/_rte/person/191398"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat, Vizepräsident"
+      },
+      "id": 3520,
+      "lastname": "Wäspi",
+      "firstname": "Roman",
+      "body_key": "3001",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 687,
+            "begin_date": null,
+            "id": 9201
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 686,
+            "begin_date": null,
+            "id": 9200
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3520?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3520?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3520?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

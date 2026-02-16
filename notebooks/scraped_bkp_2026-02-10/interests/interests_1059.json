@@ -1,0 +1,6434 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 37,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=1059&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=1059&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=1059&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/756"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22299,
+      "lastname": "Akermann",
+      "firstname": "Michèle",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22299,
+            "name": {
+              "de": "SVP Kriens / Vorstandsmitglied"
+            },
+            "id": 27557,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22299,
+            "name": {
+              "de": "KriensNatur (Sektion von BirdLife Luzern) / Vorstandsmitglied"
+            },
+            "id": 27556,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22299,
+            "name": {
+              "de": "advolaw GmbH / Gesellschafterin & Geschäftsführerin"
+            },
+            "id": 27555,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22299,
+            "name": {
+              "de": "advolaw GmbH / advocenter GmbH"
+            },
+            "id": 27554,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22299?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22299?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22299?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102946
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102945
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102944
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2016-01-01",
+            "id": 102943
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5065,
+            "begin_date": null,
+            "id": 102942
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1679
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2016-01-01",
+            "id": 1662
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1622
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1583
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2016-01-01",
+            "id": 1551
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1519
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1480
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 124,
+            "begin_date": null,
+            "id": 1229
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22299?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22299?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22299?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1334"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 1016,
+      "lastname": "Barmettler",
+      "firstname": "Bruno",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1669
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2023-01-01",
+            "id": 1645
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1611
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1578
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2023-01-01",
+            "id": 1534
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1514
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1475
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 124,
+            "begin_date": null,
+            "id": 1451
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1016?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1016?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1016?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1438"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22292,
+      "lastname": "Becker",
+      "firstname": "Urs",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22292,
+            "name": {
+              "de": "Komitee BypassPLUS"
+            },
+            "id": 27380,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22292,
+            "name": {
+              "de": "Eishockey Club Luzern / Vorstandsmitglied"
+            },
+            "id": 27362,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22292,
+            "name": {
+              "de": "Messe Luzern AG"
+            },
+            "id": 27279,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22292?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22292?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22292?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102916
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102915
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 102914
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 102913
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1671
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1655
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1613
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1570
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1544
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1462
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22292?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22292?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/212"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22293,
+      "lastname": "Bienz",
+      "firstname": "Viktor",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22293,
+            "name": {
+              "de": "Trachtengruppe Kriens / Vorstandsmitglied"
+            },
+            "id": 27482,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22293,
+            "name": {
+              "de": "Viehzuchtgenossenschaft Horw-Kriens / Vorstandsmitglied"
+            },
+            "id": 27481,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22293,
+            "name": {
+              "de": "Hochwaldgenossenschaft Kriens / Präsident"
+            },
+            "id": 27463,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22293,
+            "name": {
+              "de": "Luzerner Bauernverband / Delegierter"
+            },
+            "id": 27415,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22293?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22293?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22293?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102920
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2000-01-01",
+            "id": 102919
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 102918
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 102917
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1672
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2000-01-01",
+            "id": 1656
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1614
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1572
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2000-01-01",
+            "id": 1545
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1464
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22293?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22293?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1275"
+      },
+      "function_latest": {
+        "de": "Präsidentin"
+      },
+      "id": 22281,
+      "lastname": "Bucher",
+      "firstname": "Zita",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22281,
+            "name": {
+              "de": "Berufsverband Rhytmik Schweiz / Redaktionsleiterin Fachzeitschrift / Mitglied"
+            },
+            "id": 26928,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22281,
+            "name": {
+              "de": "Mullbau Luzern / Vorstandsmitglied"
+            },
+            "id": 26895,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22281,
+            "name": {
+              "de": "GRÜNE Kanton Luzern / Co-Präsidentin"
+            },
+            "id": 26878,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22281,
+            "name": {
+              "de": "Pädagogische Hochschule FHNW"
+            },
+            "id": 26860,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22281?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22281?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22281?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 5079,
+            "begin_date": null,
+            "id": 102868
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102867
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5131,
+            "begin_date": null,
+            "id": 102866
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102865
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2022-01-01",
+            "id": 102864
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5065,
+            "begin_date": null,
+            "id": 102863
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2022-01-01",
+            "id": 1643
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2022-01-01",
+            "id": 1532
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 153,
+            "begin_date": null,
+            "id": 1521
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 133,
+            "begin_date": null,
+            "id": 1492
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1484
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1468
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 125,
+            "begin_date": null,
+            "id": 1454
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 124,
+            "begin_date": null,
+            "id": 1450
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22281?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22281?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/901"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22302,
+      "lastname": "Bucher",
+      "firstname": "Sandro",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22302,
+            "name": {
+              "de": "Komitee BypassPLUS / Co-Präsident"
+            },
+            "id": 27563,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22302?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22302?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22302?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 38746
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 38568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 38247
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2023-01-01",
+            "id": 37924
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1696
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1680
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2023-01-01",
+            "id": 1665
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1623
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1566
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2023-01-01",
+            "id": 1554
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22302?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22302?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1435"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22289,
+      "lastname": "Buholzer",
+      "firstname": "Urs",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102902
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102901
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102900
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102899
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1676
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1652
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1619
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1541
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1488
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22289?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22289?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/209"
+      },
+      "function_latest": {
+        "de": "Sozialvorsteher"
+      },
+      "id": 1027,
+      "lastname": "Büchi",
+      "firstname": "Cla",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1027,
+            "name": {
+              "de": "Winterhilfe Kriens / Präsident"
+            },
+            "id": 931,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1027,
+            "name": {
+              "de": "Alfred Amstutz Stiftung / Präsident Stiftungsrat"
+            },
+            "id": 930,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1027?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1027?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1027?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102823
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5293,
+            "begin_date": null,
+            "id": 102822
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5287,
+            "begin_date": null,
+            "id": 102821
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5358,
+            "begin_date": null,
+            "id": 102820
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5280,
+            "begin_date": null,
+            "id": 102819
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5365,
+            "begin_date": null,
+            "id": 102813
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5356,
+            "begin_date": null,
+            "id": 102812
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5335,
+            "begin_date": null,
+            "id": 102811
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102810
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5299,
+            "begin_date": null,
+            "id": 102809
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5334,
+            "begin_date": null,
+            "id": 102808
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5349,
+            "begin_date": null,
+            "id": 102807
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 186,
+            "begin_date": null,
+            "id": 102806
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5336,
+            "begin_date": null,
+            "id": 102805
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 191,
+            "begin_date": null,
+            "id": 1636
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 175,
+            "begin_date": null,
+            "id": 1608
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1606
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 166,
+            "begin_date": null,
+            "id": 1586
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1581
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1517
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 151,
+            "begin_date": null,
+            "id": 1513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 149,
+            "begin_date": null,
+            "id": 1512
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 147,
+            "begin_date": null,
+            "id": 1511
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 146,
+            "begin_date": null,
+            "id": 1510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 145,
+            "begin_date": null,
+            "id": 1509
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 144,
+            "begin_date": null,
+            "id": 1508
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 143,
+            "begin_date": null,
+            "id": 1507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 131,
+            "begin_date": null,
+            "id": 1482
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1478
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 129,
+            "begin_date": null,
+            "id": 1473
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 30,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1027?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1027?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1027?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/1124"
+      },
+      "function_latest": {
+        "de": "Finanzvorsteher"
+      },
+      "id": 1015,
+      "lastname": "Erni",
+      "firstname": "Roger",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1015,
+            "name": {
+              "de": "Royal Club"
+            },
+            "id": 925,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1015,
+            "name": {
+              "de": "Verein Vingt Vins / Präsident"
+            },
+            "id": 924,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1015,
+            "name": {
+              "de": "FDP Donatorenvereinigung / Vorstand"
+            },
+            "id": 923,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1015,
+            "name": {
+              "de": "FDP Kriens / Geschäftsleitung"
+            },
+            "id": 922,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1015,
+            "name": {
+              "de": "Kantonsratsmitglied für die FDP Kanton Luzern"
+            },
+            "id": 921,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1015?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1015?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1015?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102789
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102788
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5350,
+            "begin_date": null,
+            "id": 102787
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5316,
+            "begin_date": null,
+            "id": 102786
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1690
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 183,
+            "begin_date": null,
+            "id": 1627
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1603
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 167,
+            "begin_date": null,
+            "id": 1588
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1560
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 139,
+            "begin_date": null,
+            "id": 1503
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1015?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1015?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1015?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1158"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/ -rätin"
+      },
+      "id": 22280,
+      "lastname": "Erni",
+      "firstname": "Matthias",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22280,
+            "name": {
+              "de": "VIW Wirtschaftsinformatik Schweiz/ Co-Präsident"
+            },
+            "id": 26843,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22280,
+            "name": {
+              "de": "Gewerbeverband Kriens / Vizepräsident"
+            },
+            "id": 26842,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22280,
+            "name": {
+              "de": "Jungfreisinnige Kriens/ Präsident"
+            },
+            "id": 26826,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22280,
+            "name": {
+              "de": "erni:digital GmbH"
+            },
+            "id": 26805,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22280,
+            "name": {
+              "de": "FDP Kriens / GL-Mitglied"
+            },
+            "id": 828,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22280?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22280?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22280?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102862
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2022-01-01",
+            "id": 102861
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5130,
+            "begin_date": null,
+            "id": 102860
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5126,
+            "begin_date": null,
+            "id": 102859
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2022-01-01",
+            "id": 1642
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 171,
+            "begin_date": null,
+            "id": 1594
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1567
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2022-01-01",
+            "id": 1531
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 136,
+            "begin_date": null,
+            "id": 1499
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1459
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22280?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22280?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/903"
+      },
+      "function_latest": {
+        "de": "Bildungsvorsteher"
+      },
+      "id": 1065,
+      "lastname": "Frauenknecht",
+      "firstname": "Marco",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1065,
+            "name": {
+              "de": "SVP Kriens / Parteivorstand"
+            },
+            "id": 964,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1065,
+            "name": {
+              "de": "Original Krienser Bööggengruppe / Oberbööggenrat & Wagenbauchef"
+            },
+            "id": 963,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1065,
+            "name": {
+              "de": "Verwaltungsratsvizepräsident, Heime Kriens AG"
+            },
+            "id": 962,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1065,
+            "name": {
+              "de": "Stadtrat, Stadt Kriens"
+            },
+            "id": 961,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1065?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1065?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1065?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5366,
+            "begin_date": null,
+            "id": 102838
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102837
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5328,
+            "begin_date": null,
+            "id": 102836
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 188,
+            "begin_date": null,
+            "id": 102835
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5279,
+            "begin_date": null,
+            "id": 102834
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5357,
+            "begin_date": null,
+            "id": 102833
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5355,
+            "begin_date": null,
+            "id": 102832
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5353,
+            "begin_date": null,
+            "id": 102831
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102830
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5352,
+            "begin_date": null,
+            "id": 102829
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5334,
+            "begin_date": null,
+            "id": 102828
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5318,
+            "begin_date": null,
+            "id": 102827
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 122,
+            "begin_date": null,
+            "id": 102826
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5326,
+            "begin_date": null,
+            "id": 102825
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5327,
+            "begin_date": null,
+            "id": 102824
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 182,
+            "begin_date": null,
+            "id": 1626
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 180,
+            "begin_date": null,
+            "id": 1625
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 176,
+            "begin_date": null,
+            "id": 1609
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1607
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 169,
+            "begin_date": null,
+            "id": 1590
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 168,
+            "begin_date": null,
+            "id": 1589
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 166,
+            "begin_date": null,
+            "id": 1587
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 165,
+            "begin_date": null,
+            "id": 1585
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 163,
+            "begin_date": null,
+            "id": 1576
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 142,
+            "begin_date": null,
+            "id": 1506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 141,
+            "begin_date": null,
+            "id": 1505
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 140,
+            "begin_date": null,
+            "id": 1504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 181,
+            "begin_date": null,
+            "id": 1007
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 123,
+            "begin_date": null,
+            "id": 1006
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 30,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1065?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1065?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1065?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/207"
+      },
+      "function_latest": {
+        "de": "Bauvorsteher"
+      },
+      "id": 1026,
+      "lastname": "Frey",
+      "firstname": "Maurus",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1026,
+            "name": {
+              "de": "Vorstand und Präsident Raumdatenpool Luzern (RDP"
+            },
+            "id": 929,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1026,
+            "name": {
+              "de": "Vorstand Verband Luzerner Gemeinden (VLG"
+            },
+            "id": 928,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1026,
+            "name": {
+              "de": "Vorstand LuzernPlus"
+            },
+            "id": 927,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1026?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1026?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1026?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5364,
+            "begin_date": null,
+            "id": 172071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102804
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5325,
+            "begin_date": null,
+            "id": 102803
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5359,
+            "begin_date": null,
+            "id": 102802
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5300,
+            "begin_date": null,
+            "id": 102801
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102800
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5342,
+            "begin_date": null,
+            "id": 102799
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5344,
+            "begin_date": null,
+            "id": 102798
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5337,
+            "begin_date": null,
+            "id": 102797
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5315,
+            "begin_date": null,
+            "id": 102796
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5324,
+            "begin_date": null,
+            "id": 102795
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5319,
+            "begin_date": null,
+            "id": 102794
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 190,
+            "begin_date": null,
+            "id": 1635
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 189,
+            "begin_date": null,
+            "id": 1634
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 82,
+            "begin_date": null,
+            "id": 1624
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1605
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 170,
+            "begin_date": null,
+            "id": 1591
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1571
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 138,
+            "begin_date": null,
+            "id": 1502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 134,
+            "begin_date": null,
+            "id": 1496
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1463
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 21,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1026?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1026?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1026?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/968"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22303,
+      "lastname": "Gomer-Beacco",
+      "firstname": "Bettina",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22303,
+            "name": {
+              "de": "SBK Schweiz. Berufsverband der Pflegefachfrauen/-männer / Mitglied"
+            },
+            "id": 27566,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22303,
+            "name": {
+              "de": "SP Kriens / Vorstandsmitglied"
+            },
+            "id": 27565,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22303,
+            "name": {
+              "de": "Kirchfeld AG, Haus für Betreuung und Pflege, Horw"
+            },
+            "id": 27564,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22303?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22303?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22303?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5127,
+            "begin_date": null,
+            "id": 40204
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5158,
+            "begin_date": null,
+            "id": 40002
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 39970
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2019-01-01",
+            "id": 39937
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5065,
+            "begin_date": null,
+            "id": 39813
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 195,
+            "begin_date": null,
+            "id": 1685
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2019-01-01",
+            "id": 1666
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1584
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2019-01-01",
+            "id": 1555
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1520
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1481
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 124,
+            "begin_date": null,
+            "id": 1453
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 172,
+            "begin_date": null,
+            "id": 1003
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22303?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22303?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1084"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22275,
+      "lastname": "Gut",
+      "firstname": "Kathrin",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22275,
+            "name": {
+              "de": "Pro Senectute Kanton Luzern"
+            },
+            "id": 908,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22275,
+            "name": {
+              "de": "SP Parteitag / Delegierte"
+            },
+            "id": 907,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22275,
+            "name": {
+              "de": "Frauenkomiteee Kriens / Vorstand, Finanzen"
+            },
+            "id": 906,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22275,
+            "name": {
+              "de": "Bypass Plus / Vorstand, Finanzen"
+            },
+            "id": 905,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22275?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22275?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22275?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2020-01-01",
+            "id": 102842
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5127,
+            "begin_date": null,
+            "id": 102841
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5158,
+            "begin_date": null,
+            "id": 102840
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102839
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 195,
+            "begin_date": null,
+            "id": 1681
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2020-01-01",
+            "id": 1637
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 172,
+            "begin_date": null,
+            "id": 1597
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1577
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2020-01-01",
+            "id": 1526
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1474
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1236
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22275?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22275?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1431"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22285,
+      "lastname": "Kaufmann Limacher",
+      "firstname": "Edith",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22285,
+            "name": {
+              "de": "Zeitgut Luzern / Vorstandsmitglied"
+            },
+            "id": 27033,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22285,
+            "name": {
+              "de": "Spitex Kriens / Vorstandsmitglied"
+            },
+            "id": 27032,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22285,
+            "name": {
+              "de": "Alzheimer Luzern, Verein Pilatusblick Horw"
+            },
+            "id": 27016,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22285?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22285?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22285?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5127,
+            "begin_date": null,
+            "id": 102884
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5158,
+            "begin_date": null,
+            "id": 102883
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102882
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102881
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 195,
+            "begin_date": null,
+            "id": 1683
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1648
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 172,
+            "begin_date": null,
+            "id": 1599
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1537
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1486
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22285?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22285?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/1092"
+      },
+      "function_latest": {
+        "de": "Stadtpräsidentin"
+      },
+      "id": 1014,
+      "lastname": "Kaufmann-Wolf",
+      "firstname": "Christine",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Spitex Kriens, Mitglied"
+            },
+            "id": 27569,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Rebbaugenossenschaft Kriens, Mitglied"
+            },
+            "id": 27568,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Die Mitte Kriens / Mitglied Parteileitung"
+            },
+            "id": 27567,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Universitätsverein der Universität Luzern / Mitglied Vorstand"
+            },
+            "id": 920,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Überparteiliches Frauenkomitee Kriens"
+            },
+            "id": 919,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Turnerinnenverein, Mitglied"
+            },
+            "id": 918,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Pro Sonnenberg, Mitglied"
+            },
+            "id": 917,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Museum im Bellpark, Mitglied"
+            },
+            "id": 916,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Martha-Wenger-Stiftung, Vizepräsidentin"
+            },
+            "id": 915,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Heimverein Pfadi Kriens, Mitglied"
+            },
+            "id": 914,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Hauseigentümerverein Kriens, Mitglied"
+            },
+            "id": 913,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Turnerinnenverein, Mitglied"
+            },
+            "id": 904,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Krienser Frauen, Mitglied"
+            },
+            "id": 829,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1014,
+            "name": {
+              "de": "Martha-Wenger-Stiftung \"Amlehngarten\", Mitglied"
+            },
+            "id": 802,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1014?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1014?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1014?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102785
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5302,
+            "begin_date": null,
+            "id": 102784
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102783
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5278,
+            "begin_date": null,
+            "id": 102782
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5251,
+            "begin_date": null,
+            "id": 102781
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5364,
+            "begin_date": null,
+            "id": 102780
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5317,
+            "begin_date": null,
+            "id": 102779
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5351,
+            "begin_date": null,
+            "id": 102778
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 187,
+            "begin_date": null,
+            "id": 102777
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1688
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 81,
+            "begin_date": null,
+            "id": 1633
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 185,
+            "begin_date": null,
+            "id": 1631
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5329,
+            "begin_date": null,
+            "id": 1630
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5343,
+            "begin_date": null,
+            "id": 1629
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 184,
+            "begin_date": null,
+            "id": 1628
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1602
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 162,
+            "begin_date": null,
+            "id": 1575
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1558
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 137,
+            "begin_date": null,
+            "id": 1004
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 19,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1014?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1014?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1014?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1436"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22290,
+      "lastname": "Kilchmannn",
+      "firstname": "Rudolf",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102906
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102905
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102904
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102903
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1677
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1653
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1620
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1542
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1489
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22290?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22290?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/227"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22295,
+      "lastname": "Kobi",
+      "firstname": "Tomas",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22295,
+            "name": {
+              "de": "Schweizerische Alzheimervereinigung Luzern / Vorstandsmitglied"
+            },
+            "id": 27542,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22295,
+            "name": {
+              "de": "Kommission Soziales und Gesellschaft des Kt.LU / Mitglied"
+            },
+            "id": 27541,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22295?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22295?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22295?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102929
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102928
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5131,
+            "begin_date": null,
+            "id": 102927
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2013-01-01",
+            "id": 102926
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2013-01-01",
+            "id": 1658
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1582
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2013-01-01",
+            "id": 1547
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1518
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 133,
+            "begin_date": null,
+            "id": 1494
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1479
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1470
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22295?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22295?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/244"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22296,
+      "lastname": "Koch",
+      "firstname": "Patrick",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22296,
+            "name": {
+              "de": "KriensNatur (Sektion von BirdLife Luzern) / Vorstandsmitglied"
+            },
+            "id": 27546,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22296,
+            "name": {
+              "de": "SVP Kanton Luzern / Delegierter"
+            },
+            "id": 27545,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22296,
+            "name": {
+              "de": "TCS Sektion Waldstätte / Delegierter"
+            },
+            "id": 27544,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22296,
+            "name": {
+              "de": "Kanton Zürich, Direktion der Justiz und des Innern"
+            },
+            "id": 27543,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22296?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22296?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22296?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102933
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102932
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102931
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2004-01-01",
+            "id": 102930
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1678
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2004-01-01",
+            "id": 1659
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1621
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1573
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2004-01-01",
+            "id": 1548
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1465
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22296?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22296?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22296?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1564"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22422,
+      "lastname": "Kägi-Stirnimann",
+      "firstname": "Claudia",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 177195
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 116013
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2025-01-01",
+            "id": 116012
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 116011
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22422?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22422?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22422?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1432"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22286,
+      "lastname": "Le Grand",
+      "firstname": "Sarah",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22286,
+            "name": {
+              "de": "Die Mitte Wahlkreispartei Luzern Land / Vorstandsmitglied"
+            },
+            "id": 27069,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22286,
+            "name": {
+              "de": "Lionsclub Luzern Lake Lucerne / Vorstandsmitglied"
+            },
+            "id": 27068,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22286,
+            "name": {
+              "de": "KV Luzern"
+            },
+            "id": 27051,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22286?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22286?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22286?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102888
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102887
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 102886
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 102885
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1670
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1649
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1612
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1538
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1487
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22286?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22286?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1120"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22279,
+      "lastname": "Lengwiler",
+      "firstname": "Beda",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Schweizer Arbeitsgemeinschaft der Jugendverbände (SAJV) / Vorstandsmitglied"
+            },
+            "id": 26804,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Verein «Weekendsport Kriens» / Präsident"
+            },
+            "id": 26803,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Bypass Plus / Vorstandsmitglied"
+            },
+            "id": 26802,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Allianz «jung&engagiert» / Vorstandsmitglied"
+            },
+            "id": 26785,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Die Junge Mitte Kriens / Vorstandsmitglied"
+            },
+            "id": 26784,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Die Junge Mitte Wahlkreis Luzern-Land / Co-Präsident"
+            },
+            "id": 26783,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22279,
+            "name": {
+              "de": "Die Junge Mitte Kanton Luzern / Vizepräsident"
+            },
+            "id": 26764,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22279?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22279?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22279?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102858
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2021-01-01",
+            "id": 102857
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 102856
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5140,
+            "begin_date": null,
+            "id": 102855
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1689
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1667
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2021-01-01",
+            "id": 1641
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 178,
+            "begin_date": null,
+            "id": 1616
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1559
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2021-01-01",
+            "id": 1530
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22279?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22279?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1085"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22276,
+      "lastname": "Lisibach",
+      "firstname": "Armin",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22276,
+            "name": {
+              "de": "Guugenmusik Wäsmali-Chatze Lozärn / Vorstandsmitglied"
+            },
+            "id": 909,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22276?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22276?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22276?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102846
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2020-01-01",
+            "id": 102845
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5130,
+            "begin_date": null,
+            "id": 102844
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5126,
+            "begin_date": null,
+            "id": 102843
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2020-01-01",
+            "id": 1638
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 171,
+            "begin_date": null,
+            "id": 1592
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2020-01-01",
+            "id": 1527
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 136,
+            "begin_date": null,
+            "id": 1497
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22276?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22276?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22276?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "http://stadt-kriens.ch/page/341/contact_contact/1331"
+      },
+      "function_latest": {
+        "de": "Stadtschreiber"
+      },
+      "id": 1025,
+      "lastname": "Mengis",
+      "firstname": "Martin",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1025,
+            "name": {
+              "de": "Alfred Amstutz-Stiftung / Stiftungsrat"
+            },
+            "id": 926,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1025?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1025?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1025?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5278,
+            "begin_date": null,
+            "id": 102793
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5277,
+            "begin_date": null,
+            "id": 102792
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 5314,
+            "begin_date": null,
+            "id": 102791
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5354,
+            "begin_date": null,
+            "id": 102790
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 185,
+            "begin_date": null,
+            "id": 1632
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 174,
+            "begin_date": null,
+            "id": 1604
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 173,
+            "begin_date": null,
+            "id": 1601
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 127,
+            "begin_date": null,
+            "id": 1467
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 8,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1025?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1025?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1025?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/656"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22298,
+      "lastname": "Meyer",
+      "firstname": "Pascal",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22298,
+            "name": {
+              "de": "Heimverein Pfadi Kriens / Präsident"
+            },
+            "id": 27553,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22298,
+            "name": {
+              "de": "Grünliberale Stadt Kriens / Vorstand"
+            },
+            "id": 27552,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22298,
+            "name": {
+              "de": "Swenex - swiss energy exchange Ltd"
+            },
+            "id": 27551,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22298,
+            "name": {
+              "de": "Heimverein Pfadi Kriens / Vizepräsident"
+            },
+            "id": 932,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22298?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22298?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22298?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5139,
+            "begin_date": null,
+            "id": 102941
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102940
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102939
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2020-01-01",
+            "id": 102938
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1693
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2020-01-01",
+            "id": 1661
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1563
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2020-01-01",
+            "id": 1550
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1472
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22298?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22298?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22298?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1392"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22284,
+      "lastname": "Montero",
+      "firstname": "Nuria",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22284,
+            "name": {
+              "de": "Kantonsgericht Luzern"
+            },
+            "id": 26995,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22284?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22284?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22284?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5127,
+            "begin_date": null,
+            "id": 102880
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5158,
+            "begin_date": null,
+            "id": 102879
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102878
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102877
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 195,
+            "begin_date": null,
+            "id": 1682
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1647
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 172,
+            "begin_date": null,
+            "id": 1598
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1569
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1536
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1461
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22284?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22284?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22284?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1289"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22282,
+      "lastname": "Piras",
+      "firstname": "Davide",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22282,
+            "name": {
+              "de": "Die Mitte Kriens / Parteileitungsmitglied Vorstand"
+            },
+            "id": 26946,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22282,
+            "name": {
+              "de": "Vereinigte Freunde der Jungwacht Kriens / Vorstandsmitglied"
+            },
+            "id": 26945,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22282,
+            "name": {
+              "de": "Andritz Hydro AG, Kriens"
+            },
+            "id": 26929,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22282?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22282?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22282?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5177,
+            "begin_date": null,
+            "id": 102872
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2023-01-01",
+            "id": 102871
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 102870
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 102869
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1668
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2023-01-01",
+            "id": 1644
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1610
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2023-01-01",
+            "id": 1533
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 132,
+            "begin_date": null,
+            "id": 1485
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22282?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22282?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/757"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22300,
+      "lastname": "Portmann",
+      "firstname": "Michael",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22300,
+            "name": {
+              "de": "SP Kriens / Co-Präsident"
+            },
+            "id": 27559,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22300,
+            "name": {
+              "de": "Kanton Luzern"
+            },
+            "id": 27558,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22300?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22300?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22300?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5127,
+            "begin_date": null,
+            "id": 102951
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5158,
+            "begin_date": null,
+            "id": 102950
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102949
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 5079,
+            "begin_date": null,
+            "id": 102948
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2016-01-01",
+            "id": 102947
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1694
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 195,
+            "begin_date": null,
+            "id": 1684
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2016-01-01",
+            "id": 1663
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 172,
+            "begin_date": null,
+            "id": 1600
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1564
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2016-01-01",
+            "id": 1552
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 153,
+            "begin_date": null,
+            "id": 1524
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 125,
+            "begin_date": null,
+            "id": 1457
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22300?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22300?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1368"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22283,
+      "lastname": "Schnyder",
+      "firstname": "Rahel",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22283,
+            "name": {
+              "de": "SVP Wahlkreis Luzern-Land / Präsidentin"
+            },
+            "id": 26977,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22283,
+            "name": {
+              "de": "JOWAT SWISS AG"
+            },
+            "id": 26976,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22283?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22283?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22283?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102876
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102875
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102874
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102873
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1674
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1646
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1617
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1535
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1460
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22283?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22283?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1437"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22291,
+      "lastname": "Stocker",
+      "firstname": "Beni",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22291,
+            "name": {
+              "de": "Präsident HAMU Donatoren"
+            },
+            "id": 27260,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22291,
+            "name": {
+              "de": "Geschäftstelle Alumni Executive MBA Luzern"
+            },
+            "id": 27259,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22291,
+            "name": {
+              "de": "GL Liberale Senioren Kriens"
+            },
+            "id": 27226,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22291,
+            "name": {
+              "de": "GL FDP Kriens"
+            },
+            "id": 27141,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22291,
+            "name": {
+              "de": "Selbstständig"
+            },
+            "id": 27140,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22291?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22291?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22291?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5160,
+            "begin_date": null,
+            "id": 102912
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102911
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102910
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5130,
+            "begin_date": null,
+            "id": 102909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5126,
+            "begin_date": null,
+            "id": 102908
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5065,
+            "begin_date": null,
+            "id": 102907
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1654
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 171,
+            "begin_date": null,
+            "id": 1595
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1580
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1543
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1516
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 136,
+            "begin_date": null,
+            "id": 1500
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1477
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 124,
+            "begin_date": null,
+            "id": 1452
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 14,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22291?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22291?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/289"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22297,
+      "lastname": "Stofer",
+      "firstname": "Peter",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22297,
+            "name": {
+              "de": "Kommission für Bau, Verkehr und Umwelt (KBVU"
+            },
+            "id": 27550,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22297,
+            "name": {
+              "de": "Grüne Kriens"
+            },
+            "id": 27549,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22297,
+            "name": {
+              "de": "Grüne/junge Grüne/GLP-Fraktion"
+            },
+            "id": 27548,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22297,
+            "name": {
+              "de": "Baudirektion, Amt für Umwelt des Kantons Zug"
+            },
+            "id": 27547,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22297,
+            "name": {
+              "de": "Einwohnerrat"
+            },
+            "id": 960,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22297?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22297?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22297?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5131,
+            "begin_date": null,
+            "id": 102937
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5301,
+            "begin_date": null,
+            "id": 102936
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102935
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2019-01-01",
+            "id": 102934
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2019-01-01",
+            "id": 1660
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 161,
+            "begin_date": null,
+            "id": 1574
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2019-01-01",
+            "id": 1549
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 133,
+            "begin_date": null,
+            "id": 1495
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1471
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 126,
+            "begin_date": null,
+            "id": 1466
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22297?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22297?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22297?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/222"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22294,
+      "lastname": "Tanner",
+      "firstname": "Beat",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22294,
+            "name": {
+              "de": "Vizepräsident der FDP. Die Liberalen der Stadt Kriens"
+            },
+            "id": 27540,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22294,
+            "name": {
+              "de": "Kommission zur Förderung des Quartierlebens, Luzern / Mitglied (Vertretung Stadt Luzern"
+            },
+            "id": 27539,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22294,
+            "name": {
+              "de": "Gesellschaft für Kammermusik, Luzern / Revisor"
+            },
+            "id": 27498,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22294?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22294?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22294?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5130,
+            "begin_date": null,
+            "id": 102925
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102924
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 5079,
+            "begin_date": null,
+            "id": 102923
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2011-01-01",
+            "id": 102922
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5126,
+            "begin_date": null,
+            "id": 102921
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1692
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2011-01-01",
+            "id": 1657
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 171,
+            "begin_date": null,
+            "id": 1596
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1562
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2011-01-01",
+            "id": 1546
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 153,
+            "begin_date": null,
+            "id": 1523
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 136,
+            "begin_date": null,
+            "id": 1501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 125,
+            "begin_date": null,
+            "id": 1456
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22294?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22294?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22294?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/759"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 22301,
+      "lastname": "Vonesch",
+      "firstname": "Andreas",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22301,
+            "name": {
+              "de": "SAC - Schweizerischer Alpenclub / Mitglied"
+            },
+            "id": 27562,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22301,
+            "name": {
+              "de": "KVK - Komitee für eine bessere Verkehrserschliessung der Gemeinde Kriens / Vorstandsmitglied"
+            },
+            "id": 27561,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22301,
+            "name": {
+              "de": "Gemeinde Kriens"
+            },
+            "id": 27560,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22301?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22301?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22301?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5129,
+            "begin_date": null,
+            "id": 37859
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 37567
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 5079,
+            "begin_date": null,
+            "id": 36864
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2016-01-01",
+            "id": 33698
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5117,
+            "begin_date": null,
+            "id": 31056
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1695
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 193,
+            "begin_date": null,
+            "id": 1673
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2016-01-01",
+            "id": 1664
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 177,
+            "begin_date": null,
+            "id": 1615
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1565
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2016-01-01",
+            "id": 1553
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 153,
+            "begin_date": null,
+            "id": 1525
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 125,
+            "begin_date": null,
+            "id": 1458
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22301?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22301?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1434"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22288,
+      "lastname": "Wechsler",
+      "firstname": "Rudolf",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22288,
+            "name": {
+              "de": "Kanton Luzern, Dienststelle Verkehr und Infrastruktur"
+            },
+            "id": 27108,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22288?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22288?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22288?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5125,
+            "begin_date": null,
+            "id": 102898
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5159,
+            "begin_date": null,
+            "id": 102897
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102896
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 5079,
+            "begin_date": null,
+            "id": 102895
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102894
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1691
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 194,
+            "begin_date": null,
+            "id": 1675
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1651
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 179,
+            "begin_date": null,
+            "id": 1618
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1561
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1540
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 153,
+            "begin_date": null,
+            "id": 1522
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 14,
+            "group_id": 125,
+            "begin_date": null,
+            "id": 1455
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22288?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22288?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1433"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22287,
+      "lastname": "Wiget",
+      "firstname": "Alina",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5141,
+            "begin_date": null,
+            "id": 102893
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5131,
+            "begin_date": null,
+            "id": 102892
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5313,
+            "begin_date": null,
+            "id": 102891
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102890
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2024-01-01",
+            "id": 102889
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2024-01-01",
+            "id": 1650
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 164,
+            "begin_date": null,
+            "id": 1579
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2024-01-01",
+            "id": 1539
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 152,
+            "begin_date": null,
+            "id": 1515
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 133,
+            "begin_date": null,
+            "id": 1493
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 130,
+            "begin_date": null,
+            "id": 1476
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1469
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 12,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22287?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22287?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1088"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22277,
+      "lastname": "Ziemssen",
+      "firstname": "Jörg",
+      "body_key": "1059",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5130,
+            "begin_date": null,
+            "id": 102850
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102849
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2020-01-01",
+            "id": 102848
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5126,
+            "begin_date": null,
+            "id": 102847
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1686
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2020-01-01",
+            "id": 1639
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 171,
+            "begin_date": null,
+            "id": 1593
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1556
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2020-01-01",
+            "id": 1528
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 136,
+            "begin_date": null,
+            "id": 1498
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22277?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22277?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.einwohnerrat-kriens.ch//page/737/contact_contact/1089"
+      },
+      "function_latest": {
+        "de": "Einwohnerrat/-rätin"
+      },
+      "id": 22278,
+      "lastname": "Zosso",
+      "firstname": "Cyrill",
+      "body_key": "1059",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22278,
+            "name": {
+              "de": "Verein ProVelo Luzern / Co-Präsident"
+            },
+            "id": 912,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22278,
+            "name": {
+              "de": "Verein Bypass Plus / Co-Präsident"
+            },
+            "id": 911,
+            "body_key": "1059"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22278,
+            "name": {
+              "de": "Agroscope"
+            },
+            "id": 910,
+            "body_key": "1059"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22278?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22278?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22278?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 5131,
+            "begin_date": null,
+            "id": 102854
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 5303,
+            "begin_date": null,
+            "id": 102853
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 5128,
+            "begin_date": null,
+            "id": 102852
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 5105,
+            "begin_date": "2020-01-01",
+            "id": 102851
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 196,
+            "begin_date": null,
+            "id": 1687
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 192,
+            "begin_date": "2020-01-01",
+            "id": 1640
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 160,
+            "begin_date": null,
+            "id": 1557
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 159,
+            "begin_date": "2020-01-01",
+            "id": 1529
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 133,
+            "begin_date": null,
+            "id": 1491
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 128,
+            "begin_date": null,
+            "id": 1317
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22278?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22278?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

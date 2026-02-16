@@ -1,0 +1,101 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 500,
+    "total_records": 28,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/bodies/?indexed=true&type=canton%2Ccountry&fields=body_key&offset=0&limit=500",
+    "last_page": "https://api.openparldata.ch/v1/bodies/?indexed=true&type=canton%2Ccountry&fields=body_key&offset=0&limit=500",
+    "self": "https://api.openparldata.ch/v1/bodies/?indexed=true&type=canton%2Ccountry&fields=body_key"
+  },
+  "data": [
+    {
+      "body_key": "AG"
+    },
+    {
+      "body_key": "AR"
+    },
+    {
+      "body_key": "AI"
+    },
+    {
+      "body_key": "BL"
+    },
+    {
+      "body_key": "BS"
+    },
+    {
+      "body_key": "BE"
+    },
+    {
+      "body_key": "FR"
+    },
+    {
+      "body_key": "GE"
+    },
+    {
+      "body_key": "GL"
+    },
+    {
+      "body_key": "GR"
+    },
+    {
+      "body_key": "JU"
+    },
+    {
+      "body_key": "LIE"
+    },
+    {
+      "body_key": "LU"
+    },
+    {
+      "body_key": "NE"
+    },
+    {
+      "body_key": "NW"
+    },
+    {
+      "body_key": "OW"
+    },
+    {
+      "body_key": "SH"
+    },
+    {
+      "body_key": "CHE"
+    },
+    {
+      "body_key": "SZ"
+    },
+    {
+      "body_key": "SO"
+    },
+    {
+      "body_key": "SG"
+    },
+    {
+      "body_key": "TI"
+    },
+    {
+      "body_key": "TG"
+    },
+    {
+      "body_key": "UR"
+    },
+    {
+      "body_key": "VD"
+    },
+    {
+      "body_key": "VS"
+    },
+    {
+      "body_key": "ZG"
+    },
+    {
+      "body_key": "ZH"
+    }
+  ]
+}

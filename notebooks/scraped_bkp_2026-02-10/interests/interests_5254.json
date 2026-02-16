@@ -1,0 +1,3609 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 63,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=5254&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=5254&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=5254&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5490,
+      "lastname": "Agostinetti",
+      "firstname": "Elia",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14485
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14484
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14483
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5490?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5490?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5490?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5499,
+      "lastname": "Agustoni",
+      "firstname": "Maurizio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14488
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14487
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14486
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5499?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5499?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5499?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5484,
+      "lastname": "Allio",
+      "firstname": "Alessio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 12091
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 11514
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5484?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5484?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5484?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5504,
+      "lastname": "Aostalli",
+      "firstname": "Gregorio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14491
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14490
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14489
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5504?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5504?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5504?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5592,
+      "lastname": "Arizanov",
+      "firstname": "Martina",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14582
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14581
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14580
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5592?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5592?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5592?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Insieme a Sinistra",
+        "fr": "Insieme a Sinistra",
+        "it": "Insieme a Sinistra",
+        "en": "Insieme a Sinistra"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5555,
+      "lastname": "Baragiola",
+      "firstname": "Giampaolo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14543
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14542
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14541
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5555?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5555?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5555?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5642,
+      "lastname": "Bernardi",
+      "firstname": "Theo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14627
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14626
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5642?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5642?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5642?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5509,
+      "lastname": "Bianchi",
+      "firstname": "Orio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14500
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14499
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14498
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5509?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5509?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5509?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5598,
+      "lastname": "Bianchi",
+      "firstname": "Marcella",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14584
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14583
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5598?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5598?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5598?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5652,
+      "lastname": "Bosshard",
+      "firstname": "Vera",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14643
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14642
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14641
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5652?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5652?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5652?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Civica",
+        "fr": "Civica",
+        "it": "Civica",
+        "en": "Civica"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=14"
+      },
+      "function_latest": {},
+      "id": 5485,
+      "lastname": "Bremer Bernasconi",
+      "firstname": "Antonia",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1024,
+            "begin_date": null,
+            "id": 13479
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 12155
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5485?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5485?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5485?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Insieme a Sinistra",
+        "fr": "Insieme a Sinistra",
+        "it": "Insieme a Sinistra",
+        "en": "Insieme a Sinistra"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5486,
+      "lastname": "Caimi",
+      "firstname": "Alessandra",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 13618
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 13590
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 13506
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5486?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5486?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5486?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5635,
+      "lastname": "Caimi",
+      "firstname": "Samuele",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 14619
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14618
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14617
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5635?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5635?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5635?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5643,
+      "lastname": "Calderari",
+      "firstname": "Tiziano",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 157484
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14629
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14628
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5643?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5643?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5643?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5487,
+      "lastname": "Carrara",
+      "firstname": "Andrea",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14479
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14255
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 13645
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5487?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5487?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5488,
+      "lastname": "Carri",
+      "firstname": "Andrea",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14482
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14481
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14480
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5488?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5488?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5488?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5599,
+      "lastname": "Casagrande",
+      "firstname": "Manuela",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14587
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14586
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14585
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5599?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5599?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5599?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5611,
+      "lastname": "Cattaneo",
+      "firstname": "Pascal",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14601
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14600
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5611?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5611?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5611?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5654,
+      "lastname": "Crimaldi",
+      "firstname": "Vincenzo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14646
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14645
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14644
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5654?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5654?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5525,
+      "lastname": "Danielli",
+      "firstname": "Francesco",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14517
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14516
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14515
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5525?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5525?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5525?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5508,
+      "lastname": "Engeler",
+      "firstname": "Beatrice",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14497
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14496
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14495
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5508?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5508?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5508?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5527,
+      "lastname": "Engeler",
+      "firstname": "Dario",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14520
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14519
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14518
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5527?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5527?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5527?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Insieme a Sinistra",
+        "fr": "Insieme a Sinistra",
+        "it": "Insieme a Sinistra",
+        "en": "Insieme a Sinistra"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5602,
+      "lastname": "Fischer Kiskanç",
+      "firstname": "Monika",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14589
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14588
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5602?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5602?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5602?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Generazione Giovani",
+        "fr": "Generazione Giovani",
+        "it": "Generazione Giovani",
+        "en": "Generazione Giovani"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5528,
+      "lastname": "Fitas",
+      "firstname": "Davina",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14522
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14521
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5528?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5528?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5528?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Civica",
+        "fr": "Civica",
+        "it": "Civica",
+        "en": "Civica"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=14"
+      },
+      "function_latest": {},
+      "id": 5645,
+      "lastname": "Fontana",
+      "firstname": "Tiziano",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1024,
+            "begin_date": null,
+            "id": 14631
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14630
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5645?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5645?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5645?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5529,
+      "lastname": "Fumagalli",
+      "firstname": "Daniele",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14525
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14524
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14523
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5529?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5529?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5529?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5558,
+      "lastname": "Gallina",
+      "firstname": "Gianluca",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14548
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14547
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5558?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5558?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5558?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5556,
+      "lastname": "Gianna",
+      "firstname": "Bonina",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14546
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14545
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14544
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5556?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5556?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5556?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5510,
+      "lastname": "Haeuptli Nguyen Trinh",
+      "firstname": "Sara",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14503
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14502
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14501
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5510?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5510?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5510?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=19"
+      },
+      "function_latest": {},
+      "id": 5613,
+      "lastname": "Hägler",
+      "firstname": "Paolo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14606
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1016,
+            "begin_date": null,
+            "id": 14605
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5613?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5613?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5613?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5576,
+      "lastname": "Lazzaretti",
+      "firstname": "Pietro",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14569
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14567
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14566
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5576?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5576?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5576?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5578,
+      "lastname": "Lorenzon",
+      "firstname": "Lucio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14572
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14571
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14570
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5578?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5578?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5578?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Insieme a Sinistra",
+        "fr": "Insieme a Sinistra",
+        "it": "Insieme a Sinistra",
+        "en": "Insieme a Sinistra"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5517,
+      "lastname": "Marazzi Savoldelli",
+      "firstname": "Cristina",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14505
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14504
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5517?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5517?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5517?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5565,
+      "lastname": "Medici",
+      "firstname": "Giovanni",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14552
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14551
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14550
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5565?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5565?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5565?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5518,
+      "lastname": "Mellini Spreafico",
+      "firstname": "Cristina",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14508
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14507
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5518?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5518?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5518?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 24224,
+      "lastname": "Meroni",
+      "firstname": "Alberto",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 157483
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 157482
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24224?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24224?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24224?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5547,
+      "lastname": "Molteni",
+      "firstname": "Fabrizio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14534
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14533
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14532
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5547?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5547?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5547?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5656,
+      "lastname": "Ostinelli",
+      "firstname": "Zoe",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 157485
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14651
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14650
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5656?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5656?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5566,
+      "lastname": "Padlina",
+      "firstname": "Gianluca",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14555
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14554
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14553
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5566?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5566?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5566?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5617,
+      "lastname": "Pasi",
+      "firstname": "Pierluigi",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14609
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14608
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14607
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5617?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5617?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5617?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5649,
+      "lastname": "Pasta",
+      "firstname": "Tiziano",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14640
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14639
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14638
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14637
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14636
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5649?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5649?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5612,
+      "lastname": "Pellegrini",
+      "firstname": "Roberto",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14604
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14603
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14602
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5612?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5612?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5612?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5584,
+      "lastname": "Pestelacci",
+      "firstname": "Luca",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14578
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14577
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14576
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5584?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5584?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5584?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5548,
+      "lastname": "Pfister",
+      "firstname": "Filippo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14537
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14536
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14535
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5548?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5548?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5548?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5567,
+      "lastname": "Poloni",
+      "firstname": "Giovanni",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14558
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14556
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5567?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5567?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5567?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5549,
+      "lastname": "Poma",
+      "firstname": "Fabrizio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14540
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14538
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5549?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5549?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5549?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5519,
+      "lastname": "Pons",
+      "firstname": "Corinna",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14511
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14509
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5519?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5519?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5519?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5532,
+      "lastname": "Raffa",
+      "firstname": "Daniele",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14528
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14527
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14526
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5532?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5532?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5532?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5625,
+      "lastname": "Riva",
+      "firstname": "Giorgio",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14615
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14614
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14613
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5625?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5625?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5625?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5605,
+      "lastname": "Robbiani",
+      "firstname": "Massimiliano",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 14592
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14591
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14590
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5605?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5605?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5605?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5572,
+      "lastname": "Romanini",
+      "firstname": "Gianluca",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14562
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14561
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14560
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5572?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5572?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5572?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5533,
+      "lastname": "Rossi",
+      "firstname": "Davide",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14531
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14530
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14529
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5533?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5533?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5638,
+      "lastname": "Rossini",
+      "firstname": "Simona",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 14625
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14624
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14623
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5638?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5638?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Lega dei Ticinesi",
+        "fr": "Ligue des Tessinois",
+        "it": "Lega dei Ticinesi",
+        "en": "Ticino League"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5581,
+      "lastname": "Rusconi",
+      "firstname": "Lorenzo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 14575
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14574
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 14573
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5581?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5581?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5581?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5606,
+      "lastname": "Salvadè",
+      "firstname": "Matteo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14595
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14594
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14593
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5606?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5606?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5606?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Alternative Linke",
+        "fr": "La Gauche",
+        "it": "La Sinistra",
+        "en": "Alternative Left"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5575,
+      "lastname": "Scacchi",
+      "firstname": "Jacopo",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14565
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1017,
+            "begin_date": null,
+            "id": 14564
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14563
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5575?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5575?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5575?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5522,
+      "lastname": "Sisini",
+      "firstname": "Cesare",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14514
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14512
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5522?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5522?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5522?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=20"
+      },
+      "function_latest": {},
+      "id": 5637,
+      "lastname": "Soldini",
+      "firstname": "Emma",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1019,
+            "begin_date": null,
+            "id": 125732
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1026,
+            "begin_date": null,
+            "id": 14622
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14621
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14620
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5637?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5637?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5637?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=15"
+      },
+      "function_latest": {},
+      "id": 5505,
+      "lastname": "Stephani",
+      "firstname": "Andrea",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14494
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14493
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1015,
+            "begin_date": null,
+            "id": 14492
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5505?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5505?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5505?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=16"
+      },
+      "function_latest": {},
+      "id": 5570,
+      "lastname": "Sutter",
+      "firstname": "Nadir",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1023,
+            "begin_date": null,
+            "id": 14598
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14597
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5570?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5570?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5570?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5648,
+      "lastname": "Tela",
+      "firstname": "Marco",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14635
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14634
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14633
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5648?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5648?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5648?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=13"
+      },
+      "function_latest": {},
+      "id": 5655,
+      "lastname": "Tela-Veri",
+      "firstname": "Valeria",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1025,
+            "begin_date": null,
+            "id": 14649
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14648
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1020,
+            "begin_date": null,
+            "id": 14647
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5655?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5655?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichdemokratische Volkspartei der Schweiz",
+        "fr": "Parti démocrate-chrétien",
+        "it": "Partito popolare democratico",
+        "en": "Christian Democratic People's Party"
+      },
+      "website_parliament_url": {
+        "it": "http://www1.mendrisio.ch/legislativo/index.php?module=content_mod&menuid=3&itemid=12"
+      },
+      "function_latest": {},
+      "id": 5619,
+      "lastname": "Valtulini",
+      "firstname": "Patrick",
+      "body_key": "5254",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 1022,
+            "begin_date": null,
+            "id": 14612
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1021,
+            "begin_date": null,
+            "id": 14611
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1018,
+            "begin_date": null,
+            "id": 14610
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5619?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5619?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5619?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

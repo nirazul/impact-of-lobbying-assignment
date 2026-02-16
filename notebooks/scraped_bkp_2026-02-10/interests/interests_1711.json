@@ -1,0 +1,3547 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 47,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=1711&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=1711&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=1711&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/1"
+      },
+      "function_latest": {},
+      "id": 1314,
+      "lastname": "Amato Mengis",
+      "firstname": "Marilena",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1314,
+            "name": {
+              "de": "Mitglied der Schulkommission Stadt Zug"
+            },
+            "id": 1341,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1314?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1314?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1314?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2213
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2024-08-27",
+            "id": 2186
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1314?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1314?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1314?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/2"
+      },
+      "function_latest": {},
+      "id": 1324,
+      "lastname": "Ambühl Tarnowski",
+      "firstname": "Esther",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1324,
+            "name": {
+              "de": "Kanton Zürich/Baudirektion/ARE – Fachstelle Landschaft, Bauen ausserhalb Bauzonen, Gebietsplanungen Kies, Deponie etc."
+            },
+            "id": 1354,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1324?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1324?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1324?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2214
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2023-01-10",
+            "id": 2154
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1324?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1324?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1324?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/3"
+      },
+      "function_latest": {},
+      "id": 1335,
+      "lastname": "Amrein",
+      "firstname": "Dagmar",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2021-06-29",
+            "id": 2217
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2144
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1335?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1335?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1335?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/55"
+      },
+      "function_latest": {},
+      "id": 1357,
+      "lastname": "Birchmeier",
+      "firstname": "Eliane",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1357,
+            "name": {
+              "de": "Elisabethenpark AG Luzern"
+            },
+            "id": 1380,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1357,
+            "name": {
+              "de": "Birchmeier Consulting Zug"
+            },
+            "id": 1379,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1357,
+            "name": {
+              "de": "Birchmeier Communications AG Zug"
+            },
+            "id": 1378,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1357,
+            "name": {
+              "de": "FDP Stadt Zug (Mitglied - Delegierte)"
+            },
+            "id": 1377,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1357,
+            "name": {
+              "de": "Obates GmbH Zug"
+            },
+            "id": 832,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1357?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1357?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1357?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2015-01-01",
+            "id": 2173
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1357?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1357?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1357?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/5"
+      },
+      "function_latest": {},
+      "id": 1352,
+      "lastname": "Blank",
+      "firstname": "Daniel",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2012-01-01",
+            "id": 2238
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2012-05-08",
+            "id": 2155
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2140
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1352?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1352?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1352?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/6"
+      },
+      "function_latest": {},
+      "id": 1361,
+      "lastname": "Bliggenstorfer",
+      "firstname": "André",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2194
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2164
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1361?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1361?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1361?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/8"
+      },
+      "function_latest": {},
+      "id": 1374,
+      "lastname": "Brunner",
+      "firstname": "Philip C.",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied der SVP Vorstandes Schweiz"
+            },
+            "id": 1422,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Vorstandsmitglied (Benevol) Vorstand Verein AVES Zug  (Aktion für vernünftige Energiepolitik Schweiz)"
+            },
+            "id": 1421,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied diverser ad hoc Kommissionen des Kantonsrates (Wechselnde siehe Link) Aktuell: https://zg-compwork.clex.ch/frontend/people/2"
+            },
+            "id": 1417,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Präsident der Geschäftsprüfungskommission (GPK) Stadt Zug"
+            },
+            "id": 1416,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Fraktionspräsident der SVP Fraktion im Zuger Kantonsrat"
+            },
+            "id": 1415,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied des Kantonsrates Zug"
+            },
+            "id": 1414,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied des Büros des Kantonsrates Zug"
+            },
+            "id": 1413,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied der engeren Staatswirtschaftskommission StaWiKo Kanton Zug"
+            },
+            "id": 1412,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied der Kommission Tiefbau und Gewässer Kanton Zug"
+            },
+            "id": 1411,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Aktive Senioren Kanton Zug (Vizepräsident und Vorstandsmitglied)"
+            },
+            "id": 1410,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Vorstandsmitglied SVP Stadt Zug"
+            },
+            "id": 1409,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Vorstandstätigkeit (Benevol)"
+            },
+            "id": 1408,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Vorstandsmitglied Bund der Steuerzahler (BDS Schweiz)"
+            },
+            "id": 1406,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Kiwanis Club Zug (Vorstandsmitglied und Sekretär)"
+            },
+            "id": 1405,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Stiftungsrat (Benevol)"
+            },
+            "id": 1404,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1374,
+            "name": {
+              "de": "Mitglied Stiftung Bund der Steuerzahler"
+            },
+            "id": 1403,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 16,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1374?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1374?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1374?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2009-01-27",
+            "id": 2234
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2010-06-08",
+            "id": 2161
+          },
+          {
+            "active": false,
+            "end_date": "2023-04-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 246,
+            "begin_date": "2022-06-28",
+            "id": 2134
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1374?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1374?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1374?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/9"
+      },
+      "function_latest": {},
+      "id": 1375,
+      "lastname": "Burkard",
+      "firstname": "Roman",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2024-12-10",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2023-01-10",
+            "id": 2237
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2025-01-21",
+            "id": 2203
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2015-01-01",
+            "id": 2136
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1375?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1375?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1375?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/66"
+      },
+      "function_latest": {},
+      "id": 1365,
+      "lastname": "Bühler",
+      "firstname": "Marcus",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1365,
+            "name": {
+              "de": "Mitglied Nachhaltigkeitskommission Stadt Zug"
+            },
+            "id": 1396,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1365,
+            "name": {
+              "de": "Gerichtssachverständiger High Court of Chancery London GB"
+            },
+            "id": 1395,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1365,
+            "name": {
+              "de": "Mitglied der Mittelschulkommission des Kantons Zug"
+            },
+            "id": 1394,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1365?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1365?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1365?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-08-27",
+            "id": 2182
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1365?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1365?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1365?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/69"
+      },
+      "function_latest": {},
+      "id": 1368,
+      "lastname": "Carlen",
+      "firstname": "Magdalena",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1368,
+            "name": {
+              "de": "Pflegeausschuss der Unia und im feministischen Streikkollektiv Zug"
+            },
+            "id": 1397,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1368?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1368?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1368?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2026-01-20",
+            "id": 193253
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2025-01-21",
+            "id": 2200
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1368?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1368?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1368?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/10"
+      },
+      "function_latest": {},
+      "id": 1315,
+      "lastname": "De Gobbi",
+      "firstname": "Ivano",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1315,
+            "name": {
+              "de": "Vorstand SP Stadt Zug"
+            },
+            "id": 1342,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1315?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1315?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1315?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2250
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2023-01-10",
+            "id": 2241
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2020-06-30",
+            "id": 2221
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1315?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1315?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1315?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/11"
+      },
+      "function_latest": {},
+      "id": 1316,
+      "lastname": "Eckenstein",
+      "firstname": "Alexander",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1316,
+            "name": {
+              "de": "Partner bei HotzGoldmann Advokatur/Notariat in Baar"
+            },
+            "id": 1344,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1316,
+            "name": {
+              "de": "Verwaltungsrats- und Leistungsmandate in diversen KMU's und Stiftungen in der Schweiz"
+            },
+            "id": 1343,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1316?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1316?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1316?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2247
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2228
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2023-01-10",
+            "id": 2149
+          },
+          {
+            "active": false,
+            "end_date": "2023-04-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 246,
+            "begin_date": "2022-06-28",
+            "id": 2135
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1316?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1316?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1316?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/68"
+      },
+      "function_latest": {},
+      "id": 1367,
+      "lastname": "Emmenegger",
+      "firstname": "Beatrice",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2025-10-21",
+            "id": 166613
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-10-22",
+            "id": 2187
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1367?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1367?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1367?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/60"
+      },
+      "function_latest": {},
+      "id": 1362,
+      "lastname": "Fürrer Auf der Maur",
+      "firstname": "Gabriela",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1362,
+            "name": {
+              "de": "Bau- und Planungskommission Stadt Zug"
+            },
+            "id": 1391,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1362,
+            "name": {
+              "de": "Mitglied Wohngenossenschaft W’Alter Zug"
+            },
+            "id": 1390,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1362?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1362?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1362?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2024-03-26",
+            "id": 2178
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-03-26",
+            "id": 2177
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1362?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1362?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1362?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/14"
+      },
+      "function_latest": {},
+      "id": 1319,
+      "lastname": "Gisler",
+      "firstname": "Barbara",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2179
+          },
+          {
+            "active": false,
+            "end_date": "2024-12-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2023-01-10",
+            "id": 2151
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1319?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1319?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1319?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/50"
+      },
+      "function_latest": {},
+      "id": 1353,
+      "lastname": "Gretener",
+      "firstname": "René",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1353,
+            "name": {
+              "de": "Mitglied der Feuerwehrkommission der Stadt Zug"
+            },
+            "id": 1370,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1353,
+            "name": {
+              "de": "Vizepräsident Club 200 Sponsorenvereinigung zu Gunsten Leichtathletikverein Hochwacht Stadt Zug"
+            },
+            "id": 1369,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1353?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1353?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1353?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-04-12",
+            "id": 2169
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1353?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1353?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1353?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/57"
+      },
+      "function_latest": {},
+      "id": 1359,
+      "lastname": "Gysel",
+      "firstname": "Barbara",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1359,
+            "name": {
+              "de": "Vorstand Schweizer Kinderhilfswerk Kovive2"
+            },
+            "id": 1389,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1359,
+            "name": {
+              "de": "Beirat für das Projekt «Moderne Zuger Kantonsgeschichte»3"
+            },
+            "id": 1388,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1359,
+            "name": {
+              "de": "Lehrtätigkeit Academia Engiadina AG (jährliche Module)"
+            },
+            "id": 1387,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1359,
+            "name": {
+              "de": "Präsidentin IG Kultur Zug"
+            },
+            "id": 1348,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1359,
+            "name": {
+              "de": "Mitglied SP Zug inkl. Vorstand SP Stadt Zug sowie Geschäftsleitung SP Kanton Zug"
+            },
+            "id": 1314,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1359?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1359?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1359?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2023-01-01",
+            "id": 2175
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1359?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1359?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1359?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/16"
+      },
+      "function_latest": {},
+      "id": 1320,
+      "lastname": "Hauser",
+      "firstname": "Werner",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2009-11-01",
+            "id": 2233
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2139
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1320?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1320?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/18"
+      },
+      "function_latest": {},
+      "id": 1322,
+      "lastname": "Hegglin",
+      "firstname": "Mariann",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2199
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2193
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1322?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1322?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1322?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/80"
+      },
+      "function_latest": {},
+      "id": 24684,
+      "lastname": "Hofer",
+      "firstname": "Gregor",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2026-01-20",
+            "id": 184903
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24684?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24684?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24684?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/19"
+      },
+      "function_latest": {},
+      "id": 1323,
+      "lastname": "Huber",
+      "firstname": "Stefan Werner",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1323,
+            "name": {
+              "de": "Vorstandsmitglied Verein Städtefreundschaft Zug-Kalesija"
+            },
+            "id": 1353,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1323,
+            "name": {
+              "de": "Vorstandsmitgliedschaft im Verein Zuger Jugendtreffpunkte"
+            },
+            "id": 1352,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1323,
+            "name": {
+              "de": "Mitglied des Stiftungsrates DokuZug"
+            },
+            "id": 1351,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1323?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1323?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1323?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2251
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2023-01-10",
+            "id": 2242
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2138
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2016-04-26",
+            "id": 2128
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1323?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1323?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1323?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/20"
+      },
+      "function_latest": {},
+      "id": 1325,
+      "lastname": "Hügin Birrer",
+      "firstname": "Maria",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1325,
+            "name": {
+              "de": "Verwaltungsrätin Raiffeisenbank Zug"
+            },
+            "id": 1355,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1325?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1325?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1325?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2252
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2226
+          },
+          {
+            "active": false,
+            "end_date": "2024-12-10",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2019-01-01",
+            "id": 2160
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1325?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1325?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1325?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/81"
+      },
+      "function_latest": {},
+      "id": 24685,
+      "lastname": "Inglin",
+      "firstname": "Jonas",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2026-01-20",
+            "id": 184904
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24685?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/21"
+      },
+      "function_latest": {},
+      "id": 1326,
+      "lastname": "Iten",
+      "firstname": "Christoph",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1326,
+            "name": {
+              "de": "eidg. dipl. Wirtschaftsprüfer"
+            },
+            "id": 1357,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1326,
+            "name": {
+              "de": "Verwaltungsrat Korporation Zug & Vorstandsmitglied die MITTE Stadt Zug (Verein)"
+            },
+            "id": 1356,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1326?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1326?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1326?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2015-01-01",
+            "id": 2216
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2024-04-30",
+            "id": 2180
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1326?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1326?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1326?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Christlichsoziale Partei",
+        "fr": "Parti chrétien-social",
+        "it": "Partito Cristiano Sociale",
+        "en": "Christian Social Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/22"
+      },
+      "function_latest": {},
+      "id": 1327,
+      "lastname": "Iten",
+      "firstname": "Martin",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1327,
+            "name": {
+              "de": "Selbstständiger Polygraf"
+            },
+            "id": 1360,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1327,
+            "name": {
+              "de": "Projektleiter «Anima Una - Zukunft Kloster Maria Opferung Zug»"
+            },
+            "id": 1359,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1327,
+            "name": {
+              "de": "Medienmacher und Berater"
+            },
+            "id": 1358,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1327?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1327?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1327?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2253
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2021-01-19",
+            "id": 2220
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2023-01-10",
+            "id": 2146
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1327?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1327?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1327?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/24"
+      },
+      "function_latest": {},
+      "id": 1329,
+      "lastname": "Koller",
+      "firstname": "Nina",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2205
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1329?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1329?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1329?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/28"
+      },
+      "function_latest": {},
+      "id": 1334,
+      "lastname": "Kyburz",
+      "firstname": "Alexander",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2255
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2021-01-19",
+            "id": 2219
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2024-12-10",
+            "id": 2201
+          },
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2195
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2143
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1334?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1334?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1334?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/27"
+      },
+      "function_latest": {},
+      "id": 1333,
+      "lastname": "Küng",
+      "firstname": "Roman",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2223
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2141
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1333?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1333?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1333?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/30"
+      },
+      "function_latest": {},
+      "id": 1336,
+      "lastname": "Laubacher",
+      "firstname": "Marco",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2211
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2024-12-10",
+            "id": 2202
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1336?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1336?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1336?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/32"
+      },
+      "function_latest": {},
+      "id": 1338,
+      "lastname": "Marti",
+      "firstname": "Daniel",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2231
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2023-01-10",
+            "id": 2147
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1338?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1338?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1338?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/33"
+      },
+      "function_latest": {},
+      "id": 1339,
+      "lastname": "Meier",
+      "firstname": "Delia",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1339,
+            "name": {
+              "de": "Co-Präsidium der Jungpartei und des Initiativvereins"
+            },
+            "id": 1364,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1339?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1339?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1339?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2023-01-01",
+            "id": 2212
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1339?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1339?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1339?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/64"
+      },
+      "function_latest": {},
+      "id": 1363,
+      "lastname": "Meier",
+      "firstname": "Florin",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1363,
+            "name": {
+              "de": "Mitglied Nachhaltigkeitskommission Stadt Zug"
+            },
+            "id": 1393,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1363,
+            "name": {
+              "de": "Mitglied Verwaltungsrat StressHead AG"
+            },
+            "id": 1392,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1363?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1363?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1363?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2024-09-17",
+            "id": 2189
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-05-02",
+            "id": 2181
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1363?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1363?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1363?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/36"
+      },
+      "function_latest": {},
+      "id": 1341,
+      "lastname": "Meyer",
+      "firstname": "David",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2191
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2019-01-08",
+            "id": 2159
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2015-10-12",
+            "id": 2130
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1341?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1341?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1341?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/37"
+      },
+      "function_latest": {},
+      "id": 1342,
+      "lastname": "Odermatt",
+      "firstname": "Alex",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2023-01-10",
+            "id": 2240
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2021-02-23",
+            "id": 2218
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2023-01-10",
+            "id": 2153
+          },
+          {
+            "active": false,
+            "end_date": "2022-12-06",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 263,
+            "begin_date": "2022-02-22",
+            "id": 2129
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1342?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1342?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1342?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/77"
+      },
+      "function_latest": {},
+      "id": 22459,
+      "lastname": "Passafaro",
+      "firstname": "Claudio",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 22459,
+            "name": {
+              "de": "Feuerwehr Stadt Zug Offizier (Miliztätigkeit)"
+            },
+            "id": 28494,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22459,
+            "name": {
+              "de": "Schulkommission Stadt Zug (Mitglied)"
+            },
+            "id": 28493,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22459,
+            "name": {
+              "de": "Prüfungsexperte sowie AFC AG (Dozent)"
+            },
+            "id": 28492,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 22459,
+            "name": {
+              "de": "Vereinigung kantonaler Feuerversicherungen (VKF)"
+            },
+            "id": 28491,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22459?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22459?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22459?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2025-09-23",
+            "id": 119765
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22459?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22459?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22459?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/38"
+      },
+      "function_latest": {},
+      "id": 1343,
+      "lastname": "Peter",
+      "firstname": "Jérôme",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2225
+          },
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2192
+          },
+          {
+            "active": false,
+            "end_date": "2024-08-19",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2023-01-10",
+            "id": 2152
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2137
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1343?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1343?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1343?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/39"
+      },
+      "function_latest": {},
+      "id": 1344,
+      "lastname": "Pircher",
+      "firstname": "Manfred",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2001-05-22",
+            "id": 2235
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2009-01-27",
+            "id": 2162
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1344?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1344?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1344?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/56"
+      },
+      "function_latest": {},
+      "id": 1358,
+      "lastname": "Raschle",
+      "firstname": "Urs",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Drechsler und Küfer der Stadt Zug"
+            },
+            "id": 1386,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Mitglied von «Die Mitte» Stadt Zug — inkl. Gönnerverein"
+            },
+            "id": 1385,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Vorstand Verein «Zug — Kalesija»"
+            },
+            "id": 1384,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Rotary Club Zug"
+            },
+            "id": 1383,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Vorstand IG Zuger Chriesi"
+            },
+            "id": 1382,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1358,
+            "name": {
+              "de": "Zunft der Schreiner"
+            },
+            "id": 1381,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1358?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1358?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1358?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2015-01-01",
+            "id": 2174
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1358?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1358?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1358?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/41"
+      },
+      "function_latest": {},
+      "id": 1345,
+      "lastname": "Rüegg",
+      "firstname": "Richard",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2011-01-01",
+            "id": 2243
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2011-01-01",
+            "id": 2158
+          },
+          {
+            "active": false,
+            "end_date": "2023-06-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 264,
+            "begin_date": "2022-04-12",
+            "id": 2142
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1345?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1345?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1345?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/65"
+      },
+      "function_latest": {},
+      "id": 1364,
+      "lastname": "Schlumpf",
+      "firstname": "Norbert",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": false,
+            "end_date": "2025-01-20",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 257,
+            "begin_date": "2024-10-22",
+            "id": 2198
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-08-27",
+            "id": 2183
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1364?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1364?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1364?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/58"
+      },
+      "function_latest": {},
+      "id": 1360,
+      "lastname": "Schumpf",
+      "firstname": "Etienne",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Korporationsbürger Stadt Zug"
+            },
+            "id": 799,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied Fischerzunft Stadt Zug"
+            },
+            "id": 798,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied 100’er Klub LKZ"
+            },
+            "id": 797,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied Polizeihundeführer-Verein"
+            },
+            "id": 796,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied Quartierverein Guthirt"
+            },
+            "id": 388,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied IG Zuger Chriesi"
+            },
+            "id": 371,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Mitglied FDP und Mitglied FDP Donatoren"
+            },
+            "id": 369,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Verwaltungsrat Zugerbergbahn AG"
+            },
+            "id": 331,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Kantonsrat Stadt Zug"
+            },
+            "id": 215,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1360,
+            "name": {
+              "de": "Hochschulrat PH Zug"
+            },
+            "id": 6,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1360?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1360?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1360?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2023-01-01",
+            "id": 2176
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1360?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1360?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1360?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/43"
+      },
+      "function_latest": {},
+      "id": 1346,
+      "lastname": "Steinle",
+      "firstname": "Patrick",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1346,
+            "name": {
+              "de": "Mitglied Grenzwertkommission Suissepro"
+            },
+            "id": 1367,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1346,
+            "name": {
+              "de": "Vorstandsmitglied Verein Silag zur Erforschung und Bekämpfung von durch anorganischen Stäuben verursachten Lungenerkrankungen"
+            },
+            "id": 1366,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1346?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1346?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1346?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2019-01-01",
+            "id": 2229
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 253,
+            "begin_date": "2023-01-10",
+            "id": 2148
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1346?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1346?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1346?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/67"
+      },
+      "function_latest": {},
+      "id": 1366,
+      "lastname": "Weiss",
+      "firstname": "Thomas",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2024-08-27",
+            "id": 2185
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1366?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1366?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1366?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/72"
+      },
+      "function_latest": {},
+      "id": 1370,
+      "lastname": "Werder",
+      "firstname": "Beat",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2025-05-01",
+            "id": 2207
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 256,
+            "begin_date": "2025-05-01",
+            "id": 2206
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1370?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1370?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1370?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/73"
+      },
+      "function_latest": {},
+      "id": 1371,
+      "lastname": "Werder",
+      "firstname": "Beat",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2025-05-01",
+            "id": 2208
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1371?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1371?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1371?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/44"
+      },
+      "function_latest": {},
+      "id": 1347,
+      "lastname": "Wetzel",
+      "firstname": "Mathias",
+      "body_key": "1711",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 245,
+            "begin_date": "2016-06-01",
+            "id": 2204
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 249,
+            "begin_date": "2019-01-08",
+            "id": 2156
+          },
+          {
+            "active": false,
+            "end_date": "2023-04-14",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 246,
+            "begin_date": "2022-06-28",
+            "id": 2132
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1347?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1347?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://ratsinfo.stadtzug.ch/personen/54"
+      },
+      "function_latest": {},
+      "id": 1355,
+      "lastname": "Wicki",
+      "firstname": "André",
+      "body_key": "1711",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Vorstandsmitglied SVP Stadt Zug"
+            },
+            "id": 1376,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Vorstand Nachbarschaft Oberwil-Gimenen (NOG)"
+            },
+            "id": 1375,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Mitglied Rotary Club Zug"
+            },
+            "id": 1374,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Verwaltungsrat WWZ AG"
+            },
+            "id": 1373,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Mitglied SVP Stadt Zug"
+            },
+            "id": 1372,
+            "body_key": "1711"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 1355,
+            "name": {
+              "de": "Präsident Club 200 Hochwacht"
+            },
+            "id": 1371,
+            "body_key": "1711"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1355?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1355?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1355?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 255,
+            "begin_date": "2011-01-01",
+            "id": 2172
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/1355?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/1355?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/1355?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

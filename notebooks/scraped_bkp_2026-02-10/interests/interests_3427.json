@@ -1,0 +1,2991 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 44,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=3427&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=3427&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=3427&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/370bc5f0bf6049c6aad4d79db643901e"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16141,
+      "lastname": "Albrecht",
+      "firstname": "Marco",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139422
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139375
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139327
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16141?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16141?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16141?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/026a28ec39314eb697b9a111f8229bae"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16157,
+      "lastname": "Aurich",
+      "firstname": "Willi",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139418
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139373
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139322
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16157?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16157?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16157?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/86d8c47b2f4f4e50a4da5235fbcd3f8e"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident"
+      },
+      "id": 16160,
+      "lastname": "Bachmann",
+      "firstname": "Adrian",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139434
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139390
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139341
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16160?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16160?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16160?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/5aaaaf54582d44f6a7c0a3278cf24326"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16144,
+      "lastname": "Bernet",
+      "firstname": "Anja",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139427
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139382
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139381
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139334
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16144?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16144?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16144?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/d5a43c7c5c614531b6322063eafeb5b8"
+      },
+      "function_latest": {},
+      "id": 22545,
+      "lastname": "Bollinger",
+      "firstname": "Urs",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": "2025-12-04",
+            "id": 188664
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-08-28",
+            "id": 144004
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": "2025-08-28",
+            "id": 144000
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-08-28",
+            "id": 139452
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": "2025-08-28",
+            "id": 139363
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22545?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22545?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22545?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/_rte/person/245387"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 16234,
+      "lastname": "Breitenmoser",
+      "firstname": "Andreas",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 3736,
+            "begin_date": null,
+            "id": 77108
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77103
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 3982,
+            "begin_date": null,
+            "id": 77102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77089
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77088
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77086
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77085
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77084
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77083
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16234?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16234?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/bf2fbeaf422949a49a5a8919b2ced8e7"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident"
+      },
+      "id": 16136,
+      "lastname": "Büsser",
+      "firstname": "Benjamin",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139445
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139401
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139400
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139355
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16136?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16136?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16136?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/3cc982730a8b48818202a639b146e459"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16156,
+      "lastname": "Edelmann",
+      "firstname": "Roger",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139423
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139377
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139376
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139328
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16156?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16156?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16156?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/a9af04bc14d140abbed5a4edc0cb5be3"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 16142,
+      "lastname": "Egli",
+      "firstname": "Dominik",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139441
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139396
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139348
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16142?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16142?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16142?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/57a731397ce343ccbd3eb06a14365791"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident"
+      },
+      "id": 16158,
+      "lastname": "Gehrig",
+      "firstname": "Reto",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139425
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139378
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139332
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16158?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16158?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16158?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/a1c907b4af8a42138a78cd5ddae9416a"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16159,
+      "lastname": "Gerber",
+      "firstname": "Daniel",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139438
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139393
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139345
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16159?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16159?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16159?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/ae0efac0577043eda2b2c1d037d055dc"
+      },
+      "function_latest": {
+        "de": "Präsidentin"
+      },
+      "id": 16139,
+      "lastname": "Grob",
+      "firstname": "Meret",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": "2026-01-08",
+            "id": 188662
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139442
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139397
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2916,
+            "begin_date": null,
+            "id": 139350
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16139?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16139?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/92eff7425c534833bf2fcd070d82dddf"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16150,
+      "lastname": "Grämiger",
+      "firstname": "Marius",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139437
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139392
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139344
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16150?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16150?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16150?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/36f3b06063dc419fb01513e45dd6cf0d"
+      },
+      "function_latest": {},
+      "id": 22544,
+      "lastname": "Gämperle",
+      "firstname": "Aaron",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-08-28",
+            "id": 144001
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": "2025-08-28",
+            "id": 143996
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-08-28",
+            "id": 139421
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": "2025-08-28",
+            "id": 139326
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22544?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22544?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22544?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/f891e60d7ccc4ecbb81c702d17d72f1f"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 16167,
+      "lastname": "Hasler",
+      "firstname": "Christine",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139417
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139372
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139321
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16167?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16167?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/f2dc625edfe4439ca9bf74d885c3632d"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16161,
+      "lastname": "Hobi",
+      "firstname": "Annik",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": "2025-09-25",
+            "id": 143995
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139458
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": "2025-09-25",
+            "id": 139414
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139369
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16161?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16161?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16161?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/36aad2a14aa44e2b9ed0950b92fe9584"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16140,
+      "lastname": "Huber",
+      "firstname": "Harry",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139420
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139374
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139325
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16140?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16140?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16140?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/d9b730639c8d4693852e8b681742509f"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16166,
+      "lastname": "Hürsch",
+      "firstname": "Christoph",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139453
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139407
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139364
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16166?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16166?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16166?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/6f99df9b2a3e48a1826678b54a5a795c"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16143,
+      "lastname": "Hüssy",
+      "firstname": "Andreas",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139430
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139386
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139385
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139337
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16143?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16143?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16143?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/f2ec037c39ec4748a9841937d852e6d7"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16165,
+      "lastname": "Kauf",
+      "firstname": "Luc",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139459
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139415
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2916,
+            "begin_date": null,
+            "id": 139370
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16165?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16165?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16165?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/cdb07f360a4740c8ac8a7bb2fca496cb"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16154,
+      "lastname": "Keller-Hollenstein",
+      "firstname": "Eliane",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139450
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139405
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139361
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16154?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16154?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16154?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/c80af9869d874d37ab0f40787f532082"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16163,
+      "lastname": "Koller",
+      "firstname": "Sebastian",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": "2026-01-08",
+            "id": 188663
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139448
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139404
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2916,
+            "begin_date": null,
+            "id": 139358
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139313
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16163?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16163?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16163?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/63a172808db94e84adda874fc08bb6b8"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16155,
+      "lastname": "Krähenbühl",
+      "firstname": "Robin",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139428
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139383
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139335
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16155?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16155?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16155?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/_rte/person/320602"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 16232,
+      "lastname": "Kunz",
+      "firstname": "Cornelia",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 3736,
+            "begin_date": null,
+            "id": 77106
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4002,
+            "begin_date": null,
+            "id": 77094
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77072
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77071
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77070
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77069
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77068
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77067
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77066
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77065
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77064
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77063
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 46157
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 46110
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 45955
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16232?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16232?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16232?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/8ee708d2cc1f40c8af06c3643f25e720"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident"
+      },
+      "id": 16137,
+      "lastname": "Kälin",
+      "firstname": "Christof",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139436
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139391
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139343
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16137?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16137?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/cc2f2a99d3c4415a93216dd4ccedda29"
+      },
+      "function_latest": {},
+      "id": 22546,
+      "lastname": "Kühne",
+      "firstname": "Fiona",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-09-25",
+            "id": 144003
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": "2025-09-25",
+            "id": 143998
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": "2025-09-25",
+            "id": 139449
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": "2025-09-25",
+            "id": 139359
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22546?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22546?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22546?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/e32aee68d8254efeb9e9227a484705d7"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16164,
+      "lastname": "Lerch",
+      "firstname": "Patrik",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139455
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139366
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16164?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16164?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16164?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/69c6d50bd571485f855f344c1a7817b6"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16135,
+      "lastname": "Loepfe",
+      "firstname": "Matthias",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139429
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139384
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2916,
+            "begin_date": null,
+            "id": 139336
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16135?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16135?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16135?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/b9395dcb73474369bfb88d16d44a7b74"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16172,
+      "lastname": "Luginbühl",
+      "firstname": "Dora",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139444
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139399
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139353
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16172?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16172?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16172?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/f3f4d2674f8a4b228503ccacabb4c30d"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16138,
+      "lastname": "Lusti",
+      "firstname": "Sandra",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139416
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139371
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139320
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16138?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16138?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16138?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/c32792bbfb304a2985e474f7ee2d27de"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16147,
+      "lastname": "Lyner",
+      "firstname": "Alexander",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139447
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139403
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139357
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16147?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16147?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16147?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/e6cd8b0de6a445a595c8ae4179b5d87a"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16171,
+      "lastname": "Malgaroli",
+      "firstname": "Marcel",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139457
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139413
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139368
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16171?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16171?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16171?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/c029389176944da8b846844c7d1c7378"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16151,
+      "lastname": "Marty",
+      "firstname": "Stefanie",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139446
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139402
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139356
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16151?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16151?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16151?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/_rte/person/245366"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 16231,
+      "lastname": "Mäder",
+      "firstname": "Hans",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 3736,
+            "begin_date": null,
+            "id": 77105
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77101
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77100
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 3736,
+            "begin_date": null,
+            "id": 77099
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77098
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77097
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 3979,
+            "begin_date": null,
+            "id": 77096
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 4006,
+            "begin_date": null,
+            "id": 77095
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 45925
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 45756
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 44997
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 44967
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 44913
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 44042
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 43631
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 43370
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 43121
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 17,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16231?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16231?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/_rte/person/341131"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 16233,
+      "lastname": "Nick",
+      "firstname": "Manuel",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 3736,
+            "begin_date": null,
+            "id": 77107
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77093
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 5,
+            "group_id": 3981,
+            "begin_date": null,
+            "id": 77092
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77082
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77081
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77080
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77079
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77078
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77077
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77076
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77075
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77074
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": null,
+            "begin_date": null,
+            "id": 77073
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 13,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16233?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16233?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16233?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/db7fb1b65d34428284252b54871fdae8"
+      },
+      "function_latest": {
+        "de": "Fraktionspräsident"
+      },
+      "id": 16170,
+      "lastname": "Sarbach",
+      "firstname": "Michael",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139454
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139410
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139409
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139408
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2916,
+            "begin_date": null,
+            "id": 139365
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16170?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16170?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16170?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/841ca31b241f4cf5923aba253688e6da"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16168,
+      "lastname": "Schlegel",
+      "firstname": "Mathias",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139431
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139387
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139338
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16168?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16168?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16168?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/57bd1fafb95b47649110d26f9839e847"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16148,
+      "lastname": "Schobinger",
+      "firstname": "Lukas",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139426
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 3349,
+            "begin_date": null,
+            "id": 139380
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139379
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139333
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16148?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16148?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16148?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/a513f7644eaa49b79522b2d2870b46d8"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16149,
+      "lastname": "Schönenberger",
+      "firstname": "Philipp",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139440
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139395
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2673,
+            "begin_date": null,
+            "id": 139347
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16149?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16149?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16149?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/cedde38778e645aa92e13a354c9faf70"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16153,
+      "lastname": "Stahl",
+      "firstname": "Ronja",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139451
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2532,
+            "begin_date": null,
+            "id": 139406
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139362
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16153?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16153?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16153?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/84938cd2d2be46b0b8f437317025dd5e"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16162,
+      "lastname": "Steele",
+      "firstname": "Alexander",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139432
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2640,
+            "begin_date": null,
+            "id": 139388
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139339
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16162?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16162?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16162?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/84ae56707b0045a0b0a65b410cf959e4"
+      },
+      "function_latest": {
+        "de": "Mitglied Stadtparlament"
+      },
+      "id": 16169,
+      "lastname": "Stieger",
+      "firstname": "Pascal",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139433
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2360,
+            "begin_date": null,
+            "id": 139389
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2811,
+            "begin_date": null,
+            "id": 139340
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16169?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16169?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16169?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/e41f3aa8bca44c729a53232a7af1e1cc"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 16134,
+      "lastname": "Stolz",
+      "firstname": "Valeska",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139456
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2459,
+            "begin_date": null,
+            "id": 139412
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139411
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2739,
+            "begin_date": null,
+            "id": 139367
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16134?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16134?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtwil.ch/parliamentarian/a358d00a4c64462cab9b3131c1fef372"
+      },
+      "function_latest": {
+        "de": "Stimmenzählerin"
+      },
+      "id": 16152,
+      "lastname": "Zeintl",
+      "firstname": "Salome",
+      "body_key": "3427",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 2327,
+            "begin_date": null,
+            "id": 139439
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 2951,
+            "begin_date": null,
+            "id": 139394
+          },
+          {
+            "active": true,
+            "end_date": null,
+            "type_harmonized_oparl_id": 4,
+            "group_id": 2705,
+            "begin_date": null,
+            "id": 139346
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/16152?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/16152?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/16152?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

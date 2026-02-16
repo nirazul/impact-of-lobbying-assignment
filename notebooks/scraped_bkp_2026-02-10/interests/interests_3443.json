@@ -1,0 +1,784 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 36,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=3443&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=3443&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=3443&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/52708"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4062,
+      "lastname": "Albrecht",
+      "firstname": "Frank",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/5583"
+      },
+      "function_latest": {
+        "de": "Vizepräsidentin"
+      },
+      "id": 4064,
+      "lastname": "Alder Frey",
+      "firstname": "Helen",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/324688"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4043,
+      "lastname": "Allenspach",
+      "firstname": "Urs",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404308"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4057,
+      "lastname": "Blumer",
+      "firstname": "Ruedi",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/372181"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 4054,
+      "lastname": "Brander",
+      "firstname": "Pascal",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/107501"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4022,
+      "lastname": "Ebneter",
+      "firstname": "Matthias",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404335"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4061,
+      "lastname": "Frei",
+      "firstname": "Barbara",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/138077"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4028,
+      "lastname": "Fürer",
+      "firstname": "Pascal",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/5537"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 4063,
+      "lastname": "Giella",
+      "firstname": "Wolfgang",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/176098"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4030,
+      "lastname": "Hardegger",
+      "firstname": "Elmar",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/324685"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4042,
+      "lastname": "Helfenberger",
+      "firstname": "Andreas",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404332"
+      },
+      "function_latest": {
+        "de": "Vizepräsident"
+      },
+      "id": 4060,
+      "lastname": "Huber",
+      "firstname": "Patrick",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/244688"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4036,
+      "lastname": "Jau",
+      "firstname": "Kurt",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/192397"
+      },
+      "function_latest": {
+        "de": "Ratsschreiberin"
+      },
+      "id": 4033,
+      "lastname": "Kempf",
+      "firstname": "Beatrice",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/341113"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4047,
+      "lastname": "Kessler",
+      "firstname": "Lukas",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/351079"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler-Stellvertreterin"
+      },
+      "id": 4048,
+      "lastname": "Kobler",
+      "firstname": "Ursula",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/56120"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4065,
+      "lastname": "Kobler",
+      "firstname": "Florian",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/324691"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4045,
+      "lastname": "Kretz Büsser",
+      "firstname": "Claudia",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/59367"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4066,
+      "lastname": "Künzle",
+      "firstname": "Thomas",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/79023"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4067,
+      "lastname": "Künzle",
+      "firstname": "Alois",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404302"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4055,
+      "lastname": "Loretini",
+      "firstname": "Heinz",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/137387"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4027,
+      "lastname": "Martin",
+      "firstname": "Claudia",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/119437"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4023,
+      "lastname": "Mauchle",
+      "firstname": "Patrik",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404329"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4059,
+      "lastname": "Mayer",
+      "firstname": "Jan",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/307627"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4041,
+      "lastname": "Meister",
+      "firstname": "Markus",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/144787"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4029,
+      "lastname": "Oberholzer",
+      "firstname": "Andreas",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/104497"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4021,
+      "lastname": "Pfister",
+      "firstname": "Martin",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/244676"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4034,
+      "lastname": "Pfister",
+      "firstname": "Roger",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/244712"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4038,
+      "lastname": "Rindlisbacher",
+      "firstname": "Stefan",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/102467"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4020,
+      "lastname": "Rosenberger",
+      "firstname": "Markus",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/369667"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4052,
+      "lastname": "Rütsche-Schaller",
+      "firstname": "Andrea",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/_rte/person/119438"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4024,
+      "lastname": "Scherrer",
+      "firstname": "Florin",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/351085"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4049,
+      "lastname": "Schlegel",
+      "firstname": "Christian",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/370471"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 4053,
+      "lastname": "Schwizer",
+      "firstname": "Marina",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/404320"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 4058,
+      "lastname": "Sigg",
+      "firstname": "Simon",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.stadtgossau.ch/behoerdenmitglieder/244694"
+      },
+      "function_latest": {
+        "de": "Präsidentin"
+      },
+      "id": 4037,
+      "lastname": "Uffer",
+      "firstname": "Martina",
+      "body_key": "3443",
+      "interests": null,
+      "memberships": null
+    }
+  ]
+}

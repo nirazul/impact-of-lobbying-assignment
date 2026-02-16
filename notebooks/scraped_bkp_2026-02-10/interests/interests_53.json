@@ -1,0 +1,2807 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 36,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=53&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=53&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=53&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365038"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 5657,
+      "lastname": "Abegg",
+      "firstname": "Philemon",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1029,
+            "begin_date": null,
+            "id": 14653
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14652
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5657?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5657?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5657?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365041"
+      },
+      "function_latest": {
+        "de": "Stadtrat"
+      },
+      "id": 5658,
+      "lastname": "Ammann",
+      "firstname": "Daniel",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "Kernstab/Ziviler Gemeindeführungsstab, Geschäftsfeldverantwortlicher"
+            },
+            "id": 3321,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "IG Polizeivorstände Kanton Zürich, Mitglied"
+            },
+            "id": 3320,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "Zivilschutzkommission, Präsident"
+            },
+            "id": 3319,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "amdacon ag, Bülach (100%)"
+            },
+            "id": 3318,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "Ziviles Gemeindeführungsorgan, Mitglied"
+            },
+            "id": 3317,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "Steuerungsgruppe Sport- Infrastruktur, Präsident"
+            },
+            "id": 3316,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5658,
+            "name": {
+              "de": "Schutzverband der Bevölkerung um den Flughafen Zürich, Delegierter"
+            },
+            "id": 3315,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5658?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5658?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5658?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1041,
+            "begin_date": null,
+            "id": 14656
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1041,
+            "begin_date": null,
+            "id": 14655
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14654
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5658?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5658?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5658?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365044"
+      },
+      "function_latest": {
+        "de": "2. Vizepräsident"
+      },
+      "id": 5659,
+      "lastname": "Berner",
+      "firstname": "Dominik",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14659
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14657
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5659?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5659?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5659?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365281"
+      },
+      "function_latest": {
+        "de": "Parlamentarier, Wahlbüro"
+      },
+      "id": 5692,
+      "lastname": "Bliggenstorfer",
+      "firstname": "Bruno",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1040,
+            "begin_date": null,
+            "id": 14731
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1029,
+            "begin_date": null,
+            "id": 14730
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14729
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5692?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5692?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5692?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Eidgenössisch-Demokratische Union",
+        "fr": "Union Démocratique Fédérale",
+        "it": "Unione Democratica Federale",
+        "en": "Federal Democratic Union of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365050"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5661,
+      "lastname": "Brizza",
+      "firstname": "Cornelia",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14664
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14663
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5661?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5661?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5661?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Parteilos",
+        "fr": "Indépendant",
+        "it": "Indipendente",
+        "en": "Independent"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365047"
+      },
+      "function_latest": {
+        "de": "Stadträtin"
+      },
+      "id": 5660,
+      "lastname": "Böni",
+      "firstname": "Frauke",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Gesundheitskonferenz des Kantons Zürich (GeKoZH), Mitglied"
+            },
+            "id": 3337,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Gesundheitskonferenz Bezirk Bülach, Mitglied"
+            },
+            "id": 3336,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Genossenschaft für Alterswohnungen (GAB), Vorstandsmitglied"
+            },
+            "id": 3335,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Stiftung Alterszentrum Region Bülach (SARB), Stiftungsrätin"
+            },
+            "id": 3334,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Spital Bülach AG, Aktionärsvertreterin"
+            },
+            "id": 3333,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "KZU Kompetenzzentrum Pflege und Gesundheit, Aufsichtsrätin"
+            },
+            "id": 3332,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Stiftung Pigna, Stiftungsrätin,"
+            },
+            "id": 3331,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Resonanzgruppe Inklusion, Vorsitzende"
+            },
+            "id": 3330,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Kinder- und Jugendkommission, Präsidentin"
+            },
+            "id": 3329,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Resonanzgruppe Alter, Vorsitzende"
+            },
+            "id": 3328,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Stiftung Wisli, Stiftungsrätin"
+            },
+            "id": 3327,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Fachstelle für Abhängigkeitserkrankungen Bezirk Bülach, Delegierte"
+            },
+            "id": 3326,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Sozialhilfebehörde, Präsidentin"
+            },
+            "id": 3325,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Sozialkonferenz des Kantons Zürich (SoKo), Vorstandsmitglied / Mitglied Leitender Ausschuss"
+            },
+            "id": 3324,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Sozialkonferenz im Bezirk Bülach (SiBB), Vorsitz"
+            },
+            "id": 3323,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5660,
+            "name": {
+              "de": "Regionale Arbeitsgruppe Zukunftsplanung Alter und Gesundheit (RAZA), Vorsitz"
+            },
+            "id": 3322,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 16,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5660?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5660?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5660?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1039,
+            "begin_date": null,
+            "id": 14662
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1039,
+            "begin_date": null,
+            "id": 14661
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14660
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5660?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5660?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365053"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5662,
+      "lastname": "Calvo Salgado",
+      "firstname": "Luis M.",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1043,
+            "begin_date": null,
+            "id": 14667
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14666
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14665
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5662?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5662?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5662?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/411292"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5695,
+      "lastname": "Denzler",
+      "firstname": "Christoph",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1030,
+            "begin_date": null,
+            "id": 14738
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14737
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5695?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5695?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5695?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365056"
+      },
+      "function_latest": {},
+      "id": 5663,
+      "lastname": "Dietrich",
+      "firstname": "Belma",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14669
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14668
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5663?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5663?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5663?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365059"
+      },
+      "function_latest": {
+        "de": "Stadtpräsident"
+      },
+      "id": 5664,
+      "lastname": "Eberli",
+      "firstname": "Mark",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Wirtschaftsbeirat, Präsident"
+            },
+            "id": 3355,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Kulturkommission, Präsident"
+            },
+            "id": 3354,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Digital Health Center, Verein, Präsident"
+            },
+            "id": 3353,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Standort Zürcher Unterland, Präsident"
+            },
+            "id": 3352,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Kommission für Behindertenfragen, Mitglied"
+            },
+            "id": 3351,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Sozialkonferenz des Kantons Zürich, Beisitzer"
+            },
+            "id": 3350,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Stiftung Chance, Mitglied"
+            },
+            "id": 3349,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Kantonale Begleitgruppe Asylwesen, Mitglied"
+            },
+            "id": 3348,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Wahlbüro, Vorsitzender"
+            },
+            "id": 3346,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Gemeindepräsidienverband (GPV) – Leitender Ausschuss, 1. Vizepräsident"
+            },
+            "id": 3345,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "KZU Kompetenzzentrum Pflege und Gesundheit, Präsident"
+            },
+            "id": 3344,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Zürcher Verkehrsverbund ZVV, Verkehrsrat"
+            },
+            "id": 3343,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Verwaltungsrat Spital Bülach, Mitglied"
+            },
+            "id": 3342,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "egovpartner, Mitglied Steuerungsausschuss"
+            },
+            "id": 3341,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Gemeindepräsidienkonferenz des Bezirks Bülach (GPK), Präsident"
+            },
+            "id": 3340,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Stiftung Dihei, Präsident"
+            },
+            "id": 3339,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5664,
+            "name": {
+              "de": "Promintra S.L."
+            },
+            "id": 3338,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 17,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5664?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5664?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5664?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1040,
+            "begin_date": null,
+            "id": 14674
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1037,
+            "begin_date": null,
+            "id": 14673
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1037,
+            "begin_date": null,
+            "id": 14672
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14671
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14670
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1040,
+            "begin_date": null,
+            "id": 769
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5664?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5664?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5664?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365065"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5665,
+      "lastname": "Frischknecht",
+      "firstname": "Peter",
+      "body_key": "53",
+      "interests": null,
+      "memberships": null
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/379186"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5693,
+      "lastname": "Galeuchet",
+      "firstname": "Barbara",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14734
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14733
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14732
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5693?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5693?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5693?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365071"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5666,
+      "lastname": "Grässli",
+      "firstname": "Erik",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14676
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14675
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5666?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5666?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5666?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365074"
+      },
+      "function_latest": {
+        "de": "1. Vizepräsidentin"
+      },
+      "id": 5667,
+      "lastname": "Grütter",
+      "firstname": "Patrizia",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1029,
+            "begin_date": null,
+            "id": 14678
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14677
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5667?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5667?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5667?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365077"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5668,
+      "lastname": "Halter",
+      "firstname": "Anne-Christine",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1029,
+            "begin_date": null,
+            "id": 14680
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14679
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5668?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5668?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5668?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365080"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5670,
+      "lastname": "Hartmann",
+      "firstname": "Laura",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1035,
+            "begin_date": null,
+            "id": 14683
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1030,
+            "begin_date": null,
+            "id": 14682
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14681
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5670?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5670?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5670?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365089"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5672,
+      "lastname": "Kleiber",
+      "firstname": "Dominic",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14688
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14687
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5672?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5672?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5672?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365086"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5671,
+      "lastname": "Kägi",
+      "firstname": "Larissa",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1043,
+            "begin_date": null,
+            "id": 14686
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1030,
+            "begin_date": null,
+            "id": 14685
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14684
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5671?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5671?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5671?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365101"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5673,
+      "lastname": "Meier",
+      "firstname": "Christoph",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14690
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14689
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5673?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5673?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5673?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365107"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5674,
+      "lastname": "Mihalyi",
+      "firstname": "Tünde",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1043,
+            "begin_date": null,
+            "id": 14693
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1030,
+            "begin_date": null,
+            "id": 14692
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14691
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5674?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5674?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365110"
+      },
+      "function_latest": {
+        "de": "Stadtrat"
+      },
+      "id": 5675,
+      "lastname": "Müller",
+      "firstname": "Andreas",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Ziviles Gemeindeführungsorgan, Mitglied"
+            },
+            "id": 3364,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Ausschuss Bau und Infrastruktur (ABI), Präsident"
+            },
+            "id": 3363,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Hands of solidarity, Bülach, Vorstand"
+            },
+            "id": 3362,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Joweid Rüti Immo AG, Glattbrugg, Verwaltungsrat"
+            },
+            "id": 3361,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Schutzverband der Bevölkerung um den Flughafen Zürich, Delegierter"
+            },
+            "id": 3360,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Regionalkonferenz Nördlich Lägern, Delegierter"
+            },
+            "id": 3359,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Planungsgruppe Zürcher Unterland (PZU), Vorstand"
+            },
+            "id": 3358,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "IG Nord, Delegierter"
+            },
+            "id": 3357,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5675,
+            "name": {
+              "de": "Abgeltungskommission geologisches Tiefenlager, Stv. Delegierter"
+            },
+            "id": 3356,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5675?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5675?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5675?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1042,
+            "begin_date": null,
+            "id": 14695
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14694
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5675?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5675?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5675?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365116"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5679,
+      "lastname": "Müller-Ganz",
+      "firstname": "Britta",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1030,
+            "begin_date": null,
+            "id": 14697
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14696
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5679?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5679?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5679?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365119"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5680,
+      "lastname": "Obermayer",
+      "firstname": "Thomas",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1043,
+            "begin_date": null,
+            "id": 14700
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14699
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14698
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5680?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5680?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365122"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5681,
+      "lastname": "Pecorelli",
+      "firstname": "Alessandro",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14702
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14701
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5681?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5681?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5681?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365125"
+      },
+      "function_latest": {
+        "de": "Stadträtin, Schulpräsidentin"
+      },
+      "id": 5682,
+      "lastname": "Pfister-Kempf",
+      "firstname": "Rosa",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5682,
+            "name": {
+              "de": "Steuervorstand, Mitglied"
+            },
+            "id": 3366,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5682,
+            "name": {
+              "de": "Ausschuss Bau und Infrastruktur (ABI), Mitglied"
+            },
+            "id": 3365,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5682?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5682?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5682?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1042,
+            "begin_date": null,
+            "id": 14706
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1038,
+            "begin_date": null,
+            "id": 14705
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1038,
+            "begin_date": null,
+            "id": 14704
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14703
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5682?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5682?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5682?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365128"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5683,
+      "lastname": "Rogenmoser",
+      "firstname": "Romaine",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14708
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14707
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5683?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5683?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5683?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365131"
+      },
+      "function_latest": {
+        "de": "Präsident"
+      },
+      "id": 5684,
+      "lastname": "Scheuss",
+      "firstname": "Andreas",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14710
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14709
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5684?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5684?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5684?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365140"
+      },
+      "function_latest": {
+        "de": "Stadträtin"
+      },
+      "id": 5685,
+      "lastname": "Spycher",
+      "firstname": "Andrea",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Fachgruppe LaNa, Präsidentin"
+            },
+            "id": 3377,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Interessengemeinschaft Kehrichtsackgebühr Zürcher Unterland (IGKSG), Ausschussmitglied/Mitglied"
+            },
+            "id": 3376,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Stiftung Alterszentrum Region Bülach (SARB), Stiftungsrätin"
+            },
+            "id": 3375,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Ausschuss Bau und Infrastruktur (ABI), Vizepräsidentin"
+            },
+            "id": 3374,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Einzelunternehmung Heavy Duty (Ehefrau des Inhabers)"
+            },
+            "id": 3373,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Begleitgruppe Phosphor-Mining, Mitglied"
+            },
+            "id": 3372,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Bau- und Betriebskommission Zweckverband Grundwassergewinnung Stadtforen (GWS), Präsidentin"
+            },
+            "id": 3371,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Friedhofzweckverband Bülach, Präsidentin"
+            },
+            "id": 3370,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Planungsgruppe Zürcher Unterland (PZU), Delegierte"
+            },
+            "id": 3369,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "KZU Kompetenzzentrum Pflege und Gesundheit, Aufsichtsrätin"
+            },
+            "id": 3368,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5685,
+            "name": {
+              "de": "Quartierplankommission, Mitglied"
+            },
+            "id": 3367,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5685?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5685?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5685?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1042,
+            "begin_date": null,
+            "id": 14714
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1034,
+            "begin_date": null,
+            "id": 14713
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1034,
+            "begin_date": null,
+            "id": 14712
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14711
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5685?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5685?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365146"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5686,
+      "lastname": "Stiefenhofer",
+      "firstname": "Peter",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14716
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14715
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5686?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5686?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365149"
+      },
+      "function_latest": {
+        "de": "Stadtrat"
+      },
+      "id": 5687,
+      "lastname": "Surber",
+      "firstname": "Markus",
+      "body_key": "53",
+      "interests": {
+        "data": [
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Standort Zürcher Unterland, Mitglied"
+            },
+            "id": 3384,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Abgeltungskommission geologisches Tiefenlager"
+            },
+            "id": 3383,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Regionalkonferenz Nördlich Lägern, Delegierter"
+            },
+            "id": 3382,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Kommission für Grundsteuern, Präsident"
+            },
+            "id": 3381,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "IG-Nord, Präsident"
+            },
+            "id": 3380,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Schutzverband der Bevölkerung um den Flughafen Zürich, Vorstand"
+            },
+            "id": 3379,
+            "body_key": "53"
+          },
+          {
+            "declaration_doc_url": null,
+            "person_id": 5687,
+            "name": {
+              "de": "Steuervorstand, Präsident"
+            },
+            "id": 3378,
+            "body_key": "53"
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5687?expand=interests&interests_offset=0&interests_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5687?expand=interests&interests_offset=0&interests_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5687?expand=interests&interests_offset=0&interests_limit=100"
+        }
+      },
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1036,
+            "begin_date": null,
+            "id": 14719
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1036,
+            "begin_date": null,
+            "id": 14718
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 1033,
+            "begin_date": null,
+            "id": 14717
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5687?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5687?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5687?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/391105"
+      },
+      "function_latest": {
+        "de": "Parlamentarierin"
+      },
+      "id": 5694,
+      "lastname": "Surber",
+      "firstname": "Iris",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14736
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14735
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5694?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5694?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5694?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/412531"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5696,
+      "lastname": "Terlemez Gabriel",
+      "firstname": "C.",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14740
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14739
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5696?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5696?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365155"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5688,
+      "lastname": "Winzer",
+      "firstname": "Ralf",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1032,
+            "begin_date": null,
+            "id": 14721
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14720
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5688?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5688?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5688?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365161"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 5689,
+      "lastname": "Ziegler",
+      "firstname": "Stephan",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1031,
+            "begin_date": null,
+            "id": 14723
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14722
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5689?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5689?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5689?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365164"
+      },
+      "function_latest": {
+        "de": "Stimmenzähler"
+      },
+      "id": 5690,
+      "lastname": "Zimmerli",
+      "firstname": "Sven",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1043,
+            "begin_date": null,
+            "id": 14726
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1029,
+            "begin_date": null,
+            "id": 14725
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14724
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5690?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5690?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5690?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.buelach.ch/behoerdenmitglieder/365167"
+      },
+      "function_latest": {
+        "de": "Parlamentarier"
+      },
+      "id": 5691,
+      "lastname": "Zumstein",
+      "firstname": "Reto",
+      "body_key": "53",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 1028,
+            "begin_date": null,
+            "id": 14728
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 1027,
+            "begin_date": null,
+            "id": 14727
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/5691?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/5691?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/5691?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,3589 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 53,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=2703&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=2703&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=2703&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=981771d607a24734b781edf7421c037a&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=f439e1454759460488de6554b1d30c1a"
+      },
+      "function_latest": {
+        "de": "Präsident/in"
+      },
+      "id": 2964,
+      "lastname": "Agnolazza-Mitrovic",
+      "firstname": "Daniele",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8178
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8177
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8176
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8174
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8173
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2964?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2964?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2964?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=339c9463174e485c9a45510f4ee12d0d&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a76b945840d94292b7e6a85c9886e3ea"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2937,
+      "lastname": "Amstutz",
+      "firstname": "Katrin",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8095
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8094
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8093
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8092
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2937?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2937?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2937?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=7a384819be1547f2aab829f7102afd86&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=6afa82ffca954177ad5c0ba188927df5"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24842,
+      "lastname": "Amstutz",
+      "firstname": " Noemi Julia",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 197911
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 197910
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24842?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=3592acdef3644349b15ac11575dcd4f3&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=f2eb02ba76414376b3e46915841fbc0d"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2938,
+      "lastname": "Auf der Maur",
+      "firstname": "Peter",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8098
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8097
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8096
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2938?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2938?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2938?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=06ddd86a591a4b5bb75379befaabc9d1&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=120e36bc752c4ceebab07160ab826395"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2924,
+      "lastname": "Baltermia",
+      "firstname": "Carol",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8038
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8037
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8036
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8035
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2924?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2924?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2924?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=507db5d237be42938421f5f88fe11ef7&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=08c04566428c4d36b39bb49ba6c9ab79"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24845,
+      "lastname": "Baumgartner",
+      "firstname": " Anna Verena",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 197917
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 197916
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24845?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24845?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24845?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=09af2b927d524150b33eac3870d3497e&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=20791dd14fcc4ae182bb4d0e586c0822"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2926,
+      "lastname": "Birchmeier Resch",
+      "firstname": "Cornelia",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8043
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8042
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 541,
+            "begin_date": null,
+            "id": 8041
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2926?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2926?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2926?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=f3045cca08e447989d0fca26c1ebc373&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=267b15bff929402b98ade86f0c5b7240"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2995,
+      "lastname": "Blattner",
+      "firstname": "Jürg",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 524,
+            "begin_date": null,
+            "id": 8223
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8222
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8221
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8220
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2995?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2995?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2995?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=6147868521004bf9b70997526d705e58&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=6f5252a20c684f1f94bb89eb8802dcc5"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2951,
+      "lastname": "Bochsler",
+      "firstname": "Simon",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 525,
+            "begin_date": null,
+            "id": 8129
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8128
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8127
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2951?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2951?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2951?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=9e96b5db6f194cd298bdb600282ece63&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=c4a19560133b47aab1f68cf91ea8017b"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2965,
+      "lastname": "Crain Merz",
+      "firstname": "Noëmi",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8182
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8181
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8180
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 548,
+            "begin_date": null,
+            "id": 8179
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2965?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2965?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2965?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=a4de5b2999a94646802285ab6a94b65d&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=e581e8afc61744dfae9ee006644537f7"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2966,
+      "lastname": "Fisch",
+      "firstname": "Susanne",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8187
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8186
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 524,
+            "begin_date": null,
+            "id": 8185
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8184
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8183
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2966?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2966?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2966?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=8fbde918766f4e1eb3c09df5ec6bb848&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=287de295bac340c0bdc06e1d0cc14e47"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2963,
+      "lastname": "Fricker",
+      "firstname": "Joris",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8172
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8171
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8170
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8169
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2963?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2963?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2963?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Basels Starke Alternative",
+        "fr": "Basels Starke Alternative",
+        "it": "Basels Starke Alternative",
+        "en": "Basels Starke Alternative"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=74e9711610be4268909e0c701b0dd2d5&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=8f3beb6d82c84b299b43644965e0161a"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2961,
+      "lastname": "Gosteli",
+      "firstname": "Mike",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8164
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8162
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8161
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8160
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 543,
+            "begin_date": null,
+            "id": 8159
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2961?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2961?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2961?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=5f10a955cc964e37b25778604360d352&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=6ded4579d28748d0906fc68f1545f093"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24846,
+      "lastname": "Graham",
+      "firstname": " Fiona Eva",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 197919
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 197918
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24846?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=07bef3b6580d422883aba6a60de13268&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=8c890cb8c97f48ecbec74acbd9ab28ca"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2925,
+      "lastname": "Gölgeli",
+      "firstname": "Edibe",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8040
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8039
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2925?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2925?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2925?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=690c978860114eb7b4d9d9bb696bfd6d&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=2c6222e6eb30450b8b21ea4d1516f772"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2956,
+      "lastname": "Heim",
+      "firstname": "Christian",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8145
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8144
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8143
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8142
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8141
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2956?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2956?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2956?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=35daf3f4a05d4181b565abbeaf76304c&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=625ac04af62d48578a11f6772f0d0850&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2939,
+      "lastname": "Hettich",
+      "firstname": "Daniel",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8101
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 538,
+            "begin_date": null,
+            "id": 8099
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2939?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2939?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2939?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=43f8e2ce02ae497196912e178c6c3e19&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=6a1cbff147a9472aa52ed8ea77d20411"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2941,
+      "lastname": "Hochuli",
+      "firstname": "Peter",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8105
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8104
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8103
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2941?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2941?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2941?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=64a9fdf967cf49aa8833ecd64004f294&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=37294ad74c054a759c875320acf00301&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2952,
+      "lastname": "Huber",
+      "firstname": "Patrick",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 525,
+            "begin_date": null,
+            "id": 8131
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8130
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2952?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2952?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2952?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=1bc8554167214e7296112cff3f9fbde6&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=8503080a850f475ab76ad0ecbe453476"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2931,
+      "lastname": "Hupfer",
+      "firstname": "Andreas",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8084
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8083
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8081
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2931?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2931?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2931?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=ff505bba6eab44c986fed42d427abd33&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=ab1a1863d94a4d1da4d4707d974b2ded"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 3003,
+      "lastname": "Hügi",
+      "firstname": "Marcel",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8248
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8247
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8246
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8245
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8244
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3003?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3003?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3003?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=5c88583acf6f43aaa35f3bbbe46c3c27&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=5ae614e30e554179b94f90a1f02b27cf&navid="
+      },
+      "function_latest": {
+        "de": "Präsident/in"
+      },
+      "id": 2946,
+      "lastname": "Kaufmann",
+      "firstname": "Christine",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8122
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8121
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 537,
+            "begin_date": null,
+            "id": 8120
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2946?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2946?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2946?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=102061b8dc57440f892234a639a337f0&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=5b3cc8d1ae7d4f4e82c8d57d299c2db0"
+      },
+      "function_latest": {
+        "de": "Statthalter/in"
+      },
+      "id": 2927,
+      "lastname": "Keller-Dietrich",
+      "firstname": "Priska",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 525,
+            "begin_date": null,
+            "id": 8049
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8048
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8046
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8045
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8044
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2927?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2927?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2927?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=bba266238c634502842d907a5b93f501&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=ee31f1a7e2b04e25a050594ca879404f&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2985,
+      "lastname": "Leschhorn Strebel",
+      "firstname": "Martin",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 197909
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8192
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8191
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8190
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8189
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8188
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2985?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2985?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2985?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=698e363794ad4c05a45162408a61d0cf&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a7fa0207419c43b0a8e14129d4d78cfb"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2957,
+      "lastname": "Lorenz",
+      "firstname": "Daniel",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 525,
+            "begin_date": null,
+            "id": 8150
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8149
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8148
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8147
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8146
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2957?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2957?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2957?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=6e9c020074b443b0bbecfc1a90760068&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=2da534dd794645e9a5634fb09a3e77a2"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2958,
+      "lastname": "Mark",
+      "firstname": "Peter",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8154
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8153
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8152
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8151
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2958?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2958?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2958?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=e8fb767d128141bca9e51a7da1b9111c&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=2f987a1281e24a499457a8fba3465e5e"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2993,
+      "lastname": "Meili",
+      "firstname": "Walter",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8217
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8216
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8215
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8214
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2993?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2993?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2993?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=fd7181a32ea94afe8c43029f9027e24a&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=f3ed961756f04291bc5282a3fe4509d2"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24843,
+      "lastname": "Meyer",
+      "firstname": " Serge Roger",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 197913
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 563,
+            "begin_date": null,
+            "id": 197912
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24843?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24843?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24843?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=8d157f4473164490b9127d1eee57dd13&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a02ff20daccf430abdfec01b76b52397"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2962,
+      "lastname": "Moor",
+      "firstname": "David",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 563,
+            "begin_date": null,
+            "id": 8168
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8167
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8166
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8165
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2962?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2962?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2962?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=1992ce0b20f345139f38c92e342755d7&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=098706a06075456a9b8f1773b54216ad"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2930,
+      "lastname": "Näf",
+      "firstname": "Barbara",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8080
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8079
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8078
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8077
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2930?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2930?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2930?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=f8950aad17a74a02a1f3b0c41c8550cf&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=b0a5fd15c7f84e539443bea976221447"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2998,
+      "lastname": "Pollheimer",
+      "firstname": "Noé",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8232
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8231
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8230
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2998?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2998?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2998?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=659547c41d454ccfa8cbadbb8d83dfe3&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=0c1a8926c1c9442f816694f85893f2df"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2953,
+      "lastname": "Priess",
+      "firstname": "Petra",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8136
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8135
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8134
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8133
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2953?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2953?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2953?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=be1c0ce020cd4be3bdd9ec4a1f132912&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=5f8d79413cc84041a7a12457e159fe0f"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2986,
+      "lastname": "Rahmen",
+      "firstname": "Regina",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8198
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8197
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8196
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8195
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 545,
+            "begin_date": null,
+            "id": 8193
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2986?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2986?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2986?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=68c00829e9e44e68b683aa2f4352af65&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=9e5036826df74425a405cce8f444554b"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2954,
+      "lastname": "Ribi",
+      "firstname": "Thomas",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 524,
+            "begin_date": null,
+            "id": 8140
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8139
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8138
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8137
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2954?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2954?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2954?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=120a571762a94c829a435c36ef173648&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=94e351cbfcd44806b2b91ee7e0b01438"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2929,
+      "lastname": "Rungger",
+      "firstname": "Bernhard",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8052
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 8051
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8050
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2929?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2929?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2929?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=efc0ade586e74968a113dfaf56cc00fc&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=0f350ad5605c46e2aaf7dfe3541ae3f8"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2994,
+      "lastname": "Schneider",
+      "firstname": "Simeon",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8219
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8218
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2994?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2994?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2994?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=c2f58c498a8b433aaf73a6d5189e2d35&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=1baa9ab6db004808a3608d5200f6beeb"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2988,
+      "lastname": "Schultheiss",
+      "firstname": "Claudia",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8207
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8205
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 526,
+            "begin_date": null,
+            "id": 8204
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8203
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8202
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2988?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2988?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2988?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=6ecfa7a3af704f249fcee08db3c3cf2f&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=6f0f4311d1f54cd498a7126120143926"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2960,
+      "lastname": "Schweizer",
+      "firstname": "Jenny",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8158
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8157
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8156
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 545,
+            "begin_date": null,
+            "id": 8155
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2960?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2960?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2960?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=d5cefe1bebdb4e9796b55bc77d2511ff&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=ab1c0e5771b74025b380ca1a0d655b9c&navid="
+      },
+      "function_latest": {
+        "de": "Vizepräsident/in"
+      },
+      "id": 2991,
+      "lastname": "Schweizer",
+      "firstname": "Silvia",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8209
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8208
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2991?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2991?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2991?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=e88596d2646845369e3bdcb3a3b3a3e7&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=b752e13bdf914ac291077e37b697a905"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2992,
+      "lastname": "Simeone",
+      "firstname": "Daniel",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8213
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 524,
+            "begin_date": null,
+            "id": 8212
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8211
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 544,
+            "begin_date": null,
+            "id": 8210
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2992?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2992?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2992?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=c04f892faca74736b2c4a40d6762f39f&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=0ba9a1be0e3340eb9de5d8d947b14841"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2987,
+      "lastname": "Spring",
+      "firstname": "Paul",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8201
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8200
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8199
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2987?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2987?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2987?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=fe1b1c00614947f0a884635d4d062be3&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=18ad26971f8b47919fd42d06b8390d1a"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 22337,
+      "lastname": "Stalder",
+      "firstname": " Ernst G.",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 551,
+            "begin_date": null,
+            "id": 119793
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 109501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 109500
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22337?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22337?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22337?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=f9be5bdec45646e3a3da47239195b943&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=af52db0e5e854bfb8a85b5081b10f773"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2999,
+      "lastname": "Strahm",
+      "firstname": "Thomas",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8239
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 556,
+            "begin_date": null,
+            "id": 8238
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8237
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8235
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 552,
+            "begin_date": null,
+            "id": 8234
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8233
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2999?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2999?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2999?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=f57f1e6a387b4fd68bea7eaf9af7ba19&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=6da9bd496db849c5b019a592ad374230&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2997,
+      "lastname": "Suter",
+      "firstname": "Stefan",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8229
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 549,
+            "begin_date": null,
+            "id": 8228
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 548,
+            "begin_date": null,
+            "id": 8227
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8226
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 540,
+            "begin_date": null,
+            "id": 8225
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 539,
+            "begin_date": null,
+            "id": 8224
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2997?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2997?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2997?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=4ef70e5bf3ec47fa8036238d65da5427&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=f5b792e22b594b89ad95bb1f0c3ec3cf"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2944,
+      "lastname": "Syed",
+      "firstname": "Zubaida",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 109502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8115
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8114
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8112
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2944?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2944?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2944?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=1fdfad5c11fa4b79bd12f2109c7f2eb1&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a6ee3959c27747d5941966fbc66cc390"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2932,
+      "lastname": "Tschudi",
+      "firstname": "Dominik",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 559,
+            "begin_date": null,
+            "id": 8088
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8086
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 555,
+            "begin_date": null,
+            "id": 8085
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2932?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2932?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2932?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=fd4d611d363b4411affcf668b4c01526&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a45a43601840432683907dc1d9085626"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 3000,
+      "lastname": "Ueberwasser",
+      "firstname": "Heinrich",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 562,
+            "begin_date": null,
+            "id": 8243
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8242
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8241
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 542,
+            "begin_date": null,
+            "id": 8240
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/3000?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/3000?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/3000?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Liberal-Demokratische Partei",
+        "fr": "Liberal-Demokratische Partei",
+        "it": "Liberal-Demokratische Partei",
+        "en": "Liberal-Demokratische Partei"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=22ac83d09f174c17a843277a0600a6a1&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a970488a144c430d89bcf8ac4bf75a42"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2935,
+      "lastname": "Vischer",
+      "firstname": "Heiner",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 548,
+            "begin_date": null,
+            "id": 187996
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 558,
+            "begin_date": null,
+            "id": 8091
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 554,
+            "begin_date": null,
+            "id": 8089
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2935?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2935?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2935?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=452fda9e58d046879d0c6293d438a1e8&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=280b3fe4919e4d3c8007dd865a68cf89&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2942,
+      "lastname": "Vogel",
+      "firstname": "Guido",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 560,
+            "begin_date": null,
+            "id": 8109
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 526,
+            "begin_date": null,
+            "id": 8108
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8107
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 545,
+            "begin_date": null,
+            "id": 8106
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2942?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2942?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2942?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=552f6f2a7f2a4246965fcb9aedd029ec&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=165fd77a23364e3a83da84055e1462cf"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2945,
+      "lastname": "Vogt",
+      "firstname": "Peter A.",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8119
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 553,
+            "begin_date": null,
+            "id": 8118
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8117
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 547,
+            "begin_date": null,
+            "id": 8116
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2945?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2945?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2945?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Grünliberale Partei",
+        "fr": "Parti vert’libéral",
+        "it": "Partito Verde Liberale",
+        "en": "Green Liberal Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=609efafdd89b44518520900ab3badfb2&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=a73c68c56945444bbebf109633a7c04c"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2947,
+      "lastname": "Wallace",
+      "firstname": "Denise",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 563,
+            "begin_date": null,
+            "id": 8126
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 561,
+            "begin_date": null,
+            "id": 8125
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 524,
+            "begin_date": null,
+            "id": 8124
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 8123
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2947?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2947?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2947?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {},
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=440bee3999b646ae9889b9df1dcec872&ggid=b7ade3c8b38e4561b507386dde3dcc82&bgid=62e9b20ea65e432caaeffcb3f5af99a0"
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 24844,
+      "lastname": "Weber",
+      "firstname": " Noah",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 557,
+            "begin_date": null,
+            "id": 197915
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 541,
+            "begin_date": null,
+            "id": 197914
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/24844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/24844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/24844?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.riehen.ch/politik/cdws/person.php?gid=48e70195905e4290b6b70313ad64dfaf&ggid=76684c661d8c45a5beaa90c0bba725b3&bgid=4898d594721247e9a1775c1a73d823d7&navid="
+      },
+      "function_latest": {
+        "de": "Mitglied"
+      },
+      "id": 2943,
+      "lastname": "Wehrli",
+      "firstname": "Felix",
+      "body_key": "2703",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 7,
+            "group_id": 550,
+            "begin_date": null,
+            "id": 8111
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 11,
+            "group_id": 546,
+            "begin_date": null,
+            "id": 8110
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/2943?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/2943?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/2943?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}

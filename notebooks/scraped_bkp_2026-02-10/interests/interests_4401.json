@@ -1,0 +1,3145 @@
+{
+  "meta": {
+    "offset": 0,
+    "limit": 1000,
+    "total_records": 32,
+    "total_pages": 1,
+    "current_page": 1,
+    "has_more": false,
+    "next_page": null,
+    "prev_page": null,
+    "first_page": "https://api.openparldata.ch/v1/persons/?body_key=4401&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "last_page": "https://api.openparldata.ch/v1/persons/?body_key=4401&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id&offset=0&limit=1000",
+    "self": "https://api.openparldata.ch/v1/persons/?limit=1000&body_key=4401&active=true&expand=interests%2Cmemberships&sort_by=lastname&fields=active%2Cbody_key%2Cgender%2Cid%2Cfirstname%2Clastname%2Cparty_harmonized%2Cwebsite_parliament_url%2Cfunction_latest%2Cinterests.body_key%2Cinterests.declaration_doc_url%2Cinterests.id%2Cinterests.person_id%2Cinterests.name%2Cmemberships.id%2Cmemberships.group_id%2Cmemberships.active%2Cmemberships.begin_date%2Cmemberships.end_date%2Cmemberships.name%2Cmemberships.type_harmonized_oparl_id"
+  },
+  "data": [
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/0c811dd0862c4e09933bb632d18dafc4"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4747,
+      "lastname": "Auer",
+      "firstname": "Jakob",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117085
+          },
+          {
+            "active": null,
+            "end_date": "2016-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2015-06-01",
+            "id": 13401
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2023-06-01",
+            "id": 13400
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 974,
+            "begin_date": null,
+            "id": 13399
+          },
+          {
+            "active": null,
+            "end_date": "2015-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2012-06-01",
+            "id": 13398
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 964,
+            "begin_date": null,
+            "id": 13397
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 963,
+            "begin_date": null,
+            "id": 13396
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 962,
+            "begin_date": null,
+            "id": 13394
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13393
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 958,
+            "begin_date": null,
+            "id": 13392
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13391
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 953,
+            "begin_date": null,
+            "id": 13390
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 951,
+            "begin_date": null,
+            "id": 13387
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5616,
+            "begin_date": null,
+            "id": 13386
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 938,
+            "begin_date": null,
+            "id": 13385
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 930,
+            "begin_date": null,
+            "id": 13384
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 17,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4747?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4747?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4747?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/71034a0b7e3f4120a9d72b0bb12692cc"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4766,
+      "lastname": "Boos",
+      "firstname": "Kurt",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117092
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2025-05-06",
+            "id": 117091
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2024-03-13",
+            "id": 13504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2024-06-26",
+            "id": 13503
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13501
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13500
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4766?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4766?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4766?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/b03f2290fe104d399045e5e608bd7ff2"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4828,
+      "lastname": "Brühwiler",
+      "firstname": "Konrad",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5618,
+            "begin_date": null,
+            "id": 117105
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117104
+          },
+          {
+            "active": null,
+            "end_date": "2011-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2003-06-01",
+            "id": 13561
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2024-06-26",
+            "id": 13560
+          },
+          {
+            "active": null,
+            "end_date": "2024-05-07",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2023-06-01",
+            "id": 13559
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 953,
+            "begin_date": null,
+            "id": 13557
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 944,
+            "begin_date": null,
+            "id": 13556
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4828?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4828?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/7bdeaf14fa8f47af9ad553717ab0798f"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 22435,
+      "lastname": "Bühler",
+      "firstname": "Manuel",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117096
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-05-01",
+            "id": 117095
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22435?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22435?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22435?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/acc3d6d0be104277bca207a5717fd7a4"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4779,
+      "lastname": "Carletta",
+      "firstname": "Marco",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157504
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5618,
+            "begin_date": null,
+            "id": 117103
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2024-01-01",
+            "id": 13541
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13540
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13539
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4779?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4779?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4779?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/47aa5e0ed2e84f818bc63d7567aaecca"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4759,
+      "lastname": "Daepp",
+      "firstname": "Rudolf",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2019-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2018-06-01",
+            "id": 13480
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 978,
+            "begin_date": "2025-01-21",
+            "id": 13478
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2015-06-01",
+            "id": 13477
+          },
+          {
+            "active": null,
+            "end_date": "2023-05-01",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 968,
+            "begin_date": null,
+            "id": 13476
+          },
+          {
+            "active": null,
+            "end_date": "2020-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2017-06-01",
+            "id": 13475
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13474
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13473
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4759?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4759?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4759?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/87d385507850417bbdb202fb6dbc1526"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4773,
+      "lastname": "Eccher",
+      "firstname": "Elia",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-02-26",
+            "id": 13517
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4773?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4773?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4773?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/cc7544c8627d42e7ad7c4aa87e87239a"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4837,
+      "lastname": "Eugster",
+      "firstname": "Chiara",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119790
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2023-06-01",
+            "id": 13613
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 978,
+            "begin_date": "2025-01-21",
+            "id": 13612
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13611
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13610
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 5,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4837?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4837?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/fef758faa6c947389b8d079202e7e462"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4846,
+      "lastname": "Fischer",
+      "firstname": "Jonas",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5618,
+            "begin_date": null,
+            "id": 117108
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-01-01",
+            "id": 13657
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2025-01-21",
+            "id": 13656
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4846?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4846?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Grünen",
+        "fr": "Les Verts",
+        "it": "I Verdi",
+        "en": "Green Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/74fdc4771d8e485a9df6e7490195c482"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4767,
+      "lastname": "Franco",
+      "firstname": "José",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5618,
+            "begin_date": null,
+            "id": 117094
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117093
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2023-11-16",
+            "id": 13510
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 978,
+            "begin_date": "2025-01-21",
+            "id": 13509
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2024-02-14",
+            "id": 13508
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 953,
+            "begin_date": null,
+            "id": 13507
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13505
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4767?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4767?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4767?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Bürger Fraktion Arbon",
+        "fr": "Bürger Fraktion Arbon",
+        "it": "Bürger Fraktion Arbon",
+        "en": "Bürger Fraktion Arbon"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/a0fdf100af9d4e3d999607a142e4910a"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4776,
+      "lastname": "Gmür",
+      "firstname": "Reto",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2019-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2016-07-01",
+            "id": 13532
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 502,
+            "begin_date": null,
+            "id": 13531
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 937,
+            "begin_date": null,
+            "id": 13530
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4776?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4776?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4776?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/4ae0e077297c48c6bb15beeb08512799"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4760,
+      "lastname": "Heller",
+      "firstname": "Riquet",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157503
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119786
+          },
+          {
+            "active": null,
+            "end_date": "2018-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2017-06-01",
+            "id": 13498
+          },
+          {
+            "active": null,
+            "end_date": "2019-05-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2003-06-01",
+            "id": 13497
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2015-06-01",
+            "id": 13496
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 973,
+            "begin_date": null,
+            "id": 13495
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 972,
+            "begin_date": null,
+            "id": 13494
+          },
+          {
+            "active": null,
+            "end_date": "2015-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2014-06-01",
+            "id": 13493
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5619,
+            "begin_date": null,
+            "id": 13492
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 965,
+            "begin_date": null,
+            "id": 13491
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 964,
+            "begin_date": null,
+            "id": 13489
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 963,
+            "begin_date": null,
+            "id": 13488
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 962,
+            "begin_date": null,
+            "id": 13487
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 959,
+            "begin_date": null,
+            "id": 13486
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 958,
+            "begin_date": null,
+            "id": 13485
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 956,
+            "begin_date": null,
+            "id": 13484
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13483
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 946,
+            "begin_date": null,
+            "id": 13482
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 939,
+            "begin_date": null,
+            "id": 13481
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 19,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4760?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4760?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4760?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Evangelische Volkspartei",
+        "fr": "Parti Evangelique",
+        "it": "Partito Evangelico",
+        "en": "Evangelical People's Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/c696f94b125641b4b90ee3c6860d5f7e"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4832,
+      "lastname": "Huber",
+      "firstname": "Judith",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119789
+          },
+          {
+            "active": null,
+            "end_date": "2019-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2017-06-01",
+            "id": 13598
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 978,
+            "begin_date": "2025-01-21",
+            "id": 13597
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2023-06-01",
+            "id": 13596
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 974,
+            "begin_date": null,
+            "id": 13595
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 953,
+            "begin_date": null,
+            "id": 13594
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 952,
+            "begin_date": null,
+            "id": 13593
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13592
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 944,
+            "begin_date": null,
+            "id": 13591
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4832?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4832?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4832?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/630aa5aa7892423297d8c54977babad8"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4761,
+      "lastname": "Ibric",
+      "firstname": "Samra",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-03-01",
+            "id": 13499
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 1,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4761?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4761?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4761?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/7e829d788c04417db851aadc6f3731ed"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4770,
+      "lastname": "Kengir",
+      "firstname": "Teoman",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117097
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2024-06-01",
+            "id": 13516
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13515
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13514
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4770?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4770?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4770?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/174a1399bcae4f3ba48472c53b1f5602"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4748,
+      "lastname": "Kühne",
+      "firstname": "Markus",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117087
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117086
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-01-01",
+            "id": 13456
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13455
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4748?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4748?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4748?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Xsunder Menschen Verstand",
+        "fr": "Xsunder Menschen Verstand",
+        "it": "Xsunder Menschen Verstand",
+        "en": "Xsunder Menschen Verstand"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/c998544d20da4afdb7b4749fd0751bb3"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4835,
+      "lastname": "Künzi",
+      "firstname": "Peter",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117106
+          },
+          {
+            "active": null,
+            "end_date": "2022-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2021-06-01",
+            "id": 13609
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 969,
+            "begin_date": null,
+            "id": 13608
+          },
+          {
+            "active": null,
+            "end_date": "2017-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2015-06-01",
+            "id": 13607
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 502,
+            "begin_date": null,
+            "id": 13606
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 963,
+            "begin_date": null,
+            "id": 13605
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13603
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13602
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 944,
+            "begin_date": null,
+            "id": 13601
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13600
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 930,
+            "begin_date": null,
+            "id": 13599
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4835?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4835?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/8ee39bca08cc45348613cf21cd364561"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4774,
+      "lastname": "Lehmann",
+      "firstname": "Myrta",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117098
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2019-06-01",
+            "id": 13527
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2019-06-01",
+            "id": 13526
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 969,
+            "begin_date": null,
+            "id": 13525
+          },
+          {
+            "active": null,
+            "end_date": "2025-05-06",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2024-05-07",
+            "id": 13524
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 962,
+            "begin_date": null,
+            "id": 13523
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13522
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13521
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 935,
+            "begin_date": null,
+            "id": 13520
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 933,
+            "begin_date": null,
+            "id": 13518
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4774?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4774?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4774?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/ad26b60598ad4f009f33235a9294f47c"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4780,
+      "lastname": "Nägeli",
+      "firstname": "Ulrich",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157505
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2024-05-07",
+            "id": 13548
+          },
+          {
+            "active": null,
+            "end_date": "2024-06-25",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2023-06-01",
+            "id": 13547
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5620,
+            "begin_date": null,
+            "id": 13546
+          },
+          {
+            "active": null,
+            "end_date": "2021-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2019-06-01",
+            "id": 13545
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13544
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 935,
+            "begin_date": null,
+            "id": 13543
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 933,
+            "begin_date": null,
+            "id": 13542
+          },
+          {
+            "active": null,
+            "end_date": "2022-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2021-06-01",
+            "id": 13490
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4780?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4780?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4780?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/331c5ab109f34d9880569a06b16ef239"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4750,
+      "lastname": "Petti",
+      "firstname": "Aurelio",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117088
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2020-06-01",
+            "id": 13465
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2020-06-01",
+            "id": 13464
+          },
+          {
+            "active": null,
+            "end_date": "2023-05-01",
+            "type_harmonized_oparl_id": 12,
+            "group_id": 968,
+            "begin_date": null,
+            "id": 13463
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 965,
+            "begin_date": null,
+            "id": 13462
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 964,
+            "begin_date": null,
+            "id": 13461
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 963,
+            "begin_date": null,
+            "id": 13460
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13459
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 935,
+            "begin_date": null,
+            "id": 13458
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13457
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 10,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4750?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4750?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4750?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/7a0da6e50d2e4c8495de95e10b16db5b"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4768,
+      "lastname": "Sadiki",
+      "firstname": "Islam",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2019-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2018-04-01",
+            "id": 13513
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2023-06-01",
+            "id": 13512
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13511
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4768?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4768?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4768?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/b00dc550e53f4fbb8d1614824de47116"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4827,
+      "lastname": "Schawalder",
+      "firstname": "Matthias",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2025-05-06",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2024-05-07",
+            "id": 13555
+          },
+          {
+            "active": null,
+            "end_date": "2024-06-25",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2021-06-01",
+            "id": 13554
+          },
+          {
+            "active": null,
+            "end_date": "2023-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2021-06-01",
+            "id": 13553
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 966,
+            "begin_date": null,
+            "id": 13552
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 481,
+            "begin_date": null,
+            "id": 13551
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 952,
+            "begin_date": null,
+            "id": 13550
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4827?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4827?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/f50c6250a8f643f7bba3b1b9ad35374f"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4842,
+      "lastname": "Schuhwerk",
+      "firstname": "Christine",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157506
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117107
+          },
+          {
+            "active": null,
+            "end_date": "2014-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2013-06-01",
+            "id": 13644
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 978,
+            "begin_date": "2025-01-21",
+            "id": 13643
+          },
+          {
+            "active": null,
+            "end_date": "2011-05-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2007-06-01",
+            "id": 13642
+          },
+          {
+            "active": null,
+            "end_date": "2025-06-30",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2007-06-01",
+            "id": 13640
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 973,
+            "begin_date": null,
+            "id": 13639
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 970,
+            "begin_date": null,
+            "id": 13638
+          },
+          {
+            "active": null,
+            "end_date": "2013-05-31",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2010-06-01",
+            "id": 13637
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 966,
+            "begin_date": null,
+            "id": 13636
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 957,
+            "begin_date": null,
+            "id": 13635
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 954,
+            "begin_date": null,
+            "id": 13634
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 953,
+            "begin_date": null,
+            "id": 13633
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 952,
+            "begin_date": null,
+            "id": 13631
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13630
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13629
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 940,
+            "begin_date": null,
+            "id": 13628
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 937,
+            "begin_date": null,
+            "id": 13627
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 933,
+            "begin_date": null,
+            "id": 13626
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 931,
+            "begin_date": null,
+            "id": 13625
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 20,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4842?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4842?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Xsunder Menschen Verstand",
+        "fr": "Xsunder Menschen Verstand",
+        "it": "Xsunder Menschen Verstand",
+        "en": "Xsunder Menschen Verstand"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/43e42f658c7b4cc6bcbe96d773c751dd"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4755,
+      "lastname": "Seitler",
+      "firstname": "Christoph",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119785
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2025-07-01",
+            "id": 117090
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5617,
+            "begin_date": null,
+            "id": 117089
+          },
+          {
+            "active": null,
+            "end_date": "2023-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2019-06-01",
+            "id": 13472
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2024-06-26",
+            "id": 13471
+          },
+          {
+            "active": null,
+            "end_date": "2023-05-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2019-06-01",
+            "id": 13470
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 943,
+            "begin_date": null,
+            "id": 13469
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 7,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4755?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4755?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4755?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/b963a6561c5840248b9a62a6fe639f36"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4831,
+      "lastname": "Stadler",
+      "firstname": "Cyrill",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2025-04-30",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2012-01-01",
+            "id": 13589
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2015-06-01",
+            "id": 13588
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 974,
+            "begin_date": null,
+            "id": 13587
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 971,
+            "begin_date": null,
+            "id": 13586
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 970,
+            "begin_date": null,
+            "id": 13584
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 965,
+            "begin_date": null,
+            "id": 13583
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13582
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13581
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 951,
+            "begin_date": null,
+            "id": 13580
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 941,
+            "begin_date": null,
+            "id": 13579
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 935,
+            "begin_date": null,
+            "id": 13578
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4831?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4831?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Schweizerische Volkspartei",
+        "fr": "Union démocratique du centre",
+        "it": "Unione democratica di centro",
+        "en": "Swiss People's Party"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/a7920bd2f1564d1e89e89e890e28b223"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4777,
+      "lastname": "Straub",
+      "firstname": "Corinne",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119787
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2023-06-01",
+            "id": 13533
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 2,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4777?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4777?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4777?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/f82aec1bcb4c44e38fa11ecef5faa624"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4844,
+      "lastname": "Straub",
+      "firstname": "Esther",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119791
+          },
+          {
+            "active": null,
+            "end_date": "2024-05-07",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2023-06-01",
+            "id": 13655
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2021-09-26",
+            "id": 13654
+          },
+          {
+            "active": null,
+            "end_date": "2024-05-07",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2020-06-01",
+            "id": 13653
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 966,
+            "begin_date": null,
+            "id": 13652
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 481,
+            "begin_date": null,
+            "id": 13651
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 964,
+            "begin_date": null,
+            "id": 13650
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 936,
+            "begin_date": null,
+            "id": 13649
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 957,
+            "begin_date": null,
+            "id": 13648
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 933,
+            "begin_date": null,
+            "id": 13647
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13646
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 11,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4844?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4844?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "f",
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/dd4d91dca4034313a1b93f5d5ffb132c"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4840,
+      "lastname": "Sutter Heer",
+      "firstname": "Silke",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2006-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2005-06-01",
+            "id": 13624
+          },
+          {
+            "active": null,
+            "end_date": "2007-05-31",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2003-06-01",
+            "id": 13623
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 976,
+            "begin_date": null,
+            "id": 13622
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 972,
+            "begin_date": null,
+            "id": 13621
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 964,
+            "begin_date": null,
+            "id": 13620
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13619
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 946,
+            "begin_date": null,
+            "id": 13617
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 944,
+            "begin_date": null,
+            "id": 13616
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 935,
+            "begin_date": null,
+            "id": 13615
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 9,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4840?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4840?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4840?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/b852f6f4ded540a197aa3c1c454ee5c7"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4829,
+      "lastname": "Telatin",
+      "firstname": "Fabio",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": "2013-05-31",
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2012-06-01",
+            "id": 13577
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 975,
+            "begin_date": "2025-03-26",
+            "id": 13576
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 973,
+            "begin_date": null,
+            "id": 13575
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 970,
+            "begin_date": null,
+            "id": 13574
+          },
+          {
+            "active": null,
+            "end_date": "2025-03-25",
+            "type_harmonized_oparl_id": 13,
+            "group_id": 967,
+            "begin_date": "2024-05-07",
+            "id": 13573
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 961,
+            "begin_date": null,
+            "id": 13572
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 958,
+            "begin_date": null,
+            "id": 13571
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 952,
+            "begin_date": null,
+            "id": 13570
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 950,
+            "begin_date": null,
+            "id": 13569
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13568
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 947,
+            "begin_date": null,
+            "id": 13567
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 945,
+            "begin_date": null,
+            "id": 13566
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 944,
+            "begin_date": null,
+            "id": 13565
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 934,
+            "begin_date": null,
+            "id": 13563
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 932,
+            "begin_date": null,
+            "id": 13562
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 15,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4829?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4829?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4829?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Die Mitte",
+        "fr": "Le Centre",
+        "it": "Alleanza del Centro",
+        "en": "The Centre"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/387ac5204a6e4d0ca608e71fe5305f1b"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4752,
+      "lastname": "Vonlanthen",
+      "firstname": "Mischa",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 6141,
+            "begin_date": null,
+            "id": 157502
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2023-06-01",
+            "id": 13468
+          },
+          {
+            "active": null,
+            "end_date": "2025-05-06",
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2023-06-01",
+            "id": 13467
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 955,
+            "begin_date": null,
+            "id": 13466
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 4,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4752?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4752?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": null,
+      "active": true,
+      "party_harmonized": {
+        "de": "FDP.Die Liberalen",
+        "fr": "PLR.Les Libéraux-Radicaux",
+        "it": "PLR.I Liberali Radicali",
+        "en": "FDP.The Liberals"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/987bcd5705c34eb093319f048eb27292"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 22436,
+      "lastname": "Zumeri",
+      "firstname": "Genc",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2025-05-01",
+            "id": 117101
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2025-05-06",
+            "id": 117100
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5618,
+            "begin_date": null,
+            "id": 117099
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 3,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/22436?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/22436?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/22436?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    },
+    {
+      "gender": "m",
+      "active": true,
+      "party_harmonized": {
+        "de": "Sozialdemokratische Partei",
+        "fr": "Parti Socialiste",
+        "it": "Partito Socialista",
+        "en": "Social Democratic Party of Switzerland"
+      },
+      "website_parliament_url": {
+        "de": "https://www.arbon.ch/stadt/politik-und-verwaltung/stadtparlament/parlamentsmitglieder/parlementsmitglieder-detailseite.html/299/kontakt_guid/a88e182044ed43d39495ad7dac420b4c"
+      },
+      "function_latest": {
+        "de": "Parlamentsmitglied"
+      },
+      "id": 4778,
+      "lastname": "Zwahlen",
+      "firstname": "Michael",
+      "body_key": "4401",
+      "interests": null,
+      "memberships": {
+        "data": [
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5626,
+            "begin_date": null,
+            "id": 119788
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 5621,
+            "begin_date": null,
+            "id": 117102
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 10,
+            "group_id": 980,
+            "begin_date": "2024-05-08",
+            "id": 13538
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 979,
+            "begin_date": "2024-06-26",
+            "id": 13537
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 2,
+            "group_id": 977,
+            "begin_date": "2024-06-26",
+            "id": 13536
+          },
+          {
+            "active": null,
+            "end_date": null,
+            "type_harmonized_oparl_id": 12,
+            "group_id": 949,
+            "begin_date": null,
+            "id": 13534
+          }
+        ],
+        "meta": {
+          "offset": 0,
+          "limit": 100,
+          "total_records": 6,
+          "total_pages": 1,
+          "current_page": 1,
+          "has_more": false,
+          "next_page": null,
+          "prev_page": null,
+          "first_page": "https://api.openparldata.ch/v1/persons/4778?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "last_page": "https://api.openparldata.ch/v1/persons/4778?expand=memberships&memberships_offset=0&memberships_limit=100",
+          "self": "https://api.openparldata.ch/v1/persons/4778?expand=memberships&memberships_offset=0&memberships_limit=100"
+        }
+      }
+    }
+  ]
+}
